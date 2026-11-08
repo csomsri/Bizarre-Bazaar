@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctmr2bf1fyog6"
+path="res://.godot/imported/Road1_Curve1.obj-03d206618042340b16068a9f3dded0cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Road1_Curve1.obj-03d206618042340b16068a9f3dded0cd.mesh"]
+
+source_file="res://assets/Roads/obj/Road1_Curve1.obj"
+dest_files=["res://.godot/imported/Road1_Curve1.obj-03d206618042340b16068a9f3dded0cd.mesh", "res://.godot/imported/Road1_Curve1.obj-03d206618042340b16068a9f3dded0cd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

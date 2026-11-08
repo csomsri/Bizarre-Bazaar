@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5avbs5jhrfd5"
+path="res://.godot/imported/Road10_90angle_Corner.obj-564887fb91fd618615658615f2ab6c23.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Road10_90angle_Corner.obj-564887fb91fd618615658615f2ab6c23.mesh"]
+
+source_file="res://assets/Roads/obj/Road10_90angle_Corner.obj"
+dest_files=["res://.godot/imported/Road10_90angle_Corner.obj-564887fb91fd618615658615f2ab6c23.mesh", "res://.godot/imported/Road10_90angle_Corner.obj-564887fb91fd618615658615f2ab6c23.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
