@@ -3,16 +3,22 @@
 [ext_resource type="Script" uid="uid://5vkstjf8ab1a" path="res://player.gd" id="1_lq1ms"]
 [ext_resource type="PackedScene" uid="uid://ueriul7i44i1" path="res://assets/Casual_2.gltf" id="2_gi6d2"]
 
-[node name="Player" type="Node3D" unique_id=187814614]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6sknb"]
+
+[node name="Player" type="CharacterBody3D" unique_id=802949538]
 script = ExtResource("1_lq1ms")
 
 [node name="Casual_3" parent="." unique_id=2061786663 instance=ExtResource("2_gi6d2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99741316, 0, 2.0254521)
 
-[node name="Camera3D" type="Camera3D" parent="Casual_3" unique_id=439914283]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.605423, 0.29667997)
+[node name="CharacterArmature" parent="Casual_3" index="0" unique_id=1474196359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0330642, 0, -2.081497)
 
-[node name="Skeleton3D" parent="Casual_3/CharacterArmature" parent_id_path=PackedInt32Array(2061786663, 1474196359) index="0" unique_id=1889516450]
+[node name="Camera3D" type="Camera3D" parent="Casual_3/CharacterArmature" index="0" unique_id=1472944107]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.6376799, 0.24802893)
+current = true
+
+[node name="Skeleton3D" parent="Casual_3/CharacterArmature" index="1" unique_id=1889516450]
 bones/1/rotation = Quaternion(0, 0.23553044, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.04778156, 4.3005366e-07, 2.8440345e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.08546471, -0.23748349, 0.011578166, 0.96755534)
@@ -68,5 +74,9 @@ bones/58/rotation = Quaternion(0.6144137, 0.3480438, -0.34615317, 0.6176887)
 bones/59/rotation = Quaternion(-0.0026737682, 3.3855315e-05, -9.0521596e-08, 0.9999964)
 bones/60/rotation = Quaternion(0.70403296, 0.040968824, -0.040789682, 0.7078103)
 bones/61/rotation = Quaternion(-0.0026737682, -3.4093737e-05, 9.115905e-08, 0.9999964)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=166893376]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8744626, 0)
+shape = SubResource("CapsuleShape3D_6sknb")
 
 [editable path="Casual_3"]
