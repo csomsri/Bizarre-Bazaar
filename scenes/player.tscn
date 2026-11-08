@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://bhng4moq6qcil"]
 
+[ext_resource type="Script" uid="uid://5vkstjf8ab1a" path="res://player.gd" id="1_3vyb7"]
+
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sq4jt"]
 
 [node name="Player" type="CharacterBody3D" unique_id=751433751]
+script = ExtResource("1_3vyb7")
 
 [node name="Head" type="Node" parent="." unique_id=25558538]
 
