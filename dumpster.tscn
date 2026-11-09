@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://1kwl1v2hp3km"]
+
+[ext_resource type="PackedScene" uid="uid://0ku665fnv1m1" path="res://assets/Dumpster.blend" id="1_p0u2l"]
+
+[node name="Dumpster" unique_id=1435765874 instance=ExtResource("1_p0u2l")]

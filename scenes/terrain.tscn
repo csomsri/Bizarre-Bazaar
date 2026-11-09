@@ -2,14 +2,15 @@
 
 [ext_resource type="Texture2D" uid="uid://b4k7c073irvxf" path="res://assets/Roads/Road1_A.png" id="1_avahw"]
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/Roads/obj/Road1.obj" id="2_n7k1k"]
-[ext_resource type="Texture2D" uid="uid://c8uyv8i7yij0t" path="res://assets/AmericanDiner_Free_FBX_Textures/Textures/T_M_asphalt_PBR_2K_BC.png" id="3_iqhxt"]
-[ext_resource type="PackedScene" uid="uid://doqvdgtc0u64f" path="res://assets/Level.blend" id="4_l86fn"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/parking/env_parking_lot1.png" id="6_23udb"]
+[ext_resource type="Script" uid="uid://s0oyw6f2cekd" path="res://scripts/trashCanLide.gd" id="7_23udb"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/parking/env_parking.png" id="7_t5u1y"]
 [ext_resource type="PackedScene" uid="uid://6mu2dt77mpb4" path="res://assets/NewLevel.blend" id="8_0abrf"]
+[ext_resource type="Environment" uid="uid://doh3ljlpaf2xt" path="res://assets/Skies/addons/low_poly_skies/skies/night_full_moon.tres" id="8_23udb"]
 [ext_resource type="PackedScene" path="res://assets/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="10_4h6kj"]
+[ext_resource type="PackedScene" uid="uid://0ku665fnv1m1" path="res://assets/Dumpster.blend" id="10_e80jd"]
 [ext_resource type="PackedScene" uid="uid://cupc5ss7xvbpc" path="res://scenes/newPlayer.tscn" id="10_t5u1y"]
-[ext_resource type="Environment" uid="uid://p1pwbrynldxs" path="res://assets/Skies/addons/low_poly_skies/skies/day_fair.tres" id="11_e80jd"]
+[ext_resource type="PackedScene" uid="uid://chplfnsxoanr4" path="res://assets/ShelfBasic.blend" id="11_4h6kj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
@@ -21,11 +22,6 @@ size = Vector3(1000, 0.01, 1000)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e1kr5"]
 albedo_texture = ExtResource("1_avahw")
-
-[sub_resource type="PlaneMesh" id="PlaneMesh_ebk4t"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xe0pa"]
-albedo_texture = ExtResource("3_iqhxt")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a1s8e"]
 resource_name = "Material #43"
@@ -132,6 +128,9 @@ albedo_texture = ExtResource("6_23udb")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64y80"]
 albedo_texture = ExtResource("7_t5u1y")
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_xe0pa"]
+size = Vector3(1, 1.9765625, 4.230179)
+
 [node name="Terrain" type="Node3D" unique_id=981345624]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1978958539]
@@ -149,20 +148,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.037, 0, 0)
 shape = SubResource("BoxShape3D_ebk4t")
 
 [node name="Player2" parent="." unique_id=802949538 instance=ExtResource("10_t5u1y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.956438, 10.712326, 50.046)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 118.46436, 0.38915682, -16.701672)
 
 [node name="Road1" type="MeshInstance3D" parent="." unique_id=1257374850]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -163.0935, 0.44963264, -87.28323)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -103.95196, 0.44963646, 29.870094)
 material_override = SubResource("StandardMaterial3D_e1kr5")
 mesh = ExtResource("2_n7k1k")
-
-[node name="Pavement" type="MeshInstance3D" parent="." unique_id=1539000776]
-transform = Transform3D(4.750492, 0, 0, 0, 2.515248, 0, 0, 0, 4.6831856, 36.572, 0.001, -65.75)
-mesh = SubResource("PlaneMesh_ebk4t")
-surface_material_override/0 = SubResource("StandardMaterial3D_xe0pa")
-
-[node name="Level" parent="." unique_id=783485579 instance=ExtResource("4_l86fn")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 56.22, 1.3562369, 31.112)
 
 [node name="env_parking_lot" type="MeshInstance3D" parent="." unique_id=9850824]
 transform = Transform3D(1.1916527, 0, 0, 0, 0, 1.1916527, 0, -1.1916527, 0, -42.8516, 0.01, 7.84)
@@ -193,11 +184,49 @@ surface_material_override/1 = SubResource("StandardMaterial3D_e80jd")
 surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 
 [node name="NewLevel" parent="." unique_id=1738417414 instance=ExtResource("8_0abrf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 260.806, 0, 50.046)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.536827, 0, 22.263294)
+
+[node name="Cube_005" parent="NewLevel" index="2" unique_id=1040275886]
+transform = Transform3D(-1.4679159e-07, 0.0051288228, -1.5092889, 2.1120377e-08, 1.6759064, 0.0046189185, 3.359679, -1.0311375e-08, -6.597312e-08, -72.56633, 3.3525047, 39.536186)
+visible = false
+script = ExtResource("7_23udb")
+
+[node name="Cube_006" parent="NewLevel" index="3" unique_id=687692982]
+visible = false
 
 [node name="SkyDayFair" parent="." unique_id=1541474014 instance=ExtResource("10_4h6kj")]
 
 [node name="WorldEnvironment" parent="SkyDayFair" index="0"]
-environment = ExtResource("11_e80jd")
+environment = ExtResource("8_23udb")
 
+[node name="Dumpster" parent="." unique_id=1435765874 instance=ExtResource("10_e80jd")]
+transform = Transform3D(-3.278354e-08, 0, 0.75, 0, 0.75, 0, -0.75, 0, -3.278354e-08, 139.53648, 0.7240957, 14.89237)
+
+[node name="Cube_002" parent="Dumpster" index="3" unique_id=1853685221]
+transform = Transform3D(2.1561115, -0.0038418826, -0.0036430191, 0.007521737, 1.1397258, 0.036445066, 0.007263613, -0.039813757, 1.0436438, 2.06908, 1.8412701, 1.0432264)
+script = ExtResource("7_23udb")
+
+[node name="Area3D" type="Area3D" parent="Dumpster" unique_id=1650884269]
+transform = Transform3D(7.54979e-08, 0, -1, 0, 1, 0, 1, 0, 7.54979e-08, -0.8793335, 0.17894465, -2.083084)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Dumpster/Area3D" unique_id=227699232]
+transform = Transform3D(1.0072813, 0, 2.842171e-14, 0, 1.1897902, 0, 0, 0, 1.0072813, -0.32580566, -0.3515185, -0.86177826)
+shape = SubResource("BoxShape3D_xe0pa")
+
+[node name="Dumpster2" parent="." unique_id=1767265544 instance=ExtResource("10_e80jd")]
+transform = Transform3D(-3.278354e-08, 0, 0.75, 0, 0.75, 0, -0.75, 0, -3.278354e-08, 139.53648, 0.726851, 18.590878)
+
+[node name="Cube_002" parent="Dumpster2" index="3" unique_id=1853685221]
+transform = Transform3D(2.1561115, -0.0038418826, -0.0036430191, 0.007521737, 1.1397258, 0.036445066, 0.007263613, -0.039813757, 1.0436438, 2.06908, 1.8412701, 1.0432264)
+script = ExtResource("7_23udb")
+
+[node name="ShelfBasic" parent="." unique_id=1922167345 instance=ExtResource("11_4h6kj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 121.99853, 0.12958157, -15.042)
+
+[connection signal="body_entered" from="Dumpster/Area3D" to="Dumpster/Cube_002" method="_on_area_3d_body_entered"]
+[connection signal="body_exited" from="Dumpster/Area3D" to="Dumpster/Cube_002" method="_on_area_3d_body_exited"]
+
+[editable path="NewLevel"]
 [editable path="SkyDayFair"]
+[editable path="Dumpster"]
+[editable path="Dumpster2"]
