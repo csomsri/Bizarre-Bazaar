@@ -4,19 +4,20 @@
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/Roads/obj/Road1.obj" id="2_n7k1k"]
 [ext_resource type="Texture2D" uid="uid://c8uyv8i7yij0t" path="res://assets/AmericanDiner_Free_FBX_Textures/Textures/T_M_asphalt_PBR_2K_BC.png" id="3_iqhxt"]
 [ext_resource type="PackedScene" uid="uid://doqvdgtc0u64f" path="res://assets/Level.blend" id="4_l86fn"]
-[ext_resource type="PackedScene" uid="uid://bmvr8e5knowic" path="res://assets/parking/env_parking.fbx" id="5_0abrf"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/parking/env_parking_lot1.png" id="6_23udb"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/parking/env_parking.png" id="7_t5u1y"]
 [ext_resource type="PackedScene" uid="uid://6mu2dt77mpb4" path="res://assets/NewLevel.blend" id="8_0abrf"]
+[ext_resource type="PackedScene" path="res://assets/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="10_4h6kj"]
 [ext_resource type="PackedScene" uid="uid://cupc5ss7xvbpc" path="res://scenes/newPlayer.tscn" id="10_t5u1y"]
+[ext_resource type="Environment" uid="uid://p1pwbrynldxs" path="res://assets/Skies/addons/low_poly_skies/skies/day_fair.tres" id="11_e80jd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_6sknb"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_6sknb"]
-size = Vector3(1000, 1, 1000)
+[sub_resource type="BoxShape3D" id="BoxShape3D_ebk4t"]
+size = Vector3(1000, 0.01, 1000)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e1kr5"]
 albedo_texture = ExtResource("1_avahw")
@@ -25,15 +26,6 @@ albedo_texture = ExtResource("1_avahw")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xe0pa"]
 albedo_texture = ExtResource("3_iqhxt")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4h6kj"]
-albedo_texture = ExtResource("6_23udb")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e80jd"]
-albedo_texture = ExtResource("6_23udb")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64y80"]
-albedo_texture = ExtResource("7_t5u1y")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a1s8e"]
 resource_name = "Material #43"
@@ -131,21 +123,33 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_yufna")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4h6kj"]
+albedo_texture = ExtResource("6_23udb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e80jd"]
+albedo_texture = ExtResource("6_23udb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64y80"]
+albedo_texture = ExtResource("7_t5u1y")
+
 [node name="Terrain" type="Node3D" unique_id=981345624]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1978958539]
 transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.79652995, 0, 4.1457253, 2.8629794)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1409957492]
-transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, 0, -1.2591958, 0)
+transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.414, 0, 0)
 material_override = SubResource("StandardMaterial3D_6sknb")
 mesh = SubResource("PlaneMesh_6sknb")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=886416080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.037, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=464662834]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.2219362)
-shape = SubResource("BoxShape3D_6sknb")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1633910738]
+shape = SubResource("BoxShape3D_ebk4t")
+
+[node name="Player2" parent="." unique_id=802949538 instance=ExtResource("10_t5u1y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.956438, 10.712326, 50.046)
 
 [node name="Road1" type="MeshInstance3D" parent="." unique_id=1257374850]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -163.0935, 0.44963264, -87.28323)
@@ -160,35 +164,29 @@ surface_material_override/0 = SubResource("StandardMaterial3D_xe0pa")
 [node name="Level" parent="." unique_id=783485579 instance=ExtResource("4_l86fn")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 56.22, 1.3562369, 31.112)
 
-[node name="env_parking" parent="." unique_id=2018015484 instance=ExtResource("5_0abrf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.408, 0.1, 43.101)
-
-[node name="env_parking_lot" parent="env_parking" index="0" unique_id=1882095171]
-transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -10.454319, -1.3448792, 7.947193)
+[node name="env_parking_lot" type="MeshInstance3D" parent="." unique_id=9850824]
+transform = Transform3D(1.1916527, 0, 0, 0, 0, 1.1916527, 0, -1.1916527, 0, -42.8516, 0.01, 7.84)
+mesh = SubResource("ArrayMesh_wtjda")
 surface_material_override/0 = SubResource("StandardMaterial3D_4h6kj")
 surface_material_override/1 = SubResource("StandardMaterial3D_e80jd")
 surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 
-[node name="env_parking2" parent="." unique_id=630066076 instance=ExtResource("5_0abrf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.408, 0.1, 2.7481804)
-
-[node name="env_parking_lot" parent="env_parking2" index="0" unique_id=1882095171]
-transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -10.453999, -1.2616651, 7.9470005)
+[node name="env_parking_lot3" type="MeshInstance3D" parent="." unique_id=1597132964]
+transform = Transform3D(1.1916527, 0, 0, 0, 0, 1.1916527, 0, -1.1916527, 0, -81.527145, 0.01, 7.84)
+mesh = SubResource("ArrayMesh_wtjda")
 surface_material_override/0 = SubResource("StandardMaterial3D_4h6kj")
 surface_material_override/1 = SubResource("StandardMaterial3D_e80jd")
 surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 
-[node name="env_parking3" parent="." unique_id=2030342581 instance=ExtResource("5_0abrf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.537994, 0.1, 43.101)
-
-[node name="env_parking_lot" parent="env_parking3" index="0" unique_id=1882095171]
-transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -10.454315, -1.3284793, 7.947193)
+[node name="env_parking_lot2" type="MeshInstance3D" parent="." unique_id=354468233]
+transform = Transform3D(1.1916527, 0, 0, 0, 0, 1.1916527, 0, -1.1916527, 0, -42.8516, 0.01, 55.971996)
+mesh = SubResource("ArrayMesh_wtjda")
 surface_material_override/0 = SubResource("StandardMaterial3D_4h6kj")
 surface_material_override/1 = SubResource("StandardMaterial3D_e80jd")
 surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 
-[node name="env_parking_lot2" type="MeshInstance3D" parent="env_parking3" unique_id=632202204]
-transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -10.454315, -1.1979771, -32.45721)
+[node name="env_parking_lot4" type="MeshInstance3D" parent="." unique_id=581062063]
+transform = Transform3D(1.1916527, 0, 0, 0, 0, 1.1916527, 0, -1.1916527, 0, -81.53013, 0.01, 55.971996)
 mesh = SubResource("ArrayMesh_wtjda")
 surface_material_override/0 = SubResource("StandardMaterial3D_4h6kj")
 surface_material_override/1 = SubResource("StandardMaterial3D_e80jd")
@@ -197,9 +195,9 @@ surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 [node name="NewLevel" parent="." unique_id=1738417414 instance=ExtResource("8_0abrf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 260.806, 0, 50.046)
 
-[node name="Player2" parent="." unique_id=802949538 instance=ExtResource("10_t5u1y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 260.806, 20.959639, 50.046)
+[node name="SkyDayFair" parent="." unique_id=1541474014 instance=ExtResource("10_4h6kj")]
 
-[editable path="env_parking"]
-[editable path="env_parking2"]
-[editable path="env_parking3"]
+[node name="WorldEnvironment" parent="SkyDayFair" index="0"]
+environment = ExtResource("11_e80jd")
+
+[editable path="SkyDayFair"]

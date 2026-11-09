@@ -21,6 +21,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			camera_move.rotate_x(event.relative.y * mouse_sensitivity)
 			
 			camera_move.rotation.x = clampf(camera_move.rotation.x,deg_to_rad(-64),deg_to_rad(56))
+			
+	if event.is_action_pressed("ui_cancel"):
+		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		return
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	
@@ -50,3 +54,7 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
+	
+	if Engine.get_physics_frames() % 60 == 0:
+		print("On floor: ", is_on_floor())
+		print("Player Y: ", global_position.y)
