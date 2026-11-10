@@ -1,0 +1,22 @@
+[gd_resource type="Environment" format=3 uid="uid://doh3ljlpaf2xt"]
+
+[ext_resource type="Texture2D" uid="uid://cssai61wrgcty" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.png" id="1_lbtxw"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_1"]
+panorama = ExtResource("1_lbtxw")
+energy_multiplier = 0.25
+
+[sub_resource type="Sky" id="Sky_1"]
+sky_material = SubResource("PanoramaSkyMaterial_1")
+
+[resource]
+resource_name = "night_full_moon"
+background_mode = 2
+sky = SubResource("Sky_1")
+sky_rotation = Vector3(0, 3.14159, 0)
+ambient_light_source = 3
+fog_enabled = true
+fog_light_color = Color(0.2, 0.2549, 0.4235, 1)
+fog_density = 0.002
+fog_aerial_perspective = 1.0
+fog_sky_affect = 0.0
