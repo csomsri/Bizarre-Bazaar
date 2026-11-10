@@ -4,7 +4,7 @@ extends CharacterBody3D
 
 @onready var camera_move: Camera3D = get_node_or_null("Casual_3/CharacterArmature/Camera3D")
 @onready var animation_player: AnimationPlayer = $Casual_3/AnimationPlayer
-const SPEED = 5.0
+const SPEED = 20.0
 const JUMP_VELOCITY = 4.5
 
 func _ready() -> void:

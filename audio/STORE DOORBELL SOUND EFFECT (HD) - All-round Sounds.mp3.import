@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7k4f55p8lup7"
+path="res://.godot/imported/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3-5c45333195aa5b0c55f49f56bb7c83d2.mp3str"
+
+[deps]
+
+source_file="res://audio/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3"
+dest_files=["res://.godot/imported/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3-5c45333195aa5b0c55f49f56bb7c83d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
