@@ -49,7 +49,6 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("interact") and player_nearby != null:
 		pickup_gun()
 	elif event.is_action_pressed("drop") and equipped:
-		#print("pressing G")
 		drop_gun()
 func _on_pickup_body_entered(body: Node3D) -> void:
 	if body is CharacterBody3D: # Replace with function body.
