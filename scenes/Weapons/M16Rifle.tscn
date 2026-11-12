@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://86ndgs7wj3u8"]
+
+[ext_resource type="Script" uid="uid://nym6ab5aprr4" path="res://scripts/Weapons Script/m_16_rifle.gd" id="1_jo8jf"]
+[ext_resource type="PackedScene" uid="uid://dff7765qj74r" path="res://assets/items/LP_WeaponsPack (GODOT)/Wep_M16.fbx" id="1_o6apo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6sknb"]
+size = Vector3(0.17651367, 1.1645508, 4.115814)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ebk4t"]
+size = Vector3(1, 1, 2.2755127)
+
+[node name="M16Rifle" type="RigidBody3D" unique_id=1220831444]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
+script = ExtResource("1_jo8jf")
+
+[node name="Wep_M16" parent="." unique_id=729363104 instance=ExtResource("1_o6apo")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2112232867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01159668, 0.26733398, -0.87239075)
+shape = SubResource("BoxShape3D_6sknb")
+
+[node name="Pickup" type="Area3D" parent="." unique_id=42243936]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pickup" unique_id=2092160616]
+transform = Transform3D(4.5, 0, 0, 0, 4.5, 0, 0, 0, 4.5, 0, 0.03690759, 0.04125942)
+shape = SubResource("BoxShape3D_ebk4t")
+
+[connection signal="body_entered" from="Pickup" to="." method="_on_pickup_body_entered"]
+[connection signal="body_exited" from="Pickup" to="." method="_on_pickup_body_exited"]

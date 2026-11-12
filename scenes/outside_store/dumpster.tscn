@@ -2,4 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://0ku665fnv1m1" path="res://assets/outside_store/Dumpster.blend" id="1_p0u2l"]
 
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_6sknb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ebk4t"]
+size = Vector3(2.0148926, 2.4406128, 1.9443359)
+
 [node name="Dumpster" unique_id=1435765874 instance=ExtResource("1_p0u2l")]
+
+[node name="Cube" parent="." index="1" unique_id=1343566313]
+transform = Transform3D(2.1561368, 0, 0, 0, 1.1404275, 0, 0, 0, 1.0442863, 2.0877028, 2.8092215, 1.0408368)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube" index="0" unique_id=1288361213]
+physics_material_override = SubResource("PhysicsMaterial_6sknb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube/StaticBody3D" index="0" unique_id=1726293136]
+transform = Transform3D(1, 0, 0, 0, 0.99999976, 0, 0, 0, 1, -0.9727687, -1.2236649, -0.9919055)
+shape = SubResource("BoxShape3D_ebk4t")

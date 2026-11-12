@@ -1,0 +1,95 @@
+{
+  "groceries": [
+	{
+	  "name": "Apples",
+	  "category": "Produce",
+	  "quantity": 12,
+	  "unit": "each",
+	  "price_per_unit": 0.75
+	},
+	{
+	  "name": "Bananas",
+	  "category": "Produce",
+	  "quantity": 15,
+	  "unit": "each",
+	  "price_per_unit": 0.30
+	},
+	{
+	  "name": "Milk",
+	  "category": "Dairy",
+	  "quantity": 8,
+	  "unit": "gallon",
+	  "price_per_unit": 4.49
+	},
+	{
+	  "name": "Eggs",
+	  "category": "Dairy",
+	  "quantity": 10,
+	  "unit": "dozen",
+	  "price_per_unit": 3.99
+	},
+	{
+	  "name": "Bread",
+	  "category": "Bakery",
+	  "quantity": 20,
+	  "unit": "loaf",
+	  "price_per_unit": 2.99
+	},
+	{
+	  "name": "Chicken",
+	  "category": "Meat",
+	  "quantity": 25,
+	  "unit": "pound",
+	  "price_per_unit": 5.99
+	},
+	{
+	  "name": "Beef",
+	  "category": "Meat",
+	  "quantity": 18,
+	  "unit": "pound",
+	  "price_per_unit": 6.49
+	},
+	{
+	  "name": "Rice",
+	  "category": "Grains",
+	  "quantity": 30,
+	  "unit": "bag",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "Pasta",
+	  "category": "Grains",
+	  "quantity": 24,
+	  "unit": "box",
+	  "price_per_unit": 1.99
+	},
+	{
+	  "name": "Orange Juice",
+	  "category": "Beverages",
+	  "quantity": 12,
+	  "unit": "carton",
+	  "price_per_unit": 3.99
+	},
+	{
+	  "name": "Apple Juice",
+	  "category": "Beverages",
+	  "quantity": 12,
+	  "unit": "carton",
+	  "price_per_unit": 3.99
+	},
+	{
+	  "name": "Potatoes",
+	  "category": "Produce",
+	  "quantity": 40,
+	  "unit": "pound",
+	  "price_per_unit": 1.29
+	},
+	{
+	  "name": "Cheddar Cheese",
+	  "category": "Dairy",
+	  "quantity": 15,
+	  "unit": "package",
+	  "price_per_unit": 4.49
+	}
+  ]
+}
