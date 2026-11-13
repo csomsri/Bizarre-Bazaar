@@ -270,11 +270,7 @@ surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 [node name="NewLevel" parent="." unique_id=1738417414 instance=ExtResource("6_h2q0o")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.536827, 0, 22.263294)
 
-<<<<<<< HEAD
-[node name="Cube" parent="NewLevel" index="1" unique_id=1324867213]
-=======
 [node name="Cube" parent="NewLevel" index="1" unique_id=1284691479]
->>>>>>> bc989342e5d7dda8c4615b97d4502d0a3cf5e6c0
 transform = Transform3D(62.562664, 0, 0, 0, 0.20455164, 0, 0, 0, 43.507362, 0, -0.2, 0)
 mesh = SubResource("ArrayMesh_4tf1n")
 
@@ -283,20 +279,12 @@ mesh = SubResource("ArrayMesh_4tf1n")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="NewLevel/Cube/StaticBody3D" unique_id=1122090169]
 shape = SubResource("ConcavePolygonShape3D_ym72e")
 
-<<<<<<< HEAD
-[node name="Cube_005" parent="NewLevel" index="2" unique_id=3533297]
-=======
 [node name="Cube_005" parent="NewLevel" index="2" unique_id=704432678]
->>>>>>> bc989342e5d7dda8c4615b97d4502d0a3cf5e6c0
 transform = Transform3D(-1.4679159e-07, 0.0051288228, -1.5092889, 2.1120377e-08, 1.6759064, 0.0046189185, 3.359679, -1.0311375e-08, -6.597312e-08, -72.56633, 3.3525047, 39.536186)
 visible = false
 script = ExtResource("7_2xvr7")
 
-<<<<<<< HEAD
-[node name="Cube_006" parent="NewLevel" index="3" unique_id=830613797]
-=======
 [node name="Cube_006" parent="NewLevel" index="3" unique_id=709816378]
->>>>>>> bc989342e5d7dda8c4615b97d4502d0a3cf5e6c0
 visible = false
 
 [node name="SkyDayFair" parent="." unique_id=1541474014 instance=ExtResource("8_pxm62")]
@@ -307,9 +295,6 @@ environment = ExtResource("9_lk6ly")
 [node name="Dumpster" parent="." unique_id=1435765874 instance=ExtResource("10_apva6")]
 transform = Transform3D(-3.278354e-08, 0, 0.75, 0, 0.75, 0, -0.75, 0, -3.278354e-08, 139.53648, 0.7240957, 14.89237)
 
-<<<<<<< HEAD
-[node name="Cube_002" parent="Dumpster" index="3" unique_id=1573784371]
-=======
 [node name="Cube" parent="Dumpster" index="1" unique_id=1931680361]
 transform = Transform3D(2.156137, 0, -3.5527137e-15, 0, 1.1404275, 0, 7.1054274e-15, 0, 1.0442863, 2.097721, 1.8454254, 1.0371552)
 
@@ -319,7 +304,6 @@ transform = Transform3D(2.156137, 0, -3.5527137e-15, 0, 1.1404275, 0, 7.1054274e
 shape = SubResource("ConcavePolygonShape3D_2xvr7")
 
 [node name="Cube_002" parent="Dumpster" index="3" unique_id=2055523582]
->>>>>>> bc989342e5d7dda8c4615b97d4502d0a3cf5e6c0
 transform = Transform3D(2.1561115, -0.0038418826, -0.0036430191, 0.007521737, 1.1397258, 0.036445066, 0.007263613, -0.039813757, 1.0436438, 2.06908, 1.8412701, 1.0432264)
 script = ExtResource("7_2xvr7")
 
@@ -333,16 +317,12 @@ shape = SubResource("BoxShape3D_xe0pa")
 [node name="Dumpster2" parent="." unique_id=1767265544 instance=ExtResource("10_apva6")]
 transform = Transform3D(-3.278354e-08, 0, 0.75, 0, 0.75, 0, -0.75, 0, -3.278354e-08, 139.53648, 0.726851, 18.590878)
 
-<<<<<<< HEAD
-[node name="Cube_002" parent="Dumpster2" index="3" unique_id=1573784371]
-=======
 [node name="StaticBody3D" type="StaticBody3D" parent="Dumpster2/Cube" parent_id_path=PackedInt32Array(1767265544, 1931680361) index="0" unique_id=1547128588]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Dumpster2/Cube/StaticBody3D" unique_id=1619167349]
 shape = SubResource("ConcavePolygonShape3D_pxm62")
 
 [node name="Cube_002" parent="Dumpster2" index="3" unique_id=2055523582]
->>>>>>> bc989342e5d7dda8c4615b97d4502d0a3cf5e6c0
 transform = Transform3D(2.1561115, -0.0038418826, -0.0036430191, 0.007521737, 1.1397258, 0.036445066, 0.007263613, -0.039813757, 1.0436438, 2.06908, 1.8412701, 1.0432264)
 script = ExtResource("7_2xvr7")
 

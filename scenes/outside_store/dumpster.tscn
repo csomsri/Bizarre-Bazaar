@@ -14,7 +14,7 @@ size = Vector3(1.7255859, 1.9765625, 4.230179)
 
 [node name="Dumpster" unique_id=1435765874 instance=ExtResource("1_p0u2l")]
 
-[node name="Cube" parent="." index="1" unique_id=1931680361]
+[node name="Cube" parent="." index="1" unique_id=1343566313]
 transform = Transform3D(2.1561368, 0, 0, 0, 1.1404275, 0, 0, 0, 1.0442863, 2.0877028, 2.8092215, 1.0408368)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Cube" index="0" unique_id=2124281967]
@@ -22,7 +22,7 @@ transform = Transform3D(2.1561368, 0, 0, 0, 1.1404275, 0, 0, 0, 1.0442863, 2.087
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cube/StaticBody3D" index="0" unique_id=1735536752]
 shape = SubResource("ConcavePolygonShape3D_t6bvb")
 
-[node name="Cube_002" parent="." index="3" unique_id=2055523582]
+[node name="Cube_002" parent="." index="3" unique_id=2025425813]
 transform = Transform3D(2.1561117, -0.003786349, -0.0036408878, 0.0075173364, 1.139059, 0.05101315, 0.0071586194, -0.055722836, 1.0430332, 2.06908, 2.8269286, 1.0432264)
 script = ExtResource("2_t6bvb")
 
