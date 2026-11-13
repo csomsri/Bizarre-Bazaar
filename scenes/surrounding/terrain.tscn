@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/weapons/M16Rifle.tscn" id="15_ipudh"]
 [ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
+[ext_resource type="PackedScene" uid="uid://dntqf6skvs4kr" path="res://scenes/weapons/wep_pistol.tscn" id="17_lk6ly"]
 [ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://camera_moniter.gd" id="18_pxm62"]
 [ext_resource type="Script" uid="uid://duvj24nul82qf" path="res://scenes/surrounding/convex_mirror.gd" id="19_apva6"]
 [ext_resource type="Shader" uid="uid://dyq1th4yx3jdv" path="res://scenes/surrounding/convex_mirror.gdshader" id="20_cqq2c"]
@@ -341,6 +342,9 @@ fov = 110.0
 
 [node name="DoubleSlidingDoor2" parent="." unique_id=52205306 instance=ExtResource("11_2xvr7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105.18108, 0.02668652, 32.948597)
+
+[node name="Wep_Pistol" parent="." unique_id=1225429796 instance=ExtResource("17_lk6ly")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 147.34471, 0, 0)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
