@@ -17,6 +17,9 @@
 [ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/Weapons/M16Rifle.tscn" id="15_ipudh"]
 [ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
+[ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://camera_moniter.gd" id="18_pxm62"]
+[ext_resource type="Script" uid="uid://duvj24nul82qf" path="res://scenes/surrounding/convex_mirror.gd" id="19_apva6"]
+[ext_resource type="Shader" uid="uid://dyq1th4yx3jdv" path="res://scenes/surrounding/convex_mirror.gdshader" id="20_cqq2c"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
@@ -185,6 +188,27 @@ size = Vector3(0.13769531, 4.2424316, 2.421875)
 [sub_resource type="BoxShape3D" id="BoxShape3D_e0paw"]
 size = Vector3(3.5638428, 1, 4.5809326)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ntka8"]
+size = Vector3(11.360291, 25.109863, 8.988037)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tfao1"]
+size = Vector3(19.87146, 31.83252, 14.027344)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vhngh"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ntka8"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_1rp8m"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vhngh"]
+render_priority = 0
+shader = ExtResource("20_cqq2c")
+shader_parameter/bulge = 0.25
+shader_parameter/vignette = 0.6
+
+[sub_resource type="QuadMesh" id="QuadMesh_tfao1"]
+size = Vector2(3, 3)
+
 [node name="Terrain" type="Node3D" unique_id=981345624]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1978958539]
@@ -201,8 +225,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.037, 0, 0)
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1633910738]
 shape = SubResource("BoxShape3D_ebk4t")
 
-[node name="Player2" parent="." unique_id=802949538 groups=["entity"] instance=ExtResource("1_rbuof")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 118.46436, 0.38915682, -16.701672)
+[node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 118.46436, 0.38915682, -14.701672)
 
 [node name="Road1" type="MeshInstance3D" parent="." unique_id=1257374850]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -103.914215, 0.0056562424, 29.870094)
@@ -240,7 +264,7 @@ surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 [node name="NewLevel" parent="." unique_id=1738417414 instance=ExtResource("6_h2q0o")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.536827, 0, 22.263294)
 
-[node name="Cube" parent="NewLevel" index="1" unique_id=1180095481]
+[node name="Cube" parent="NewLevel" index="1" unique_id=1324867213]
 transform = Transform3D(62.562664, 0, 0, 0, 0.20455164, 0, 0, 0, 43.507362, 0, -0.2, 0)
 mesh = SubResource("ArrayMesh_4tf1n")
 
@@ -249,12 +273,12 @@ mesh = SubResource("ArrayMesh_4tf1n")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="NewLevel/Cube/StaticBody3D" unique_id=1122090169]
 shape = SubResource("ConcavePolygonShape3D_ym72e")
 
-[node name="Cube_005" parent="NewLevel" index="2" unique_id=164419596]
+[node name="Cube_005" parent="NewLevel" index="2" unique_id=3533297]
 transform = Transform3D(-1.4679159e-07, 0.0051288228, -1.5092889, 2.1120377e-08, 1.6759064, 0.0046189185, 3.359679, -1.0311375e-08, -6.597312e-08, -72.56633, 3.3525047, 39.536186)
 visible = false
 script = ExtResource("7_2xvr7")
 
-[node name="Cube_006" parent="NewLevel" index="3" unique_id=1302812540]
+[node name="Cube_006" parent="NewLevel" index="3" unique_id=830613797]
 visible = false
 
 [node name="SkyDayFair" parent="." unique_id=1541474014 instance=ExtResource("8_pxm62")]
@@ -265,7 +289,7 @@ environment = ExtResource("9_lk6ly")
 [node name="Dumpster" parent="." unique_id=1435765874 instance=ExtResource("10_apva6")]
 transform = Transform3D(-3.278354e-08, 0, 0.75, 0, 0.75, 0, -0.75, 0, -3.278354e-08, 139.53648, 0.7240957, 14.89237)
 
-[node name="Cube_002" parent="Dumpster" index="3" unique_id=1761402573]
+[node name="Cube_002" parent="Dumpster" index="3" unique_id=1573784371]
 transform = Transform3D(2.1561115, -0.0038418826, -0.0036430191, 0.007521737, 1.1397258, 0.036445066, 0.007263613, -0.039813757, 1.0436438, 2.06908, 1.8412701, 1.0432264)
 script = ExtResource("7_2xvr7")
 
@@ -279,7 +303,7 @@ shape = SubResource("BoxShape3D_xe0pa")
 [node name="Dumpster2" parent="." unique_id=1767265544 instance=ExtResource("10_apva6")]
 transform = Transform3D(-3.278354e-08, 0, 0.75, 0, 0.75, 0, -0.75, 0, -3.278354e-08, 139.53648, 0.726851, 18.590878)
 
-[node name="Cube_002" parent="Dumpster2" index="3" unique_id=1761402573]
+[node name="Cube_002" parent="Dumpster2" index="3" unique_id=1573784371]
 transform = Transform3D(2.1561115, -0.0038418826, -0.0036430191, 0.007521737, 1.1397258, 0.036445066, 0.007263613, -0.039813757, 1.0436438, 2.06908, 1.8412701, 1.0432264)
 script = ExtResource("7_2xvr7")
 
@@ -324,11 +348,57 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.259, 0, -10.196)
 
 [node name="GameplayHUD" parent="." unique_id=1954678161 instance=ExtResource("17_2xvr7")]
 
+[node name="Camera System" type="Area3D" parent="." unique_id=1320865165 node_paths=PackedStringArray("cameras")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.26910844, 120.61451, 0, 48.731106)
+script = ExtResource("18_pxm62")
+cameras = [NodePath("../Cam1"), NodePath("../Cam2"), NodePath("../Cam3")]
+
+[node name="Interact region" type="CollisionShape3D" parent="Camera System" unique_id=2109897799]
+transform = Transform3D(11.04176, 0, 0, 0, 3, 0, 0, 0, 7.057501, 19.98413, 33.164795, -7.2039185)
+shape = SubResource("BoxShape3D_ntka8")
+
+[node name="Laptop_Moniter model tbm" type="MeshInstance3D" parent="Camera System" unique_id=1807453935]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.28418, 15.41626, -4.389496)
+mesh = SubResource("BoxMesh_tfao1")
+
+[node name="Cam1" type="Camera3D" parent="." unique_id=1973099395]
+transform = Transform3D(-0.14798638, 0.367122, -0.9183254, 0.037085067, 0.92995614, 0.36579543, 0.9882939, 0.020076605, -0.1512356, 113.44726, 10.239052, 0)
+
+[node name="Camera_model_tbm" type="MeshInstance3D" parent="Cam1" unique_id=119141260]
+mesh = SubResource("BoxMesh_vhngh")
+
+[node name="Cam2" type="Camera3D" parent="." unique_id=42271190]
+transform = Transform3D(-0.6336911, 0.3829979, -0.6721222, 0.023766587, 0.8780681, 0.47794527, 0.773221, 0.2868956, -0.5655265, 113.16616, 4.722212, 21.568151)
+
+[node name="Camera_model_tbm" type="MeshInstance3D" parent="Cam2" unique_id=1361390014]
+mesh = SubResource("BoxMesh_ntka8")
+
+[node name="Cam3" type="Camera3D" parent="." unique_id=1256411502]
+transform = Transform3D(0.84309536, -0.2672463, 0.46665823, -0.018154643, 0.85313547, 0.52137387, -0.5374578, -0.44803977, 0.7144226, 138.07664, 8.223557, 15.964376)
+
+[node name="Camera_model_tbm" type="MeshInstance3D" parent="Cam3" unique_id=1430183030]
+mesh = SubResource("BoxMesh_1rp8m")
+
+[node name="Convex mirror" type="Node3D" parent="." unique_id=1423678423]
+transform = Transform3D(0.11601685, 0, -0.99324733, 0, 1, 0, 0.99324733, 0, 0.11601685, 134.89937, 3.1482782, 33.212124)
+script = ExtResource("19_apva6")
+
+[node name="Mirror" type="MeshInstance3D" parent="Convex mirror" unique_id=1813033311]
+transform = Transform3D(0.98478067, 0, -0.1738028, 0, 1, 0, 0.1738028, 0, 0.98478067, -0.37200546, -1.296962, -0.066848755)
+material_override = SubResource("ShaderMaterial_vhngh")
+mesh = SubResource("QuadMesh_tfao1")
+
+[node name="SubViewport" type="SubViewport" parent="Convex mirror" unique_id=293765720]
+
+[node name="mirror_reflection" type="Camera3D" parent="Convex mirror/SubViewport" unique_id=136097333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.1)
+fov = 110.0
+
 [connection signal="body_entered" from="Dumpster/Area3D" to="Dumpster/Cube_002" method="_on_area_3d_body_entered"]
 [connection signal="body_exited" from="Dumpster/Area3D" to="Dumpster/Cube_002" method="_on_area_3d_body_exited"]
 
 [editable path="Player2"]
-[editable path="Player2/Casual_3"]
+[editable path="Player2/Casual_2"]
 [editable path="NewLevel"]
 [editable path="SkyDayFair"]
 [editable path="Dumpster"]

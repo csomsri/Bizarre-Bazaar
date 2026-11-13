@@ -7,6 +7,14 @@ extends CharacterBody3D
 
 @onready var animation_player: AnimationPlayer = $Casual_2/AnimationPlayer
 
+#for camera system
+@onready var body_mesh: Node3D = $Casual_2
+@onready var view_camera: Camera3D = $Camera3D
+var controls_enabled := true
+
+
+
+
 var equipped_gun: RigidBody3D = null
 
 const SPEED = 20.0
@@ -18,6 +26,12 @@ func _ready() -> void:
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	
+	if not controls_enabled:
+		return
+	
+	
+	
 	if event is InputEventMouseMotion:
 		if(Input.mouse_mode == Input.MOUSE_MODE_CAPTURED):
 			rotate_y(-event.relative.x * mouse_sensitivity)
@@ -29,6 +43,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 		return
 func _physics_process(delta: float) -> void:
+	
+	if not controls_enabled:
+		return
 	# Add the gravity.
 	
 	if not is_on_floor():
@@ -65,3 +82,12 @@ func _physics_process(delta: float) -> void:
 	#if Engine.get_physics_frames() % 60 == 0:
 		#print("On floor: ", is_on_floor())
 		#print("Player Y: ", global_position.y)
+		
+
+#unbind the player movement and sets body invisible for when they enter cams
+func set_controls_enabled( enabled: bool) ->void:
+	controls_enabled = enabled
+	velocity = Vector3.ZERO
+	
+func set_body_visible( can_see: bool) -> void:
+	body_mesh.visible = can_see
