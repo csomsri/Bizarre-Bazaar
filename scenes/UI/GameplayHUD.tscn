@@ -1,0 +1,169 @@
+[gd_scene format=3 uid="uid://ccmhox0inw3l6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_is2hq"]
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.14509805, 0.16862746, 0.19607843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3g4va"]
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.14509805, 0.16862746, 0.19607843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xv2uf"]
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.14509805, 0.16862746, 0.19607843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jrgql"]
+bg_color = Color(0.44705883, 0.8392157, 0.6039216, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_esywu"]
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.14509805, 0.16862746, 0.19607843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
+
+[node name="GameplayHUD" type="CanvasLayer" unique_id=1954678161]
+follow_viewport_enabled = true
+
+[node name="HUDRoot" type="Control" parent="." unique_id=835944696]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="HUDRoot" unique_id=1261632145]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MainLayout" type="VBoxContainer" parent="HUDRoot/MarginContainer" unique_id=1476924454]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TopBar" type="HBoxContainer" parent="HUDRoot/MarginContainer/MainLayout" unique_id=2066617359]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="DayPanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/TopBar" unique_id=660834724]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_is2hq")
+
+[node name="DayLabel" type="Label" parent="HUDRoot/MarginContainer/MainLayout/TopBar/DayPanel" unique_id=2103984278]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "DAY 01"
+
+[node name="TimePanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/TopBar" unique_id=2034299587]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_is2hq")
+
+[node name="TimeLabel" type="Label" parent="HUDRoot/MarginContainer/MainLayout/TopBar/TimePanel" unique_id=2056968481]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "8:00 AM"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MoneyPanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/TopBar" unique_id=1979449064]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3g4va")
+
+[node name="MoneyLabel" type="Label" parent="HUDRoot/MarginContainer/MainLayout/TopBar/MoneyPanel" unique_id=1263268953]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.44705883, 0.8392157, 0.6039216, 1)
+theme_override_font_sizes/font_size = 22
+text = "$250"
+
+[node name="VerticalSpacer" type="Control" parent="HUDRoot/MarginContainer/MainLayout" unique_id=848464413]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="BottomBar" type="HBoxContainer" parent="HUDRoot/MarginContainer/MainLayout" unique_id=2025075814]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TrustPanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar" unique_id=2046647552]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xv2uf")
+
+[node name="TrustLayout" type="VBoxContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/TrustPanel" unique_id=1647722682]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TrustHeader" type="HBoxContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/TrustPanel/TrustLayout" unique_id=2102748367]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="TrustLabel" type="Label" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/TrustPanel/TrustLayout/TrustHeader" unique_id=371861808]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6768507, 0.72618836, 0.76610327, 1)
+theme_override_font_sizes/font_size = 16
+text = "BOSS TRUST"
+
+[node name="TrustValue" type="Label" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/TrustPanel/TrustLayout/TrustHeader" unique_id=400442778]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "70/100"
+
+[node name="TrustProgressBar" type="ProgressBar" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/TrustPanel/TrustLayout" unique_id=1388494799]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.14278495, 0.33661562, 0.2238529, 1)
+theme_override_styles/fill = SubResource("StyleBoxFlat_jrgql")
+value = 70.0
+
+[node name="StatsPanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar" unique_id=2048115128]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_esywu")
+
+[node name="StatsLayout" type="VBoxContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/StatsPanel" unique_id=34607711]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="ThievesCaughtLabel" type="Label" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/StatsPanel/StatsLayout" unique_id=597819938]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "THIEVES CAUGHT: 0"
