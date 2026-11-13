@@ -9,8 +9,12 @@ var gunCamera: Camera3D
 func pickup_gun() -> void:
 	if equipped or player_nearby == null:
 		return
-	var gun_holder = player_nearby.get_node("Casual_3/CharacterArmature/Camera3D/Gun")
-	
+	var gun_holder = player_nearby.get_node("Camera3D/Gun")
+	if gun_holder == null:
+		print("Gun holder not found!")
+		return
+
+	print("BEFORE reparent: ", get_parent().name)
 	freeze = true
 	collision_layer = 0
 	collision_mask = 0
@@ -20,7 +24,11 @@ func pickup_gun() -> void:
 	rotation = Vector3.ZERO
 	
 	equipped = true
-
+	print("Gun picked up!")
+	print("Gun parent: ", get_parent().name)
+	print("Gun position: ", position)
+	print("Gun scale: ", scale)
+	print("Gun visible: ", visible)
 func drop_gun() -> void:
 
 	if equipped == false:

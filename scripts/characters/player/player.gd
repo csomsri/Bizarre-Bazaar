@@ -2,10 +2,10 @@ extends CharacterBody3D
 
 @export var mouse_sensitivity = 0.004
 
-@onready var camera_move: Camera3D = get_node_or_null("Casual_3/CharacterArmature/Camera3D")
-@onready var gun_holder: Marker3D = $Casual_3/CharacterArmature/Camera3D/GunHolder
+@onready var camera_move: Camera3D = $Camera3D
+@onready var gun_holder: Marker3D = $Casual_2/CharacterArmature/Camera3D/GunHolder
 
-@onready var animation_player: AnimationPlayer = $Casual_3/AnimationPlayer
+@onready var animation_player: AnimationPlayer = $Casual_2/AnimationPlayer
 
 var equipped_gun: RigidBody3D = null
 
@@ -15,8 +15,7 @@ const JUMP_VELOCITY = 4.5
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	
-	for child in get_children():
-		print(child.name)
+
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -63,6 +62,6 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
-	if Engine.get_physics_frames() % 60 == 0:
-		print("On floor: ", is_on_floor())
-		print("Player Y: ", global_position.y)
+	#if Engine.get_physics_frames() % 60 == 0:
+		#print("On floor: ", is_on_floor())
+		#print("Player Y: ", global_position.y)
