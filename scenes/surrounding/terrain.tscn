@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cupc5ss7xvbpc" path="res://scenes/characters/player/newPlayer.tscn" id="1_rbuof"]
 [ext_resource type="Texture2D" uid="uid://b4k7c073irvxf" path="res://assets/surrounding/Roads/Road1_A.png" id="2_bkmyg"]
+[ext_resource type="Script" uid="uid://dli2t55u1t5ro" path="res://scenes/surrounding/day_night_cycle_node.gd" id="2_pxm62"]
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/surrounding/Roads/obj/Road1.obj" id="3_4tf1n"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
@@ -201,13 +202,16 @@ size = Vector2(3, 3)
 
 [node name="GameplayHUD" parent="." unique_id=1954678161 instance=ExtResource("17_2xvr7")]
 
-[node name="SkyDayFair" parent="." unique_id=1541474014 instance=ExtResource("8_pxm62")]
+[node name="DayNightCycleNode" type="Node3D" parent="." unique_id=2062739702]
+script = ExtResource("2_pxm62")
 
-[node name="WorldEnvironment" parent="SkyDayFair" index="0"]
-environment = ExtResource("9_lk6ly")
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1978958539]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="DayNightCycleNode" unique_id=1978958539]
 transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.79652995, 0, 4.1457253, 2.8629794)
+
+[node name="SkyDayFair" parent="DayNightCycleNode" unique_id=1541474014 instance=ExtResource("8_pxm62")]
+
+[node name="WorldEnvironment" parent="DayNightCycleNode/SkyDayFair" index="0"]
+environment = ExtResource("9_lk6ly")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1409957492]
 transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.414, 0, 0)
@@ -338,7 +342,7 @@ fov = 110.0
 [node name="DoubleSlidingDoor2" parent="." unique_id=52205306 instance=ExtResource("11_2xvr7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105.18108, 0.02668652, 32.948597)
 
-[editable path="SkyDayFair"]
+[editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
 [editable path="Player2/Casual_2"]
 [editable path="storeBuilding"]
