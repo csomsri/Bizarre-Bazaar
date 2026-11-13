@@ -9,7 +9,7 @@
 script = ExtResource("1_lq1ms")
 
 [node name="Casual_3" parent="." unique_id=2061786663 instance=ExtResource("2_gi6d2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99741316, 0, 2.0254521)
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -0.99741316, 0, 2.973023)
 
 [node name="CharacterArmature" parent="Casual_3" index="0" unique_id=1937039387]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0330642, 0, -2.081497)

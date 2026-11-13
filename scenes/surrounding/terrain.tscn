@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://b0iqg3sakr8ir" path="res://assets/OtherDoor.blend" id="12_bkmyg"]
 [ext_resource type="AudioStream" uid="uid://c7k4f55p8lup7" path="res://audio/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3" id="14_ym72e"]
 [ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/Weapons/M16Rifle.tscn" id="15_ipudh"]
+[ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
@@ -316,6 +317,9 @@ stream = ExtResource("14_ym72e")
 
 [node name="M16Rifle" parent="." unique_id=1220831444 instance=ExtResource("15_ipudh")]
 transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 151.65924, 0, 0)
+
+[node name="Dumpster3" parent="." unique_id=161248319 instance=ExtResource("16_h2q0o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.259, 0, -10.196)
 
 [connection signal="body_entered" from="Dumpster/Area3D" to="Dumpster/Cube_002" method="_on_area_3d_body_entered"]
 [connection signal="body_exited" from="Dumpster/Area3D" to="Dumpster/Cube_002" method="_on_area_3d_body_exited"]

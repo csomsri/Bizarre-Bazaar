@@ -27,7 +27,7 @@ transform = Transform3D(1, 0, 0, 0, 0.99999976, 0, 0, 0, 1, -0.9727687, -1.22366
 shape = SubResource("BoxShape3D_ebk4t")
 
 [node name="Cube_002" parent="." index="3" unique_id=2025425813]
-transform = Transform3D(2.156105, -0.005565927, -0.00246246, 0.00573318, 0.93605334, -0.5965188, 0.010184156, 0.65141994, 0.85714245, 2.06908, 2.8269286, 1.0432264)
+transform = Transform3D(2.1561117, -0.003786349, -0.0036408878, 0.0075173364, 1.139059, 0.05101315, 0.0071586194, -0.055722836, 1.0430332, 2.06908, 2.8269286, 1.0432264)
 script = ExtResource("2_t6bvb")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Cube_002" index="0" unique_id=196696839]
