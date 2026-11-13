@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b8ny3iuyauw7g"
-path="res://.godot/imported/SimplePolygon_StoreProps.fbx-711467301f8c6608246edf849b3425ab.scn"
+path="res://.godot/imported/SimplePolygon_StoreProps.fbx-70efa09f841a35ef373bbd9bda1b6f8e.scn"
 
 [deps]
 
-source_file="res://assets/storeShelves/SimplePolygon_StoreProps.fbx"
-dest_files=["res://.godot/imported/SimplePolygon_StoreProps.fbx-711467301f8c6608246edf849b3425ab.scn"]
+source_file="res://assets/store_shelves/SimplePolygon_StoreProps.fbx"
+dest_files=["res://.godot/imported/SimplePolygon_StoreProps.fbx-70efa09f841a35ef373bbd9bda1b6f8e.scn"]
 
 [params]
 

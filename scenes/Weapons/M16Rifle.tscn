@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://86ndgs7wj3u8"]
 
-[ext_resource type="Script" uid="uid://nym6ab5aprr4" path="res://scripts/Weapons Script/m_16_rifle.gd" id="1_jo8jf"]
 [ext_resource type="PackedScene" uid="uid://dff7765qj74r" path="res://assets/items/LP_WeaponsPack (GODOT)/Wep_M16.fbx" id="1_o6apo"]
+[ext_resource type="Script" uid="uid://nym6ab5aprr4" path="res://scripts/weapons_script/m_16_rifle.gd" id="1_p1nu5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6sknb"]
 size = Vector3(0.17651367, 1.1645508, 4.115814)
@@ -11,7 +11,7 @@ size = Vector3(1, 1, 2.2755127)
 
 [node name="M16Rifle" type="RigidBody3D" unique_id=1220831444]
 transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
-script = ExtResource("1_jo8jf")
+script = ExtResource("1_p1nu5")
 
 [node name="Wep_M16" parent="." unique_id=729363104 instance=ExtResource("1_o6apo")]
 

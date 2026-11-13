@@ -12,14 +12,14 @@ script = ExtResource("1_lq1ms")
 [node name="Casual_3" parent="." unique_id=2061786663 instance=ExtResource("2_gi6d2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99741316, 0, 2.0254521)
 
-[node name="CharacterArmature" parent="Casual_3" index="0" unique_id=1474196359]
+[node name="CharacterArmature" parent="Casual_3" index="0" unique_id=1937039387]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0330642, 0, -2.081497)
 
 [node name="Camera3D" type="Camera3D" parent="Casual_3/CharacterArmature" index="0" unique_id=1472944107]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.6376799, 0.24802893)
 current = true
 
-[node name="Skeleton3D" parent="Casual_3/CharacterArmature" index="1" unique_id=1889516450]
+[node name="Skeleton3D" parent="Casual_3/CharacterArmature" index="1" unique_id=1007433151]
 bones/1/position = Vector3(-0.021458268, 0.811097, -0.045605686)
 bones/1/rotation = Quaternion(3.0267984e-09, 2.3841858e-07, -0.0064031365, 0.9999795)
 bones/3/rotation = Quaternion(0.047781564, 4.3755963e-07, 2.9359336e-08, 0.9988578)

@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://wq31gfohppjf"]
+
+[ext_resource type="Script" uid="uid://oe6v62oxsrdh" path="res://scenes/surrounding/double_sliding_door.gd" id="1_e4m50"]
+[ext_resource type="PackedScene" uid="uid://bx77iwlckx8nq" path="res://assets/GlassDoor.blend" id="2_gbogi"]
+[ext_resource type="AudioStream" uid="uid://c7k4f55p8lup7" path="res://audio/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3" id="3_jstpf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_84dtn"]
+size = Vector3(0.13769531, 4.2424316, 2.421875)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e0paw"]
+size = Vector3(3.5638428, 1, 4.5809326)
+
+[node name="DoubleSlidingDoor" type="Node3D" unique_id=1777015012]
+script = ExtResource("1_e4m50")
+
+[node name="StaticBody3D" type="AnimatableBody3D" parent="." unique_id=1512211289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.773, -0.27093026, -41.42)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1436033714]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.29753, 2.4805768, 30.637909)
+shape = SubResource("BoxShape3D_84dtn")
+
+[node name="GlassDoor" parent="StaticBody3D" unique_id=1011188687 instance=ExtResource("2_gbogi")]
+
+[node name="StaticBody3D2" type="AnimatableBody3D" parent="." unique_id=2003426034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.772835, -0.25875568, -38.998314)
+
+[node name="GlassDoor2" parent="StaticBody3D2" unique_id=802849843 instance=ExtResource("2_gbogi")]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D2" unique_id=2066854592]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.29753, 2.4805768, 30.637909)
+shape = SubResource("BoxShape3D_84dtn")
+
+[node name="DetectionArea" type="Area3D" parent="." unique_id=12338977]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DetectionArea" unique_id=1255013287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.626107, 0, -9.543263)
+shape = SubResource("BoxShape3D_e0paw")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1317343309]
+stream = ExtResource("3_jstpf")
