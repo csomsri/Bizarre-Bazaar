@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://uq78ewtl58bw"]
+
+[ext_resource type="PackedScene" uid="uid://bw3cp5v6sb265" path="res://assets/inside_store/Glass.blend" id="1_gtrt1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a75re"]
+
+[node name="Glass" unique_id=833736896 instance=ExtResource("1_gtrt1")]
+
+[node name="Cube" parent="." index="0" unique_id=1888348049]
+material_override = SubResource("StandardMaterial3D_a75re")
+transparency = 0.7

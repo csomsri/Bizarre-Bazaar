@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://wq31gfohppjf"]
 
 [ext_resource type="Script" uid="uid://oe6v62oxsrdh" path="res://scenes/surrounding/double_sliding_door.gd" id="1_e4m50"]
-[ext_resource type="PackedScene" uid="uid://bx77iwlckx8nq" path="res://assets/inside_store/GlassDoor.blend" id="2_gbogi"]
+[ext_resource type="PackedScene" uid="uid://bc4g7fatanxcm" path="res://scenes/inside_store_scene/glass_door.tscn" id="2_gke47"]
+[ext_resource type="PackedScene" uid="uid://uq78ewtl58bw" path="res://scenes/inside_store_scene/glass.tscn" id="3_gke47"]
 [ext_resource type="AudioStream" uid="uid://c7k4f55p8lup7" path="res://audio/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3" id="3_jstpf"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_84dtn"]
@@ -16,25 +17,34 @@ script = ExtResource("1_e4m50")
 [node name="StaticBody3D" type="AnimatableBody3D" parent="." unique_id=1512211289]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.773, -0.27093026, -41.42)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1436033714]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.29753, 2.4805768, 30.637909)
-shape = SubResource("BoxShape3D_84dtn")
+[node name="GlassDoor" parent="StaticBody3D" unique_id=1769411037 instance=ExtResource("2_gke47")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.05, 81.41, 0, 39.69)
 
-[node name="GlassDoor" parent="StaticBody3D" unique_id=1011188687 instance=ExtResource("2_gbogi")]
+[node name="Glass" parent="StaticBody3D/GlassDoor" unique_id=833736896 instance=ExtResource("3_gke47")]
+transform = Transform3D(-4.152582e-08, 0, -0.04, 0, 1.12, 0, 0.95, 0, -1.7484556e-09, 0.40505314, 2.452422, 0.6014284)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1436033714]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 81.77782, 2.4784763, 40.28885)
+shape = SubResource("BoxShape3D_84dtn")
 
 [node name="StaticBody3D2" type="AnimatableBody3D" parent="." unique_id=2003426034]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.772835, -0.25875568, -38.998314)
 
-[node name="GlassDoor2" parent="StaticBody3D2" unique_id=802849843 instance=ExtResource("2_gbogi")]
+[node name="GlassDoor2" parent="StaticBody3D2" unique_id=1828546947 instance=ExtResource("2_gke47")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.05, 81.41, -0.01, 39.69)
+
+[node name="Glass" parent="StaticBody3D2/GlassDoor2" unique_id=551137711 instance=ExtResource("3_gke47")]
+transform = Transform3D(-4.161324e-08, 0, -0.05, 0, 1.12, 0, 0.9520001, 0, -2.1855695e-09, 0.35588837, 2.4465122, 0.5923899)
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D2" unique_id=2066854592]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.29753, 2.4805768, 30.637909)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 81.77782, 2.4784763, 40.28885)
 shape = SubResource("BoxShape3D_84dtn")
 
 [node name="DetectionArea" type="Area3D" parent="." unique_id=12338977]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.558866, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="DetectionArea" unique_id=1255013287]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.626107, 0, -9.543263)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.656173, 0, 0.09405208)
 shape = SubResource("BoxShape3D_e0paw")
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1317343309]

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://kbgo6x75rrf5"]
 
 [ext_resource type="PackedScene" uid="uid://b1jhu7mk6yakq" path="res://assets/inside_store/Fridge.blend" id="1_yjrub"]
+[ext_resource type="PackedScene" uid="uid://uq78ewtl58bw" path="res://scenes/inside_store_scene/glass.tscn" id="2_gd2l7"]
 
 [sub_resource type="Gradient" id="Gradient_yjrub"]
 
@@ -15,8 +16,8 @@ metallic_texture = SubResource("GradientTexture1D_ddyau")
 
 [node name="Fridge" unique_id=1416156660 instance=ExtResource("1_yjrub")]
 
-[node name="Light" parent="." index="1" unique_id=1208083389]
-visible = false
+[node name="Glass" parent="." index="0" unique_id=833736896 instance=ExtResource("2_gd2l7")]
+transform = Transform3D(-3.059797e-08, 0, -0.04, 0, 0.72, 0, 0.7, 0, -1.7484555e-09, 2.0695772, 1.7559488, 2.279363)
 
-[node name="Plane" parent="." index="2" unique_id=2143464738]
+[node name="Plane" parent="." index="2" unique_id=1216877476]
 material_override = SubResource("StandardMaterial3D_nknoq")

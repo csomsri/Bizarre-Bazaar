@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bc4g7fatanxcm"]
+
+[ext_resource type="PackedScene" uid="uid://bx77iwlckx8nq" path="res://assets/inside_store/GlassDoor.blend" id="1_0dosd"]
+
+[node name="GlassDoor" unique_id=1769411037 instance=ExtResource("1_0dosd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.05, 0, 0, 0)
+
+[node name="Cube_010" parent="." index="0" unique_id=1727988083]
+transform = Transform3D(0.051638354, 0, 0, 0, 2.2523777, 0, 0, 0, 2.4525259, 1.4893444, 2.4347336, 1.8071747)
