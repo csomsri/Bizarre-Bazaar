@@ -8,11 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
 [ext_resource type="PackedScene" uid="uid://6mu2dt77mpb4" path="res://assets/surrounding/NewLevel.blend" id="6_h2q0o"]
-[ext_resource type="Script" uid="uid://s0oyw6f2cekd" path="res://scripts/trashCanLide.gd" id="7_2xvr7"]
 [ext_resource type="PackedScene" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="8_pxm62"]
 [ext_resource type="Environment" uid="uid://doh3ljlpaf2xt" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.tres" id="9_lk6ly"]
 [ext_resource type="PackedScene" uid="uid://wq31gfohppjf" path="res://scenes/inside_store_scene/double_sliding_door.tscn" id="11_2xvr7"]
-[ext_resource type="PackedScene" uid="uid://chplfnsxoanr4" path="res://assets/inside_store/shelves/ShelfBasic.blend" id="11_cqq2c"]
 [ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/Weapons/M16Rifle.tscn" id="15_ipudh"]
 [ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
@@ -217,7 +215,7 @@ transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.7965
 environment = ExtResource("9_lk6ly")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1409957492]
-transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.414, 0, 0)
+transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.571098, 0, 0.0417614)
 material_override = SubResource("StandardMaterial3D_6sknb")
 mesh = SubResource("PlaneMesh_6sknb")
 
@@ -325,7 +323,7 @@ surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 [node name="storeBuilding" parent="." unique_id=1738417414 instance=ExtResource("6_h2q0o")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.536827, 0, 22.263294)
 
-[node name="Cube" parent="storeBuilding" index="1" unique_id=1284691479]
+[node name="Cube" parent="storeBuilding" index="1" unique_id=315614297]
 transform = Transform3D(62.562664, 0, 0, 0, 0.20455164, 0, 0, 0, 43.507362, 0, -0.2, 0)
 mesh = SubResource("ArrayMesh_4tf1n")
 
@@ -333,17 +331,6 @@ mesh = SubResource("ArrayMesh_4tf1n")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="storeBuilding/Cube/StaticBody3D" unique_id=1122090169]
 shape = SubResource("ConcavePolygonShape3D_ym72e")
-
-[node name="Cube_005" parent="storeBuilding" index="2" unique_id=704432678]
-transform = Transform3D(-1.4679159e-07, 0.0051288228, -1.5092889, 2.1120377e-08, 1.6759064, 0.0046189185, 3.359679, -1.0311375e-08, -6.597312e-08, -72.56633, 3.3525047, 39.536186)
-visible = false
-script = ExtResource("7_2xvr7")
-
-[node name="Cube_006" parent="storeBuilding" index="3" unique_id=709816378]
-visible = false
-
-[node name="ShelfBasic" parent="." unique_id=1922167345 instance=ExtResource("11_cqq2c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 121.99853, 0.12958157, -15.042)
 
 [node name="DoubleSlidingDoor" parent="." unique_id=1777015012 instance=ExtResource("11_2xvr7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.314393, 0.032235622, -9.701626)
@@ -401,9 +388,6 @@ mesh = SubResource("QuadMesh_tfao1")
 [node name="mirror_reflection" type="Camera3D" parent="Convex mirror/SubViewport" unique_id=136097333]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.1)
 fov = 110.0
-
-[node name="DoubleSlidingDoor2" parent="." unique_id=52205306 instance=ExtResource("11_2xvr7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105.18108, 0.02668652, 32.948597)
 
 [node name="Wep_Pistol" parent="." unique_id=1225429796 instance=ExtResource("17_lk6ly")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 147.34471, 0, 0)

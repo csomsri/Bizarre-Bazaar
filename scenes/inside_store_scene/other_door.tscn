@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bqcvsd8vouboo"]
+
+[ext_resource type="PackedScene" uid="uid://b0iqg3sakr8ir" path="res://assets/inside_store/OtherDoor.blend" id="1_pbrvg"]
+
+[node name="OtherDoor" unique_id=1946789878 instance=ExtResource("1_pbrvg")]
+
+[node name="Cube_001" parent="." index="0" unique_id=1513611815]
+transform = Transform3D(0.051638354, 0, 0, 0, 2.2523777, 0, 0, 0, 2.4525259, 1.5234671, 2.4347336, 2.3978348)
