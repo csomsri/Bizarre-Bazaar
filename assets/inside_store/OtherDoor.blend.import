@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bx77iwlckx8nq"
-path="res://.godot/imported/GlassDoor.blend-7042db915772703bd4a1defcf13bffc3.scn"
+uid="uid://b0iqg3sakr8ir"
+path="res://.godot/imported/OtherDoor.blend-acf3f78b474dc795b146bdde24f48778.scn"
 
 [deps]
 
-source_file="res://assets/GlassDoor.blend"
-dest_files=["res://.godot/imported/GlassDoor.blend-7042db915772703bd4a1defcf13bffc3.scn"]
+source_file="res://assets/inside_store/OtherDoor.blend"
+dest_files=["res://.godot/imported/OtherDoor.blend-acf3f78b474dc795b146bdde24f48778.scn"]
 
 [params]
 

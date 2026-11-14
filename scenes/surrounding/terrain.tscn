@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://bcxtfnpjsyms6"]
 
+[ext_resource type="PackedScene" uid="uid://kbgo6x75rrf5" path="res://scenes/inside_store_scene/fridge.tscn" id="1_cqq2c"]
 [ext_resource type="PackedScene" uid="uid://cupc5ss7xvbpc" path="res://scenes/characters/player/newPlayer.tscn" id="1_rbuof"]
 [ext_resource type="Texture2D" uid="uid://b4k7c073irvxf" path="res://assets/surrounding/Roads/Road1_A.png" id="2_bkmyg"]
 [ext_resource type="Script" uid="uid://dli2t55u1t5ro" path="res://scenes/surrounding/day_night_cycle_node.gd" id="2_pxm62"]
@@ -12,10 +13,11 @@
 [ext_resource type="Environment" uid="uid://doh3ljlpaf2xt" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.tres" id="9_lk6ly"]
 [ext_resource type="PackedScene" uid="uid://wq31gfohppjf" path="res://scenes/double_sliding_door.tscn" id="11_2xvr7"]
 [ext_resource type="PackedScene" uid="uid://chplfnsxoanr4" path="res://assets/inside_store/shelves/ShelfBasic.blend" id="11_cqq2c"]
-[ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/weapons/M16Rifle.tscn" id="15_ipudh"]
+[ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/Weapons/M16Rifle.tscn" id="15_ipudh"]
 [ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
-[ext_resource type="PackedScene" uid="uid://dntqf6skvs4kr" path="res://scenes/weapons/wep_pistol.tscn" id="17_lk6ly"]
+[ext_resource type="PackedScene" uid="uid://cclalb517jeby" path="res://scenes/Weapons/shotgun.tscn" id="17_apva6"]
+[ext_resource type="PackedScene" uid="uid://dntqf6skvs4kr" path="res://scenes/Weapons/wep_pistol.tscn" id="17_lk6ly"]
 [ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://camera_moniter.gd" id="18_pxm62"]
 [ext_resource type="Script" uid="uid://duvj24nul82qf" path="res://scenes/surrounding/convex_mirror.gd" id="19_apva6"]
 [ext_resource type="Shader" uid="uid://dyq1th4yx3jdv" path="res://scenes/surrounding/convex_mirror.gdshader" id="20_cqq2c"]
@@ -201,6 +203,9 @@ size = Vector2(3, 3)
 
 [node name="Terrain" type="Node3D" unique_id=981345624]
 
+[node name="Fridge" parent="." unique_id=1416156660 instance=ExtResource("1_cqq2c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.525895)
+
 [node name="GameplayHUD" parent="." unique_id=1954678161 instance=ExtResource("17_2xvr7")]
 
 [node name="DayNightCycleNode" type="Node3D" parent="." unique_id=2062739702]
@@ -266,7 +271,7 @@ surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 [node name="storeBuilding" parent="." unique_id=1738417414 instance=ExtResource("6_h2q0o")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.536827, 0, 22.263294)
 
-[node name="Cube" parent="storeBuilding" index="1" unique_id=890507377]
+[node name="Cube" parent="storeBuilding" index="1" unique_id=1180095481]
 transform = Transform3D(62.562664, 0, 0, 0, 0.20455164, 0, 0, 0, 43.507362, 0, -0.2, 0)
 mesh = SubResource("ArrayMesh_4tf1n")
 
@@ -275,12 +280,12 @@ mesh = SubResource("ArrayMesh_4tf1n")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="storeBuilding/Cube/StaticBody3D" unique_id=1122090169]
 shape = SubResource("ConcavePolygonShape3D_ym72e")
 
-[node name="Cube_005" parent="storeBuilding" index="2" unique_id=390927338]
+[node name="Cube_005" parent="storeBuilding" index="2" unique_id=164419596]
 transform = Transform3D(-1.4679159e-07, 0.0051288228, -1.5092889, 2.1120377e-08, 1.6759064, 0.0046189185, 3.359679, -1.0311375e-08, -6.597312e-08, -72.56633, 3.3525047, 39.536186)
 visible = false
 script = ExtResource("7_2xvr7")
 
-[node name="Cube_006" parent="storeBuilding" index="3" unique_id=1779812402]
+[node name="Cube_006" parent="storeBuilding" index="3" unique_id=1302812540]
 visible = false
 
 [node name="ShelfBasic" parent="." unique_id=1922167345 instance=ExtResource("11_cqq2c")]
@@ -306,6 +311,8 @@ mesh = SubResource("BoxMesh_tfao1")
 
 [node name="M16Rifle" parent="." unique_id=1220831444 instance=ExtResource("15_ipudh")]
 transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 151.65924, 0, 0)
+
+[node name="Shotgun" parent="." unique_id=1032721247 instance=ExtResource("17_apva6")]
 
 [node name="Cam1" type="Camera3D" parent="." unique_id=1973099395]
 transform = Transform3D(-0.14798638, 0.367122, -0.9183254, 0.037085067, 0.92995614, 0.36579543, 0.9882939, 0.020076605, -0.1512356, 113.44726, 10.239052, 0)

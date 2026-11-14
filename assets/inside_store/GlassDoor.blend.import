@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b1jhu7mk6yakq"
-path="res://.godot/imported/Fridge.blend-ccf530fb1b12208bf5c40e91d2a01e2a.scn"
+uid="uid://bx77iwlckx8nq"
+path="res://.godot/imported/GlassDoor.blend-4450332504710e48413338ce35596e45.scn"
 
 [deps]
 
-source_file="res://assets/Fridge.blend"
-dest_files=["res://.godot/imported/Fridge.blend-ccf530fb1b12208bf5c40e91d2a01e2a.scn"]
+source_file="res://assets/inside_store/GlassDoor.blend"
+dest_files=["res://.godot/imported/GlassDoor.blend-4450332504710e48413338ce35596e45.scn"]
 
 [params]
 

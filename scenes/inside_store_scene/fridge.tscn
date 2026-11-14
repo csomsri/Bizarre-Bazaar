@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://kbgo6x75rrf5"]
+
+[ext_resource type="PackedScene" uid="uid://b1jhu7mk6yakq" path="res://assets/inside_store/Fridge.blend" id="1_yjrub"]
+
+[sub_resource type="Gradient" id="Gradient_yjrub"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ddyau"]
+gradient = SubResource("Gradient_yjrub")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nknoq"]
+cull_mode = 2
+albedo_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+metallic = 1.0
+metallic_texture = SubResource("GradientTexture1D_ddyau")
+
+[node name="Fridge" unique_id=1416156660 instance=ExtResource("1_yjrub")]
+
+[node name="Light" parent="." index="1" unique_id=1208083389]
+visible = false
+
+[node name="Plane" parent="." index="2" unique_id=2143464738]
+material_override = SubResource("StandardMaterial3D_nknoq")

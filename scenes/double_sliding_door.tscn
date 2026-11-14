@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://wq31gfohppjf"]
 
 [ext_resource type="Script" uid="uid://oe6v62oxsrdh" path="res://scenes/surrounding/double_sliding_door.gd" id="1_e4m50"]
-[ext_resource type="PackedScene" uid="uid://bx77iwlckx8nq" path="res://assets/GlassDoor.blend" id="2_gbogi"]
+[ext_resource type="PackedScene" uid="uid://bx77iwlckx8nq" path="res://assets/inside_store/GlassDoor.blend" id="2_gbogi"]
 [ext_resource type="AudioStream" uid="uid://c7k4f55p8lup7" path="res://audio/STORE DOORBELL SOUND EFFECT (HD) - All-round Sounds.mp3" id="3_jstpf"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_84dtn"]
