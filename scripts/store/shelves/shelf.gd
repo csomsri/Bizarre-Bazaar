@@ -5,24 +5,8 @@ extends Node3D
 @export var shelf_capacity: int = 30
 @export var shelf_type: String = "two_shelf"
 
-var grocery_items: Variant
 var shelf_items: Dictionary[String, int] = {}
 var items_on_shelf: int = 0
-
-
-func _ready() -> void:
-	var path := "res://json/grocery_items.json"
-
-	if not FileAccess.file_exists(path):
-		push_error("Grocery items file not found: " + path)
-		return
-
-	grocery_items = JSON.parse_string(
-		FileAccess.get_file_as_string(path)
-	)
-
-	if grocery_items == null:
-		push_error("Failed to parse grocery items JSON.")
 
 
 func add_item(item_id: String, quantity: int = 1) -> bool:
@@ -43,11 +27,12 @@ func take_item(item_id: String, quantity: int = 1) -> bool:
 
 	shelf_items[item_id] -= quantity
 	items_on_shelf -= quantity
-	
+
 	if shelf_items[item_id] == 0:
 		shelf_items.erase(item_id)
 
 	return true
-	
+
+
 func is_full() -> bool:
 	return items_on_shelf >= shelf_capacity
