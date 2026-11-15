@@ -1,0 +1,2 @@
+extends Node
+# MANAGE WHERE CARS CAN SPAWN
