@@ -1,0 +1,20 @@
+{
+  "store_upgrades": [
+	{
+	  "id": "security_camera",
+	  "name": "Security Camera",
+	  "category": "Surveillance",
+	  "quantity": 5,
+	  "price": 250,
+	  "description": "Allows the player to monitor an area of the store."
+	},
+	{
+	  "id": "security_mirror",
+	  "name": "Security Mirror",
+	  "category": "Surveillance",
+	  "quantity": 10,
+	  "price": 75,
+	  "description": "Helps the player see around corners and into blind spots."
+	}
+  ]
+}

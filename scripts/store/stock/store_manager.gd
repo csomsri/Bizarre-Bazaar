@@ -9,8 +9,8 @@ var stock: Dictionary = {
 	&"milk": 8
 }
 
-var shelve: Shelf
 
+var shelf: Shelf
 func take_item(item_id: StringName, amount: int = 1) -> bool:
 	if amount <= 0 or not stock.has(item_id):
 		return false
@@ -23,7 +23,7 @@ func take_item(item_id: StringName, amount: int = 1) -> bool:
 
 	return true
 
-func player_restock(item_id: StringName, amount: int = 1, shelf_id: int) -> bool:
+func player_restock(item_id: StringName, amount: int, shelf_id: int) -> bool:
 	if (amount <= 0 or not stock.has(item_id)):
 		return false;
 

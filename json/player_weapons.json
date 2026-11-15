@@ -1,0 +1,30 @@
+{
+  "weapons": [
+	{
+	  "id": "pistol",
+	  "name": "Pistol",
+	  "category": "Gun",
+	  "quantity": 10,
+	  "price": 350,
+	  "damage": 25,
+	  "magazine_size": 12
+	},
+	{
+	  "id": "m14",
+	  "name": "M14",
+	  "category": "Gun",
+	  "quantity": 5,
+	  "price": 1200,
+	  "damage": 60,
+	  "magazine_size": 20
+	},
+	{
+	  "id": "knife",
+	  "name": "Knife",
+	  "category": "Melee",
+	  "quantity": 15,
+	  "price": 50,
+	  "damage": 15
+	}
+  ]
+}

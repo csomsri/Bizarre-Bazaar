@@ -48,3 +48,6 @@ func take_item(item_id: String, quantity: int = 1) -> bool:
 		shelf_items.erase(item_id)
 
 	return true
+	
+func is_full() -> bool:
+	return items_on_shelf >= shelf_capacity

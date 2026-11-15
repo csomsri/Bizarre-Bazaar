@@ -30,8 +30,6 @@ func _unhandled_input(event: InputEvent) -> void:
 	if not controls_enabled:
 		return
 	
-	
-	
 	if event is InputEventMouseMotion:
 		if(Input.mouse_mode == Input.MOUSE_MODE_CAPTURED):
 			rotate_y(-event.relative.x * mouse_sensitivity)

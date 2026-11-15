@@ -1,0 +1,12 @@
+{
+  "black_market": [
+	{
+	  "id": "resource",
+	  "name": "Clean Money",
+	  "category": "Money Laundering",
+	  "quantity": 100,
+	  "price": 0,
+	  "description": "Clean Dirty Money."
+	},
+  ]
+}
