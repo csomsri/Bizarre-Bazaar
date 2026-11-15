@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bk3gywmj8mibb"]
+
+[ext_resource type="PackedScene" uid="uid://6mu2dt77mpb4" path="res://assets/surrounding/NewLevel.blend" id="1_jmp1n"]
+
+[node name="NewLevel" unique_id=1474601424 instance=ExtResource("1_jmp1n")]
