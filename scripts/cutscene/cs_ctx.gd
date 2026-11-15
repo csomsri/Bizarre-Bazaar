@@ -4,3 +4,7 @@
 	
 class_name CutsceneContext
 extends RefCounted
+
+
+var player # TODO: player should have a class 
+var host:Node

@@ -14,7 +14,7 @@ func _init(lbl:String ="receipt", dur:float=2.0) -> void:
 
 func execute(ctx: CutsceneContext) -> void:
 	print("[cutscene] %s" % label)
-	await ctx.host.get_tree().create_timer(duration).timeout
+	await ctx.host.get_tree().create_timer(duration).timeout # TODO: host not set yet
 	print("[cutscene] end %s" % label)
 
 	
