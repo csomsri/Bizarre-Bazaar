@@ -1,3 +1,3 @@
 # TODO
-	# game time/clock
+	# display of game time/clock
 	
