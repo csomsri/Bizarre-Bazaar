@@ -1,11 +1,4 @@
-extends Node
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+# TODO: 
+	# listen fo the signal for the end of the shift
+	# connects to the shift manager
+	# determine which cutscene to play: beginnign of the game, end of the night, end of the game (win/lose)

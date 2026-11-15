@@ -1,11 +1,9 @@
-extends Node
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+# TODO:
+	# controls how the world looks like at any given point during the day or night
+	# where the sun is
+	# how bright it iw
+	# what color the ligth iw
+	# which sky is showing
+	
+# CONNECTS to DayNightCycleNode
+extends Node3D

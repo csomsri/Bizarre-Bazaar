@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://kbgo6x75rrf5" path="res://scenes/inside_store_scene/fridge.tscn" id="1_cqq2c"]
 [ext_resource type="PackedScene" uid="uid://cupc5ss7xvbpc" path="res://scenes/characters/player/newPlayer.tscn" id="1_rbuof"]
 [ext_resource type="Texture2D" uid="uid://b4k7c073irvxf" path="res://assets/surrounding/Roads/Road1_A.png" id="2_bkmyg"]
-[ext_resource type="Script" uid="uid://dli2t55u1t5ro" path="res://scenes/surrounding/day_night_cycle_node.gd" id="2_pxm62"]
+[ext_resource type="Script" uid="uid://d2dg2wmb6vmin" path="res://scripts/day_night_cycle.gd" id="2_lmnb8"]
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/surrounding/Roads/obj/Road1.obj" id="3_4tf1n"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
@@ -208,7 +208,7 @@ size = Vector2(3, 3)
 [node name="GameplayHUD" parent="." unique_id=1954678161 instance=ExtResource("17_2xvr7")]
 
 [node name="DayNightCycleNode" type="Node3D" parent="." unique_id=2062739702]
-script = ExtResource("2_pxm62")
+script = ExtResource("2_lmnb8")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="DayNightCycleNode" unique_id=1978958539]
 transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.79652995, 0, 4.1457253, 2.8629794)
@@ -226,7 +226,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1824977595) index="0" unique_id=1536125305]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -327,7 +327,7 @@ surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 [node name="storeBuilding" parent="." unique_id=1738417414 instance=ExtResource("6_h2q0o")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.536827, 0, 22.263294)
 
-[node name="Cube" parent="storeBuilding" index="1" unique_id=315614297]
+[node name="Cube" parent="storeBuilding" index="1" unique_id=892986582]
 transform = Transform3D(62.562664, 0, 0, 0, 0.20455164, 0, 0, 0, 43.507362, 0, -0.2, 0)
 mesh = SubResource("ArrayMesh_4tf1n")
 
