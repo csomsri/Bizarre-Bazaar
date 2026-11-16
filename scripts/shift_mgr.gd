@@ -51,14 +51,14 @@ signal game_lost()
 
 
 func _ready() -> void:
-	time_changed.connect(func(_h, _m): print(get_time_str()))   # TEMP: test the clock
+	#time_changed.connect(func(_h, _m): print(get_time_str()))   # TEMP: test the clock
 	start_shift(1)
 	
 	
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("debug_end_shift"):
-		print("debugging")
-		end_shift()
+	#if Input.is_action_just_pressed("debug_end_shift"):
+		#print("debugging")
+		#end_shift()
 		
 	if not clock_running:
 		return
@@ -104,7 +104,7 @@ func get_progress()-> float:
 # helper: minuts since midnight
 func get_minutes_of_day() -> int:
 	var game_minutes = int(get_progress()*SHIFT_HOURS*60)
-	return (SHIFT_START_HOUR*60 + game_minutes) %(2*60)
+	return (SHIFT_START_HOUR*60 + game_minutes) %(24*60)
 	
 # convert to 12 hour clock, defined period AM/PM, return formatted string
 # will be used by the wall clock

@@ -5,7 +5,9 @@
 [ext_resource type="Texture2D" uid="uid://b4k7c073irvxf" path="res://assets/surrounding/Roads/Road1_A.png" id="2_bkmyg"]
 [ext_resource type="Script" uid="uid://d2dg2wmb6vmin" path="res://scripts/day_night_cycle.gd" id="2_lmnb8"]
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/surrounding/Roads/obj/Road1.obj" id="3_4tf1n"]
+[ext_resource type="Environment" uid="uid://balq5ld46givy" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/sunset_orange.tres" id="4_rhobb"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
+[ext_resource type="Environment" uid="uid://p1pwbrynldxs" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tres" id="5_33h1p"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
 [ext_resource type="PackedScene" uid="uid://6mu2dt77mpb4" path="res://assets/surrounding/NewLevel.blend" id="6_h2q0o"]
 [ext_resource type="PackedScene" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="8_pxm62"]
@@ -210,6 +212,10 @@ size = Vector2(3, 3)
 
 [node name="DayNightCycleNode" type="Node3D" parent="." unique_id=2062739702]
 script = ExtResource("2_lmnb8")
+enabled = true
+night_sky = ExtResource("9_lk6ly")
+sunset_sky = ExtResource("4_rhobb")
+day_sky = ExtResource("5_33h1p")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="DayNightCycleNode" unique_id=1978958539]
 transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.79652995, 0, 4.1457253, 2.8629794)
@@ -218,6 +224,9 @@ transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.7965
 
 [node name="WorldEnvironment" parent="DayNightCycleNode/SkyDayFair" index="0"]
 environment = ExtResource("9_lk6ly")
+
+[node name="Sun" parent="DayNightCycleNode/SkyDayFair" index="1"]
+visible = false
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1409957492]
 transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.571098, 0, 0.0417614)
