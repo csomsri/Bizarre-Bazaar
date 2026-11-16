@@ -28,6 +28,43 @@
 [ext_resource type="PackedScene" uid="uid://i0243iw06l10" path="res://scenes/inside_store_scene/cashier_desk.tscn" id="23_lmnb8"]
 [ext_resource type="PackedScene" uid="uid://bk3gywmj8mibb" path="res://scenes/store.tscn" id="23_qn42m"]
 [ext_resource type="PackedScene" uid="uid://n43wjlt3o0vv" path="res://assets/inside_store/decorations/ChristmassTree.fbx" id="24_qn42m"]
+[ext_resource type="PackedScene" uid="uid://s3xk7vvq7bgi" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_double_A.gltf" id="29_4krxi"]
+[ext_resource type="PackedScene" uid="uid://dhdj73spb4ewk" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_double_B.gltf" id="30_c5qb7"]
+[ext_resource type="PackedScene" uid="uid://cur0avlg8owec" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_single_B.gltf" id="31_5wby1"]
+[ext_resource type="PackedScene" uid="uid://bkv45swykwl6o" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_single_A.gltf" id="32_cme4b"]
+[ext_resource type="PackedScene" uid="uid://1cv5gmhkbrfb" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/cabinet_medium_decorated.gltf" id="33_b33ps"]
+[ext_resource type="PackedScene" uid="uid://lyh7gbaqr51x" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/cabinet_small_decorated.gltf" id="34_2cunl"]
+[ext_resource type="PackedScene" uid="uid://dbukxp4ueujkp" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/chair_A_wood.gltf" id="35_ndemg"]
+[ext_resource type="PackedScene" uid="uid://uif1bplsyai3" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/chair_B_wood.gltf" id="36_w58wy"]
+[ext_resource type="PackedScene" uid="uid://db3w60tgo4kaa" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/chair_stool.gltf" id="37_yuu6i"]
+[ext_resource type="PackedScene" uid="uid://crdeaps43kg5b" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/couch_pillows.gltf" id="38_nddc1"]
+[ext_resource type="PackedScene" uid="uid://5mrjk0cdq75a" path="res://assets/inside_store/camping_supplies/GLB/SM_Tent_Orange.glb" id="39_ign2b"]
+[ext_resource type="PackedScene" uid="uid://cl8b2hfqyd0fb" path="res://assets/inside_store/camping_supplies/GLB/SM_Tent_Dome.glb" id="40_ljeee"]
+[ext_resource type="PackedScene" uid="uid://c6pmovafv2cut" path="res://assets/inside_store/camping_supplies/GLB/SM_Tarp_Shelter.glb" id="41_ryssw"]
+[ext_resource type="PackedScene" uid="uid://5i2u4n0e3fgg" path="res://assets/inside_store/camping_supplies/GLB/SM_SleepingBag_Rolled.glb" id="42_kd8bu"]
+[ext_resource type="PackedScene" uid="uid://c7hpfxla64ebo" path="res://assets/inside_store/camping_supplies/GLB/SM_SleepingBag_Open.glb" id="43_lqs62"]
+[ext_resource type="PackedScene" uid="uid://svau2oskfxcb" path="res://assets/inside_store/camping_supplies/GLB/SM_Rope_Coil.glb" id="44_4qs8r"]
+[ext_resource type="PackedScene" uid="uid://w5p6cwel3rw3" path="res://assets/inside_store/camping_supplies/GLB/SM_Radio.glb" id="45_nuro3"]
+[ext_resource type="PackedScene" uid="uid://kxh54doth0hl" path="res://assets/inside_store/camping_supplies/GLB/SM_Pickaxe.glb" id="46_xu07i"]
+[ext_resource type="PackedScene" uid="uid://bycvleqjn4d65" path="res://assets/inside_store/camping_supplies/GLB/SM_Log_Bench.glb" id="47_pqc8g"]
+[ext_resource type="PackedScene" uid="uid://dg7d10vm1imcs" path="res://scenes/inside_store_scene/items_for_sale/row_of_kettles.tscn" id="48_4krxi"]
+[ext_resource type="PackedScene" uid="uid://dc6x3mxw0tcop" path="res://assets/inside_store/camping_supplies/GLB/SM_Jerrycan.glb" id="49_om5ng"]
+[ext_resource type="PackedScene" uid="uid://14xdt3xmwaxl" path="res://assets/inside_store/camping_supplies/GLB/SM_Folding_Chair.glb" id="50_6xwda"]
+[ext_resource type="PackedScene" uid="uid://bqpxuisgrprsn" path="res://assets/inside_store/camping_supplies/GLB/SM_Flashlight.glb" id="51_83ga0"]
+[ext_resource type="PackedScene" uid="uid://cae0cqjaswpt6" path="res://assets/inside_store/camping_supplies/GLB/SM_Fishing_Rod.glb" id="52_t3fjy"]
+[ext_resource type="PackedScene" uid="uid://dhxikmdbrhpci" path="res://assets/inside_store/camping_supplies/GLB/SM_First_Aid_Kit.glb" id="53_plhhj"]
+[ext_resource type="PackedScene" uid="uid://iriijl3lyv18" path="res://assets/inside_store/camping_supplies/GLB/SM_Firewood_Stack.glb" id="54_5r2eq"]
+[ext_resource type="PackedScene" uid="uid://bx48shxdnld7f" path="res://assets/inside_store/camping_supplies/GLB/SM_Cooler_Box.glb" id="55_jdrrb"]
+[ext_resource type="PackedScene" uid="uid://cqd0iehgg307o" path="res://assets/inside_store/camping_supplies/GLB/SM_Cooking_Pot.glb" id="56_o1bpf"]
+[ext_resource type="PackedScene" uid="uid://02yxhewwt6a1" path="res://assets/inside_store/camping_supplies/GLB/SM_Camp_Table.glb" id="57_ac7y4"]
+[ext_resource type="PackedScene" uid="uid://pp5gkp1r0n6m" path="res://scenes/inside_store_scene/row_cols_of_stoves.tscn" id="58_c5qb7"]
+[ext_resource type="PackedScene" uid="uid://dtbgp5y1iplbs" path="res://assets/inside_store/camping_supplies/GLB/SM_Campfire_Tripod.glb" id="59_mscef"]
+[ext_resource type="PackedScene" uid="uid://bl4xtwgurvsdh" path="res://assets/inside_store/camping_supplies/GLB/SM_Bucket_Metal.glb" id="60_g5cwk"]
+[ext_resource type="PackedScene" uid="uid://b1yxggeyt8ft7" path="res://assets/inside_store/camping_supplies/GLB/SM_Bow.glb" id="61_an363"]
+[ext_resource type="PackedScene" uid="uid://cnkaouamyyt3p" path="res://assets/inside_store/camping_supplies/GLB/SM_Binoculars.glb" id="62_57ctj"]
+[ext_resource type="PackedScene" uid="uid://cr6ei5c6ghftv" path="res://assets/inside_store/camping_supplies/GLB/SM_Barrel.glb" id="63_4lbus"]
+[ext_resource type="PackedScene" uid="uid://djknf5xqh7la6" path="res://assets/inside_store/camping_supplies/GLB/SM_Backpack.glb" id="64_fpnhi"]
+[ext_resource type="PackedScene" uid="uid://bwk0y70785ktl" path="res://assets/inside_store/camping_supplies/GLB/SM_Arrow.glb" id="65_riju0"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -707,6 +744,9 @@ transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.5
 [node name="ShelfBasic6" parent="DoubleShelfRow2/ShelfRow2" unique_id=1366690953 instance=ExtResource("20_apva6")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 18.085613, -0.17435056, 0)
 
+[node name="ShelfBasic9" parent="DoubleShelfRow2/ShelfRow2" unique_id=1158741735 instance=ExtResource("20_apva6")]
+transform = Transform3D(-4.371138e-08, 0, -1, 0, 1, 0, 1, 0, -4.371138e-08, 18.085606, -0.17435056, -15.316434)
+
 [node name="ShelfBasic7" parent="DoubleShelfRow2/ShelfRow2" unique_id=1749210092 instance=ExtResource("20_apva6")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.749346, -0.17435056, 0)
 
@@ -1119,6 +1159,140 @@ transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.5
 [node name="ChristmassTree" parent="." unique_id=209154362 instance=ExtResource("24_qn42m")]
 transform = Transform3D(2.8003762, 0, 0, 0, 2.8003762, 0, 0, 0, 2.8003762, 89.05541, 0.023333002, -19.408237)
 
+[node name="bed_double_A2" parent="." unique_id=1384170083 instance=ExtResource("29_4krxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.500816, 0.0049996376, 30.419147)
+
+[node name="bed_double_B2" parent="." unique_id=325779254 instance=ExtResource("30_c5qb7")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 47.548717, 0.0050001144, 26.447403)
+
+[node name="bed_single_B2" parent="." unique_id=532290662 instance=ExtResource("31_5wby1")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 50.846886, 0.0050001144, 26.405334)
+
+[node name="bed_single_A2" parent="." unique_id=340809563 instance=ExtResource("32_cme4b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.796043, 0.0049996376, 30.521553)
+
+[node name="cabinet_medium_decorated2" parent="." unique_id=866875990 instance=ExtResource("33_b33ps")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 54.48713, 0.005000122, 27.559029)
+
+[node name="cabinet_small_decorated2" parent="." unique_id=1821371898 instance=ExtResource("34_2cunl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.967346, 0.005000122, 28.791151)
+
+[node name="chair_A_wood2" parent="." unique_id=1596978236 instance=ExtResource("35_ndemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.299942, 0.004999645, 26.175232)
+
+[node name="chair_B_wood2" parent="." unique_id=532658835 instance=ExtResource("36_w58wy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.161633, 0.005000122, 28.772722)
+
+[node name="chair_stool2" parent="." unique_id=615194991 instance=ExtResource("37_yuu6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.94588, 0.005000122, 28.678516)
+
+[node name="couch_pillows2" parent="." unique_id=2840091 instance=ExtResource("38_nddc1")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 48.557144, 0.0050001144, 37.0206)
+
+[node name="couch_pillows3" parent="." unique_id=44522545 instance=ExtResource("38_nddc1")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 45.167286, 0.0050001144, 37.0206)
+
+[node name="SM_Tent_Orange2" parent="." unique_id=1493912770 instance=ExtResource("39_ign2b")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 58.783787, 0.004999995, 35.878635)
+
+[node name="SM_Tent_Dome2" parent="." unique_id=1446745411 instance=ExtResource("40_ljeee")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 64.441025, 0.0050001144, 36.293232)
+
+[node name="SM_Tarp_Shelter2" parent="." unique_id=2034700431 instance=ExtResource("41_ryssw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.606884, 0.0050001144, 35.65869)
+
+[node name="SM_SleepingBag_Rolled2" parent="." unique_id=543859461 instance=ExtResource("42_kd8bu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.700035, 0.5947401, 26.469402)
+
+[node name="SM_SleepingBag_Open2" parent="." unique_id=1361694304 instance=ExtResource("43_lqs62")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 62.195324, 0.0050001144, 35.68006)
+
+[node name="SM_SleepingBag_Open3" parent="." unique_id=1156141047 instance=ExtResource("43_lqs62")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 60.91021, 0.0050001144, 35.68006)
+
+[node name="SM_Rope_Coil2" parent="." unique_id=133342386 instance=ExtResource("44_4qs8r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.07638, 0.106523156, 26.592333)
+
+[node name="SM_Radio2" parent="." unique_id=640108948 instance=ExtResource("45_nuro3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 57.49116, 0.5614414, 28.652906)
+
+[node name="SM_Radio3" parent="." unique_id=1816346392 instance=ExtResource("45_nuro3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 57.49116, 0.5614414, 28.268747)
+
+[node name="SM_Radio4" parent="." unique_id=720603761 instance=ExtResource("45_nuro3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 57.49116, 0.5614414, 27.82798)
+
+[node name="SM_Radio5" parent="." unique_id=1230431011 instance=ExtResource("45_nuro3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 57.49116, 0.5614414, 27.406296)
+
+[node name="SM_Radio6" parent="." unique_id=40387134 instance=ExtResource("45_nuro3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 57.49116, 0.5614414, 27.406296)
+
+[node name="SM_Pickaxe2" parent="." unique_id=1088102162 instance=ExtResource("46_xu07i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.488655, 1.2958399, 37.641716)
+
+[node name="SM_Log_Bench2" parent="." unique_id=483169061 instance=ExtResource("47_pqc8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.370605, 0.0050001144, 35.354042)
+
+[node name="row_col_of_kettles" type="Node3D" parent="." unique_id=747455235]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.916176, 1.5764737, 27.917955)
+
+[node name="row_of_kettles" parent="row_col_of_kettles" unique_id=1360465118 instance=ExtResource("48_4krxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.34827805, 0, 0)
+
+[node name="row_of_kettles2" parent="row_col_of_kettles" unique_id=441328091 instance=ExtResource("48_4krxi")]
+
+[node name="SM_Jerrycan2" parent="." unique_id=1852695761 instance=ExtResource("49_om5ng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.697815, 0.0050001144, 28.24466)
+
+[node name="SM_Folding_Chair2" parent="." unique_id=1017750180 instance=ExtResource("50_6xwda")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 56.686245, 0.0050005913, 35.01962)
+
+[node name="SM_Flashlight2" parent="." unique_id=368682939 instance=ExtResource("51_83ga0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.67578, 1.0804513, 29.562954)
+
+[node name="SM_Fishing_Rod2" parent="." unique_id=1387760771 instance=ExtResource("52_t3fjy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.08133, 1.0257945, 37.64845)
+
+[node name="SM_First_Aid_Kit2" parent="." unique_id=1187610439 instance=ExtResource("53_plhhj")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 58.08202, 0.6789497, 29.414177)
+
+[node name="SM_Firewood_Stack2" parent="." unique_id=1924749445 instance=ExtResource("54_5r2eq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.983665, 0.0050001144, 37.321022)
+
+[node name="SM_Cooler_Box2" parent="." unique_id=532228515 instance=ExtResource("55_jdrrb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.987293, 0.0049996376, 33.931)
+
+[node name="SM_Cooking_Pot2" parent="." unique_id=541877256 instance=ExtResource("56_o1bpf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.252964, 0.0050001144, 33.887413)
+
+[node name="SM_Camp_Table2" parent="." unique_id=1135851172 instance=ExtResource("57_ac7y4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.63543, 0.0050001144, 34.214252)
+
+[node name="row_cols_of_stoves" parent="." unique_id=1218638452 instance=ExtResource("58_c5qb7")]
+
+[node name="SM_Campfire_Tripod2" parent="." unique_id=352460139 instance=ExtResource("59_mscef")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.34968, 0.0050005913, 32.60163)
+
+[node name="SM_Bucket_Metal2" parent="." unique_id=1243999295 instance=ExtResource("60_g5cwk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.872902, 0.0050001144, 29.471304)
+
+[node name="SM_Bow2" parent="." unique_id=1311437949 instance=ExtResource("61_an363")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.83113, 1.07787, 37.68412)
+
+[node name="SM_Binoculars2" parent="." unique_id=1778255039 instance=ExtResource("62_57ctj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.78901, 0.42290843, 35.349102)
+
+[node name="SM_Barrel2" parent="." unique_id=1663655197 instance=ExtResource("63_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.41637, 0.0050005913, 37.3698)
+
+[node name="SM_Backpack2" parent="." unique_id=541527960 instance=ExtResource("64_fpnhi")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 64.51944, 1.3657045, 37.538704)
+
+[node name="SM_Arrow2" parent="." unique_id=1559322257 instance=ExtResource("65_riju0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.374344, 1.2264667, 37.67054)
+
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
 [editable path="Player2/Casual_2"]
+[editable path="bed_single_B2"]

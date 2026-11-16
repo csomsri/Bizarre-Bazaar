@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b4by6eky5d8vo"]
+
+[ext_resource type="PackedScene" uid="uid://p5hahb4kvmh1" path="res://assets/inside_store/camping_supplies/GLB/SM_Camping_Stove.glb" id="1_cw6ig"]
+
+[node name="row of stoves" type="Node3D" unique_id=976838771]
+
+[node name="SM_Camping_Stove2" parent="." unique_id=986766082 instance=ExtResource("1_cw6ig")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.7980938)
+
+[node name="SM_Camping_Stove3" parent="." unique_id=1998407923 instance=ExtResource("1_cw6ig")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.5409813)
+
+[node name="SM_Camping_Stove4" parent="." unique_id=1826529944 instance=ExtResource("1_cw6ig")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.30869102)
+
+[node name="SM_Camping_Stove5" parent="." unique_id=772856912 instance=ExtResource("1_cw6ig")]

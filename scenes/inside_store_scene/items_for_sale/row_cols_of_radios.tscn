@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bdrl2as08j0nq"]
+
+[ext_resource type="PackedScene" uid="uid://dqxnswc6u7pby" path="res://scenes/inside_store_scene/items_for_sale/row_of_radios.tscn" id="1_2mvqo"]
+
+[node name="row_cols_of_radios" type="Node3D" unique_id=1151531702]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="row_of_radios2" parent="." unique_id=1816219353 instance=ExtResource("1_2mvqo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="row_of_radios" parent="." unique_id=28883430 instance=ExtResource("1_2mvqo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.33451843)

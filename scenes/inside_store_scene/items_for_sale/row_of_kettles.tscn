@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dg7d10vm1imcs"]
+
+[ext_resource type="PackedScene" uid="uid://dfy1p4m1qv6vg" path="res://assets/inside_store/camping_supplies/GLB/SM_Kettle.glb" id="1_suv0b"]
+
+[node name="row_of_kettles" type="Node3D" unique_id=1360465118]
+
+[node name="SM_Kettle6" parent="." unique_id=1111494781 instance=ExtResource("1_suv0b")]
+
+[node name="SM_Kettle2" parent="." unique_id=880137296 instance=ExtResource("1_suv0b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.576889)
+
+[node name="SM_Kettle3" parent="." unique_id=2058719259 instance=ExtResource("1_suv0b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.204628)
+
+[node name="SM_Kettle4" parent="." unique_id=705708279 instance=ExtResource("1_suv0b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.8292656)
+
+[node name="SM_Kettle5" parent="." unique_id=905660928 instance=ExtResource("1_suv0b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.42697716)

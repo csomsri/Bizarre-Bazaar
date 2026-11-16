@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://t0stnqxs6iva"]
+
+[ext_resource type="PackedScene" uid="uid://5i2u4n0e3fgg" path="res://assets/inside_store/camping_supplies/GLB/SM_SleepingBag_Rolled.glb" id="1_hqu5m"]
+
+[node name="row_of_rolled_sleeping_bags" type="Node3D" unique_id=1428448783]
+
+[node name="SM_SleepingBag_Rolled3" parent="." unique_id=543859461 instance=ExtResource("1_hqu5m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.47358704)
+
+[node name="SM_SleepingBag_Rolled2" parent="." unique_id=1179757883 instance=ExtResource("1_hqu5m")]

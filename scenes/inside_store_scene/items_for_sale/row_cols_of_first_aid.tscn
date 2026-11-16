@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c5r73rntm0ipr"]
+
+[ext_resource type="PackedScene" uid="uid://dhxikmdbrhpci" path="res://assets/inside_store/camping_supplies/GLB/SM_First_Aid_Kit.glb" id="1_5rw2a"]
+
+[node name="row_cols_of_first_aid" type="Node3D" unique_id=1346751753]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="SM_First_Aid_Kit3" parent="." unique_id=1187610439 instance=ExtResource("1_5rw2a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34931755, 0, -0.3029976)
+
+[node name="SM_First_Aid_Kit2" parent="." unique_id=1507791597 instance=ExtResource("1_5rw2a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0065402985, 0, -0.3029976)
+
+[node name="SM_First_Aid_Kit4" parent="." unique_id=432697833 instance=ExtResource("1_5rw2a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34931755, 0, 0)
+
+[node name="SM_First_Aid_Kit5" parent="." unique_id=817473909 instance=ExtResource("1_5rw2a")]

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://t18cfyk5qwd5"]
+
+[ext_resource type="PackedScene" uid="uid://svau2oskfxcb" path="res://assets/inside_store/camping_supplies/GLB/SM_Rope_Coil.glb" id="1_iem3m"]
+
+[node name="row_of_rope" type="Node3D" unique_id=1537189713]
+
+[node name="SM_Rope_Coil2" parent="." unique_id=133342386 instance=ExtResource("1_iem3m")]
+
+[node name="SM_Rope_Coil3" parent="." unique_id=1448843102 instance=ExtResource("1_iem3m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.42915535)
+
+[node name="SM_Rope_Coil4" parent="." unique_id=216050823 instance=ExtResource("1_iem3m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.86234856)
+
+[node name="SM_Rope_Coil5" parent="." unique_id=166098917 instance=ExtResource("1_iem3m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.2725468)
