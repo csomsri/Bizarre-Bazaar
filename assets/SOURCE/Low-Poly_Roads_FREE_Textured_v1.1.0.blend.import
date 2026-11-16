@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d0s51ept7cesu"
-path="res://.godot/imported/Low-Poly_Roads_FREE_Textured_v1.1.0.blend-0bf56a8d25ba0578001c583d2b53e626.scn"
+path="res://.godot/imported/Low-Poly_Roads_FREE_Textured_v1.1.0.blend-fea6429eb05446b3a7603e51815be86f.scn"
 
 [deps]
 
-source_file="res://assets/SOURCE/Low-Poly_Roads_FREE_Textured_v1.1.0.blend"
-dest_files=["res://.godot/imported/Low-Poly_Roads_FREE_Textured_v1.1.0.blend-0bf56a8d25ba0578001c583d2b53e626.scn"]
+source_file="res://assets/source/Low-Poly_Roads_FREE_Textured_v1.1.0.blend"
+dest_files=["res://.godot/imported/Low-Poly_Roads_FREE_Textured_v1.1.0.blend-fea6429eb05446b3a7603e51815be86f.scn"]
 
 [params]
 
