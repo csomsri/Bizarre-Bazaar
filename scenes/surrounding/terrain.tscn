@@ -7,6 +7,7 @@
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/surrounding/Roads/obj/Road1.obj" id="3_4tf1n"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
+[ext_resource type="Texture2D" uid="uid://b0jqlgkycjfug" path="res://assets/textures/sand_dirt.jpeg" id="5_qn42m"]
 [ext_resource type="PackedScene" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="8_pxm62"]
 [ext_resource type="Environment" uid="uid://doh3ljlpaf2xt" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.tres" id="9_lk6ly"]
 [ext_resource type="PackedScene" uid="uid://wq31gfohppjf" path="res://scenes/inside_store_scene/double_sliding_door.tscn" id="11_2xvr7"]
@@ -25,7 +26,11 @@
 [ext_resource type="PackedScene" uid="uid://bk3gywmj8mibb" path="res://scenes/store.tscn" id="23_qn42m"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
-albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
+albedo_color = Color(1, 1, 1, 0.8039216)
+albedo_texture = ExtResource("5_qn42m")
+albedo_texture_force_srgb = true
+uv1_scale = Vector3(10, 10, 1)
+texture_filter = 0
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_6sknb"]
 
@@ -177,14 +182,14 @@ transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.7965
 environment = ExtResource("9_lk6ly")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1409957492]
-transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.571098, 0, 0.0417614)
+transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.644783, 3.8146973e-06, 0.37141228)
 material_override = SubResource("StandardMaterial3D_6sknb")
 mesh = SubResource("PlaneMesh_6sknb")
 
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1069046042) index="0" unique_id=1129988404]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
