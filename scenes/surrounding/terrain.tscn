@@ -18,6 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://dntqf6skvs4kr" path="res://scenes/weapons/wep_pistol.tscn" id="17_lk6ly"]
 [ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://camera_moniter.gd" id="18_pxm62"]
 [ext_resource type="Script" uid="uid://duvj24nul82qf" path="res://scenes/surrounding/convex_mirror.gd" id="19_apva6"]
+[ext_resource type="PackedScene" uid="uid://drh5u55ll7mxq" path="res://scenes/inside_store_scene/all_horizontal_shelfs.tscn" id="20_0cmad"]
 [ext_resource type="PackedScene" uid="uid://bt2aec1frokcr" path="res://scenes/inside_store_scene/horizontal_row_shelf.tscn" id="20_33h1p"]
 [ext_resource type="PackedScene" uid="uid://b4kkgufnwlco4" path="res://scenes/inside_store_scene/shelf_basic.tscn" id="20_apva6"]
 [ext_resource type="Shader" uid="uid://dyq1th4yx3jdv" path="res://scenes/surrounding/convex_mirror.gdshader" id="20_cqq2c"]
@@ -353,25 +354,7 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 147.34471, 0, 0)
 [node name="Fridge" parent="." unique_id=1416156660 instance=ExtResource("1_cqq2c")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.839863, 0, 0)
 
-[node name="horizontalRow" parent="." unique_id=1841379669 instance=ExtResource("20_33h1p")]
-
-[node name="horizontalRow2" parent="." unique_id=1496786164 instance=ExtResource("20_33h1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3216534, 0, 0)
-
-[node name="horizontalRow3" parent="." unique_id=148479124 instance=ExtResource("20_33h1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.414152, 0, 0)
-
-[node name="horizontalRow4" parent="." unique_id=1490566260 instance=ExtResource("20_33h1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.438782, 0, 0)
-
-[node name="horizontalRow5" parent="." unique_id=381957673 instance=ExtResource("20_33h1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.81852, 0, 0)
-
-[node name="horizontalRow6" parent="." unique_id=1841978284 instance=ExtResource("20_33h1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.350613, 0, 0)
-
-[node name="horizontalRow7" parent="." unique_id=131947137 instance=ExtResource("20_33h1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.03753, 0, 0)
+[node name="all_horizontal_shelfs" parent="." unique_id=1804548090 instance=ExtResource("20_0cmad")]
 
 [node name="GunShelf" parent="." unique_id=1442635579 instance=ExtResource("20_33h1p")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 48.0863, 0, 36.65527)

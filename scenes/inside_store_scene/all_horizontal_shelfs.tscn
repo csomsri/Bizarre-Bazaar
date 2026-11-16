@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://drh5u55ll7mxq"]
+
+[ext_resource type="PackedScene" uid="uid://bt2aec1frokcr" path="res://scenes/inside_store_scene/horizontal_row_shelf.tscn" id="1_1h08b"]
+
+[node name="all_horizontal_shelfs" type="Node3D" unique_id=1804548090]
+
+[node name="horizontalRow4" parent="." unique_id=1841379669 instance=ExtResource("1_1h08b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.438782, 0, 0)
+
+[node name="horizontalRow" parent="." unique_id=1229479530 instance=ExtResource("1_1h08b")]
+
+[node name="horizontalRow2" parent="." unique_id=488655919 instance=ExtResource("1_1h08b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3216534, 0, 0)
+
+[node name="horizontalRow3" parent="." unique_id=1900691553 instance=ExtResource("1_1h08b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.414152, 0, 0)
+
+[node name="horizontalRow5" parent="." unique_id=1281734130 instance=ExtResource("1_1h08b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.81852, 0, 0)
+
+[node name="horizontalRow6" parent="." unique_id=1257259825 instance=ExtResource("1_1h08b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.350613, 0, 0)
+
+[node name="horizontalRow7" parent="." unique_id=499923951 instance=ExtResource("1_1h08b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.03753, 0, 0)
