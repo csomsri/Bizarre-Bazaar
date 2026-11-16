@@ -16,9 +16,13 @@ current = true
 [node name="Gun" type="Marker3D" parent="Camera3D" unique_id=762535230]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1555816, -0.27889264, -0.37421566)
 
+[node name="InteractionRay" type="RayCast3D" parent="Camera3D" unique_id=1506812518]
+target_position = Vector3(0, 0, -3)
+collide_with_areas = true
+
 [node name="Casual_2" parent="." unique_id=588809117 instance=ExtResource("2_7oglf")]
 
-[node name="Skeleton3D" parent="Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(588809117, 406184878) index="0" unique_id=1278738672]
+[node name="Skeleton3D" parent="Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(588809117, 1046181657) index="0" unique_id=1236035886]
 bones/1/rotation = Quaternion(0, 0.23553044, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.04778156, 4.3005366e-07, 2.8440345e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.08546471, -0.23748349, 0.011578166, 0.96755534)

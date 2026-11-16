@@ -12,6 +12,9 @@ extends CharacterBody3D
 @onready var view_camera: Camera3D = $Camera3D
 var controls_enabled := true
 
+# UI/Interaction: Interaction Ray
+@onready var interaction_ray: RayCast3D = $Camera3D/InteractionRay
+var current_interactable: InteractableObject = null
 
 
 
@@ -42,6 +45,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 
 func _physics_process(delta: float) -> void:
+	# UI/Interaction: Checking for if object is interactable
+	check_for_interactable()
 	
 	if not controls_enabled:
 		return
@@ -90,3 +95,20 @@ func set_controls_enabled( enabled: bool) ->void:
 	
 func set_body_visible( can_see: bool) -> void:
 	body_mesh.visible = can_see
+	
+
+# UI/Interaction
+# FUNC check_for_interaction: check if object is interactble when player looks at it
+func check_for_interactable() -> void:
+	current_interactable = null
+	
+	if interaction_ray.is_colliding():
+		var collider = interaction_ray.get_collider()
+		var current_node = collider as Node
+		
+		while current_node != null:
+			for child in current_node.get_children():
+				if child is InteractableObject:
+					current_interactable = child
+					return
+			current_node = current_node.get_parent()

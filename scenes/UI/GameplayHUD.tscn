@@ -170,3 +170,12 @@ alignment = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "THIEVES CAUGHT: 0"
+
+[node name="InteractionPrompt" type="Label" parent="HUDRoot" unique_id=692327874]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "E - Open Dumpster"
+horizontal_alignment = 1
+vertical_alignment = 1
