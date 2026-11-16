@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4sb5i5e6rm0c"
+path="res://.godot/imported/train_wagon.obj-a559eed1f7acb539226a2ccea4458c98.mesh"
+
+[deps]
+
+files=["res://.godot/imported/train_wagon.obj-a559eed1f7acb539226a2ccea4458c98.mesh"]
+
+source_file="res://assets/inside_store/christams/KayKit_Holiday_Bits_1.0_FREE/Assets/obj/train_wagon.obj"
+dest_files=["res://.godot/imported/train_wagon.obj-a559eed1f7acb539226a2ccea4458c98.mesh", "res://.godot/imported/train_wagon.obj-a559eed1f7acb539226a2ccea4458c98.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

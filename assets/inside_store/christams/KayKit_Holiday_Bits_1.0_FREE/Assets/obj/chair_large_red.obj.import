@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3ihfub6uiap6"
+path="res://.godot/imported/chair_large_red.obj-bfffa824c0bf3703d0b15252b661c479.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chair_large_red.obj-bfffa824c0bf3703d0b15252b661c479.mesh"]
+
+source_file="res://assets/inside_store/christams/KayKit_Holiday_Bits_1.0_FREE/Assets/obj/chair_large_red.obj"
+dest_files=["res://.godot/imported/chair_large_red.obj-bfffa824c0bf3703d0b15252b661c479.mesh", "res://.godot/imported/chair_large_red.obj-bfffa824c0bf3703d0b15252b661c479.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

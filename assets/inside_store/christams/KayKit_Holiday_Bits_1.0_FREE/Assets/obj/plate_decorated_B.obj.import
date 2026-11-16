@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8q4l5st0hrw4"
+path="res://.godot/imported/plate_decorated_B.obj-cb9dc478789eca0c9ac6973e8d4ed57b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plate_decorated_B.obj-cb9dc478789eca0c9ac6973e8d4ed57b.mesh"]
+
+source_file="res://assets/inside_store/christams/KayKit_Holiday_Bits_1.0_FREE/Assets/obj/plate_decorated_B.obj"
+dest_files=["res://.godot/imported/plate_decorated_B.obj-cb9dc478789eca0c9ac6973e8d4ed57b.mesh", "res://.godot/imported/plate_decorated_B.obj-cb9dc478789eca0c9ac6973e8d4ed57b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
