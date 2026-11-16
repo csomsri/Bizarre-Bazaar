@@ -23,6 +23,7 @@
 [ext_resource type="PackedScene" uid="uid://bevhbu3tte8mj" path="res://scenes/inside_store_scene/shelf_pizza.tscn" id="21_cqq2c"]
 [ext_resource type="PackedScene" uid="uid://dujo8h0ygcpd0" path="res://scenes/inside_store_scene/shelf_ice.tscn" id="22_io8yd"]
 [ext_resource type="PackedScene" uid="uid://i0243iw06l10" path="res://scenes/inside_store_scene/cashier_desk.tscn" id="23_lmnb8"]
+[ext_resource type="PackedScene" uid="uid://b4my1nukb54ly" path="res://scenes/cutscene/cs_mgr.tscn" id="24_qn42m"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
@@ -1433,6 +1434,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.0422, 0.5160905, 64.564384
 
 [node name="CashierDesk" parent="." unique_id=1946154512 instance=ExtResource("23_lmnb8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.269938, 0.56941295, -15.573504)
+
+[node name="CutsceneManager" parent="." unique_id=932587387 node_paths=PackedStringArray("player") instance=ExtResource("24_qn42m")]
+player = NodePath("../Player2")
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

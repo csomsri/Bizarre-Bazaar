@@ -21,7 +21,7 @@ func run(commands:Array[CutsceneCommand], ctx:CutsceneContext)->void:
 	
 func _unhandled_input(event: InputEvent) -> void:
 	# TODO: no input set, yet
-	if event.is_action_pressed("skip"):
+	if event.is_action_pressed("skip_cutscene"):
 		skipping = true
 
 	

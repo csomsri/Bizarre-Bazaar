@@ -44,7 +44,10 @@ func _ready() -> void:
 	
 	
 func _process(delta: float) -> void:
-	pass	
+	if Input.is_action_just_pressed("debug_end_shift"):
+		print("debugging")
+		end_shift()
+
 	
 func start_shift(shift_no:int) -> void:
 	clock_running = true
@@ -60,7 +63,6 @@ func end_shift() -> void:
 	clock_running = false
 	if shift_current != SHIFT_TOTAL:
 		shift_ended.emit(shift_current)
-
 		return
 	
 	# end of the game 
