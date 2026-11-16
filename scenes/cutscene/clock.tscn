@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b4mcfjpgqasmp"]
+
+[ext_resource type="Script" uid="uid://brts3v5qlmbx6" path="res://scripts/cutscene/clock.gd" id="1_g064j"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_33h1p"]
+size = Vector3(0.5, 1, 1)
+
+[node name="Clock" type="Node3D" unique_id=677886854]
+script = ExtResource("1_g064j")
+
+[node name="Body" type="MeshInstance3D" parent="." unique_id=1321171182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.4, 0.15)
+mesh = SubResource("BoxMesh_33h1p")
+
+[node name="Display" type="Label3D" parent="." unique_id=1607431232]
+transform = Transform3D(-0.033435237, 0, -0.9994409, 0, 1, 0, 0.9994409, 0, -0.033435237, 0.2370007, 0.43117547, 0.14806831)
+text = "10:00 PM"

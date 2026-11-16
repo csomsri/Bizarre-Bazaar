@@ -51,14 +51,14 @@ signal game_lost()
 
 
 func _ready() -> void:
-	#time_changed.connect(func(_h, _m): print(get_time_str()))   # TEMP: test the clock
+	time_changed.connect(func(_h, _m): print(get_time_str()))   # TEMP: test the clock
 	start_shift(1)
 	
 	
 func _process(delta: float) -> void:
-	#if Input.is_action_just_pressed("debug_end_shift"):
-		#print("debugging")
-		#end_shift()
+	if Input.is_action_just_pressed("debug_end_shift"):
+		print("debugging")
+		end_shift()
 		
 	if not clock_running:
 		return

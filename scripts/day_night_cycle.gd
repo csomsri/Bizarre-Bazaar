@@ -14,7 +14,6 @@ extends Node3D
 @export var sunset_sky:Environment 
 @export var day_sky: Environment 
 
-@export_group("Sun")
 @export var day_energy :=1.0 # brigtness (max) at noon
 @export var sunrise_color := Color(1.0, 0.6, 0.35)
 @export var noon_color := Color(1.0, 0.97, 0.9)
@@ -26,16 +25,18 @@ func _ready() -> void:
 	if not enabled:
 		return
 	ShiftMgr.time_changed.connect(_on_time_changed)
-	
+	_on_time_changed(ShiftMgr.get_hour(), ShiftMgr.get_minute()) 
 	
 func _on_time_changed(hour:int, minute:int) -> void:
+	set_time_of_day(hour + minute / 60.0)
+
+	
+func set_time_of_day(hour) -> void:
 	if not enabled:
 		return
-		
-	var hour_float = hour + minute / 60.0
-	_update_sun(hour_float)
-	_update_sky(hour_float)
-	
+	_update_sun(hour)
+	_update_sky(hour)
+
 # one full sun rotation per 24, update angle, brightness and color according to the time
 func _update_sun(hour: float) -> void:
 	# rotate sun from one to another hoizon

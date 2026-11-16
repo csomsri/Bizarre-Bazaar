@@ -8,3 +8,5 @@ extends RefCounted
 
 var player # TODO: player should have a class 
 var host:Node
+var camera:Camera3D
+var camera_shots:Dictionary 

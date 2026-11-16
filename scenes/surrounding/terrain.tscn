@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://dujo8h0ygcpd0" path="res://scenes/inside_store_scene/shelf_ice.tscn" id="22_io8yd"]
 [ext_resource type="PackedScene" uid="uid://i0243iw06l10" path="res://scenes/inside_store_scene/cashier_desk.tscn" id="23_lmnb8"]
 [ext_resource type="PackedScene" uid="uid://b4my1nukb54ly" path="res://scenes/cutscene/cs_mgr.tscn" id="24_qn42m"]
+[ext_resource type="PackedScene" uid="uid://b4mcfjpgqasmp" path="res://scenes/cutscene/clock.tscn" id="27_33h1p"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(0.20392157, 0.54901963, 0.19215687, 1)
@@ -1444,8 +1445,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.0422, 0.5160905, 64.564384
 [node name="CashierDesk" parent="." unique_id=1946154512 instance=ExtResource("23_lmnb8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.269938, 0.56941295, -15.573504)
 
-[node name="CutsceneManager" parent="." unique_id=932587387 node_paths=PackedStringArray("player") instance=ExtResource("24_qn42m")]
+[node name="CutsceneManager" parent="." unique_id=932587387 node_paths=PackedStringArray("player", "clock_shot") instance=ExtResource("24_qn42m")]
 player = NodePath("../Player2")
+clock_shot = NodePath("../ClockShot")
+
+[node name="Clock" parent="." unique_id=677886854 instance=ExtResource("27_33h1p")]
+transform = Transform3D(0.02409853, 0, 0.9997097, 0, 1, 0, -0.9997097, 0, 0.02409853, -6.1731014, 2.2179248, -20.470638)
+
+[node name="ClockShot" type="Marker3D" parent="." unique_id=1486215182]
+transform = Transform3D(0.9997216, 0.005088851, -0.02304108, 0, 0.97646797, 0.21566263, 0.02359635, -0.21560258, 0.9761961, -5.9775515, 2.582524, -18.89964)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

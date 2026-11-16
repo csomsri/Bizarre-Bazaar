@@ -3,7 +3,8 @@ extends CharacterBody3D
 @export var mouse_sensitivity = 0.004
 
 @onready var camera_move: Camera3D = $Camera3D
-@onready var gun_holder: Marker3D = $Casual_2/CharacterArmature/Camera3D/GunHolder
+#@onready var gun_holder: Marker3D = $Casual_2/CharacterArmature/Camera3D/GunHolder
+@onready var gun_holder: Marker3D = $Camera3D/Gun # added thi intead above, it was breaking cutscene debug input
 
 @onready var animation_player: AnimationPlayer = $Casual_2/AnimationPlayer
 
