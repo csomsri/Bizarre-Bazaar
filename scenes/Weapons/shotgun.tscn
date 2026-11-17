@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cclalb517jeby"]
 
 [ext_resource type="PackedScene" uid="uid://880jxkehkti8" path="res://assets/items/LP_WeaponsPack (GODOT)/Wep_Shotgun.fbx" id="1_dvomb"]
-[ext_resource type="Script" uid="uid://nym6ab5aprr4" path="res://scripts/weapons_script/m_16_rifle.gd" id="1_e5mxh"]
+[ext_resource type="Script" uid="uid://cojemdu4yi8r2" path="res://scripts/Weapons Script/shotgun.gd" id="1_e5mxh"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_e5mxh"]
 size = Vector3(0.17651367, 1.0262146, 2.8636427)

@@ -20,7 +20,7 @@ var current_interactable: InteractableObject = null
 
 var equipped_gun: RigidBody3D = null
 
-const SPEED = 20.0
+const SPEED = 50.0
 const JUMP_VELOCITY = 4.5
 
 func _ready() -> void:
@@ -81,6 +81,26 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
+
+	if equipped_gun:
+		var try_fire = false
+		
+		if equipped_gun.automatic:
+			try_fire = Input.is_action_pressed("shoot")
+		else:
+			try_fire = Input.is_action_just_pressed("shoot")
+			
+		if try_fire:
+			var exclude: Array[RID] = [get_rid()]
+			equipped_gun.shoot(camera_move, exclude)
+		
+		if Input.is_action_just_pressed("reload"):
+			equipped_gun.reload()
+		
+
+
+
+
 	move_and_slide()
 	
 	#if Engine.get_physics_frames() % 60 == 0:
@@ -95,6 +115,8 @@ func set_controls_enabled( enabled: bool) ->void:
 	
 func set_body_visible( can_see: bool) -> void:
 	body_mesh.visible = can_see
+	if equipped_gun:
+		equipped_gun.visible = can_see
 	
 
 # UI/Interaction
