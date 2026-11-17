@@ -20,6 +20,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.81852, 0, 0)
 
 [node name="horizontalRow6" parent="." unique_id=1257259825 instance=ExtResource("1_1h08b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.350613, 0, 0)
-
-[node name="horizontalRow7" parent="." unique_id=499923951 instance=ExtResource("1_1h08b")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.03753, 0, 0)

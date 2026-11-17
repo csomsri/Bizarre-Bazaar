@@ -4,23 +4,8 @@
 
 [node name="horizontalRow" type="Node3D" unique_id=1841379669]
 
-[node name="row1" parent="." unique_id=2006240251 instance=ExtResource("1_rhkgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.5703583, -0.17435056, 29.897938)
-
-[node name="row2" parent="." unique_id=1701366498 instance=ExtResource("1_rhkgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.5703583, -0.17435056, 33.461796)
-
-[node name="row3" parent="." unique_id=59990353 instance=ExtResource("1_rhkgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.5760291, -0.17435056, 26.313705)
-
 [node name="row4" parent="." unique_id=2105124876 instance=ExtResource("1_rhkgk")]
 transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -0.321373, -0.17435056, 26.583872)
-
-[node name="row5" parent="." unique_id=2026751074 instance=ExtResource("1_rhkgk")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.575842, -0.17435056, 22.731325)
-
-[node name="row6" parent="." unique_id=2094218243 instance=ExtResource("1_rhkgk")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.31390405, -0.17435032, 23.012386)
 
 [node name="row7" parent="." unique_id=2130452099 instance=ExtResource("1_rhkgk")]
 transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -0.321373, -0.17435056, 30.197222)

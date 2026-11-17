@@ -5,12 +5,15 @@ extends SpotLight3D
 @export var use_lerp: bool = true
 @export var lerp_speed: float = 15.0
 @onready var sound = %ChristmasTreeBulb
+@onready var christmas_jingle = %ChristmasTreeJingle
 
 var target_energy: float
 
 func _ready() -> void:
 	target_energy = light_energy
 	sound.play()
+	christmas_jingle.play()
+	
 
 func _process(delta: float) -> void:
 	if use_lerp:
