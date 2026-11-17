@@ -5,6 +5,18 @@
 [sub_resource type="BoxMesh" id="BoxMesh_33h1p"]
 size = Vector3(0.5, 1, 1)
 
+[sub_resource type="BoxMesh" id="BoxMesh_7wxsy"]
+size = Vector3(0.1, 0.15, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ue0g"]
+albedo_color = Color(0.34901962, 1, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_fbwfp"]
+size = Vector3(0.1, 0.15, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mf86"]
+albedo_color = Color(1, 0.3529412, 1, 1)
+
 [node name="Clock" type="Node3D" unique_id=677886854]
 script = ExtResource("1_g064j")
 
@@ -15,3 +27,27 @@ mesh = SubResource("BoxMesh_33h1p")
 [node name="Display" type="Label3D" parent="." unique_id=1607431232]
 transform = Transform3D(-0.033435237, 0, -0.9994409, 0, 1, 0, 0.9994409, 0, -0.033435237, 0.2370007, 0.43117547, 0.14806831)
 text = "10:00 PM"
+
+[node name="OutButton" type="MeshInstance3D" parent="." unique_id=1351198547]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19733895, 0.10428347, 0.36045146)
+mesh = SubResource("BoxMesh_7wxsy")
+surface_material_override/0 = SubResource("StandardMaterial3D_3ue0g")
+
+[node name="ClockOUT" type="Label3D" parent="OutButton" unique_id=874270768]
+transform = Transform3D(0.033671822, 0, -1.0878218, 0, 0.60273063, 0, 0.6344946, 0, 0.057729337, -0.05346714, 0.006387621, -0.002836883)
+text = "Out"
+font_size = 18
+
+[node name="InButton" type="MeshInstance3D" parent="." unique_id=2133735919]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19556499, 0.10215062, -0.05644551)
+mesh = SubResource("BoxMesh_fbwfp")
+surface_material_override/0 = SubResource("StandardMaterial3D_3mf86")
+
+[node name="ClockIN" type="Label3D" parent="InButton" unique_id=316644781]
+transform = Transform3D(0.03442061, 0, -1.2350223, 0, 0.7301384, 0, 0.8712398, 0, 0.04879279, -0.05311984, -0.0035866946, 7.893145e-05)
+text = "In"
+font_size = 18
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=354644214]
+transform = Transform3D(-0.1115663, -0.993757, 0, 0.993757, -0.1115663, 0, 0, 0, 1, -0.16844809, 1.2562276, 0.10879487)
+light_energy = 0.448

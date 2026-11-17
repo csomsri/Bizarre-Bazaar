@@ -7,13 +7,16 @@ extends Node3D
 
 var runner:CutsceneRunner
 var camera:Camera3D
+var cutscene_ui:CanvasLayer
 
 @export var player: CharacterBody3D 
 @export var clock_shot:Marker3D
+@export var clock: WallClock
 
 func _ready() -> void:
 	runner = $CutsceneRunner
 	camera = $CutsceneCamera
+	cutscene_ui = $CutsceneUI
 	ShiftMgr.shift_ended.connect(_on_shift_ended)
 	
 	
@@ -24,6 +27,8 @@ func _on_shift_ended(shift_no:int) -> void:
 	ctx.host = self
 	ctx.camera = camera
 	ctx.player = player
+	ctx.cutscene_ui = cutscene_ui
+	ctx.clock = clock
 	ctx.camera_shots ={
 		"ClockShot":clock_shot,
 	}
@@ -31,11 +36,14 @@ func _on_shift_ended(shift_no:int) -> void:
 	# set the cutscene commands
 	var commands:Array[CutsceneCommand]= [
 		LockPlayerCommand.new(true),
+		CinemaBarsCommand.new(true),
 		MoveCameraCommand.new("ClockShot"),
+		ClockPressCommand.new("OUT"),
 		StubCommand.new("receipt"),
 		StubCommand.new("timelapse", 2.0),
 		StubCommand.new("title"),
-		StubCommand.new("clock in"),
+		ClockPressCommand.new("IN"),
+		CinemaBarsCommand.new(false),
 		LockPlayerCommand.new(false),
 	]
 	

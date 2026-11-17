@@ -1445,9 +1445,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.0422, 0.5160905, 64.564384
 [node name="CashierDesk" parent="." unique_id=1946154512 instance=ExtResource("23_lmnb8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.269938, 0.56941295, -15.573504)
 
-[node name="CutsceneManager" parent="." unique_id=932587387 node_paths=PackedStringArray("player", "clock_shot") instance=ExtResource("24_qn42m")]
+[node name="CutsceneManager" parent="." unique_id=932587387 node_paths=PackedStringArray("player", "clock_shot", "clock") instance=ExtResource("24_qn42m")]
 player = NodePath("../Player2")
 clock_shot = NodePath("../ClockShot")
+clock = NodePath("../Clock")
 
 [node name="Clock" parent="." unique_id=677886854 instance=ExtResource("27_33h1p")]
 transform = Transform3D(0.02409853, 0, 0.9997097, 0, 1, 0, -0.9997097, 0, 0.02409853, -6.1731014, 2.2179248, -20.470638)

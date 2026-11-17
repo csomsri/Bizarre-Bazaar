@@ -8,16 +8,16 @@ data = PackedVector3Array(-0.6818, 1, -1, -1, 1, 1, -1, 1, -1, -0.6818, 1, -1, -
 
 [node name="CashierDesk" unique_id=1946154512 instance=ExtResource("1_6kdvx")]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Cube" parent_id_path=PackedInt32Array(1979130291) index="0" unique_id=183930527]
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube" parent_id_path=PackedInt32Array(1478311560) index="0" unique_id=183930527]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cube/StaticBody3D" index="0" unique_id=1498364769]
 shape = SubResource("ConcavePolygonShape3D_6kdvx")
 
-[node name="ShelfBasic" parent="Cube" parent_id_path=PackedInt32Array(1979130291) index="1" unique_id=480228511 instance=ExtResource("2_22ej8")]
+[node name="ShelfBasic" parent="Cube" parent_id_path=PackedInt32Array(1478311560) index="1" unique_id=480228511 instance=ExtResource("2_22ej8")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 57.862675, -0.16112405, 22.158)
 
-[node name="ShelfBasic3" parent="Cube" parent_id_path=PackedInt32Array(1979130291) index="2" unique_id=411676684 instance=ExtResource("2_22ej8")]
+[node name="ShelfBasic3" parent="Cube" parent_id_path=PackedInt32Array(1478311560) index="2" unique_id=411676684 instance=ExtResource("2_22ej8")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 54.29308, -0.16112405, 22.158)
 
-[node name="ShelfBasic2" parent="Cube" parent_id_path=PackedInt32Array(1979130291) index="3" unique_id=952291371 instance=ExtResource("2_22ej8")]
+[node name="ShelfBasic2" parent="Cube" parent_id_path=PackedInt32Array(1478311560) index="3" unique_id=952291371 instance=ExtResource("2_22ej8")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 61.42451, -0.16112405, 22.158)

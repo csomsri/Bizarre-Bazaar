@@ -12,3 +12,25 @@ script = ExtResource("2_euo0m")
 metadata/_custom_type_script = "uid://b1myeapdc68dh"
 
 [node name="CutsceneCamera" type="Camera3D" parent="." unique_id=1392486156]
+
+[node name="CutsceneUI" type="CanvasLayer" parent="." unique_id=2055917896]
+layer = 10
+
+[node name="TopBar" type="ColorRect" parent="CutsceneUI" unique_id=653699056]
+custom_minimum_size = Vector2(0, 80)
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = -80.0
+grow_horizontal = 2
+color = Color(0, 0, 0, 1)
+
+[node name="BottomBar" type="ColorRect" parent="CutsceneUI" unique_id=58737080]
+custom_minimum_size = Vector2(0, 80)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 0
+color = Color(0, 0, 0, 1)
