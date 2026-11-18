@@ -3,6 +3,11 @@
 [ext_resource type="Script" uid="uid://5twlpgmvv60l" path="res://scripts/cutscene/cs_mgr.gd" id="1_qhs6b"]
 [ext_resource type="Script" uid="uid://b1myeapdc68dh" path="res://scripts/cutscene/cs_runner.gd" id="2_euo0m"]
 
+[sub_resource type="LabelSettings" id="LabelSettings_fbwfp"]
+font_size = 80
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
 [node name="CutsceneManager" type="Node3D" unique_id=932587387]
 script = ExtResource("1_qhs6b")
 metadata/_custom_type_script = "uid://5twlpgmvv60l"
@@ -15,6 +20,16 @@ metadata/_custom_type_script = "uid://b1myeapdc68dh"
 
 [node name="CutsceneUI" type="CanvasLayer" parent="." unique_id=2055917896]
 layer = 10
+
+[node name="Fade" type="ColorRect" parent="CutsceneUI" unique_id=755157564]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
 
 [node name="TopBar" type="ColorRect" parent="CutsceneUI" unique_id=653699056]
 custom_minimum_size = Vector2(0, 80)
@@ -34,3 +49,15 @@ offset_bottom = 80.0
 grow_horizontal = 2
 grow_vertical = 0
 color = Color(0, 0, 0, 1)
+
+[node name="TitleCard" type="Label" parent="CutsceneUI" unique_id=1368880588]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "NIGHT 2"
+label_settings = SubResource("LabelSettings_fbwfp")
+horizontal_alignment = 1
+vertical_alignment = 1

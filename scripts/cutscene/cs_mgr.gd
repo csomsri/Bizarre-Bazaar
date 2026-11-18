@@ -42,10 +42,15 @@ func _on_shift_ended(shift_no:int) -> void:
 		MoveCameraCommand.new("ClockShot"),
 		ClockPressCommand.new("OUT"),
 		PrintReceiptCommand.new(),
+		FadeCommand.new(true),
+		FadeCommand.new(false),
 		StubCommand.new("timelapse", 2.0),
-		StubCommand.new("title"),
+		FadeCommand.new(true),
+		TitleCommand.new(3),
+		FadeCommand.new(false),
 		ClockPressCommand.new("IN"),
 		CinemaBarsCommand.new(false),
+		MoveCameraCommand.new("Player"),
 		LockPlayerCommand.new(false),
 	]
 	
