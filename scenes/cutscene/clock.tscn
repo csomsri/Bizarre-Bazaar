@@ -17,6 +17,13 @@ size = Vector3(0.1, 0.15, 0.2)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mf86"]
 albedo_color = Color(1, 0.3529412, 1, 1)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7wxsy"]
+albedo_color = Color(0.96862745, 0.95686275, 0.9254902, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3mf86"]
+material = SubResource("StandardMaterial3D_7wxsy")
+size = Vector3(0.001, 0.7, 0.7)
+
 [node name="Clock" type="Node3D" unique_id=677886854]
 script = ExtResource("1_g064j")
 
@@ -51,3 +58,23 @@ font_size = 18
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=354644214]
 transform = Transform3D(-0.1115663, -0.993757, 0, 0.993757, -0.1115663, 0, 0, 0, 1, -0.16844809, 1.2562276, 0.10879487)
 light_energy = 0.448
+
+[node name="Receipt" type="Node3D" parent="." unique_id=1537110536]
+transform = Transform3D(0.9999726, -7.92315e-05, -0.0074010077, 1.954965e-05, 0.99996746, -0.008064129, 0.0074014063, 0.008063764, 0.9999401, 0.67206657, 0.17352027, 0)
+
+[node name="Paper" type="MeshInstance3D" parent="Receipt" unique_id=388011988]
+transform = Transform3D(0.7071068, 0.7071068, 0, -0.70710677, 0.70710677, 9.313226e-10, 8.731149e-11, -9.313226e-10, 1, -0.18348342, 3.8435246e-08, 0.13400358)
+mesh = SubResource("BoxMesh_3mf86")
+
+[node name="Text" type="Label3D" parent="Receipt" unique_id=522612973]
+transform = Transform3D(6.0535967e-09, 0.44781286, -0.7062076, 2.3283064e-09, 0.44781312, 0.70620704, 0.27377763, -6.0535967e-09, 7.887138e-09, -0.42767692, -0.24218294, -0.037206415)
+text = "BIZARRE BAZAAR
+NIGHT 1 - SHIFT REPORT
+Balance: $42
+Thieves caught: 10
+Robbers defeated: 5
+Boss trust: 70"
+font_size = 24
+outline_size = 14
+horizontal_alignment = 0
+vertical_alignment = 2

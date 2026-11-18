@@ -10,10 +10,12 @@ extends Node3D
 
 @export var enabled := false
 
+# envs for diff part of the day
 @export var night_sky: Environment
 @export var sunset_sky:Environment 
 @export var day_sky: Environment 
 
+# sky color for diff part of the day
 @export var day_energy :=1.0 # brigtness (max) at noon
 @export var sunrise_color := Color(1.0, 0.6, 0.35)
 @export var noon_color := Color(1.0, 0.97, 0.9)

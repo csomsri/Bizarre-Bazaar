@@ -120,3 +120,6 @@ func get_time_str() -> String:
 	else:
 		period = "PM"
 	return "%d:%02d %s" % [hour_12,get_minute(),period]
+
+func get_player_stats() -> Dictionary:
+	return player_stats.duplicate()

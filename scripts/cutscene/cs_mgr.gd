@@ -29,6 +29,8 @@ func _on_shift_ended(shift_no:int) -> void:
 	ctx.player = player
 	ctx.cutscene_ui = cutscene_ui
 	ctx.clock = clock
+	ctx.shift = shift_no
+	ctx.stats = ShiftMgr.get_player_stats()
 	ctx.camera_shots ={
 		"ClockShot":clock_shot,
 	}
@@ -39,7 +41,7 @@ func _on_shift_ended(shift_no:int) -> void:
 		CinemaBarsCommand.new(true),
 		MoveCameraCommand.new("ClockShot"),
 		ClockPressCommand.new("OUT"),
-		StubCommand.new("receipt"),
+		PrintReceiptCommand.new(),
 		StubCommand.new("timelapse", 2.0),
 		StubCommand.new("title"),
 		ClockPressCommand.new("IN"),
