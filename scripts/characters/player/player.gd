@@ -13,12 +13,15 @@ extends CharacterBody3D
 @onready var view_camera: Camera3D = $Camera3D
 var controls_enabled := true
 
+# UI/Interaction: Interaction Ray
+@onready var interaction_ray: RayCast3D = $Camera3D/InteractionRay
+var current_interactable: InteractableObject = null
 
 
 
 var equipped_gun: RigidBody3D = null
 
-const SPEED = 20.0
+const SPEED = 50.0
 const JUMP_VELOCITY = 4.5
 
 func _ready() -> void:
@@ -47,6 +50,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 
 func _physics_process(delta: float) -> void:
+	# UI/Interaction: Checking for if object is interactable
+	check_for_interactable()
 	
 	if not controls_enabled:
 		return
@@ -81,6 +86,26 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
+
+	if equipped_gun:
+		var try_fire = false
+		
+		if equipped_gun.automatic:
+			try_fire = Input.is_action_pressed("shoot")
+		else:
+			try_fire = Input.is_action_just_pressed("shoot")
+			
+		if try_fire:
+			var exclude: Array[RID] = [get_rid()]
+			equipped_gun.shoot(camera_move, exclude)
+		
+		if Input.is_action_just_pressed("reload"):
+			equipped_gun.reload()
+		
+
+
+
+
 	move_and_slide()
 	
 	#if Engine.get_physics_frames() % 60 == 0:
@@ -95,3 +120,22 @@ func set_controls_enabled( enabled: bool) ->void:
 	
 func set_body_visible( can_see: bool) -> void:
 	body_mesh.visible = can_see
+	if equipped_gun:
+		equipped_gun.visible = can_see
+	
+
+# UI/Interaction
+# FUNC check_for_interaction: check if object is interactble when player looks at it
+func check_for_interactable() -> void:
+	current_interactable = null
+	
+	if interaction_ray.is_colliding():
+		var collider = interaction_ray.get_collider()
+		var current_node = collider as Node
+		
+		while current_node != null:
+			for child in current_node.get_children():
+				if child is InteractableObject:
+					current_interactable = child
+					return
+			current_node = current_node.get_parent()

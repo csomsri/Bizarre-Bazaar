@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://ccmhox0inw3l6"]
 
+[ext_resource type="Script" uid="uid://cjvdi8lno211g" path="res://scripts/UI/gameplay_hud.gd" id="1_30e7d"]
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_is2hq"]
 content_margin_left = 12.0
 content_margin_top = 12.0
@@ -53,6 +55,7 @@ border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
 
 [node name="GameplayHUD" type="CanvasLayer" unique_id=1954678161]
 follow_viewport_enabled = true
+script = ExtResource("1_30e7d")
 
 [node name="HUDRoot" type="Control" parent="." unique_id=835944696]
 layout_mode = 3
@@ -167,3 +170,12 @@ alignment = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "THIEVES CAUGHT: 0"
+
+[node name="InteractionPrompt" type="Label" parent="HUDRoot" unique_id=692327874]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "E - Open Dumpster"
+horizontal_alignment = 1
+vertical_alignment = 1

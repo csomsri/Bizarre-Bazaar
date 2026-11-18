@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dqxnswc6u7pby"]
+
+[ext_resource type="PackedScene" uid="uid://w5p6cwel3rw3" path="res://assets/inside_store/camping_supplies/GLB/SM_Radio.glb" id="1_hb1kw"]
+
+[node name="row_of_radios" type="Node3D" unique_id=1816219353]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="SM_Radio6" parent="." unique_id=640108948 instance=ExtResource("1_hb1kw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2466106, 0, 0)
+
+[node name="SM_Radio4" parent="." unique_id=1865031179 instance=ExtResource("1_hb1kw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8249264, 0, 0)
+
+[node name="SM_Radio2" parent="." unique_id=1074418985 instance=ExtResource("1_hb1kw")]
+
+[node name="SM_Radio3" parent="." unique_id=981991998 instance=ExtResource("1_hb1kw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3841591, 0, 0)
+
+[node name="SM_Radio5" parent="." unique_id=523516392 instance=ExtResource("1_hb1kw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2466106, 0, 0)

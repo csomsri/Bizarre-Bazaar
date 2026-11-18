@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://dhpykxlyuw2eg"]
+
+[ext_resource type="PackedScene" uid="uid://crdeaps43kg5b" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/couch_pillows.gltf" id="1_bc6u1"]
+[ext_resource type="PackedScene" uid="uid://lyh7gbaqr51x" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/cabinet_small_decorated.gltf" id="2_u6ylc"]
+[ext_resource type="PackedScene" uid="uid://1cv5gmhkbrfb" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/cabinet_medium_decorated.gltf" id="3_2d7fx"]
+[ext_resource type="PackedScene" uid="uid://s3xk7vvq7bgi" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_double_A.gltf" id="4_d6owa"]
+[ext_resource type="PackedScene" uid="uid://dhdj73spb4ewk" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_double_B.gltf" id="5_7py4q"]
+[ext_resource type="PackedScene" uid="uid://cur0avlg8owec" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_single_B.gltf" id="6_pkj3q"]
+[ext_resource type="PackedScene" uid="uid://bkv45swykwl6o" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/bed_single_A.gltf" id="7_5fst0"]
+[ext_resource type="PackedScene" uid="uid://dbukxp4ueujkp" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/chair_A_wood.gltf" id="8_nsi81"]
+[ext_resource type="PackedScene" uid="uid://uif1bplsyai3" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/chair_B_wood.gltf" id="9_o6swg"]
+[ext_resource type="PackedScene" uid="uid://db3w60tgo4kaa" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/chair_stool.gltf" id="10_t38x4"]
+
+[node name="furniture_area" type="Node3D" unique_id=1898661078]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="couch_pillows3" parent="." unique_id=356054578 instance=ExtResource("1_bc6u1")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 2.1887932, 0.18230195, -14.828819)
+
+[node name="couch_pillows2" parent="." unique_id=1869493327 instance=ExtResource("1_bc6u1")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -1.8626099, 0.18230195, -14.828819)
+
+[node name="cabinet_small_decorated2" parent="." unique_id=1357651088 instance=ExtResource("2_u6ylc")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -5.381668, 0.18230197, -6.599369)
+
+[node name="cabinet_medium_decorated2" parent="." unique_id=2079988661 instance=ExtResource("3_2d7fx")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -4.901451, 0.18230197, -5.3672485)
+
+[node name="bed_double_A2" parent="." unique_id=7835877 instance=ExtResource("4_d6owa")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 2.0848618, 0.18230148, -8.227367)
+
+[node name="bed_double_B2" parent="." unique_id=765514138 instance=ExtResource("5_7py4q")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 2.0369606, 0.18230195, -4.255623)
+
+[node name="bed_single_B2" parent="." unique_id=370856565 instance=ExtResource("6_pkj3q")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, -1.2612076, 0.18230195, -4.2135544)
+
+[node name="bed_single_A2" parent="." unique_id=1354715234 instance=ExtResource("7_5fst0")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.2103653, 0.18230148, -8.329773)
+
+[node name="chair_A_wood2" parent="." unique_id=885377798 instance=ExtResource("8_nsi81")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.714264, 0.18230149, -3.9834518)
+
+[node name="chair_B_wood2" parent="." unique_id=1416621046 instance=ExtResource("9_o6swg")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.5759544, 0.18230197, -6.5809402)
+
+[node name="chair_stool2" parent="." unique_id=928357272 instance=ExtResource("10_t38x4")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.360203, 0.18230197, -6.4867363)

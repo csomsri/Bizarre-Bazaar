@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://bxc82ahjwau1j"]
+
+[ext_resource type="PackedScene" uid="uid://bevhbu3tte8mj" path="res://scenes/inside_store_scene/shelf_pizza.tscn" id="1_y1w61"]
+[ext_resource type="PackedScene" uid="uid://c8f2ee0tjr13o" path="res://scenes/inside_store_scene/produce_center.tscn" id="2_qh03s"]
+[ext_resource type="PackedScene" uid="uid://kbgo6x75rrf5" path="res://scenes/inside_store_scene/fridge.tscn" id="3_2j6sm"]
+[ext_resource type="PackedScene" uid="uid://dujo8h0ygcpd0" path="res://scenes/inside_store_scene/shelf_ice.tscn" id="4_n8g82"]
+
+[node name="produce_rows" type="Node3D" unique_id=1065047786]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="ShelfPizza5" parent="." unique_id=1751323588 instance=ExtResource("1_y1w61")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 17.832233, 0.12588239, 64.75834)
+
+[node name="ShelfPizza6" parent="." unique_id=1108128201 instance=ExtResource("1_y1w61")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 12.438671, 0.12588239, 64.75834)
+
+[node name="ShelfPizza9" parent="." unique_id=1261628438 instance=ExtResource("1_y1w61")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 28.610626, 0.12588239, 64.75834)
+
+[node name="ProduceCenter" parent="." unique_id=1237992571 instance=ExtResource("2_qh03s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.631805, 0, 21.98089)
+
+[node name="ProduceCenter2" parent="." unique_id=838435335 instance=ExtResource("2_qh03s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.412727, 0, 21.980892)
+
+[node name="ShelfPizza10" parent="." unique_id=184906330 instance=ExtResource("1_y1w61")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.217064, 0.12588239, 64.75834)
+
+[node name="ShelfPizza7" parent="." unique_id=216506456 instance=ExtResource("1_y1w61")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.0556602, 0.12588239, 64.75834)
+
+[node name="ShelfPizza8" parent="." unique_id=202812741 instance=ExtResource("1_y1w61")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.6620979, 0.12588239, 64.75834)
+
+[node name="Fridge" parent="." unique_id=1416156660 instance=ExtResource("3_2j6sm")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 31.424305, 0, 65.920044)
+
+[node name="Fridge2" parent="." unique_id=1047529806 instance=ExtResource("3_2j6sm")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 34.47632, 0, 65.920044)
+
+[node name="Fridge3" parent="." unique_id=902669897 instance=ExtResource("3_2j6sm")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 37.58453, 0, 65.920044)
+
+[node name="Fridge4" parent="." unique_id=1745426868 instance=ExtResource("3_2j6sm")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 40.636543, 0, 65.920044)
+
+[node name="ShelfIce" parent="." unique_id=802588534 instance=ExtResource("4_n8g82")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.081627, 0.5326581, 64.564384)
+
+[node name="ShelfIce2" parent="." unique_id=1486126943 instance=ExtResource("4_n8g82")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.0422, 0.5160905, 64.564384)

@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://dilukwdoniv3n"]
+
+[ext_resource type="PackedScene" uid="uid://dtbgp5y1iplbs" path="res://assets/inside_store/camping_supplies/GLB/SM_Campfire_Tripod.glb" id="1_csjqr"]
+[ext_resource type="PackedScene" uid="uid://cnkaouamyyt3p" path="res://assets/inside_store/camping_supplies/GLB/SM_Binoculars.glb" id="2_kxyq7"]
+[ext_resource type="PackedScene" uid="uid://kxh54doth0hl" path="res://assets/inside_store/camping_supplies/GLB/SM_Pickaxe.glb" id="3_6u3w5"]
+[ext_resource type="PackedScene" uid="uid://14xdt3xmwaxl" path="res://assets/inside_store/camping_supplies/GLB/SM_Folding_Chair.glb" id="4_vjucb"]
+[ext_resource type="PackedScene" uid="uid://cae0cqjaswpt6" path="res://assets/inside_store/camping_supplies/GLB/SM_Fishing_Rod.glb" id="5_0fqnh"]
+[ext_resource type="PackedScene" uid="uid://iriijl3lyv18" path="res://assets/inside_store/camping_supplies/GLB/SM_Firewood_Stack.glb" id="6_8s7jx"]
+[ext_resource type="PackedScene" uid="uid://bx48shxdnld7f" path="res://assets/inside_store/camping_supplies/GLB/SM_Cooler_Box.glb" id="7_gb43w"]
+[ext_resource type="PackedScene" uid="uid://cqd0iehgg307o" path="res://assets/inside_store/camping_supplies/GLB/SM_Cooking_Pot.glb" id="8_r0rcj"]
+[ext_resource type="PackedScene" uid="uid://02yxhewwt6a1" path="res://assets/inside_store/camping_supplies/GLB/SM_Camp_Table.glb" id="9_pd6e5"]
+[ext_resource type="PackedScene" uid="uid://5mrjk0cdq75a" path="res://assets/inside_store/camping_supplies/GLB/SM_Tent_Orange.glb" id="10_wsi8o"]
+[ext_resource type="PackedScene" uid="uid://cl8b2hfqyd0fb" path="res://assets/inside_store/camping_supplies/GLB/SM_Tent_Dome.glb" id="11_i4ttb"]
+[ext_resource type="PackedScene" uid="uid://c7hpfxla64ebo" path="res://assets/inside_store/camping_supplies/GLB/SM_SleepingBag_Open.glb" id="12_lvj0i"]
+[ext_resource type="PackedScene" uid="uid://djknf5xqh7la6" path="res://assets/inside_store/camping_supplies/GLB/SM_Backpack.glb" id="13_6jsbf"]
+[ext_resource type="PackedScene" uid="uid://bwk0y70785ktl" path="res://assets/inside_store/camping_supplies/GLB/SM_Arrow.glb" id="14_qgqum"]
+[ext_resource type="PackedScene" uid="uid://cr6ei5c6ghftv" path="res://assets/inside_store/camping_supplies/GLB/SM_Barrel.glb" id="15_37cwg"]
+[ext_resource type="PackedScene" uid="uid://c6pmovafv2cut" path="res://assets/inside_store/camping_supplies/GLB/SM_Tarp_Shelter.glb" id="16_urvce"]
+[ext_resource type="PackedScene" uid="uid://b1yxggeyt8ft7" path="res://assets/inside_store/camping_supplies/GLB/SM_Bow.glb" id="17_lvkum"]
+[ext_resource type="PackedScene" uid="uid://bycvleqjn4d65" path="res://assets/inside_store/camping_supplies/GLB/SM_Log_Bench.glb" id="18_ap3j7"]
+
+[node name="camping_area" type="Node3D" unique_id=199306502]
+visible = false
+
+[node name="SM_Campfire_Tripod2" parent="." unique_id=1529022010 instance=ExtResource("1_csjqr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.34968, 0.0050005913, 32.60163)
+
+[node name="SM_Binoculars2" parent="." unique_id=1684375758 instance=ExtResource("2_kxyq7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.78901, 0.42290843, 35.349102)
+
+[node name="SM_Pickaxe2" parent="." unique_id=1378416004 instance=ExtResource("3_6u3w5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.488655, 1.2958399, 37.641716)
+
+[node name="SM_Folding_Chair2" parent="." unique_id=1368832294 instance=ExtResource("4_vjucb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 56.686245, 0.0050005913, 35.01962)
+
+[node name="SM_Fishing_Rod2" parent="." unique_id=830639024 instance=ExtResource("5_0fqnh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.08133, 1.0257945, 37.64845)
+
+[node name="SM_Firewood_Stack2" parent="." unique_id=1632452939 instance=ExtResource("6_8s7jx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.983665, 0.0050001144, 37.321022)
+
+[node name="SM_Cooler_Box2" parent="." unique_id=34080217 instance=ExtResource("7_gb43w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.987293, 0.0049996376, 33.931)
+
+[node name="SM_Cooking_Pot2" parent="." unique_id=560216660 instance=ExtResource("8_r0rcj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.252964, 0.0050001144, 33.887413)
+
+[node name="SM_Camp_Table2" parent="." unique_id=1791479837 instance=ExtResource("9_pd6e5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.63543, 0.0050001144, 34.214252)
+
+[node name="SM_Tent_Orange2" parent="." unique_id=861517070 instance=ExtResource("10_wsi8o")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 58.783787, 0.004999995, 35.878635)
+
+[node name="SM_Tent_Dome2" parent="." unique_id=364737664 instance=ExtResource("11_i4ttb")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 64.441025, 0.0050001144, 36.293232)
+
+[node name="SM_SleepingBag_Open3" parent="." unique_id=224814490 instance=ExtResource("12_lvj0i")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 60.91021, 0.0050001144, 35.68006)
+
+[node name="SM_Backpack2" parent="." unique_id=1163360643 instance=ExtResource("13_6jsbf")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 64.51944, 1.3657045, 37.538704)
+
+[node name="SM_Arrow2" parent="." unique_id=447856346 instance=ExtResource("14_qgqum")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.374344, 1.2264667, 37.67054)
+
+[node name="SM_Barrel2" parent="." unique_id=2051141090 instance=ExtResource("15_37cwg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.41637, 0.0050005913, 37.3698)
+
+[node name="SM_SleepingBag_Open2" parent="." unique_id=1658049783 instance=ExtResource("12_lvj0i")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 62.195324, 0.0050001144, 35.68006)
+
+[node name="SM_Tarp_Shelter2" parent="." unique_id=602899661 instance=ExtResource("16_urvce")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.606884, 0.0050001144, 35.65869)
+
+[node name="SM_Bow2" parent="SM_Tarp_Shelter2" unique_id=1323211362 instance=ExtResource("17_lvkum")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.224247, 1.0728699, 2.0254288)
+
+[node name="SM_Log_Bench2" parent="." unique_id=808952913 instance=ExtResource("18_ap3j7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.370605, 0.0050001144, 35.354042)

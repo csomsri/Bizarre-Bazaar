@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bt2aec1frokcr"]
+
+[ext_resource type="PackedScene" uid="uid://b4kkgufnwlco4" path="res://scenes/inside_store_scene/shelf_basic.tscn" id="1_rhkgk"]
+
+[node name="horizontalRow" type="Node3D" unique_id=1841379669]
+
+[node name="row4" parent="." unique_id=2105124876 instance=ExtResource("1_rhkgk")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -0.321373, -0.17435056, 26.583872)
+
+[node name="row7" parent="." unique_id=2130452099 instance=ExtResource("1_rhkgk")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -0.321373, -0.17435056, 30.197222)
+
+[node name="row8" parent="." unique_id=631043426 instance=ExtResource("1_rhkgk")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -0.321373, -0.17435056, 33.766968)

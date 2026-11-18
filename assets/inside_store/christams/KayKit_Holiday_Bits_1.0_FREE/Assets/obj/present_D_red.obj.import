@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dk6rxgs23yy0f"
+path="res://.godot/imported/present_D_red.obj-0f692276ebf8d00b176511ad04a6f5db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/present_D_red.obj-0f692276ebf8d00b176511ad04a6f5db.mesh"]
+
+source_file="res://assets/inside_store/christams/KayKit_Holiday_Bits_1.0_FREE/Assets/obj/present_D_red.obj"
+dest_files=["res://.godot/imported/present_D_red.obj-0f692276ebf8d00b176511ad04a6f5db.mesh", "res://.godot/imported/present_D_red.obj-0f692276ebf8d00b176511ad04a6f5db.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

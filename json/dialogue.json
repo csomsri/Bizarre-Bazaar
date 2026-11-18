@@ -1,0 +1,12 @@
+{
+  "start": {
+    "text": "Can I help you?",
+    "audio": "ENTER DIALOGUE",
+    "choices": [
+      {
+        "text": "Did you pay for that?",
+        "next": "confront"
+      }
+    ]
+  }
+}

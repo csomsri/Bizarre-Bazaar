@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://chefy6lm4w8k"]
+
+[ext_resource type="PackedScene" uid="uid://huy0vpe6yk5e" path="res://assets/inside_store/Camera/CameraMount.blend" id="1_s00kd"]
+[ext_resource type="PackedScene" uid="uid://b7vfpg4rhf8tc" path="res://scenes/inside_store_scene/Camera/camera_body.tscn" id="2_38q1s"]
+
+[node name="CameraMount" unique_id=584257037 instance=ExtResource("1_s00kd")]
+
+[node name="Pivot" type="Node3D" parent="." index="6" unique_id=173748257]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4864511, 0.9600496, -0.004209608)
+
+[node name="CameraBody" parent="Pivot" index="0" unique_id=1927855593 instance=ExtResource("2_38q1s")]
+transform = Transform3D(7.154928e-08, 1.5832382, -5.7873445, 0, 5.7873445, 1.5832382, 6, -1.8879927e-08, 6.9013396e-08, 0.6401417, 0.5562053, 0.0042094872)

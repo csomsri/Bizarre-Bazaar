@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://r34bx86gy3kt"]
+
+[ext_resource type="PackedScene" uid="uid://dc6x3mxw0tcop" path="res://assets/inside_store/camping_supplies/GLB/SM_Jerrycan.glb" id="1_5725i"]
+
+[node name="row_of_jerry_cans" type="Node3D" unique_id=794820028]
+
+[node name="SM_Jerrycan4" parent="." unique_id=1852695761 instance=ExtResource("1_5725i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0295105)
+
+[node name="SM_Jerrycan2" parent="." unique_id=1701848054 instance=ExtResource("1_5725i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.367712)
+
+[node name="SM_Jerrycan3" parent="." unique_id=1887118299 instance=ExtResource("1_5725i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.6642914)
+
+[node name="SM_Jerrycan5" parent="." unique_id=30950807 instance=ExtResource("1_5725i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.30542564)
+
+[node name="SM_Jerrycan6" parent="." unique_id=1349345368 instance=ExtResource("1_5725i")]

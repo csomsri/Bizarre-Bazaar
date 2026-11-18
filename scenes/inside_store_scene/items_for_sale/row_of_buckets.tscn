@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://8l3ywdqy3xti"]
+
+[ext_resource type="PackedScene" uid="uid://bl4xtwgurvsdh" path="res://assets/inside_store/camping_supplies/GLB/SM_Bucket_Metal.glb" id="1_1si25"]
+
+[node name="row_of_buckets" type="Node3D" unique_id=1516744395]
+
+[node name="SM_Bucket_Metal3" parent="." unique_id=1243999295 instance=ExtResource("1_1si25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.1798191)
+
+[node name="SM_Bucket_Metal2" parent="." unique_id=910519646 instance=ExtResource("1_1si25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.680912)
+
+[node name="SM_Bucket_Metal4" parent="." unique_id=1616130604 instance=ExtResource("1_1si25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.6716709)
+
+[node name="SM_Bucket_Metal5" parent="." unique_id=516356548 instance=ExtResource("1_1si25")]

@@ -49,3 +49,4 @@ shape = SubResource("BoxShape3D_e0paw")
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1317343309]
 stream = ExtResource("3_jstpf")
+max_db = 0.578

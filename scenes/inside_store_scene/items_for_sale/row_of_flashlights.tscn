@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://4jq84ocnsm3k"]
+
+[ext_resource type="PackedScene" uid="uid://bqpxuisgrprsn" path="res://assets/inside_store/camping_supplies/GLB/SM_Flashlight.glb" id="1_36qhl"]
+
+[node name="row_of_flashlights" type="Node3D" unique_id=1036386609]
+
+[node name="SM_Flashlight5" parent="." unique_id=368682939 instance=ExtResource("1_36qhl")]
+
+[node name="SM_Flashlight4" parent="." unique_id=1879271517 instance=ExtResource("1_36qhl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.19010735)
+
+[node name="SM_Flashlight2" parent="." unique_id=1522383011 instance=ExtResource("1_36qhl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5194149)
+
+[node name="SM_Flashlight3" parent="." unique_id=877065495 instance=ExtResource("1_36qhl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.3571968)
+
+[node name="SM_Flashlight6" parent="." unique_id=255633396 instance=ExtResource("1_36qhl")]

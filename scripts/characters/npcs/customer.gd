@@ -151,6 +151,6 @@ func confront() -> void:
 	confrontation()
 
 
-# Default response.
+# Default response
 func confrontation() -> void:
 	print("Customer: I'm just shopping.")
