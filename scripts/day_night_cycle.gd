@@ -33,16 +33,27 @@ extends Node3D
 # sky shader+mat
 var sky_mat: ShaderMaterial
 
-#(start hour, end hour, from sky, to sky)
+#(start hour, end hour) * 4, one for each transition (e.g. night -> sunrise)
 var windows:Array
 
+# start: 8am, end: 5:30pm
+var day_start_hour:float
+var day_end_hour:float
+
+
 func _ready() -> void:
+	# get settings from the json file
+	var json_windows:Array = GameSettings.get_value("day_night", "sky_windows")
 	windows = [
-		[4.5, 6.0, night_sky, sunset_sky],
-		[6.0, 8.0, sunset_sky, day_sky],
-		[17.5, 19.5, day_sky, sunset_sky],
-		[19.5, 21.0, sunset_sky, night_sky],
+		[json_windows[0]["start"], json_windows[0]["end"], night_sky, sunset_sky],
+		[json_windows[1]["start"], json_windows[1]["end"], sunset_sky, day_sky],
+		[json_windows[2]["start"], json_windows[2]["end"], day_sky, sunset_sky],
+		[json_windows[3]["start"], json_windows[3]["end"], sunset_sky, night_sky],
 	]
+	day_start_hour = GameSettings.get_value("day_night", "full_day_start")
+	day_end_hour = GameSettings.get_value("day_night", "full_day_end")
+	
+	
 	if not enabled:
 		return
 	
@@ -73,30 +84,15 @@ func _update_sun(hour: float) -> void:
 	# brigtness (0 - 1), 1 is max at noon
 	sun.light_energy = daylight * day_energy
 	sun.light_color = sunrise_color.lerp(noon_color, daylight)
-
-
-# set (swap) environments (day,sunset, night) based on the time of the day
-# i picked the time cutoffs randomly, should/could be changed
-#func _update_sky(hour: float) -> void:
-	#var target: Environment
-	#if hour >= 7.0 and hour < 18.5:
-		#target = day_sky
-	#elif (hour >= 5.5 and hour < 7.0) or (hour >= 18.5 and hour < 20.0):
-		#target = sunset_sky
-	#else:
-		#target = night_sky
-#
-	## switch when a switch would be to an diff/new env (day -> sunset)
-	#if target != null and world_env.environment != target:
-		#world_env.environment = target
-	
 	
 # set (swap) environments (day,sunset, night) based on the time of the day
 # i picked the time cutoffs randomly, should/could be changed
 func _update_sky(hour: float) -> void:
+	windows.size() # DEBUG
+	
 	# when not in 'transition', i.e. it's 100% day or ngith
 	var a: Texture2D 
-	if hour >= 8.0 and hour < 17.5:
+	if hour >= day_start_hour and hour < day_end_hour:
 		a = day_sky
 	else:
 		a =  night_sky
@@ -113,6 +109,8 @@ func _update_sky(hour: float) -> void:
 			b = w[3]
 			blend = (hour - w[0]) / (w[1] - w[0])
 			break
+
+	print("hour=%.2f  blend=%.2f  a=%s  b=%s" % [hour, blend, a.resource_path.get_file(), b.resource_path.get_file()]) # DEBUG
 
 	# apply shader blens between two skies
 	sky_mat.set_shader_parameter("sky_a", a)

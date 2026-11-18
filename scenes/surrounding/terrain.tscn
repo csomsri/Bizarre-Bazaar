@@ -9,9 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
 [ext_resource type="Texture2D" uid="uid://dpjgljw6oxwbl" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.png" id="5_moeno"]
-[ext_resource type="PackedScene" uid="uid://6mu2dt77mpb4" path="res://assets/surrounding/NewLevel.blend" id="6_h2q0o"]
-[ext_resource type="Environment" uid="uid://dim7eoel71d45" path="res://assets/surrounding/Skies/blended_sky.tres" id="7_0cmad"]
 [ext_resource type="Texture2D" uid="uid://b0jqlgkycjfug" path="res://assets/textures/sand_dirt.jpeg" id="5_qn42m"]
+[ext_resource type="Environment" uid="uid://dim7eoel71d45" path="res://assets/surrounding/Skies/blended_sky.tres" id="7_0cmad"]
 [ext_resource type="PackedScene" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="8_pxm62"]
 [ext_resource type="PackedScene" uid="uid://wq31gfohppjf" path="res://scenes/inside_store_scene/double_sliding_door.tscn" id="11_2xvr7"]
 [ext_resource type="PackedScene" uid="uid://gq3judosud1u" path="res://scenes/UI/InteractableObject.tscn" id="13_c5qb7"]
@@ -27,13 +26,13 @@
 [ext_resource type="Shader" uid="uid://dyq1th4yx3jdv" path="res://scenes/surrounding/convex_mirror.gdshader" id="20_cqq2c"]
 [ext_resource type="PackedScene" uid="uid://bl77oklgtb70a" path="res://scenes/inside_store_scene/horz_shelfs_comb.tscn" id="21_noi1k"]
 [ext_resource type="PackedScene" uid="uid://i0243iw06l10" path="res://scenes/inside_store_scene/cashier_desk.tscn" id="23_lmnb8"]
-[ext_resource type="PackedScene" uid="uid://b4my1nukb54ly" path="res://scenes/cutscene/cs_mgr.tscn" id="24_csmgr"]
-[ext_resource type="PackedScene" uid="uid://b4mcfjpgqasmp" path="res://scenes/cutscene/clock.tscn" id="27_33h1p"]
 [ext_resource type="PackedScene" uid="uid://cwi6olnvoqjo7" path="res://scenes/inside_store_scene/double_shelf_row_3.tscn" id="23_n45qf"]
 [ext_resource type="PackedScene" uid="uid://bk3gywmj8mibb" path="res://scenes/store.tscn" id="23_qn42m"]
+[ext_resource type="PackedScene" uid="uid://b4my1nukb54ly" path="res://scenes/cutscene/cs_mgr.tscn" id="24_csmgr"]
 [ext_resource type="PackedScene" uid="uid://d1forduxlmm6a" path="res://scenes/inside_store_scene/double_shelf_row_2.tscn" id="24_noi1k"]
 [ext_resource type="PackedScene" uid="uid://n43wjlt3o0vv" path="res://assets/inside_store/decorations/ChristmassTree.fbx" id="24_qn42m"]
 [ext_resource type="PackedScene" uid="uid://bxc82ahjwau1j" path="res://scenes/surrounding/produce_rows.tscn" id="25_fw8jo"]
+[ext_resource type="PackedScene" uid="uid://b4mcfjpgqasmp" path="res://scenes/cutscene/clock.tscn" id="27_33h1p"]
 [ext_resource type="PackedScene" uid="uid://dhpykxlyuw2eg" path="res://scenes/inside_store_scene/furniture_area.tscn" id="29_pakul"]
 [ext_resource type="PackedScene" uid="uid://22rskam8jatr" path="res://scenes/inside_store_scene/camping_stuff_shelf.tscn" id="30_p3uv2"]
 [ext_resource type="PackedScene" uid="uid://q0aqanits6by" path="res://scenes/inside_store_scene/col_of_lights.tscn" id="33_k5vog"]
@@ -208,7 +207,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 641153944) index="0" unique_id=1622291418]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1824977595) index="0" unique_id=1536125305]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -408,6 +407,7 @@ transform = Transform3D(0.9997216, 0.005088851, -0.02304108, 0, 0.97646797, 0.21
 
 [node name="TimeLapseShot" type="Marker3D" parent="." unique_id=737762239]
 transform = Transform3D(0.66619855, 0, -0.74577445, 0, 1, 0, 0.74577445, 0, 0.66619855, -88.77293, 18.134905, 57.533512)
+
 [node name="CashierDesk2" parent="." unique_id=1114712716 instance=ExtResource("23_lmnb8")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 76.39138, 0.56941295, 30.693718)
 

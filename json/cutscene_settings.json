@@ -1,0 +1,37 @@
+{
+	"shift": {
+		"total_shifts": 4,
+		"start_hour": 22,
+		"length_hours": 8,
+		"length_seconds": 60.0
+	},
+	"clock": {
+		"press_depth": 0.05,
+		"press_in_time": 0.25,
+		"press_hold_time": 0.2,
+		"press_out_time": 0.3,
+		"receipt_line_time": 0.4,
+		"receipt_line_pause": 0.3,
+		"receipt_hold_time": 3.0,
+	},
+	"cutscene": {
+		"bars_slide_time": 0.4,
+		"fade_time": 0.5,
+		"title_fade_time": 0.5,
+		"title_hold_time": 3.0,
+		"timelapse_seconds": 8.0
+	},
+	"day_night": {
+		"sun_day_energy": 1.0,
+		"sunrise_color": "#ff9959",
+		"noon_color": "#fff7e6",
+		"sky_windows": [
+			{ "start": 4.5,  "end": 6.0},
+			{ "start": 6.0,  "end": 8.0},
+			{ "start": 17.5, "end": 19.5},
+			{ "start": 19.5, "end": 21.0}
+		],
+		"full_day_start": 8.0,
+		"full_day_end": 17.5
+	}
+}

@@ -8,14 +8,17 @@ signal press_finished
 signal receipt_printed
 
 # TODOD: should be part of a spec file
-const PRESS_DEPTH = 0.05
+#const PRESS_DEPTH = 0.05
+
+var press_depth:float
 
 # duration of single print, pause after single print, and read pause at the end of print recipt
-const RECEIPT_LINE_TIME := 0.5 
-const RECEIPT_LINE_PAUSE := 0.3
-const RECEIPT_READ_TIME := 3
-
-
+#const RECEIPT_LINE_TIME := 0.5 
+#const RECEIPT_LINE_PAUSE := 0.3
+#const RECEIPT_READ_TIME := 3
+var receipt_line_time:float
+var receipt_line_pause:float
+var receipt_read_time:float
 
 # to reset positions after press
 var _rest_positions := {}
@@ -32,6 +35,17 @@ var receipt_text:Label3D
 #sounds
 var punch_sound: AudioStreamPlayer3D 
 var printer_sound: AudioStreamPlayer3D
+
+
+	#"clock": {
+		#"press_depth": 0.05,
+		#"press_in_time": 0.25,
+		#"press_hold_time": 0.2,
+		#"press_out_time": 0.3,
+		#"receipt_line_time": 0.8,
+		#"receipt_line_pause": 0.5,
+		#"receipt_hold_time": 4.0,
+	#},
 
 func _ready() -> void:
 	clock_display = $Display
@@ -51,6 +65,12 @@ func _ready() -> void:
 	receipt_text = $Receipt/Text
 	_rest_positions[receipt] = receipt.position
 	
+	# read settings from the json file
+	press_depth = GameSettings.get_value("clock", "press_depth")
+	receipt_line_time = GameSettings.get_value("clock", "receipt_line_time")
+	receipt_line_pause = GameSettings.get_value("clock", "receipt_line_pause")
+	receipt_read_time = GameSettings.get_value("clock","receipt_hold_time")
+	
 	hide_receipt()
 
 	
@@ -62,7 +82,7 @@ func _on_time_changed(_hour:int, _minute:int) -> void:
 func press(btn:String) -> void:
 	var button := _get_button(btn)
 	var rest:Vector3 = _rest_positions[button]
-	var pushed := rest - Vector3(-PRESS_DEPTH, 0, 0, )
+	var pushed := rest - Vector3(-press_depth, 0, 0, )
 
 	punch_sound.play()
 	
@@ -101,14 +121,14 @@ func print_receipt(text: Array[String]) ->void:
 	for i in range(text.size() -1, -1, -1):
 		#receipt_text.text = text[i] + "\n" + receipt_text.text
 		var tween := create_tween().set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
-		tween.tween_property(receipt, "position", receipt.position + slide_step, RECEIPT_LINE_TIME)
-		tween.tween_interval(RECEIPT_LINE_PAUSE)
+		tween.tween_property(receipt, "position", receipt.position + slide_step, receipt_line_time)
+		tween.tween_interval(receipt_line_pause)
 		await tween.finished
 	
 	printer_sound.stop()
 	
 	# instant didnt work, added time to read
-	await get_tree().create_timer(RECEIPT_READ_TIME).timeout
+	await get_tree().create_timer(receipt_read_time).timeout
 	receipt_printed.emit()
 	hide_receipt()
 	
