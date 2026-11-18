@@ -11,7 +11,9 @@ var cutscene_ui:CanvasLayer
 
 @export var player: CharacterBody3D 
 @export var clock_shot:Marker3D
+@export var timelapse_shot: Marker3D
 @export var clock: WallClock
+@export var day_night: Node3D
 
 func _ready() -> void:
 	runner = $CutsceneRunner
@@ -31,8 +33,10 @@ func _on_shift_ended(shift_no:int) -> void:
 	ctx.clock = clock
 	ctx.shift = shift_no
 	ctx.stats = ShiftMgr.get_player_stats()
+	ctx.day_night = day_night
 	ctx.camera_shots ={
 		"ClockShot":clock_shot,
+		"TimeLapseShot":timelapse_shot,
 	}
 	
 	# set the cutscene commands
@@ -43,11 +47,13 @@ func _on_shift_ended(shift_no:int) -> void:
 		ClockPressCommand.new("OUT"),
 		PrintReceiptCommand.new(),
 		FadeCommand.new(true),
+		MoveCameraCommand.new("TimeLapseShot"),
 		FadeCommand.new(false),
-		StubCommand.new("timelapse", 2.0),
+		TimeLapseCommand.new(),
 		FadeCommand.new(true),
 		TitleCommand.new(3),
-		FadeCommand.new(false),
+		FadeCommand.new(false, 0),
+		MoveCameraCommand.new("ClockShot"),
 		ClockPressCommand.new("IN"),
 		CinemaBarsCommand.new(false),
 		MoveCameraCommand.new("Player"),

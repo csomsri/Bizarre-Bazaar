@@ -11,25 +11,34 @@ signal receipt_printed
 const PRESS_DEPTH = 0.05
 
 # duration of single print, pause after single print, and read pause at the end of print recipt
-const RECEIPT_LINE_TIME := 0.8 
-const RECEIPT_LINE_PAUSE := 0.5
-const RECEIPT_READ_TIME := 4.0
+const RECEIPT_LINE_TIME := 0.5 
+const RECEIPT_LINE_PAUSE := 0.3
+const RECEIPT_READ_TIME := 3
 
 
 
 # to reset positions after press
 var _rest_positions := {}
 
+#clock
 var clock_display:Label3D
 var clock_in_button:MeshInstance3D
 var clock_out_button:MeshInstance3D
+
+#receipt
 var receipt:Node3D
 var receipt_text:Label3D
+
+#sounds
+var punch_sound: AudioStreamPlayer3D 
+var printer_sound: AudioStreamPlayer3D
 
 func _ready() -> void:
 	clock_display = $Display
 	clock_in_button = $InButton
 	clock_out_button = $OutButton
+	punch_sound = $PunchSound
+	printer_sound = $PrinterSound
 	
 	ShiftMgr.time_changed.connect(_on_time_changed)
 	_on_time_changed(ShiftMgr.get_hour(), ShiftMgr.get_minute()) 
@@ -55,6 +64,8 @@ func press(btn:String) -> void:
 	var rest:Vector3 = _rest_positions[button]
 	var pushed := rest - Vector3(-PRESS_DEPTH, 0, 0, )
 
+	punch_sound.play()
+	
 	# smooth press
 	var tween := create_tween()
 	tween.tween_property(button, "position", pushed, 0.25)
@@ -77,6 +88,7 @@ func _get_button(btn: String) -> MeshInstance3D:
 func print_receipt(text: Array[String]) ->void:
 	# reset
 	hide_receipt()
+	receipt_text.text = "\n".join(text) 
 	receipt.visible = true
 	
 	# calculate the slide step based on the heigh of the recipt paper
@@ -84,13 +96,16 @@ func print_receipt(text: Array[String]) ->void:
 	var down: Vector3 = receipt.transform.basis.y * -1.0
 	var slide_step := down * paper_height / text.size()
 	
+	printer_sound.play()
 	# in reverse order (bottom up) add and print lines to the receipt and 'print' it out
 	for i in range(text.size() -1, -1, -1):
-		receipt_text.text = text[i] + "\n" + receipt_text.text
+		#receipt_text.text = text[i] + "\n" + receipt_text.text
 		var tween := create_tween().set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
 		tween.tween_property(receipt, "position", receipt.position + slide_step, RECEIPT_LINE_TIME)
 		tween.tween_interval(RECEIPT_LINE_PAUSE)
 		await tween.finished
+	
+	printer_sound.stop()
 	
 	# instant didnt work, added time to read
 	await get_tree().create_timer(RECEIPT_READ_TIME).timeout
@@ -102,3 +117,5 @@ func hide_receipt() -> void:
 	receipt.visible = false
 	receipt.position = _rest_positions[receipt]
 	receipt_text.text =""
+	
+	printer_sound.stop()

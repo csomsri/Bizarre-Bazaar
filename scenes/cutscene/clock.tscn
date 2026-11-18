@@ -1,21 +1,47 @@
 [gd_scene format=3 uid="uid://b4mcfjpgqasmp"]
 
 [ext_resource type="Script" uid="uid://brts3v5qlmbx6" path="res://scripts/cutscene/clock.gd" id="1_g064j"]
+[ext_resource type="FontFile" uid="uid://bbct26204xllb" path="res://assets/fonts/VT323-Regular.ttf" id="2_tifpb"]
+[ext_resource type="FontFile" uid="uid://7utte60fj5c8" path="res://assets/fonts/CourierPrime-Bold.ttf" id="3_wyy0s"]
+[ext_resource type="FontFile" uid="uid://cgt6h00brhug5" path="res://assets/fonts/CourierPrime-Regular.ttf" id="4_wyy0s"]
+[ext_resource type="AudioStream" uid="uid://3gogl5pnwrnt" path="res://audio/cutscene/button-press.wav" id="5_27p05"]
+[ext_resource type="AudioStream" uid="uid://dla4x55d2kkaw" path="res://audio/cutscene/receipt-printer7.wav" id="6_4j2fd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5v740"]
+albedo_color = Color(0.043137256, 0.078431375, 0.0627451, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3ue0g"]
+material = SubResource("StandardMaterial3D_5v740")
+size = Vector3(0.8, 0.25, 0.01)
 
 [sub_resource type="BoxMesh" id="BoxMesh_33h1p"]
-size = Vector3(0.5, 1, 1)
+size = Vector3(0.2, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tifpb"]
+albedo_color = Color(0.7882353, 0.7647059, 0.70980394, 1)
+roughness = 0.6
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y2pje"]
+albedo_color = Color(0.30980393, 0.7490196, 0.44705883, 1)
+roughness = 0.6
 
 [sub_resource type="BoxMesh" id="BoxMesh_7wxsy"]
-size = Vector3(0.1, 0.15, 0.2)
+material = SubResource("StandardMaterial3D_y2pje")
+size = Vector3(0.05, 0.15, 0.3)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ue0g"]
-albedo_color = Color(0.34901962, 1, 1, 1)
+albedo_color = Color(0.9490196, 0.6392157, 0.22745098, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h62lg"]
+albedo_color = Color(0.30980393, 0.7490196, 0.44705883, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_fbwfp"]
-size = Vector3(0.1, 0.15, 0.2)
+material = SubResource("StandardMaterial3D_h62lg")
+size = Vector3(0.05, 0.15, 0.3)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mf86"]
-albedo_color = Color(1, 0.3529412, 1, 1)
+albedo_color = Color(0.54509807, 0.5254902, 0.47058824, 1)
+roughness = 0.6
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7wxsy"]
 albedo_color = Color(0.96862745, 0.95686275, 0.9254902, 1)
@@ -24,57 +50,87 @@ albedo_color = Color(0.96862745, 0.95686275, 0.9254902, 1)
 material = SubResource("StandardMaterial3D_7wxsy")
 size = Vector3(0.001, 0.7, 0.7)
 
+[sub_resource type="BoxMesh" id="BoxMesh_ihrt2"]
+size = Vector3(0.01, 0.02, 0.8)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_arp1n"]
+albedo_color = Color(0.16862746, 0.16078432, 0.14117648, 1)
+
 [node name="Clock" type="Node3D" unique_id=677886854]
 script = ExtResource("1_g064j")
 
+[node name="Screen" type="MeshInstance3D" parent="." unique_id=1246756563]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.22938496, 0.58940303, 0.1430578)
+mesh = SubResource("BoxMesh_3ue0g")
+
 [node name="Body" type="MeshInstance3D" parent="." unique_id=1321171182]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.4, 0.15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34610212, 0.4, 0.15)
 mesh = SubResource("BoxMesh_33h1p")
+surface_material_override/0 = SubResource("StandardMaterial3D_tifpb")
 
 [node name="Display" type="Label3D" parent="." unique_id=1607431232]
-transform = Transform3D(-0.033435237, 0, -0.9994409, 0, 1, 0, 0.9994409, 0, -0.033435237, 0.2370007, 0.43117547, 0.14806831)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.2195636, 0.5852045, 0.14806831)
+modulate = Color(0.49019608, 1, 0.61960787, 1)
 text = "10:00 PM"
+font = ExtResource("2_tifpb")
+outline_size = 4
 
 [node name="OutButton" type="MeshInstance3D" parent="." unique_id=1351198547]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19733895, 0.10428347, 0.36045146)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21899866, 0.26136458, 0.36045146)
 mesh = SubResource("BoxMesh_7wxsy")
 surface_material_override/0 = SubResource("StandardMaterial3D_3ue0g")
 
 [node name="ClockOUT" type="Label3D" parent="OutButton" unique_id=874270768]
-transform = Transform3D(0.033671822, 0, -1.0878218, 0, 0.60273063, 0, 0.6344946, 0, 0.057729337, -0.05346714, 0.006387621, -0.002836883)
+transform = Transform3D(-2.7773666e-08, 0, -1.0893526, 0, 0.60273063, 0, 0.6353874, 0, -4.7617114e-08, -0.025972828, -0.005982518, -0.002836883)
 text = "Out"
-font_size = 18
+font = ExtResource("3_wyy0s")
+outline_size = 4
 
 [node name="InButton" type="MeshInstance3D" parent="." unique_id=2133735919]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19556499, 0.10215062, -0.05644551)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2167897, 0.25913262, -0.05644551)
 mesh = SubResource("BoxMesh_fbwfp")
 surface_material_override/0 = SubResource("StandardMaterial3D_3mf86")
 
 [node name="ClockIN" type="Label3D" parent="InButton" unique_id=316644781]
-transform = Transform3D(0.03442061, 0, -1.2350223, 0, 0.7301384, 0, 0.8712398, 0, 0.04879279, -0.05311984, -0.0035866946, 7.893145e-05)
+transform = Transform3D(-3.811281e-08, 0, -1.2359858, 0, 0.7301384, 0, 0.87191945, 0, -5.4026653e-08, -0.025953412, -0.0022338629, -0.005492404)
 text = "In"
-font_size = 18
+font = ExtResource("2_tifpb")
+outline_size = 4
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=354644214]
-transform = Transform3D(-0.1115663, -0.993757, 0, 0.993757, -0.1115663, 0, 0, 0, 1, -0.16844809, 1.2562276, 0.10879487)
+transform = Transform3D(-0.1115663, -0.993757, 0, 0.993757, -0.1115663, 0, 0, 0, 1, -1.435998, 1.2600011, 0.94603366)
 light_energy = 0.448
+shadow_enabled = true
 
 [node name="Receipt" type="Node3D" parent="." unique_id=1537110536]
-transform = Transform3D(0.9999726, -7.92315e-05, -0.0074010077, 1.954965e-05, 0.99996746, -0.008064129, 0.0074014063, 0.008063764, 0.9999401, 0.67206657, 0.17352027, 0)
+transform = Transform3D(0.7071067, 0.7071067, 0, -0.7071067, 0.7071067, 0, 0, 0, 1, 0.59931546, 0.16214633, 0)
 
 [node name="Paper" type="MeshInstance3D" parent="Receipt" unique_id=388011988]
-transform = Transform3D(0.7071068, 0.7071068, 0, -0.70710677, 0.70710677, 9.313226e-10, 8.731149e-11, -9.313226e-10, 1, -0.18348342, 3.8435246e-08, 0.13400358)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18348342, 3.8435246e-08, 0.13400358)
 mesh = SubResource("BoxMesh_3mf86")
 
 [node name="Text" type="Label3D" parent="Receipt" unique_id=522612973]
-transform = Transform3D(6.0535967e-09, 0.44781286, -0.7062076, 2.3283064e-09, 0.44781312, 0.70620704, 0.27377763, -6.0535967e-09, 7.887138e-09, -0.42767692, -0.24218294, -0.037206415)
+transform = Transform3D(-1.1967199e-08, 0, -0.9987276, 0, 0.63330305, 0, 0.27377772, 0, -4.365579e-08, -0.18554688, -0.3111197, -0.108619586)
+modulate = Color(0, 0, 0, 1)
 text = "BIZARRE BAZAAR
 NIGHT 1 - SHIFT REPORT
 Balance: $42
 Thieves caught: 10
 Robbers defeated: 5
 Boss trust: 70"
-font_size = 24
-outline_size = 14
+font = ExtResource("4_wyy0s")
+font_size = 16
+outline_size = 0
 horizontal_alignment = 0
 vertical_alignment = 2
+
+[node name="Slot" type="MeshInstance3D" parent="." unique_id=967924030]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2396214, 0.069085985, 0.14426675)
+mesh = SubResource("BoxMesh_ihrt2")
+surface_material_override/0 = SubResource("StandardMaterial3D_arp1n")
+
+[node name="PunchSound" type="AudioStreamPlayer3D" parent="." unique_id=1520097893]
+stream = ExtResource("5_27p05")
+
+[node name="PrinterSound" type="AudioStreamPlayer3D" parent="." unique_id=1823665992]
+stream = ExtResource("6_4j2fd")

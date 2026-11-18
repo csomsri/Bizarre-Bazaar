@@ -13,6 +13,10 @@ func execute(ctx: CutsceneContext) -> void:
 	var title:Label = ctx.cutscene_ui.get_node("TitleCard")
 	title.text = "NIGHT %d" % (ctx.shift +1)
 	
+	# sound effect for title displaying
+	var title_sound: AudioStreamPlayer = ctx.host.get_node("Sounds/TitleSound")
+	title_sound.play()
+	
 	#fade-in, hold, and fade-out the title
 	var tween := ctx.host.create_tween()
 	tween.tween_property(title, "modulate:a", 1.0, 0.5)

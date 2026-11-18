@@ -1,0 +1,27 @@
+[gd_resource type="Environment" format=3 uid="uid://dim7eoel71d45"]
+
+[ext_resource type="Shader" uid="uid://bjys7vrap2qvg" path="res://assets/surrounding/Skies/sky_blend.gdshader" id="1_abg3l"]
+[ext_resource type="Texture2D" uid="uid://cssai61wrgcty" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.png" id="1_uyjgt"]
+[ext_resource type="Texture2D" uid="uid://cibl5akir0k5d" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/sunset_orange.png" id="3_8y0dr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_q35b3"]
+shader = ExtResource("1_abg3l")
+shader_parameter/sky_a = ExtResource("1_uyjgt")
+shader_parameter/sky_b = ExtResource("3_8y0dr")
+shader_parameter/blend = 0.0
+shader_parameter/energy = 1.0
+
+[sub_resource type="Sky" id="Sky_1"]
+sky_material = SubResource("ShaderMaterial_q35b3")
+
+[resource]
+resource_name = "night_full_moon"
+background_mode = 2
+sky = SubResource("Sky_1")
+sky_rotation = Vector3(0, 3.14159, 0)
+ambient_light_source = 3
+fog_enabled = true
+fog_light_color = Color(0.2, 0.2549, 0.4235, 1)
+fog_density = 0.002
+fog_aerial_perspective = 1.0
+fog_sky_affect = 0.0

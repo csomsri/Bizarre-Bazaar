@@ -45,9 +45,8 @@ signal shift_ended(shift_no:int)
 signal time_changed(hour: int, minute:int)
 
 # nothing listens for GAME ending signal
-signal game_ended()
-signal game_lost()
-
+signal game_ended
+signal game_lost
 
 
 func _ready() -> void:

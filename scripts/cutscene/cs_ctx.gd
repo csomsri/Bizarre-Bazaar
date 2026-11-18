@@ -14,3 +14,4 @@ var cutscene_ui:CanvasLayer
 var clock:WallClock
 var shift:int
 var stats:Dictionary
+var day_night:Node3D

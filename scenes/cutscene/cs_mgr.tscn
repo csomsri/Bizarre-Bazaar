@@ -2,6 +2,8 @@
 
 [ext_resource type="Script" uid="uid://5twlpgmvv60l" path="res://scripts/cutscene/cs_mgr.gd" id="1_qhs6b"]
 [ext_resource type="Script" uid="uid://b1myeapdc68dh" path="res://scripts/cutscene/cs_runner.gd" id="2_euo0m"]
+[ext_resource type="AudioStream" uid="uid://d25m8xtygjslr" path="res://audio/cutscene/cinematic-boom.wav" id="3_nlmv1"]
+[ext_resource type="AudioStream" uid="uid://cfkb2d08fcfhw" path="res://audio/cutscene/birds-morning.wav" id="4_dicso"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_fbwfp"]
 font_size = 80
@@ -61,3 +63,11 @@ text = "NIGHT 2"
 label_settings = SubResource("LabelSettings_fbwfp")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sounds" type="Node" parent="." unique_id=704863793]
+
+[node name="TimeLapseSound" type="AudioStreamPlayer" parent="Sounds" unique_id=1767186892]
+stream = ExtResource("4_dicso")
+
+[node name="TitleSound" type="AudioStreamPlayer" parent="Sounds" unique_id=658733079]
+stream = ExtResource("3_nlmv1")
