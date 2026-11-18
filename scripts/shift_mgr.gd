@@ -1,6 +1,5 @@
 extends Node
 
-
 # populated from json
 var shift_total:int
 var shift_hours:int

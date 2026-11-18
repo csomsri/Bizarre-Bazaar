@@ -1,7 +1,3 @@
-# TODO: 
-	# listen fo the signal for the end of the shift
-	# connects to the shift manager
-	# determine which cutscene to play: beginnign of the game, end of the night, end of the game (win/lose)
 class_name CutsceneManager
 extends Node3D
 
@@ -15,19 +11,14 @@ var cutscene_ui:CanvasLayer
 @export var clock: WallClock
 @export var day_night: Node3D
 
-	#"cutscene": {
-		#"bars_slide_time": 0.4,
-		#"fade_time": 0.5,
-		#"title_fade_time": 0.5,
-		#"title_hold_time": 3.0,
-		#"timelapse_from_hour": 6.0,
-		#"timelapse_to_hour": 22.0,
-		#"timelapse_seconds": 5.0
-	#},
+
 var bars_slide_time:float
+
 var fade_time:float
+
 var title_fade_time:float
 var title_hold_time:float
+
 var timelapse_seconds:float
 var timelapse_from_hour:float
 var timelapse_to_hour:float

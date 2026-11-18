@@ -20,10 +20,5 @@ func execute(ctx: CutsceneContext) -> void:
 	ctx.camera.make_current()
 	
 	
-	## TODO: use tween
-	#var tween := ctx.host.create_tween()
-	#tween.tween_property(ctx.camera, "global_transform", marker.global_transform, shot_duration)
-	#await tween.finished
-	
 func skip(ctx: CutsceneContext) -> void:
 	execute(ctx)

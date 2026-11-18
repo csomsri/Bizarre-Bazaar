@@ -1,6 +1,3 @@
-# TODO
-	# adds black horizontal bars for the cutscene
-	
 class_name CinemaBarsCommand
 extends CutsceneCommand
 

@@ -1,21 +1,12 @@
-# TODO
-	# display of game time/clock
-	
 class_name WallClock
 extends Node3D
 
 signal press_finished
 signal receipt_printed
 
-# TODOD: should be part of a spec file
-#const PRESS_DEPTH = 0.05
-
 var press_depth:float
 
 # duration of single print, pause after single print, and read pause at the end of print recipt
-#const RECEIPT_LINE_TIME := 0.5 
-#const RECEIPT_LINE_PAUSE := 0.3
-#const RECEIPT_READ_TIME := 3
 var receipt_line_time:float
 var receipt_line_pause:float
 var receipt_read_time:float
@@ -36,16 +27,6 @@ var receipt_text:Label3D
 var punch_sound: AudioStreamPlayer3D 
 var printer_sound: AudioStreamPlayer3D
 
-
-	#"clock": {
-		#"press_depth": 0.05,
-		#"press_in_time": 0.25,
-		#"press_hold_time": 0.2,
-		#"press_out_time": 0.3,
-		#"receipt_line_time": 0.8,
-		#"receipt_line_pause": 0.5,
-		#"receipt_hold_time": 4.0,
-	#},
 
 func _ready() -> void:
 	clock_display = $Display

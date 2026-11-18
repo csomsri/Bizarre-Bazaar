@@ -1,6 +1,3 @@
-# TODO:
-	# print receit with the status report at the end of the shift
-
 class_name PrintReceiptCommand
 extends CutsceneCommand
 
@@ -21,7 +18,6 @@ func execute(ctx: CutsceneContext) -> void:
 		_center("THANKS, SEE YA!"),
 	]
 	
-	
 	ctx.clock.print_receipt(lines)
 	await ctx.clock.receipt_printed
 	
@@ -29,7 +25,7 @@ func skip(ctx: CutsceneContext) -> void:
 	ctx.clock.hide_receipt()
 
 #helpers for printing end of shift report, organized as a receipt
-# text: value (e.g. Boss trust: 70%
+# text: value (e.g. Boss trust: 70%)
 func _row(text:String, val:String) -> String:
 	return text.rpad(MAX_LINE_WIDTH - val.length()) + val
 	

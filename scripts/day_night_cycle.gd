@@ -53,7 +53,6 @@ func _ready() -> void:
 	day_start_hour = GameSettings.get_value("day_night", "full_day_start")
 	day_end_hour = GameSettings.get_value("day_night", "full_day_end")
 	
-	
 	if not enabled:
 		return
 	
@@ -88,8 +87,6 @@ func _update_sun(hour: float) -> void:
 # set (swap) environments (day,sunset, night) based on the time of the day
 # i picked the time cutoffs randomly, should/could be changed
 func _update_sky(hour: float) -> void:
-	windows.size() # DEBUG
-	
 	# when not in 'transition', i.e. it's 100% day or ngith
 	var a: Texture2D 
 	if hour >= day_start_hour and hour < day_end_hour:
@@ -109,8 +106,6 @@ func _update_sky(hour: float) -> void:
 			b = w[3]
 			blend = (hour - w[0]) / (w[1] - w[0])
 			break
-
-	print("hour=%.2f  blend=%.2f  a=%s  b=%s" % [hour, blend, a.resource_path.get_file(), b.resource_path.get_file()]) # DEBUG
 
 	# apply shader blens between two skies
 	sky_mat.set_shader_parameter("sky_a", a)
