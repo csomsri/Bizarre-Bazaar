@@ -16,7 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
 [ext_resource type="PackedScene" uid="uid://cclalb517jeby" path="res://scenes/Weapons/shotgun.tscn" id="17_apva6"]
 [ext_resource type="PackedScene" uid="uid://dntqf6skvs4kr" path="res://scenes/Weapons/wep_pistol.tscn" id="17_lk6ly"]
-[ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://camera_moniter.gd" id="18_pxm62"]
+[ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://scripts/player_store/camera_moniter.gd" id="18_pxm62"]
 [ext_resource type="Script" uid="uid://duvj24nul82qf" path="res://scenes/surrounding/convex_mirror.gd" id="19_apva6"]
 [ext_resource type="PackedScene" uid="uid://bt2aec1frokcr" path="res://scenes/inside_store_scene/horizontal_row_shelf.tscn" id="20_33h1p"]
 [ext_resource type="Shader" uid="uid://dyq1th4yx3jdv" path="res://scenes/surrounding/convex_mirror.gdshader" id="20_cqq2c"]
@@ -31,6 +31,7 @@
 [ext_resource type="PackedScene" uid="uid://22rskam8jatr" path="res://scenes/inside_store_scene/camping_stuff_shelf.tscn" id="30_p3uv2"]
 [ext_resource type="PackedScene" uid="uid://q0aqanits6by" path="res://scenes/inside_store_scene/col_of_lights.tscn" id="33_k5vog"]
 [ext_resource type="PackedScene" uid="uid://bulf42ba5082o" path="res://scenes/inside_store_scene/row_lights_comb.tscn" id="34_fw8jo"]
+[ext_resource type="PackedScene" uid="uid://chefy6lm4w8k" path="res://scenes/inside_store_scene/Camera/camera_mount.tscn" id="35_fw8jo"]
 [ext_resource type="PackedScene" uid="uid://dilukwdoniv3n" path="res://scenes/inside_store_scene/camping_area.tscn" id="41_8xxp6"]
 [ext_resource type="PackedScene" uid="uid://criddfrk6oj78" path="res://scenes/inside_store_scene/christmas_tree_decorated.tscn" id="67_5wby1"]
 [ext_resource type="PackedScene" uid="uid://cg70nmclh648b" path="res://scenes/inside_store_scene/light.tscn" id="68_b33ps"]
@@ -601,6 +602,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.625296, 1.9885366, -10.097
 
 [node name="row_lights_comb" parent="." unique_id=519509646 instance=ExtResource("34_fw8jo")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.3442826, 1.9885366, 20.71668)
+
+[node name="CameraMount" parent="." unique_id=584257037 instance=ExtResource("35_fw8jo")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -12.965917, 4.744616, -7.152577)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
