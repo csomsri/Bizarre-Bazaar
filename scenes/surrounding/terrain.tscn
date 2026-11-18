@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
 [ext_resource type="PackedScene" uid="uid://cclalb517jeby" path="res://scenes/Weapons/shotgun.tscn" id="17_apva6"]
 [ext_resource type="PackedScene" uid="uid://dntqf6skvs4kr" path="res://scenes/Weapons/wep_pistol.tscn" id="17_lk6ly"]
+[ext_resource type="Script" uid="uid://cqhk1uoi3bqob" path="res://scenes/surrounding/cams.gd" id="17_pakul"]
 [ext_resource type="Script" uid="uid://bsgaccu07db6v" path="res://scripts/player_store/camera_moniter.gd" id="18_pxm62"]
 [ext_resource type="Script" uid="uid://duvj24nul82qf" path="res://scenes/surrounding/convex_mirror.gd" id="19_apva6"]
 [ext_resource type="PackedScene" uid="uid://bt2aec1frokcr" path="res://scenes/inside_store_scene/horizontal_row_shelf.tscn" id="20_33h1p"]
@@ -162,12 +163,6 @@ size = Vector3(11.360291, 25.109863, 8.988037)
 [sub_resource type="BoxMesh" id="BoxMesh_tfao1"]
 size = Vector3(19.87146, 31.83252, 14.027344)
 
-[sub_resource type="BoxMesh" id="BoxMesh_vhngh"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_ntka8"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_1rp8m"]
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vhngh"]
 render_priority = 0
 shader = ExtResource("20_cqq2c")
@@ -200,7 +195,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 641153944) index="0" unique_id=1622291418]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -326,22 +321,25 @@ transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 151.65924, 0, 0)
 [node name="Shotgun" parent="." unique_id=1032721247 instance=ExtResource("17_apva6")]
 
 [node name="Cam1" type="Camera3D" parent="." unique_id=1973099395]
-transform = Transform3D(-0.14798638, 0.367122, -0.9183254, 0.037085067, 0.92995614, 0.36579543, 0.9882939, 0.020076605, -0.1512356, 113.44726, 10.239052, 0)
+transform = Transform3D(-0.03207879, 0.3669665, -0.92968094, 0.037085067, 0.92995614, 0.36579546, 0.9987971, -0.022743003, -0.043440867, 113.826004, 10.239052, 0)
+script = ExtResource("17_pakul")
 
-[node name="Camera_model_tbm" type="MeshInstance3D" parent="Cam1" unique_id=119141260]
-mesh = SubResource("BoxMesh_vhngh")
+[node name="CameraMount" parent="Cam1" unique_id=584257037 instance=ExtResource("35_fw8jo")]
+transform = Transform3D(-0.024049247, 0.007417012, 0.19841024, 0.07350806, 0.18599126, 0.0019571371, -0.18444021, 0.07315908, -0.025090825, 0.11513424, -0.56183624, 0.6777725)
 
 [node name="Cam2" type="Camera3D" parent="." unique_id=42271190]
-transform = Transform3D(-0.6336911, 0.38299793, -0.6721222, 0.023766587, 0.8780681, 0.47794524, 0.773221, 0.28689557, -0.5655265, 112.75523, 4.722212, 21.568151)
+transform = Transform3D(-3.7096278e-08, 0.52893233, -0.8486641, 2.312037e-08, 0.8486641, 0.52893233, 1, -9.830617e-17, -4.3711395e-08, 113.90135, 4.863636, 21.568151)
+script = ExtResource("17_pakul")
 
-[node name="Camera_model_tbm" type="MeshInstance3D" parent="Cam2" unique_id=1361390014]
-mesh = SubResource("BoxMesh_ntka8")
+[node name="CameraMount2" parent="Cam2" unique_id=916683834 instance=ExtResource("35_fw8jo")]
+transform = Transform3D(-7.679636e-09, 4.1774078e-09, 0.2, 0.09556793, 0.17568949, -2.807025e-17, -0.17568943, 0.09556796, -8.742276e-09, -0.006000519, -0.6820984, 0.6401596)
 
 [node name="Cam3" type="Camera3D" parent="." unique_id=1256411502]
-transform = Transform3D(0.84309536, -0.2672463, 0.46665823, -0.018154643, 0.85313547, 0.52137387, -0.5374578, -0.44803977, 0.7144226, 138.07664, 8.223557, 15.964376)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 138.07664, 8.223557, 15.946592)
+script = ExtResource("17_pakul")
 
-[node name="Camera_model_tbm" type="MeshInstance3D" parent="Cam3" unique_id=1430183030]
-mesh = SubResource("BoxMesh_1rp8m")
+[node name="CameraMount3" parent="Cam3" unique_id=1712542440 instance=ExtResource("35_fw8jo")]
+transform = Transform3D(-8.742277e-09, 0, 0.2, 0, 0.19999997, 0, -0.19999999, 0, -8.742278e-09, 0.001914978, -0.21639729, 0.8616791)
 
 [node name="Convex mirror" type="Node3D" parent="." unique_id=1423678423]
 transform = Transform3D(0.11601685, 0, -0.99324733, 0, 1, 0, 0.99324733, 0, 0.11601685, 134.89937, 3.1482782, 33.212124)
@@ -601,10 +599,7 @@ spot_angle = 90.0
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.625296, 1.9885366, -10.097339)
 
 [node name="row_lights_comb" parent="." unique_id=519509646 instance=ExtResource("34_fw8jo")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.3442826, 1.9885366, 20.71668)
-
-[node name="CameraMount" parent="." unique_id=584257037 instance=ExtResource("35_fw8jo")]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -12.965917, 4.744616, -7.152577)
+transform = Transform3D(-1.4901161e-08, 1.4901161e-08, 0.99999994, 0, 0.99999994, 2.980232e-08, -1, 2.9802322e-08, 0, -7.344284, 1.9885399, 20.716682)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

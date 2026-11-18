@@ -10,7 +10,6 @@ var _active := false
 var _index := 0
 var _base_y: Array[float] = []	#init cam pos
 var _pan_offset: Array[float] = [] #savinig movement
-var origins: Array[Vector3] = []
 
 
 
@@ -20,7 +19,6 @@ func _ready() -> void:
 	for cam in cameras:
 		_base_y.append(cam.rotation.y)
 		_pan_offset.append(0.0)
-		origins.append(cam.global_position)
 		
 
 #player is within interact range of monniter 
@@ -56,9 +54,15 @@ func _unhandled_input(event: InputEvent) -> void:
 	elif event.is_action_pressed(("backward")):
 		_swap_cam(_index -1)
 		get_viewport().set_input_as_handled()
+		
+	if event.is_action_pressed("zoom_in"):
+		cameras[_index].zoom(1.0)
+		get_viewport().set_input_as_handled()
+	elif event.is_action_pressed("zoom_out"):
+		cameras[_index].zoom(-1.0)
+		get_viewport().set_input_as_handled()
 	
-	if event.is_action_pressed("zoom_in") or event.is_action_pressed("zoom_out"):
-		cameras[_index].zoom()
+	
 	
 	
 	
@@ -77,11 +81,10 @@ func _process(delta: float) -> void:
 	#pan the camer and save it
 	var offset := clampf(_pan_offset[_index] + cam_move* pan_speed *delta,
 						-max_pan,max_pan)
+						
 	_pan_offset[_index] = offset
 	
 	cameras[_index].rotation.y = _base_y[_index] - deg_to_rad((offset))
-	
-	
 	
 
 #freeze player, hides body, puts pov to camera
@@ -104,7 +107,6 @@ func _swap_cam(i: int) -> void:
 		return
 	
 	_index = wrapi(i,0,cameras.size())
-	cameras[_index].global_position = origins[_index]
 	cameras[_index].make_current()
 
 	
