@@ -49,6 +49,8 @@ func _unhandled_input(event: InputEvent) -> void:
 func _physics_process(delta: float) -> void:
 	# UI/Interaction: Checking for if object is interactable
 	check_for_interactable()
+	if Input.is_action_just_pressed("interact") and current_interactable != null:
+		current_interactable.interact()
 	
 	if not controls_enabled:
 		return
