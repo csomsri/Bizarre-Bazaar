@@ -9,11 +9,6 @@ func _ready() -> void:
 	lid_rotation = rotation.x
 
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-
 func open_lid() -> void:
 	if lid_tween:
 		lid_tween.kill()
