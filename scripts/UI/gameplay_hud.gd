@@ -13,6 +13,8 @@ class_name GameplayHUD
 
 @onready var thieves_caught_label: Label = $HUDRoot/MarginContainer/MainLayout/BottomBar/StatsPanel/StatsLayout/ThievesCaughtLabel
 
+@onready var interaction_prompt: Label = $HUDRoot/InteractionPrompt
+
 # FUNCTIONS: Use these in scripts to update HUD
 func _ready() -> void:
 	# Temp values (for testing)
@@ -47,3 +49,13 @@ func set_boss_trust(amount: int) -> void:
 func set_thieves_caught(amount: int) -> void:
 	var total: int = maxi(amount, 0)
 	thieves_caught_label.text = "THIEVES CAUGHT: " + str(total)
+
+
+# INTERACTION PROMPTS
+# FUNC show_interaction_prompt AND hide_interction_prompt: show/hide prompt
+func show_interaction_prompt(prompt_text: String) -> void:
+	interaction_prompt.text = "E - " + prompt_text
+	interaction_prompt.show()
+
+func hide_interaction_prompt() -> void:
+	interaction_prompt.hide()

@@ -2,15 +2,25 @@ extends Node3D
 class_name InteractableObject
 
 @export var prompt_text: String = "Interact"
+@export var interaction_target: Node
 
 # FUNC get_prompt_text: Text to display
 func get_prompt_text() -> String:
 	return prompt_text
 
-
-# FUNC interact: Calls open_lid on parent object
-func interact() -> void:
-	var target = get_parent()
+# FUNC can_interact: is player within range to interact with object
+func can_interact() -> bool:
+	if interaction_target == null: return false
 	
-	if target.has_method("open_lid"):
-		target.open_lid()
+	if interaction_target.get("player_nearby") != null:
+		return interaction_target.player_nearby
+	
+	return true
+
+
+# FUNC interact: interact with object
+# NOTE: this might only work with dumpster right now. We have no other interactions
+# to test with right now.
+func interact() -> void:
+	if interaction_target != null and interaction_target.has_method("open_lid"):
+		interaction_target.open_lid()
