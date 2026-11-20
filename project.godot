@@ -33,6 +33,10 @@ window/vsync/vsync_mode=0
 
 movie_writer/movie_file="/Users/santunovic/Developer/cutscene_demo.avi"
 
+[editor]
+
+movie_writer/movie_file="/Users/santunovic/Developer/cutscene_demo.avi"
+
 [input]
 
 forward={
@@ -113,4 +117,6 @@ common/max_physics_steps_per_frame=3
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+scaling_3d/mode=1
+scaling_3d/scale=0.75
 occlusion_culling/use_occlusion_culling=true

@@ -2,13 +2,16 @@
 
 [ext_resource type="PackedScene" uid="uid://cupc5ss7xvbpc" path="res://scenes/characters/player/newPlayer.tscn" id="1_rbuof"]
 [ext_resource type="Texture2D" uid="uid://b4k7c073irvxf" path="res://assets/surrounding/Roads/Road1_A.png" id="2_bkmyg"]
-[ext_resource type="Script" uid="uid://dli2t55u1t5ro" path="res://scenes/surrounding/day_night_cycle_node.gd" id="2_pxm62"]
+[ext_resource type="Script" uid="uid://d2dg2wmb6vmin" path="res://scripts/day_night_cycle.gd" id="2_lmnb8"]
+[ext_resource type="Texture2D" uid="uid://cssai61wrgcty" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.png" id="3_0cmad"]
 [ext_resource type="ArrayMesh" uid="uid://bc7e8mdosi6lg" path="res://assets/surrounding/Roads/obj/Road1.obj" id="3_4tf1n"]
+[ext_resource type="Texture2D" uid="uid://cibl5akir0k5d" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/sunset_orange.png" id="4_jt1gk"]
 [ext_resource type="Texture2D" uid="uid://cxtofma67nq3k" path="res://assets/surrounding/parking/env_parking_lot1.png" id="4_ym72e"]
 [ext_resource type="Texture2D" uid="uid://de23qwjgngh5b" path="res://assets/surrounding/parking/env_parking.png" id="5_ipudh"]
+[ext_resource type="Texture2D" uid="uid://dpjgljw6oxwbl" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.png" id="5_moeno"]
 [ext_resource type="Texture2D" uid="uid://b0jqlgkycjfug" path="res://assets/textures/sand_dirt.jpeg" id="5_qn42m"]
+[ext_resource type="Environment" uid="uid://dim7eoel71d45" path="res://assets/surrounding/Skies/blended_sky.tres" id="7_0cmad"]
 [ext_resource type="PackedScene" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="8_pxm62"]
-[ext_resource type="Environment" uid="uid://doh3ljlpaf2xt" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/night_full_moon.tres" id="9_lk6ly"]
 [ext_resource type="PackedScene" uid="uid://wq31gfohppjf" path="res://scenes/inside_store_scene/double_sliding_door.tscn" id="11_2xvr7"]
 [ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/Weapons/M16Rifle.tscn" id="15_ipudh"]
 [ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
@@ -24,9 +27,11 @@
 [ext_resource type="PackedScene" uid="uid://i0243iw06l10" path="res://scenes/inside_store_scene/cashier_desk.tscn" id="23_lmnb8"]
 [ext_resource type="PackedScene" uid="uid://cwi6olnvoqjo7" path="res://scenes/inside_store_scene/double_shelf_row_3.tscn" id="23_n45qf"]
 [ext_resource type="PackedScene" uid="uid://bk3gywmj8mibb" path="res://scenes/store.tscn" id="23_qn42m"]
+[ext_resource type="PackedScene" uid="uid://b4my1nukb54ly" path="res://scenes/cutscene/cs_mgr.tscn" id="24_csmgr"]
 [ext_resource type="PackedScene" uid="uid://d1forduxlmm6a" path="res://scenes/inside_store_scene/double_shelf_row_2.tscn" id="24_noi1k"]
 [ext_resource type="PackedScene" uid="uid://n43wjlt3o0vv" path="res://assets/inside_store/decorations/ChristmassTree.fbx" id="24_qn42m"]
 [ext_resource type="PackedScene" uid="uid://bxc82ahjwau1j" path="res://scenes/surrounding/produce_rows.tscn" id="25_fw8jo"]
+[ext_resource type="PackedScene" uid="uid://b4mcfjpgqasmp" path="res://scenes/cutscene/clock.tscn" id="27_33h1p"]
 [ext_resource type="PackedScene" uid="uid://dhpykxlyuw2eg" path="res://scenes/inside_store_scene/furniture_area.tscn" id="29_pakul"]
 [ext_resource type="PackedScene" uid="uid://22rskam8jatr" path="res://scenes/inside_store_scene/camping_stuff_shelf.tscn" id="30_p3uv2"]
 [ext_resource type="PackedScene" uid="uid://q0aqanits6by" path="res://scenes/inside_store_scene/col_of_lights.tscn" id="33_k5vog"]
@@ -176,7 +181,11 @@ size = Vector2(3, 3)
 [node name="GameplayHUD" parent="." unique_id=1954678161 instance=ExtResource("17_2xvr7")]
 
 [node name="DayNightCycleNode" type="Node3D" parent="." unique_id=2062739702]
-script = ExtResource("2_pxm62")
+script = ExtResource("2_lmnb8")
+enabled = true
+night_sky = ExtResource("3_0cmad")
+sunset_sky = ExtResource("4_jt1gk")
+day_sky = ExtResource("5_moeno")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="DayNightCycleNode" unique_id=1978958539]
 transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.79652995, 0, 4.1457253, 2.8629794)
@@ -184,7 +193,10 @@ transform = Transform3D(1, 0, 0, 0, 0.79652995, 0.6045992, 0, -0.6045992, 0.7965
 [node name="SkyDayFair" parent="DayNightCycleNode" unique_id=1541474014 instance=ExtResource("8_pxm62")]
 
 [node name="WorldEnvironment" parent="DayNightCycleNode/SkyDayFair" index="0"]
-environment = ExtResource("9_lk6ly")
+environment = ExtResource("7_0cmad")
+
+[node name="Sun" parent="DayNightCycleNode/SkyDayFair" index="1"]
+visible = false
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1409957492]
 transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, -18.644783, 3.8146973e-06, 0.37141228)
@@ -380,6 +392,22 @@ transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, 76.7
 
 [node name="CashierDesk" parent="." unique_id=1946154512 instance=ExtResource("23_lmnb8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.269938, 0.56941295, -15.573504)
+
+[node name="CutsceneManager" parent="." unique_id=932587387 node_paths=PackedStringArray("player", "clock_shot", "timelapse_shot", "clock", "day_night") instance=ExtResource("24_csmgr")]
+player = NodePath("../Player2")
+clock_shot = NodePath("../ClockShot")
+timelapse_shot = NodePath("../TimeLapseShot")
+clock = NodePath("../Clock")
+day_night = NodePath("../DayNightCycleNode")
+
+[node name="Clock" parent="." unique_id=677886854 instance=ExtResource("27_33h1p")]
+transform = Transform3D(0.02409853, 0, 0.9997097, 0, 1, 0, -0.9997097, 0, 0.02409853, -6.1731014, 2.2179248, -20.788094)
+
+[node name="ClockShot" type="Marker3D" parent="." unique_id=1486215182]
+transform = Transform3D(0.9997216, 0.005088851, -0.02304108, 0, 0.97646797, 0.21566263, 0.02359635, -0.21560258, 0.9761961, -5.9775515, 2.582524, -18.89964)
+
+[node name="TimeLapseShot" type="Marker3D" parent="." unique_id=737762239]
+transform = Transform3D(0.66619855, 0, -0.74577445, 0, 1, 0, 0.74577445, 0, 0.66619855, -88.77293, 18.134905, 57.533512)
 
 [node name="CashierDesk2" parent="." unique_id=1114712716 instance=ExtResource("23_lmnb8")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 76.39138, 0.56941295, 30.693718)
