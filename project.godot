@@ -13,6 +13,7 @@ config_version=5
 config/name="Bizarre Bazaar"
 run/main_scene="res://scenes/surrounding/terrain.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
+run/max_fps=60
 config/icon="res://icon.svg"
 
 [autoload]
@@ -25,7 +26,6 @@ ShiftMgr="*uid://dn3vqtt54g7pd"
 window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
-window/vsync/vsync_mode=0
 
 [editor]
 
@@ -110,3 +110,5 @@ zoom_out={
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+scaling_3d/mode=1
+scaling_3d/scale=0.75

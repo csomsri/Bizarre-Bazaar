@@ -13,6 +13,8 @@ shader_parameter/energy = 1.0
 
 [sub_resource type="Sky" id="Sky_1"]
 sky_material = SubResource("ShaderMaterial_q35b3")
+process_mode = 3
+radiance_size = 2
 
 [resource]
 resource_name = "night_full_moon"
