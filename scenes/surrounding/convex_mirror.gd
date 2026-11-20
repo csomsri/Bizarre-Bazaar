@@ -25,7 +25,7 @@ func _ready() -> void:
 	cam.global_transform = global_transform.rotated_local(Vector3.UP, PI)
 	cam.global_position += global_transform.basis.z.normalized() * 0.1
 
-	viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
+	viewport.render_target_update_mode = SubViewport.UPDATE_WHEN_VISIBLE
 
 
 
