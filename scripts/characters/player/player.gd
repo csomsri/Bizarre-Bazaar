@@ -13,9 +13,11 @@ extends CharacterBody3D
 @onready var view_camera: Camera3D = $Camera3D
 var controls_enabled := true
 
-# UI/Interaction: Interaction Ray
+# UI/Interaction: Interaction Ray + HUD
 @onready var interaction_ray: RayCast3D = $Camera3D/InteractionRay
 var current_interactable: InteractableObject = null
+
+@onready var gameplay_hud: CanvasLayer = $"../GameplayHUD"
 
 
 
@@ -52,6 +54,8 @@ func _unhandled_input(event: InputEvent) -> void:
 func _physics_process(delta: float) -> void:
 	# UI/Interaction: Checking for if object is interactable
 	check_for_interactable()
+	if Input.is_action_just_pressed("interact") and current_interactable != null:
+		current_interactable.interact()
 	
 	if not controls_enabled:
 		return
@@ -135,7 +139,9 @@ func check_for_interactable() -> void:
 		
 		while current_node != null:
 			for child in current_node.get_children():
-				if child is InteractableObject:
+				if child is InteractableObject and child.can_interact():
 					current_interactable = child
+					gameplay_hud.show_interaction_prompt(child.get_prompt_text())
 					return
 			current_node = current_node.get_parent()
+		gameplay_hud.hide_interaction_prompt()

@@ -13,7 +13,6 @@
 [ext_resource type="Environment" uid="uid://dim7eoel71d45" path="res://assets/surrounding/Skies/blended_sky.tres" id="7_0cmad"]
 [ext_resource type="PackedScene" path="res://assets/surrounding/Skies/addons/low_poly_skies/skies/day_fair.tscn" id="8_pxm62"]
 [ext_resource type="PackedScene" uid="uid://wq31gfohppjf" path="res://scenes/inside_store_scene/double_sliding_door.tscn" id="11_2xvr7"]
-[ext_resource type="PackedScene" uid="uid://gq3judosud1u" path="res://scenes/UI/InteractableObject.tscn" id="13_c5qb7"]
 [ext_resource type="PackedScene" uid="uid://86ndgs7wj3u8" path="res://scenes/Weapons/M16Rifle.tscn" id="15_ipudh"]
 [ext_resource type="PackedScene" uid="uid://1kwl1v2hp3km" path="res://scenes/outside_store/dumpster.tscn" id="16_h2q0o"]
 [ext_resource type="PackedScene" uid="uid://ccmhox0inw3l6" path="res://scenes/UI/GameplayHUD.tscn" id="17_2xvr7"]
@@ -311,9 +310,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.314393, 0.032235622, -9.7
 [node name="Dumpster3" parent="." unique_id=161248319 instance=ExtResource("16_h2q0o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.259, 0, -10.196)
 
-[node name="InteractableObject" parent="Dumpster3" unique_id=1726104701 instance=ExtResource("13_c5qb7")]
-prompt_text = "E - Open Dumpster"
-
 [node name="Camera System" type="Area3D" parent="." unique_id=1320865165 node_paths=PackedStringArray("cameras")]
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.26910844, 120.61451, 0, 48.731106)
 script = ExtResource("18_pxm62")
@@ -334,7 +330,7 @@ transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 151.65924, 0, 0)
 
 [node name="Cam1" type="Camera3D" parent="." unique_id=1973099395]
 transform = Transform3D(-0.03207879, 0.3669665, -0.92968094, 0.037085067, 0.92995614, 0.36579546, 0.9987971, -0.022743003, -0.043440867, 113.826004, 10.239052, 0)
-far = 48.79
+far = 87.56
 script = ExtResource("17_pakul")
 
 [node name="CameraMount" parent="Cam1" unique_id=584257037 instance=ExtResource("35_fw8jo")]
@@ -342,7 +338,7 @@ transform = Transform3D(-0.024049247, 0.007417012, 0.19841024, 0.07350806, 0.185
 
 [node name="Cam2" type="Camera3D" parent="." unique_id=42271190]
 transform = Transform3D(-3.7096278e-08, 0.52893233, -0.8486641, 2.312037e-08, 0.8486641, 0.52893233, 1, -9.830617e-17, -4.3711395e-08, 113.90135, 4.863636, 21.568151)
-far = 32.68
+far = 67.22
 script = ExtResource("17_pakul")
 
 [node name="CameraMount2" parent="Cam2" unique_id=916683834 instance=ExtResource("35_fw8jo")]
@@ -350,7 +346,7 @@ transform = Transform3D(-7.679636e-09, 4.1774078e-09, 0.2, 0.09556793, 0.1756894
 
 [node name="Cam3" type="Camera3D" parent="." unique_id=1256411502]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 138.07664, 8.223557, 15.946592)
-far = 32.68
+far = 7.41
 script = ExtResource("17_pakul")
 
 [node name="CameraMount3" parent="Cam3" unique_id=1712542440 instance=ExtResource("35_fw8jo")]
@@ -366,11 +362,12 @@ material_override = SubResource("ShaderMaterial_vhngh")
 mesh = SubResource("QuadMesh_tfao1")
 
 [node name="SubViewport" type="SubViewport" parent="Convex mirror" unique_id=293765720]
+render_target_update_mode = 0
 
 [node name="mirror_reflection" type="Camera3D" parent="Convex mirror/SubViewport" unique_id=136097333]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.1)
-fov = 110.0
-far = 27.75
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.099998474)
+fov = 100.0
+far = 38.08
 
 [node name="Wep_Pistol" parent="." unique_id=1225429796 instance=ExtResource("17_lk6ly")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 147.34471, 0, 0)

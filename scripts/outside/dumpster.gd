@@ -9,13 +9,6 @@ func _ready() -> void:
 	lid_rotation = rotation.x
 
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	
-	if(Input.is_action_just_pressed("interact") and player_nearby):
-		open_lid()
-
 func open_lid() -> void:
 	if lid_tween:
 		lid_tween.kill()
