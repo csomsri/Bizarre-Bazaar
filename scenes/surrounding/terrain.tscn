@@ -207,7 +207,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1824977595) index="0" unique_id=1536125305]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -334,6 +334,7 @@ transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 151.65924, 0, 0)
 
 [node name="Cam1" type="Camera3D" parent="." unique_id=1973099395]
 transform = Transform3D(-0.03207879, 0.3669665, -0.92968094, 0.037085067, 0.92995614, 0.36579546, 0.9987971, -0.022743003, -0.043440867, 113.826004, 10.239052, 0)
+far = 48.79
 script = ExtResource("17_pakul")
 
 [node name="CameraMount" parent="Cam1" unique_id=584257037 instance=ExtResource("35_fw8jo")]
@@ -341,6 +342,7 @@ transform = Transform3D(-0.024049247, 0.007417012, 0.19841024, 0.07350806, 0.185
 
 [node name="Cam2" type="Camera3D" parent="." unique_id=42271190]
 transform = Transform3D(-3.7096278e-08, 0.52893233, -0.8486641, 2.312037e-08, 0.8486641, 0.52893233, 1, -9.830617e-17, -4.3711395e-08, 113.90135, 4.863636, 21.568151)
+far = 32.68
 script = ExtResource("17_pakul")
 
 [node name="CameraMount2" parent="Cam2" unique_id=916683834 instance=ExtResource("35_fw8jo")]
@@ -348,6 +350,7 @@ transform = Transform3D(-7.679636e-09, 4.1774078e-09, 0.2, 0.09556793, 0.1756894
 
 [node name="Cam3" type="Camera3D" parent="." unique_id=1256411502]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 138.07664, 8.223557, 15.946592)
+far = 32.68
 script = ExtResource("17_pakul")
 
 [node name="CameraMount3" parent="Cam3" unique_id=1712542440 instance=ExtResource("35_fw8jo")]
@@ -367,6 +370,7 @@ mesh = SubResource("QuadMesh_tfao1")
 [node name="mirror_reflection" type="Camera3D" parent="Convex mirror/SubViewport" unique_id=136097333]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.1)
 fov = 110.0
+far = 27.75
 
 [node name="Wep_Pistol" parent="." unique_id=1225429796 instance=ExtResource("17_lk6ly")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 147.34471, 0, 0)
