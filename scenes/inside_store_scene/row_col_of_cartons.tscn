@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://c8yc6v2qogbl5"]
+
+[ext_resource type="PackedScene" uid="uid://bpmgrqb6uwm5u" path="res://assets/items/food/Carton.blend" id="1_uo3qb"]
+
+[node name="row_col_of_cartons" type="Node3D" unique_id=1506231402]
+transform = Transform3D(-4.371139e-09, 0, -0.1, 0, 0.1, 0, 0.1, 0, -4.371139e-09, 0, 0, 0)
+
+[node name="row_of_cartons" type="Node3D" parent="." unique_id=501052925]
+
+[node name="Carton4" parent="row_of_cartons" unique_id=760030958 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.702179)
+
+[node name="Carton3" parent="row_of_cartons" unique_id=2050395651 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.7907715)
+
+[node name="Carton" parent="row_of_cartons" unique_id=388977100 instance=ExtResource("1_uo3qb")]
+
+[node name="Carton2" parent="row_of_cartons" unique_id=569463714 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.582611)
+
+[node name="Carton5" parent="row_of_cartons" unique_id=1870479912 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.894012)
+
+[node name="row_of_cartons2" type="Node3D" parent="." unique_id=1410706663]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5330963, 0, 0)
+
+[node name="Carton4" parent="row_of_cartons2" unique_id=1826922675 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.702179)
+
+[node name="Carton3" parent="row_of_cartons2" unique_id=1574916392 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.7907715)
+
+[node name="Carton" parent="row_of_cartons2" unique_id=35113821 instance=ExtResource("1_uo3qb")]
+
+[node name="Carton2" parent="row_of_cartons2" unique_id=703512754 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.582611)
+
+[node name="Carton5" parent="row_of_cartons2" unique_id=1551347229 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.894012)
+
+[node name="row_of_cartons3" type="Node3D" parent="." unique_id=375437367]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.2830963, 0, 0)
+
+[node name="Carton4" parent="row_of_cartons3" unique_id=903688440 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.702179)
+
+[node name="Carton3" parent="row_of_cartons3" unique_id=1939200065 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.7907715)
+
+[node name="Carton" parent="row_of_cartons3" unique_id=1229989125 instance=ExtResource("1_uo3qb")]
+
+[node name="Carton2" parent="row_of_cartons3" unique_id=106148412 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.582611)
+
+[node name="Carton5" parent="row_of_cartons3" unique_id=48774436 instance=ExtResource("1_uo3qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.894012)

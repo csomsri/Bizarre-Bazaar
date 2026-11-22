@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://kbgo6x75rrf5"]
 
 [ext_resource type="PackedScene" uid="uid://b1jhu7mk6yakq" path="res://assets/inside_store/Fridge.blend" id="1_yjrub"]
+[ext_resource type="Script" uid="uid://dh6jhmsngpfay" path="res://scenes/inside_store_scene/FridgeDoor.gd" id="2_fi6r0"]
 [ext_resource type="PackedScene" uid="uid://uq78ewtl58bw" path="res://scenes/inside_store_scene/glass.tscn" id="2_gd2l7"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_gd2l7"]
@@ -32,17 +33,24 @@ data = PackedVector3Array(-1, 0, 1, 1, 0, -1, 1, 0, 1, -1, 0, 1, -1, 0, -1, 1, 0
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ddyau"]
 data = PackedVector3Array(-1, 0, 1, 1, 0, -1, 1, 0, 1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_6sknb"]
+size = Vector3(3.5228577, 4.307129, 4.736206)
+
 [node name="Fridge" unique_id=1416156660 instance=ExtResource("1_yjrub")]
 
-[node name="Glass" parent="Cylinder" parent_id_path=PackedInt32Array(952163989) index="0" unique_id=833736896 instance=ExtResource("2_gd2l7")]
+[node name="Cylinder" parent="." index="0" unique_id=201490806]
+transform = Transform3D(0.00025016314, 0.023887858, 0, -0.023887854, 0.00025016317, 0, 0, 0, 0.023889165, 2.0994177, 1.7733939, 3.1360035)
+script = ExtResource("2_fi6r0")
+
+[node name="Glass" parent="Cylinder" index="0" unique_id=833736896 instance=ExtResource("2_gd2l7")]
 transform = Transform3D(-0.0010115403, -30.137524, -0.017603971, -0.09620624, 0.31687316, -1.6742975, 29.301828, -4.5029904e-09, -0.0054978034, 0.7183151, -1.1389847, -35.86286)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Cylinder" parent_id_path=PackedInt32Array(952163989) index="1" unique_id=595644414]
+[node name="StaticBody3D" type="StaticBody3D" parent="Cylinder" index="1" unique_id=595644414]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cylinder/StaticBody3D" index="0" unique_id=1121448051]
 shape = SubResource("ConcavePolygonShape3D_gd2l7")
 
-[node name="Plane" parent="." index="1" unique_id=1216877476]
+[node name="Plane" parent="." index="1" unique_id=576904895]
 material_override = SubResource("StandardMaterial3D_nknoq")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Plane" index="0" unique_id=123322755]
@@ -50,22 +58,31 @@ material_override = SubResource("StandardMaterial3D_nknoq")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plane/StaticBody3D" index="0" unique_id=812289918]
 shape = SubResource("ConcavePolygonShape3D_fi6r0")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Plane_001" parent_id_path=PackedInt32Array(1557407247) index="0" unique_id=61146685]
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_001" parent_id_path=PackedInt32Array(431744675) index="0" unique_id=61146685]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_001/StaticBody3D" index="0" unique_id=708769063]
 shape = SubResource("ConcavePolygonShape3D_tet78")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Plane_002" parent_id_path=PackedInt32Array(1265580178) index="0" unique_id=906455883]
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_002" parent_id_path=PackedInt32Array(1266092948) index="0" unique_id=906455883]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_002/StaticBody3D" index="0" unique_id=608700590]
 shape = SubResource("ConcavePolygonShape3D_uo5ln")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Plane_003" parent_id_path=PackedInt32Array(726252806) index="0" unique_id=413280801]
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_003" parent_id_path=PackedInt32Array(1276178252) index="0" unique_id=413280801]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_003/StaticBody3D" index="0" unique_id=2143532238]
 shape = SubResource("ConcavePolygonShape3D_nknoq")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Plane_004" parent_id_path=PackedInt32Array(1777141205) index="0" unique_id=1069883243]
+[node name="StaticBody3D" type="StaticBody3D" parent="Plane_004" parent_id_path=PackedInt32Array(1943370874) index="0" unique_id=1069883243]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plane_004/StaticBody3D" index="0" unique_id=801074633]
 shape = SubResource("ConcavePolygonShape3D_ddyau")
+
+[node name="Area3D" type="Area3D" parent="." index="6" unique_id=997922040]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0" unique_id=434205213]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.652477, 1.6535645, 2.5797923)
+shape = SubResource("BoxShape3D_6sknb")
+
+[connection signal="body_entered" from="Area3D" to="Cylinder" method="_on_area_3d_body_entered"]
+[connection signal="body_exited" from="Area3D" to="Cylinder" method="_on_area_3d_body_exited"]

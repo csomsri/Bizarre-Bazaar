@@ -33,10 +33,6 @@ window/vsync/vsync_mode=0
 
 movie_writer/movie_file="/Users/santunovic/Developer/cutscene_demo.avi"
 
-[editor]
-
-movie_writer/movie_file="/Users/santunovic/Developer/cutscene_demo.avi"
-
 [input]
 
 forward={

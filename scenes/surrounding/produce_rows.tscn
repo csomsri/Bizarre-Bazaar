@@ -44,8 +44,14 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 37.5
 [node name="Fridge4" parent="." unique_id=1745426868 instance=ExtResource("3_2j6sm")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 40.636543, 0, 65.920044)
 
-[node name="ShelfIce" parent="." unique_id=802588534 instance=ExtResource("4_n8g82")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.081627, 0.5326581, 64.564384)
-
 [node name="ShelfIce2" parent="." unique_id=1486126943 instance=ExtResource("4_n8g82")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.0422, 0.5160905, 64.564384)
+
+[node name="ShelfIce4" parent="." unique_id=802588534 instance=ExtResource("4_n8g82")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.842922, 0.5160905, 64.564384)
+
+[node name="ShelfIce3" parent="." unique_id=526901822 instance=ExtResource("4_n8g82")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.508305, 0.5160905, 64.564384)
+
+[editable path="Fridge3"]
+[editable path="Fridge4"]
