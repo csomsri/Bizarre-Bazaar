@@ -54,6 +54,7 @@
 [ext_resource type="PackedScene" uid="uid://ciwv6aroyg62v" path="res://scenes/inside_store_scene/items_for_sale/stack_of_jerry_cans.tscn" id="54_xhgqh"]
 [ext_resource type="PackedScene" uid="uid://dsrulpyix5t75" path="res://scenes/inside_store_scene/items_for_sale/stack_of_ropes.tscn" id="55_gy65h"]
 [ext_resource type="PackedScene" uid="uid://c2j38t6ldququ" path="res://scenes/inside_store_scene/items_for_sale/row_cols_of_flashlights.tscn" id="56_cxnat"]
+[ext_resource type="PackedScene" uid="uid://dl17lpyybtkoj" path="res://scenes/inside_store_scene/items_for_sale/stack_of_sleeping_bags.tscn" id="57_xhgqh"]
 [ext_resource type="PackedScene" uid="uid://criddfrk6oj78" path="res://scenes/inside_store_scene/christmas_tree_decorated.tscn" id="67_5wby1"]
 [ext_resource type="PackedScene" uid="uid://cg70nmclh648b" path="res://scenes/inside_store_scene/light.tscn" id="68_b33ps"]
 
@@ -1230,6 +1231,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
 
 [node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=985483668 instance=ExtResource("56_cxnat")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="stack_of_sleeping_bags" parent="." unique_id=1357589628 instance=ExtResource("57_xhgqh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12299538, 1.9547706, 4.7218094)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

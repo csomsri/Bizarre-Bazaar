@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://byaie43m36l0c"]
+
+[ext_resource type="PackedScene" uid="uid://pp5gkp1r0n6m" path="res://scenes/inside_store_scene/row_cols_of_stoves.tscn" id="1_bvi85"]
+
+[node name="stack_of_stoves" type="Node3D" unique_id=1130113064]
+
+[node name="rows_of_stoves4" type="Node3D" parent="." unique_id=1944377062]
+
+[node name="row_cols_of_stoves" parent="rows_of_stoves4" unique_id=1218638452 instance=ExtResource("1_bvi85")]
+
+[node name="row_cols_of_stoves2" parent="rows_of_stoves4" unique_id=1166962544 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0778809)
+
+[node name="row_cols_of_stoves3" parent="rows_of_stoves4" unique_id=937812117 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.1551018)
+
+[node name="row_cols_of_stoves4" parent="rows_of_stoves4" unique_id=646436043 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.233471)
+
+[node name="rows_of_stoves3" type="Node3D" parent="." unique_id=1347838330]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6873331, 0)
+
+[node name="row_cols_of_stoves" parent="rows_of_stoves3" unique_id=319030112 instance=ExtResource("1_bvi85")]
+
+[node name="row_cols_of_stoves2" parent="rows_of_stoves3" unique_id=2089886360 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0778809)
+
+[node name="row_cols_of_stoves3" parent="rows_of_stoves3" unique_id=558440932 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.1551018)
+
+[node name="row_cols_of_stoves4" parent="rows_of_stoves3" unique_id=717854566 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.233471)
+
+[node name="rows_of_stoves" type="Node3D" parent="." unique_id=263710933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00031280518, 1.963993, -0.0003271103)
+
+[node name="row_cols_of_stoves" parent="rows_of_stoves" unique_id=326770359 instance=ExtResource("1_bvi85")]
+
+[node name="row_cols_of_stoves2" parent="rows_of_stoves" unique_id=49159364 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0778809)
+
+[node name="row_cols_of_stoves3" parent="rows_of_stoves" unique_id=818943089 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.1551018)
+
+[node name="row_cols_of_stoves4" parent="rows_of_stoves" unique_id=1841735945 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.233471)
+
+[node name="rows_of_stoves2" type="Node3D" parent="." unique_id=1021686412]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3147516, 0)
+
+[node name="row_cols_of_stoves" parent="rows_of_stoves2" unique_id=106177848 instance=ExtResource("1_bvi85")]
+
+[node name="row_cols_of_stoves2" parent="rows_of_stoves2" unique_id=1570694151 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0778809)
+
+[node name="row_cols_of_stoves3" parent="rows_of_stoves2" unique_id=1807556930 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.1551018)
+
+[node name="row_cols_of_stoves4" parent="rows_of_stoves2" unique_id=2056052706 instance=ExtResource("1_bvi85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.233471)
