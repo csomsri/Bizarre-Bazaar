@@ -40,8 +40,11 @@
 [ext_resource type="PackedScene" uid="uid://dilukwdoniv3n" path="res://scenes/inside_store_scene/camping_area.tscn" id="41_8xxp6"]
 [ext_resource type="PackedScene" uid="uid://fpvccxlapt6w" path="res://assets/inside_store/camping_supplies/FBX/SM_Apple.fbx" id="41_vfanf"]
 [ext_resource type="PackedScene" uid="uid://c8yc6v2qogbl5" path="res://scenes/inside_store_scene/row_col_of_cartons.tscn" id="42_vfanf"]
-[ext_resource type="PackedScene" uid="uid://b05l6016hd7lf" path="res://assets/items/food/Can.blend" id="43_ufpvp"]
-[ext_resource type="PackedScene" uid="uid://bdfda011mxwgs" path="res://assets/items/food/psxps1_food_props__lowpoly.glb" id="44_an2nd"]
+[ext_resource type="PackedScene" uid="uid://c8gk5burki2dg" path="res://assets/outside_store/cars/Car 01/Car.blend" id="43_an2nd"]
+[ext_resource type="PackedScene" uid="uid://1h4u1jma7nko" path="res://assets/outside_store/cars/Car 02/Car2.blend" id="44_7pevg"]
+[ext_resource type="PackedScene" uid="uid://b2bugufbdijoj" path="res://assets/outside_store/cars/Car 03/Car3.blend" id="45_2661r"]
+[ext_resource type="PackedScene" uid="uid://bckf4d6fesjf1" path="res://assets/outside_store/cars/Car 04/Car4.blend" id="46_htdgx"]
+[ext_resource type="PackedScene" uid="uid://bwlhyy2xb5j2m" path="res://assets/outside_store/cars/Car 05/Car5.blend" id="47_8xxp6"]
 [ext_resource type="PackedScene" uid="uid://criddfrk6oj78" path="res://scenes/inside_store_scene/christmas_tree_decorated.tscn" id="67_5wby1"]
 [ext_resource type="PackedScene" uid="uid://cg70nmclh648b" path="res://scenes/inside_store_scene/light.tscn" id="68_b33ps"]
 
@@ -210,7 +213,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -667,19 +670,27 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 [node name="row_col_of_cartons3" parent="row_col_stack_of_cartons2" unique_id=253874413 instance=ExtResource("42_vfanf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.7833233, 0)
 
-[node name="Can" parent="." unique_id=1903599239 instance=ExtResource("43_ufpvp")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.38131, 1.1033348, -15.449598)
+[node name="Car2" parent="." unique_id=1598326091 instance=ExtResource("43_an2nd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.925087, 0.044129275, 13.890026)
 
-[node name="Sketchfab_Scene" parent="." unique_id=1591582911 instance=ExtResource("44_an2nd")]
-transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 31.180813, 0.7844241, -15.877016)
+[node name="Car22" parent="." unique_id=1198264438 instance=ExtResource("44_7pevg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.210625, 0.032025777, 3.2309828)
 
-[node name="Object_16" parent="Sketchfab_Scene/Sketchfab_model/props_obj_cleaner_materialmerger_gles" parent_id_path=PackedInt32Array(1591582911, 2010107985) index="14" unique_id=1363120683]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.668213, 13.40625, 9.025772)
+[node name="Car32" parent="." unique_id=1857168295 instance=ExtResource("45_2661r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.853603, 0.04488259, 21.883)
+
+[node name="Car42" parent="." unique_id=2117100883 instance=ExtResource("46_htdgx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.858105, 0.040999345, 3.935155)
+
+[node name="Car52" parent="." unique_id=1419355590 instance=ExtResource("47_8xxp6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.517307, 0.032267474, 15.775336)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
 [editable path="Player2/Casual_2"]
 [editable path="produce_rows"]
+[editable path="produce_rows/Fridge3"]
+[editable path="produce_rows/Fridge4"]
 [editable path="produce_rows/ShelfIce3"]
 [editable path="produce_rows/ShelfIce3/Pivot/GlassDoor/Glass"]
 [editable path="christmas_tree_decorated"]
@@ -696,4 +707,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.668213, 13.40625, 9.02577
 [editable path="back_light/light12"]
 [editable path="back_light/light11"]
 [editable path="back_light/light7"]
-[editable path="Sketchfab_Scene"]
