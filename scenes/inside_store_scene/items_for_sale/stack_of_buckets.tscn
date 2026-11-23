@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://d0q60isasqu8q"]
+
+[ext_resource type="PackedScene" uid="uid://8l3ywdqy3xti" path="res://scenes/inside_store_scene/items_for_sale/row_of_buckets.tscn" id="1_m3mdc"]
+
+[node name="stack_of_buckets" type="Node3D" unique_id=2061482921]
+
+[node name="rows_buckets" type="Node3D" parent="." unique_id=1658231870]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.9334433, 0)
+
+[node name="row_of_buckets" parent="rows_buckets" unique_id=1516744395 instance=ExtResource("1_m3mdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.2136154)
+
+[node name="row_of_buckets2" parent="rows_buckets" unique_id=842069456 instance=ExtResource("1_m3mdc")]
+
+[node name="rows_buckets2" type="Node3D" parent="." unique_id=1164145393]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2292356, 0)
+
+[node name="row_of_buckets" parent="rows_buckets2" unique_id=12593952 instance=ExtResource("1_m3mdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.2136154)
+
+[node name="row_of_buckets2" parent="rows_buckets2" unique_id=1460235317 instance=ExtResource("1_m3mdc")]
+
+[node name="rows_buckets3" type="Node3D" parent="." unique_id=1383598387]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.58731294, 0)
+
+[node name="row_of_buckets" parent="rows_buckets3" unique_id=242656215 instance=ExtResource("1_m3mdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.2136154)
+
+[node name="row_of_buckets2" parent="rows_buckets3" unique_id=1840965200 instance=ExtResource("1_m3mdc")]
+
+[node name="rows_buckets4" type="Node3D" parent="." unique_id=1678709712]
+
+[node name="row_of_buckets" parent="rows_buckets4" unique_id=1016260642 instance=ExtResource("1_m3mdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.2136154)
+
+[node name="row_of_buckets2" parent="rows_buckets4" unique_id=1192047633 instance=ExtResource("1_m3mdc")]

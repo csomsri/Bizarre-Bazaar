@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://danrvwfdgvk7q"]
+
+[ext_resource type="PackedScene" uid="uid://c2j38t6ldququ" path="res://scenes/inside_store_scene/items_for_sale/row_cols_of_flashlights.tscn" id="1_g8okr"]
+
+[node name="stack_of_flash_lights" type="Node3D" unique_id=1630794649]
+
+[node name="row_cols_of_flashlights4" parent="." unique_id=743508384 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.947827, 2.099844)
+
+[node name="row_of_flash_lights" type="Node3D" parent="." unique_id=1204334574]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.947827, 0)
+
+[node name="row_cols_of_flashlights6" parent="row_of_flash_lights" unique_id=881845645 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="row_of_flash_lights" unique_id=1171818415 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights3" parent="row_of_flash_lights" unique_id=790816723 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="row_of_flash_lights" unique_id=523417288 instance=ExtResource("1_g8okr")]
+
+[node name="row_cols_of_flashlights2" parent="row_of_flash_lights" unique_id=1383965116 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="row_of_flash_lights4" type="Node3D" parent="row_of_flash_lights" unique_id=1495279958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.947827, 0)
+
+[node name="row_cols_of_flashlights6" parent="row_of_flash_lights/row_of_flash_lights4" unique_id=1334675476 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="row_of_flash_lights/row_of_flash_lights4" unique_id=110440834 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights4" parent="row_of_flash_lights/row_of_flash_lights4" unique_id=31373150 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
+
+[node name="row_cols_of_flashlights3" parent="row_of_flash_lights/row_of_flash_lights4" unique_id=1337360047 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="row_of_flash_lights/row_of_flash_lights4" unique_id=1592983283 instance=ExtResource("1_g8okr")]
+
+[node name="row_cols_of_flashlights2" parent="row_of_flash_lights/row_of_flash_lights4" unique_id=1555593975 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="row_of_flash_lights2" type="Node3D" parent="." unique_id=1780979395]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2324525, 0)
+
+[node name="row_cols_of_flashlights6" parent="row_of_flash_lights2" unique_id=1897228820 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="row_of_flash_lights2" unique_id=1853652993 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights4" parent="row_of_flash_lights2" unique_id=627408747 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
+
+[node name="row_cols_of_flashlights3" parent="row_of_flash_lights2" unique_id=1619756361 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="row_of_flash_lights2" unique_id=77831910 instance=ExtResource("1_g8okr")]
+
+[node name="row_cols_of_flashlights2" parent="row_of_flash_lights2" unique_id=313235507 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="row_of_flash_lights3" type="Node3D" parent="." unique_id=29177534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.6064681, 0)
+
+[node name="row_cols_of_flashlights6" parent="row_of_flash_lights3" unique_id=1381911792 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="row_of_flash_lights3" unique_id=1764441694 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights4" parent="row_of_flash_lights3" unique_id=385730623 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
+
+[node name="row_cols_of_flashlights3" parent="row_of_flash_lights3" unique_id=1178941295 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="row_of_flash_lights3" unique_id=1115776936 instance=ExtResource("1_g8okr")]
+
+[node name="row_cols_of_flashlights2" parent="row_of_flash_lights3" unique_id=1632565301 instance=ExtResource("1_g8okr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
