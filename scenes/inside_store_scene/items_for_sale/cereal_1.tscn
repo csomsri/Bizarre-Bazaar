@@ -42,7 +42,7 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_akgbc")
 
 [node name="Cereal1" type="Node3D" unique_id=2105042667]
-transform = Transform3D(1, 0, 0, 0, 0.99999994, -2.842171e-14, 0, 2.842171e-14, 0.99999994, 0, 0, 0)
+transform = Transform3D(0.035, 0, 0, 0, 0.035, -9.947599e-16, 0, 9.947599e-16, 0.035, 0, 0, 0)
 
 [node name="Object_5_002" type="MeshInstance3D" parent="." unique_id=1013706222]
 transform = Transform3D(1, 0, 0, 0, 1, 5.684342e-14, 0, -5.684342e-14, 1, 0, 0, 0)

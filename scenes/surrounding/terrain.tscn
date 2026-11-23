@@ -65,6 +65,8 @@
 [ext_resource type="PackedScene" uid="uid://c1gjagmjuntep" path="res://scenes/inside_store_scene/items_for_sale/stack_of_coolers.tscn" id="65_cme4b"]
 [ext_resource type="PackedScene" uid="uid://cqt6p22ljo6hm" path="res://scenes/inside_store_scene/items_for_sale/stack_of_tea.tscn" id="66_c5qb7"]
 [ext_resource type="PackedScene" uid="uid://criddfrk6oj78" path="res://scenes/inside_store_scene/christmas_tree_decorated.tscn" id="67_5wby1"]
+[ext_resource type="PackedScene" uid="uid://bkmxs7lw35ntj" path="res://scenes/inside_store_scene/stack_of_cereal_1.tscn" id="67_cme4b"]
+[ext_resource type="PackedScene" uid="uid://lnf820b7dl0x" path="res://scenes/inside_store_scene/stack_of_cereal_two.tscn" id="68_2cunl"]
 [ext_resource type="PackedScene" uid="uid://cg70nmclh648b" path="res://scenes/inside_store_scene/light.tscn" id="68_b33ps"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
@@ -1299,6 +1301,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 42.7727
 
 [node name="stack_of_tea2" parent="." unique_id=1789755967 instance=ExtResource("66_c5qb7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.676926, 2.0428164, 42.77275)
+
+[node name="stack_of_cereal_1" parent="." unique_id=1891208627 instance=ExtResource("67_cme4b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.676926, 2.0428164, 42.77275)
+
+[node name="stack_of_cereal_2" parent="." unique_id=850155955 instance=ExtResource("67_cme4b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.23739, 2.0428164, 42.77275)
+
+[node name="stack_of_cereal_two" parent="." unique_id=341257734 instance=ExtResource("68_2cunl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.23739, 2.0428164, 42.77275)
+
+[node name="stack_of_cereal_two2" parent="." unique_id=1129331982 instance=ExtResource("68_2cunl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.84391, 2.0428164, 42.77275)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
