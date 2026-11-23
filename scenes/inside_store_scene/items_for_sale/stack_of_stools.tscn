@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://dhmjembxo4xyb"]
+
+[ext_resource type="PackedScene" uid="uid://c7hkp8nrtx3c4" path="res://scenes/inside_store_scene/chair_stool_2.tscn" id="1_37am7"]
+
+[node name="stack_of_stools" type="Node3D" unique_id=56206520]
+
+[node name="row_of_stools2" type="Node3D" parent="." unique_id=169803195]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2820839, 0)
+
+[node name="chair_stool6" parent="row_of_stools2" unique_id=928357272 instance=ExtResource("1_37am7")]
+
+[node name="chair_stool5" parent="row_of_stools2" unique_id=576967888 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.8853321)
+
+[node name="chair_stool3" parent="row_of_stools2" unique_id=269505318 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.613575)
+
+[node name="chair_stool2" parent="row_of_stools2" unique_id=2130188876 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.5250416)
+
+[node name="chair_stool4" parent="row_of_stools2" unique_id=455031025 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.7341614)
+
+[node name="row_of_stools" type="Node3D" parent="." unique_id=889229490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.9595852, 0)
+
+[node name="chair_stool6" parent="row_of_stools" unique_id=1084839803 instance=ExtResource("1_37am7")]
+
+[node name="chair_stool5" parent="row_of_stools" unique_id=1318642829 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.8853321)
+
+[node name="chair_stool3" parent="row_of_stools" unique_id=89104906 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.613575)
+
+[node name="chair_stool2" parent="row_of_stools" unique_id=1993032709 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.5250416)
+
+[node name="chair_stool4" parent="row_of_stools" unique_id=1716649311 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.7341614)
+
+[node name="row_of_stools3" type="Node3D" parent="." unique_id=15388900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.61576676, 0)
+
+[node name="chair_stool6" parent="row_of_stools3" unique_id=138728968 instance=ExtResource("1_37am7")]
+
+[node name="chair_stool5" parent="row_of_stools3" unique_id=698260956 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.8853321)
+
+[node name="chair_stool3" parent="row_of_stools3" unique_id=1017668077 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.613575)
+
+[node name="chair_stool2" parent="row_of_stools3" unique_id=1015884421 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.5250416)
+
+[node name="chair_stool4" parent="row_of_stools3" unique_id=1730844506 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.7341614)
+
+[node name="row_of_stools4" type="Node3D" parent="." unique_id=676039340]
+
+[node name="chair_stool6" parent="row_of_stools4" unique_id=1270053584 instance=ExtResource("1_37am7")]
+
+[node name="chair_stool5" parent="row_of_stools4" unique_id=2000318708 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.8853321)
+
+[node name="chair_stool3" parent="row_of_stools4" unique_id=1462278224 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.613575)
+
+[node name="chair_stool2" parent="row_of_stools4" unique_id=2097941865 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.5250416)
+
+[node name="chair_stool4" parent="row_of_stools4" unique_id=358675100 instance=ExtResource("1_37am7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.7341614)

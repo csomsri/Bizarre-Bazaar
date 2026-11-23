@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c8f2ee0tjr13o" path="res://scenes/inside_store_scene/produce_center.tscn" id="2_qh03s"]
 [ext_resource type="PackedScene" uid="uid://kbgo6x75rrf5" path="res://scenes/inside_store_scene/fridge.tscn" id="3_2j6sm"]
 [ext_resource type="PackedScene" uid="uid://dujo8h0ygcpd0" path="res://scenes/inside_store_scene/shelf_ice.tscn" id="4_n8g82"]
+[ext_resource type="PackedScene" uid="uid://jt3djjc0v0sx" path="res://assets/items/food/food_bunch.blend" id="5_qh03s"]
 
 [node name="produce_rows" type="Node3D" unique_id=1065047786]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
@@ -52,6 +53,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.842922, 0.5160905, 64.5643
 
 [node name="ShelfIce3" parent="." unique_id=526901822 instance=ExtResource("4_n8g82")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.508305, 0.5160905, 64.564384)
+
+[node name="food_bunch" parent="." unique_id=656483919 instance=ExtResource("5_qh03s")]
 
 [editable path="Fridge3"]
 [editable path="Fridge4"]

@@ -1,0 +1,554 @@
+[gd_scene format=3 uid="uid://dlll1sjmjdbx7"]
+
+[ext_resource type="PackedScene" uid="uid://l8vkngdjw5fr" path="res://scenes/inside_store_scene/items_for_sale/coffee_two.tscn" id="1_bhtny"]
+
+[node name="stack_of_coffee_two" type="Node3D" unique_id=1087978178]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="row_of_coffee_two" type="Node3D" parent="." unique_id=417747237]
+transform = Transform3D(-0.09, -7.86805e-09, 3.4392336e-16, 0, -3.9340247e-09, -0.09, 7.86805e-09, -0.09, 3.9340247e-09, 26.605783, 2.6163113, 22.03532)
+
+[node name="row_col_of_coffee_two5" type="Node3D" parent="row_of_coffee_two" unique_id=549610211]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.652176, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=473316181 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=666574641 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=1021644958 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=2007025188 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=1928894583 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=1364519075 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=240659051 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two/row_col_of_coffee_two5" unique_id=966124705 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two" type="Node3D" parent="row_of_coffee_two" unique_id=1032330672]
+
+[node name="coffee_two5" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=1114482321 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=1259402651 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=1627361022 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=638686373 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=1025558926 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=2072590174 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=360484319 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two/row_col_of_coffee_two" unique_id=1090126959 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two2" type="Node3D" parent="row_of_coffee_two" unique_id=631288567]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.514816, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=1211064739 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=1972687913 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=48571662 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=819304346 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=1699462436 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=457596209 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=232836760 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two/row_col_of_coffee_two2" unique_id=913280897 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two3" type="Node3D" parent="row_of_coffee_two" unique_id=575027096]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.181488, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=1151143658 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=2045118609 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=1565973743 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=976378260 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=851529832 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=622904758 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=784164217 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two/row_col_of_coffee_two3" unique_id=1958633340 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two4" type="Node3D" parent="row_of_coffee_two" unique_id=1061003286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.416992, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=312898478 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=367927718 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=683466860 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=206733742 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=1803732544 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=1129590109 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=1969819912 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two/row_col_of_coffee_two4" unique_id=2132930796 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_of_coffee_two2" type="Node3D" parent="." unique_id=251525103]
+transform = Transform3D(-0.09, -7.86805e-09, 3.4392336e-16, 0, -3.9340247e-09, -0.09, 7.86805e-09, -0.09, 3.9340247e-09, 26.605783, 2.0164995, 22.03532)
+
+[node name="row_col_of_coffee_two5" type="Node3D" parent="row_of_coffee_two2" unique_id=1708101133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.652176, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=858271076 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=78482806 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=104653087 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=1655946963 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=1187576087 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=2115313922 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=442535846 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two2/row_col_of_coffee_two5" unique_id=2049071273 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two" type="Node3D" parent="row_of_coffee_two2" unique_id=807104311]
+
+[node name="coffee_two5" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=1624713918 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=1576513307 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=21072679 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=1551504730 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=1276101872 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=1652306960 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=792277975 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two2/row_col_of_coffee_two" unique_id=22220478 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two2" type="Node3D" parent="row_of_coffee_two2" unique_id=1607900276]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.514816, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=323558243 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=59915206 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=1213297703 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=1884595575 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=587493350 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=1546534141 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=124524845 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two2/row_col_of_coffee_two2" unique_id=2124780551 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two3" type="Node3D" parent="row_of_coffee_two2" unique_id=2040731472]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.181488, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=1805810326 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=893919666 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=1784677011 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=1251935978 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=1782303750 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=744292508 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=140251793 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two2/row_col_of_coffee_two3" unique_id=2024288136 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two4" type="Node3D" parent="row_of_coffee_two2" unique_id=688532061]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.416992, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=1884317276 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=1249145370 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=1345867492 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=1815147935 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=960356881 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=197466160 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=670882240 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two2/row_col_of_coffee_two4" unique_id=1710931164 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_of_coffee_two3" type="Node3D" parent="." unique_id=1555580894]
+transform = Transform3D(-0.09, -7.86805e-09, 3.4392336e-16, 0, -3.9340247e-09, -0.09, 7.86805e-09, -0.09, 3.9340247e-09, 26.605783, 1.356515, 22.03532)
+
+[node name="row_col_of_coffee_two5" type="Node3D" parent="row_of_coffee_two3" unique_id=1361207894]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.652176, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=2127697672 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=808833143 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=1171274658 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=427222770 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=517046762 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=1272792242 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=1651539548 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two3/row_col_of_coffee_two5" unique_id=41861154 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two" type="Node3D" parent="row_of_coffee_two3" unique_id=69185569]
+
+[node name="coffee_two5" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=1809544662 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=2017697382 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=305437223 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=1816631757 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=35527027 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=1551530054 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=123678372 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two3/row_col_of_coffee_two" unique_id=935815843 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two2" type="Node3D" parent="row_of_coffee_two3" unique_id=1076772045]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.514816, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=1200017555 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=1356897017 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=1439517417 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=870319410 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=880584923 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=1999211504 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=2071396720 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two3/row_col_of_coffee_two2" unique_id=1472384426 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two3" type="Node3D" parent="row_of_coffee_two3" unique_id=951221723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.181488, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=412481220 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=1581736825 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=759634612 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=129634287 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=1737804438 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=1166621848 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=698030866 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two3/row_col_of_coffee_two3" unique_id=1660464441 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two4" type="Node3D" parent="row_of_coffee_two3" unique_id=1092255041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.416992, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=981120674 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=687430957 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=1242210014 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=303176319 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=1996081632 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=1465676817 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=1587498574 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two3/row_col_of_coffee_two4" unique_id=1339365138 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_of_coffee_two4" type="Node3D" parent="." unique_id=123568498]
+transform = Transform3D(-0.09, -7.86805e-09, 3.4392336e-16, 0, -3.9340247e-09, -0.09, 7.86805e-09, -0.09, 3.9340247e-09, 26.605783, 0.6522492, 22.03532)
+
+[node name="row_col_of_coffee_two5" type="Node3D" parent="row_of_coffee_two4" unique_id=1266523199]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.652176, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=1849223641 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=94853825 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=843531321 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=1464207041 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=818897563 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=1046713571 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=76539471 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two4/row_col_of_coffee_two5" unique_id=1319168066 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two" type="Node3D" parent="row_of_coffee_two4" unique_id=1162411198]
+
+[node name="coffee_two5" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=1414704378 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=177539994 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=1102741534 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=686685792 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=1625442289 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=64342489 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=1040944180 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two4/row_col_of_coffee_two" unique_id=1229711690 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two2" type="Node3D" parent="row_of_coffee_two4" unique_id=481454299]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.514816, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=375635141 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=374022193 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=112432742 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=926189857 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=2114065893 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=760791690 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=647756564 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two4/row_col_of_coffee_two2" unique_id=1771753751 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two3" type="Node3D" parent="row_of_coffee_two4" unique_id=2134254798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.181488, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=920701694 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=728197762 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=1882141950 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=1946622011 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=485296945 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=763469672 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=1965530730 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two4/row_col_of_coffee_two3" unique_id=784613415 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)
+
+[node name="row_col_of_coffee_two4" type="Node3D" parent="row_of_coffee_two4" unique_id=706077109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.416992, 0, 0)
+
+[node name="coffee_two5" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=935551482 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -10.199971, 0)
+
+[node name="coffee_two4" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=429983908 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -10.199971, 0)
+
+[node name="coffee_two3" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=742182057 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -6.9435043, 0)
+
+[node name="coffee_two" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=1768243202 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -0.18128353, 0)
+
+[node name="coffee_two2" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=1430067135 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 4.179199, -3.5510678, 0)
+
+[node name="coffee_two6" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=1047590547 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -6.899114, 0)
+
+[node name="coffee_two7" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=55762715 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, -3.6345143, 0)
+
+[node name="coffee_two8" parent="row_of_coffee_two4/row_col_of_coffee_two4" unique_id=314034885 instance=ExtResource("1_bhtny")]
+transform = Transform3D(1, 0, 0, 0, 1, -3.5527137e-15, 0, 3.5527137e-15, 1, 1.5258789e-05, 0, 0)

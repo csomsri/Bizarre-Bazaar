@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://drgumf8f0hhds"]
+
+[ext_resource type="PackedScene" uid="uid://bx48shxdnld7f" path="res://assets/inside_store/camping_supplies/GLB/SM_Cooler_Box.glb" id="1_h75sk"]
+
+[node name="SM_Cooler_Box2" unique_id=34080217 instance=ExtResource("1_h75sk")]
