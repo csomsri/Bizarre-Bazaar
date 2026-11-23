@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://sna53sh5y8ur"]
+
+[ext_resource type="Script" uid="uid://c71seihyyscf8" path="res://scripts/characters/npcs/customer.gd" id="1_h8lsi"]
+[ext_resource type="ArrayMesh" uid="uid://bgvydn88mtuq6" path="res://assets/inside_store/christams/KayKit_Holiday_Bits_1.0_FREE/Assets/obj/snowman_A.obj" id="2_76rpl"]
+[ext_resource type="Script" uid="uid://ddrnxlbe14iwc" path="res://scripts/characters/resource_manager.gd" id="3_2kv2r"]
+[ext_resource type="Script" uid="uid://bfgubwhwi4600" path="res://scripts/characters/inventory.gd" id="4_e83rn"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kg2ys"]
+
+[node name="Customer" type="CharacterBody3D" unique_id=1908997502]
+script = ExtResource("1_h8lsi")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=78538638]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+mesh = ExtResource("2_76rpl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1003508923]
+transform = Transform3D(1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.8989593, 0)
+shape = SubResource("CapsuleShape3D_kg2ys")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=49146654]
+
+[node name="ResourceManager" type="Node" parent="." unique_id=1804977897]
+script = ExtResource("3_2kv2r")
+metadata/_custom_type_script = "uid://ddrnxlbe14iwc"
+
+[node name="Inventory" type="Node" parent="ResourceManager" unique_id=350093731]
+script = ExtResource("4_e83rn")
+metadata/_custom_type_script = "uid://bfgubwhwi4600"
