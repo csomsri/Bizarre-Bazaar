@@ -41,10 +41,19 @@
 [ext_resource type="PackedScene" uid="uid://fpvccxlapt6w" path="res://assets/inside_store/camping_supplies/FBX/SM_Apple.fbx" id="41_vfanf"]
 [ext_resource type="PackedScene" uid="uid://c8yc6v2qogbl5" path="res://scenes/inside_store_scene/row_col_of_cartons.tscn" id="42_vfanf"]
 [ext_resource type="PackedScene" uid="uid://c8gk5burki2dg" path="res://assets/outside_store/cars/Car 01/Car.blend" id="43_an2nd"]
+[ext_resource type="PackedScene" uid="uid://b05l6016hd7lf" path="res://assets/items/food/Can.blend" id="43_ufpvp"]
 [ext_resource type="PackedScene" uid="uid://1h4u1jma7nko" path="res://assets/outside_store/cars/Car 02/Car2.blend" id="44_7pevg"]
 [ext_resource type="PackedScene" uid="uid://b2bugufbdijoj" path="res://assets/outside_store/cars/Car 03/Car3.blend" id="45_2661r"]
 [ext_resource type="PackedScene" uid="uid://bckf4d6fesjf1" path="res://assets/outside_store/cars/Car 04/Car4.blend" id="46_htdgx"]
 [ext_resource type="PackedScene" uid="uid://bwlhyy2xb5j2m" path="res://assets/outside_store/cars/Car 05/Car5.blend" id="47_8xxp6"]
+[ext_resource type="PackedScene" uid="uid://ctn7iv7x7cms6" path="res://scenes/inside_store_scene/stack_of_pizzas.tscn" id="48_cvjss"]
+[ext_resource type="PackedScene" uid="uid://dpnh40pbpxqu3" path="res://assets/items/food/Burger.blend" id="49_dy2nq"]
+[ext_resource type="PackedScene" uid="uid://bhvp2y8nbjb2x" path="res://scenes/inside_store_scene/items_for_sale/stack_of_other_pizzas.tscn" id="50_xu8c3"]
+[ext_resource type="PackedScene" uid="uid://4v4r8hcskbhf" path="res://scenes/inside_store_scene/items_for_sale/black_coffee.tscn" id="52_i0xrs"]
+[ext_resource type="PackedScene" uid="uid://dx2wqhoyehhv2" path="res://scenes/inside_store_scene/items_for_sale/shelf_of_radios.tscn" id="53_i0xrs"]
+[ext_resource type="PackedScene" uid="uid://ciwv6aroyg62v" path="res://scenes/inside_store_scene/items_for_sale/stack_of_jerry_cans.tscn" id="54_xhgqh"]
+[ext_resource type="PackedScene" uid="uid://dsrulpyix5t75" path="res://scenes/inside_store_scene/items_for_sale/stack_of_ropes.tscn" id="55_gy65h"]
+[ext_resource type="PackedScene" uid="uid://c2j38t6ldququ" path="res://scenes/inside_store_scene/items_for_sale/row_cols_of_flashlights.tscn" id="56_cxnat"]
 [ext_resource type="PackedScene" uid="uid://criddfrk6oj78" path="res://scenes/inside_store_scene/christmas_tree_decorated.tscn" id="67_5wby1"]
 [ext_resource type="PackedScene" uid="uid://cg70nmclh648b" path="res://scenes/inside_store_scene/light.tscn" id="68_b33ps"]
 
@@ -213,7 +222,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -420,7 +429,7 @@ transform = Transform3D(0.66619855, 0, -0.74577445, 0, 1, 0, 0.74577445, 0, 0.66
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 76.39138, 0.56941295, 30.693718)
 
 [node name="NewLevel" parent="." unique_id=1474601424 instance=ExtResource("23_qn42m")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.58568, -0.17730184, 22.19178)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.593903, -0.17730202, 22.133875)
 
 [node name="ChristmassTree" parent="." unique_id=209154362 instance=ExtResource("24_qn42m")]
 transform = Transform3D(2.8003762, 0, 0, 0, 2.8003762, 0, 0, 0, 2.8003762, 89.05541, 0.023333002, -19.408237)
@@ -684,6 +693,543 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.858105, 0.040999345, 3.93
 
 [node name="Car52" parent="." unique_id=1419355590 instance=ExtResource("47_8xxp6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.517307, 0.032267474, 15.775336)
+
+[node name="stack_of_pizzas" parent="." unique_id=1071688775 instance=ExtResource("48_cvjss")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 25.143206, 0.09976652, -20.40174)
+
+[node name="stack_of_pizzas2" parent="." unique_id=512535978 instance=ExtResource("48_cvjss")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 23.15112, 0.09976652, -20.40174)
+
+[node name="stack_of_burgers" type="Node3D" parent="." unique_id=2099535076]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 39.90792, 0.8533454, -20.29861)
+
+[node name="row_cols_of_burgers4" type="Node3D" parent="stack_of_burgers" unique_id=1328265072]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 37.267235, 0)
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers4" unique_id=34170979]
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers" unique_id=1179369471 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers" unique_id=1943406131 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers" unique_id=1279907007 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers" unique_id=1712423411 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers" unique_id=1401848447 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers4" unique_id=1022889815]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers2" unique_id=488002360 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers2" unique_id=205401591 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers2" unique_id=317309547 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers2" unique_id=660419465 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers2" unique_id=976161165 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers4" unique_id=1006212662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers3" unique_id=237772172 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers3" unique_id=555220266 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers3" unique_id=1997274836 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers3" unique_id=384055306 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers4/row_of_burgers3" unique_id=2116294027 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_cols_of_burgers" type="Node3D" parent="stack_of_burgers" unique_id=55949691]
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers" unique_id=1560415041]
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers" unique_id=918416389 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers" unique_id=1248960378 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers" unique_id=508870327 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers" unique_id=569963158 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers" unique_id=1453991380 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers" unique_id=1215595092]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers2" unique_id=956926136 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers2" unique_id=99385329 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers2" unique_id=1596596048 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers2" unique_id=354311848 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers2" unique_id=1377633853 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers" unique_id=1602752368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers3" unique_id=449302999 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers3" unique_id=239850303 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers3" unique_id=1652150931 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers3" unique_id=323279625 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers/row_of_burgers3" unique_id=1172437474 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_cols_of_burgers2" type="Node3D" parent="stack_of_burgers" unique_id=1990359227]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.234938, 0)
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers2" unique_id=1483952325]
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers" unique_id=255349749 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers" unique_id=292876168 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers" unique_id=1696713017 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers" unique_id=161014931 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers" unique_id=1814731569 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers2" unique_id=1672944748]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers2" unique_id=1701731818 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers2" unique_id=742554491 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers2" unique_id=439998545 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers2" unique_id=989933512 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers2" unique_id=1288274917 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers2" unique_id=869949919]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers3" unique_id=1417901362 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers3" unique_id=193734442 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers3" unique_id=508698982 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers3" unique_id=1510497470 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers2/row_of_burgers3" unique_id=1003454493 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_cols_of_burgers3" type="Node3D" parent="stack_of_burgers" unique_id=856404199]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 24.746225, 0)
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers3" unique_id=52393779]
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers" unique_id=633066794 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers" unique_id=733187300 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers" unique_id=708915229 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers" unique_id=225206736 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers" unique_id=531010021 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers3" unique_id=888164605]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers2" unique_id=1601949479 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers2" unique_id=482816163 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers2" unique_id=590160913 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers2" unique_id=519189105 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers2" unique_id=63198733 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers/row_cols_of_burgers3" unique_id=1794249012]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers3" unique_id=1430789774 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers3" unique_id=1451873282 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers3" unique_id=1634625933 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers3" unique_id=1973395162 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers/row_cols_of_burgers3/row_of_burgers3" unique_id=707467667 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="stack_of_burgers2" type="Node3D" parent="." unique_id=647476025]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 42.927723, 0.8533454, -20.29861)
+
+[node name="row_cols_of_burgers4" type="Node3D" parent="stack_of_burgers2" unique_id=404036758]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 37.267235, 0)
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers4" unique_id=992442412]
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers" unique_id=1381203990 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers" unique_id=437259506 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers" unique_id=1694078342 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers" unique_id=258588586 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers" unique_id=2119087880 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers4" unique_id=1381169335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers2" unique_id=933448715 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers2" unique_id=557571428 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers2" unique_id=1049702191 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers2" unique_id=1448101383 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers2" unique_id=1104425319 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers4" unique_id=274406945]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers3" unique_id=827591100 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers3" unique_id=1554806233 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers3" unique_id=751625503 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers3" unique_id=909554434 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers4/row_of_burgers3" unique_id=997729150 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_cols_of_burgers" type="Node3D" parent="stack_of_burgers2" unique_id=1434275514]
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers" unique_id=1217277872]
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers" unique_id=867397855 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers" unique_id=1014439429 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers" unique_id=2035660303 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers" unique_id=1370515726 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers" unique_id=270762643 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers" unique_id=421209941]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers2" unique_id=1107080838 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers2" unique_id=950363367 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers2" unique_id=1015973039 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers2" unique_id=2136601592 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers2" unique_id=863156903 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers" unique_id=1702794902]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers3" unique_id=2112633395 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers3" unique_id=652543113 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers3" unique_id=203135154 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers3" unique_id=172073651 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers/row_of_burgers3" unique_id=1249069022 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_cols_of_burgers2" type="Node3D" parent="stack_of_burgers2" unique_id=2103068211]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.234938, 0)
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers2" unique_id=430628271]
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers" unique_id=1552551321 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers" unique_id=958709644 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers" unique_id=152573773 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers" unique_id=376039027 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers" unique_id=1081040120 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers2" unique_id=1327505922]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers2" unique_id=858721839 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers2" unique_id=261925031 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers2" unique_id=467713097 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers2" unique_id=816959938 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers2" unique_id=2033882260 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers2" unique_id=1808439127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers3" unique_id=1820748971 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers3" unique_id=1065895172 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers3" unique_id=259266084 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers3" unique_id=2076696891 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers2/row_of_burgers3" unique_id=146334369 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_cols_of_burgers3" type="Node3D" parent="stack_of_burgers2" unique_id=1074194475]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 24.746225, 0)
+
+[node name="row_of_burgers" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers3" unique_id=719060514]
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers" unique_id=392918892 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers" unique_id=339599286 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers" unique_id=910677414 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers" unique_id=1248750938 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers" unique_id=471171858 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers2" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers3" unique_id=1195900835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.36557)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers2" unique_id=2132737585 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers2" unique_id=843843674 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers2" unique_id=1587362082 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers2" unique_id=1402550105 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers2" unique_id=951284033 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="row_of_burgers3" type="Node3D" parent="stack_of_burgers2/row_cols_of_burgers3" unique_id=672398224]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.838959)
+
+[node name="Burger4" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers3" unique_id=1529801657 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger3" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers3" unique_id=1618257542 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.076599, 0, 0)
+
+[node name="Burger" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers3" unique_id=966450759 instance=ExtResource("49_dy2nq")]
+
+[node name="Burger5" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers3" unique_id=248962043 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
+
+[node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers3" unique_id=579514264 instance=ExtResource("49_dy2nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
+
+[node name="stack_of_other_pizzas" parent="." unique_id=514099890 instance=ExtResource("50_xu8c3")]
+transform = Transform3D(0.05, 0, 0, 0, -2.1855695e-09, 0.05, 0, -0.05, -2.1855695e-09, 29.6342, 0.55931294, -19.439346)
+
+[node name="stack_of_other_pizzas2" parent="." unique_id=1466812753 instance=ExtResource("50_xu8c3")]
+transform = Transform3D(0.05, 0, 0, 0, -2.1855695e-09, 0.05, 0, -0.05, -2.1855695e-09, 31.64068, 0.55931294, -19.439346)
+
+[node name="Can" parent="." unique_id=1903599239 instance=ExtResource("43_ufpvp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.936165, 1.103335, -6.894661)
+
+[node name="black_coffee" parent="." unique_id=103292182 instance=ExtResource("52_i0xrs")]
+transform = Transform3D(-0.05, 7.54979e-09, 3.3001182e-16, 0, -2.1855695e-09, 0.05, 7.54979e-09, 0.05, 2.1855695e-09, 35.568886, 1.4507077, -0.92278624)
+
+[node name="shelf_of_radios" parent="." unique_id=237758063 instance=ExtResource("53_i0xrs")]
+
+[node name="stack_of_jerry_cans" parent="." unique_id=1692845415 instance=ExtResource("54_xhgqh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.584667, 0.08323121, 28.703136)
+
+[node name="stack_of_ropes" parent="." unique_id=991305595 instance=ExtResource("55_gy65h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.576305, 2.0274591, 22.762682)
+
+[node name="stack_of_flash_lights" type="Node3D" parent="." unique_id=1276786801]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.34022, 2.0297062, 20.277327)
+
+[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights" unique_id=743508384 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.947827, 2.099844)
+
+[node name="row_of_flash_lights" type="Node3D" parent="stack_of_flash_lights" unique_id=1587058869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.947827, 0)
+
+[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=1370882303 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=891673537 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=1165074515 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=2045517271 instance=ExtResource("56_cxnat")]
+
+[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=171495986 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="row_of_flash_lights4" type="Node3D" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=1651088448]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.947827, 0)
+
+[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=554174713 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=1697472507 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=706749575 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
+
+[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=769599212 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=343125227 instance=ExtResource("56_cxnat")]
+
+[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=615993120 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="row_of_flash_lights2" type="Node3D" parent="stack_of_flash_lights" unique_id=171942150]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2324525, 0)
+
+[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=1732033223 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=1179494622 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=580418014 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
+
+[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=2055495096 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=1418338984 instance=ExtResource("56_cxnat")]
+
+[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=51886860 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
+
+[node name="row_of_flash_lights3" type="Node3D" parent="stack_of_flash_lights" unique_id=1751859360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.6064681, 0)
+
+[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=1313161883 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
+
+[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=1569342547 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
+
+[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=1208733074 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
+
+[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=421111841 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
+
+[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=687337528 instance=ExtResource("56_cxnat")]
+
+[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=985483668 instance=ExtResource("56_cxnat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
