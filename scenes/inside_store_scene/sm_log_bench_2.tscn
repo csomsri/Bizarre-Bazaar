@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dmydvjjig8r5o"]
+
+[ext_resource type="PackedScene" uid="uid://bycvleqjn4d65" path="res://assets/inside_store/camping_supplies/GLB/SM_Log_Bench.glb" id="1_a0gj3"]
+
+[node name="SM_Log_Bench2" unique_id=808952913 instance=ExtResource("1_a0gj3")]

@@ -1,0 +1,301 @@
+[gd_scene format=3 uid="uid://c6lxjvaa8jqlm"]
+
+[ext_resource type="PackedScene" uid="uid://b5r8bw5mp1580" path="res://scenes/inside_store_scene/items_for_sale/scooby_food.tscn" id="1_hwpg7"]
+
+[node name="stack_of_scooby_cereal" type="Node3D" unique_id=1699306684]
+
+[node name="row_of_scooby3" type="Node3D" parent="." unique_id=185766597]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 2.6829834, 1.162617, -5.4773026)
+
+[node name="col_of_scooby_food6" type="Node3D" parent="row_of_scooby3" unique_id=489327057]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8718224, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby3/col_of_scooby_food6" unique_id=1023809279 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby3/col_of_scooby_food6" unique_id=2104084873 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby3/col_of_scooby_food6" unique_id=537115526 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food5" type="Node3D" parent="row_of_scooby3" unique_id=370663854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2186508, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby3/col_of_scooby_food5" unique_id=1081586707 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby3/col_of_scooby_food5" unique_id=2135003101 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby3/col_of_scooby_food5" unique_id=416885070 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food" type="Node3D" parent="row_of_scooby3" unique_id=175498936]
+
+[node name="scooby_food3" parent="row_of_scooby3/col_of_scooby_food" unique_id=1238570495 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby3/col_of_scooby_food" unique_id=1221845966 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby3/col_of_scooby_food" unique_id=627537178 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food2" type="Node3D" parent="row_of_scooby3" unique_id=1082941572]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.90104675, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby3/col_of_scooby_food2" unique_id=1619529574 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby3/col_of_scooby_food2" unique_id=594930145 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby3/col_of_scooby_food2" unique_id=234755059 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food3" type="Node3D" parent="row_of_scooby3" unique_id=1107202428]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6733856, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby3/col_of_scooby_food3" unique_id=2096566932 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby3/col_of_scooby_food3" unique_id=156546403 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby3/col_of_scooby_food3" unique_id=1552270062 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food4" type="Node3D" parent="row_of_scooby3" unique_id=1385120232]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4459305, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby3/col_of_scooby_food4" unique_id=1094565512 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby3/col_of_scooby_food4" unique_id=2011798112 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby3/col_of_scooby_food4" unique_id=2074859747 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="row_of_scooby2" type="Node3D" parent="." unique_id=1440628174]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 2.6829834, 0.5069411, -5.4773026)
+
+[node name="col_of_scooby_food6" type="Node3D" parent="row_of_scooby2" unique_id=146187761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8718224, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby2/col_of_scooby_food6" unique_id=1531175920 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby2/col_of_scooby_food6" unique_id=1545594203 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby2/col_of_scooby_food6" unique_id=1043946581 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food5" type="Node3D" parent="row_of_scooby2" unique_id=1189118752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2186508, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby2/col_of_scooby_food5" unique_id=1867606104 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby2/col_of_scooby_food5" unique_id=1346314670 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby2/col_of_scooby_food5" unique_id=1573669610 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food" type="Node3D" parent="row_of_scooby2" unique_id=1405893642]
+
+[node name="scooby_food3" parent="row_of_scooby2/col_of_scooby_food" unique_id=62157859 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby2/col_of_scooby_food" unique_id=2006075062 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby2/col_of_scooby_food" unique_id=357505385 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food2" type="Node3D" parent="row_of_scooby2" unique_id=624377321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.90104675, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby2/col_of_scooby_food2" unique_id=198263533 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby2/col_of_scooby_food2" unique_id=92253462 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby2/col_of_scooby_food2" unique_id=1831986054 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food3" type="Node3D" parent="row_of_scooby2" unique_id=1171107396]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6733856, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby2/col_of_scooby_food3" unique_id=1789675611 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby2/col_of_scooby_food3" unique_id=1872022677 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby2/col_of_scooby_food3" unique_id=1659254004 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food4" type="Node3D" parent="row_of_scooby2" unique_id=1833788624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4459305, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby2/col_of_scooby_food4" unique_id=1298432297 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby2/col_of_scooby_food4" unique_id=1015544981 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby2/col_of_scooby_food4" unique_id=709127435 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="row_of_scooby" type="Node3D" parent="." unique_id=1088441333]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 2.6829834, -0.14281642, -5.4773026)
+
+[node name="col_of_scooby_food6" type="Node3D" parent="row_of_scooby" unique_id=316241311]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8718224, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby/col_of_scooby_food6" unique_id=1265308848 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby/col_of_scooby_food6" unique_id=1434212780 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby/col_of_scooby_food6" unique_id=1899858985 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food5" type="Node3D" parent="row_of_scooby" unique_id=1412004251]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2186508, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby/col_of_scooby_food5" unique_id=1748672358 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby/col_of_scooby_food5" unique_id=908422588 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby/col_of_scooby_food5" unique_id=473847016 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food" type="Node3D" parent="row_of_scooby" unique_id=1261540863]
+
+[node name="scooby_food3" parent="row_of_scooby/col_of_scooby_food" unique_id=35929026 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby/col_of_scooby_food" unique_id=1099668832 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby/col_of_scooby_food" unique_id=2008624366 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food2" type="Node3D" parent="row_of_scooby" unique_id=202984123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.90104675, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby/col_of_scooby_food2" unique_id=387422083 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby/col_of_scooby_food2" unique_id=1494199833 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby/col_of_scooby_food2" unique_id=1054996724 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food3" type="Node3D" parent="row_of_scooby" unique_id=489091954]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6733856, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby/col_of_scooby_food3" unique_id=1339336139 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby/col_of_scooby_food3" unique_id=1792753605 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby/col_of_scooby_food3" unique_id=221358382 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food4" type="Node3D" parent="row_of_scooby" unique_id=1738192253]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4459305, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby/col_of_scooby_food4" unique_id=664277008 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby/col_of_scooby_food4" unique_id=1609756944 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby/col_of_scooby_food4" unique_id=209363354 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="row_of_scooby4" type="Node3D" parent="." unique_id=1249426613]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 2.6829834, 1.7497027, -5.4773026)
+
+[node name="col_of_scooby_food6" type="Node3D" parent="row_of_scooby4" unique_id=1336103835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8718224, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby4/col_of_scooby_food6" unique_id=914177666 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby4/col_of_scooby_food6" unique_id=769369530 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby4/col_of_scooby_food6" unique_id=135498963 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food5" type="Node3D" parent="row_of_scooby4" unique_id=748917178]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2186508, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby4/col_of_scooby_food5" unique_id=492683199 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby4/col_of_scooby_food5" unique_id=1417469679 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby4/col_of_scooby_food5" unique_id=120184458 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food" type="Node3D" parent="row_of_scooby4" unique_id=1837192198]
+
+[node name="scooby_food3" parent="row_of_scooby4/col_of_scooby_food" unique_id=1477011909 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby4/col_of_scooby_food" unique_id=914887202 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby4/col_of_scooby_food" unique_id=650609915 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food2" type="Node3D" parent="row_of_scooby4" unique_id=888890104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.90104675, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby4/col_of_scooby_food2" unique_id=85652317 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby4/col_of_scooby_food2" unique_id=1682464637 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby4/col_of_scooby_food2" unique_id=850180252 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food3" type="Node3D" parent="row_of_scooby4" unique_id=1501031031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6733856, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby4/col_of_scooby_food3" unique_id=1583741349 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby4/col_of_scooby_food3" unique_id=1926230873 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby4/col_of_scooby_food3" unique_id=626787310 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)
+
+[node name="col_of_scooby_food4" type="Node3D" parent="row_of_scooby4" unique_id=84368710]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4459305, 0, 0)
+
+[node name="scooby_food3" parent="row_of_scooby4/col_of_scooby_food4" unique_id=1900289257 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -55.196095)
+
+[node name="scooby_food2" parent="row_of_scooby4/col_of_scooby_food4" unique_id=378681826 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.76825)
+
+[node name="scooby_food" parent="row_of_scooby4/col_of_scooby_food4" unique_id=14523765 instance=ExtResource("1_hwpg7")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 27.454254, -1.9595852, -54.457504)

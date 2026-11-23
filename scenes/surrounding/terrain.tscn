@@ -68,6 +68,12 @@
 [ext_resource type="PackedScene" uid="uid://bkmxs7lw35ntj" path="res://scenes/inside_store_scene/stack_of_cereal_1.tscn" id="67_cme4b"]
 [ext_resource type="PackedScene" uid="uid://lnf820b7dl0x" path="res://scenes/inside_store_scene/stack_of_cereal_two.tscn" id="68_2cunl"]
 [ext_resource type="PackedScene" uid="uid://cg70nmclh648b" path="res://scenes/inside_store_scene/light.tscn" id="68_b33ps"]
+[ext_resource type="PackedScene" uid="uid://bgcen2qnlowp2" path="res://scenes/inside_store_scene/items_for_sale/stack_of_cereal_three.tscn" id="69_w58wy"]
+[ext_resource type="PackedScene" uid="uid://cd485540i4rub" path="res://scenes/inside_store_scene/items_for_sale/stack_of_nesquik.tscn" id="70_yuu6i"]
+[ext_resource type="PackedScene" uid="uid://gix0s4jl3ao5" path="res://scenes/inside_store_scene/items_for_sale/stack_of_log_benches.tscn" id="71_nddc1"]
+[ext_resource type="PackedScene" uid="uid://c6lxjvaa8jqlm" path="res://scenes/inside_store_scene/items_for_sale/stack_of_scooby_cereal.tscn" id="72_nddc1"]
+[ext_resource type="PackedScene" uid="uid://dxxmd15swigm7" path="res://scenes/inside_store_scene/items_for_sale/stack_of_couches.tscn" id="73_ign2b"]
+[ext_resource type="PackedScene" uid="uid://cbpag3t3nl52w" path="res://scenes/inside_store_scene/items_for_sale/stack_of_orange_tents.tscn" id="74_ljeee"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -446,7 +452,7 @@ transform = Transform3D(0.66619855, 0, -0.74577445, 0, 1, 0, 0.74577445, 0, 0.66
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 76.39138, 0.56941295, 30.693718)
 
 [node name="NewLevel" parent="." unique_id=1474601424 instance=ExtResource("23_qn42m")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.593903, -0.17730202, 22.133875)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.482254, -0.14040053, 22.229792)
 
 [node name="ChristmassTree" parent="." unique_id=209154362 instance=ExtResource("24_qn42m")]
 transform = Transform3D(2.8003762, 0, 0, 0, 2.8003762, 0, 0, 0, 2.8003762, 89.05541, 0.023333002, -19.408237)
@@ -1313,6 +1319,51 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.23739, 2.0428164, 42.77275
 
 [node name="stack_of_cereal_two2" parent="." unique_id=1129331982 instance=ExtResource("68_2cunl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.84391, 2.0428164, 42.77275)
+
+[node name="stack_of_cereal_three" parent="." unique_id=1720452324 instance=ExtResource("69_w58wy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.84391, 2.0428164, 42.77275)
+
+[node name="stack_of_cereal_three2" parent="." unique_id=655586050 instance=ExtResource("69_w58wy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.365124, 2.0428164, 42.77275)
+
+[node name="stack_of_nesquik" parent="." unique_id=1986750440 instance=ExtResource("70_yuu6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.365124, 2.0428164, 42.77275)
+
+[node name="stack_of_nesquik2" parent="." unique_id=763325082 instance=ExtResource("70_yuu6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 42.77275)
+
+[node name="stack_of_log_benches" parent="." unique_id=316891469 instance=ExtResource("71_nddc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 42.77275)
+
+[node name="stack_of_log_benches2" parent="." unique_id=1496612574 instance=ExtResource("71_nddc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 47.384636)
+
+[node name="stack_of_log_benches3" parent="." unique_id=1014475466 instance=ExtResource("71_nddc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 52.380867)
+
+[node name="stack_of_scooby_cereal" parent="." unique_id=1699306684 instance=ExtResource("72_nddc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 52.380867)
+
+[node name="stack_of_scooby_cereal2" parent="." unique_id=1404665423 instance=ExtResource("72_nddc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.380867)
+
+[node name="stack_of_couches" parent="." unique_id=118074904 instance=ExtResource("73_ign2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.380867)
+
+[node name="stack_of_couches2" parent="." unique_id=1972950418 instance=ExtResource("73_ign2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 47.705795)
+
+[node name="stack_of_couches3" parent="." unique_id=1262671273 instance=ExtResource("73_ign2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.772984)
+
+[node name="stack_of_orange_tents" parent="." unique_id=1758075623 instance=ExtResource("74_ljeee")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.772984)
+
+[node name="stack_of_orange_tents2" parent="." unique_id=21557856 instance=ExtResource("74_ljeee")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 38.207752)
+
+[node name="stack_of_orange_tents3" parent="." unique_id=775977261 instance=ExtResource("74_ljeee")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 33.342773)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

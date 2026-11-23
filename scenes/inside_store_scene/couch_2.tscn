@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://ci7yd7e5ruavl"]
+
+[ext_resource type="PackedScene" uid="uid://bjqvdh1yxn52k" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/couch.gltf" id="1_jcwip"]
+
+[node name="couch2" unique_id=1273038644 instance=ExtResource("1_jcwip")]

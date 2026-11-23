@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bmjf5a6tml1kx"]
+
+[ext_resource type="PackedScene" uid="uid://5mrjk0cdq75a" path="res://assets/inside_store/camping_supplies/GLB/SM_Tent_Orange.glb" id="1_u03qo"]
+
+[node name="SM_Tent_Orange2" unique_id=861517070 instance=ExtResource("1_u03qo")]
