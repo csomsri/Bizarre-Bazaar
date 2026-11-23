@@ -1,0 +1,103 @@
+[gd_scene format=3 uid="uid://ctn7iv7x7cms6"]
+
+[ext_resource type="PackedScene" uid="uid://2mnyycrqqdn1" path="res://assets/items/food/Pizza.blend" id="1_3ehxf"]
+
+[node name="stack_of_pizzas" type="Node3D" unique_id=1071688775]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0, 0, 0)
+
+[node name="row_col_of_pizzas7" type="Node3D" parent="." unique_id=1010040471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.8329988, 0)
+
+[node name="Pizza4" parent="row_col_of_pizzas7" unique_id=1962400515 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas7" unique_id=837527312 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas7" unique_id=1228582219 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas7" unique_id=975470083 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
+
+[node name="row_col_of_pizzas" type="Node3D" parent="." unique_id=876987402]
+
+[node name="Pizza4" parent="row_col_of_pizzas" unique_id=2075613462 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas" unique_id=182151524 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas" unique_id=1665365089 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas" unique_id=1110956213 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
+
+[node name="row_col_of_pizzas2" type="Node3D" parent="." unique_id=2028762356]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0498141, 0)
+
+[node name="Pizza4" parent="row_col_of_pizzas2" unique_id=114388135 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas2" unique_id=820190439 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas2" unique_id=1383151696 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas2" unique_id=835703387 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
+
+[node name="row_col_of_pizzas3" type="Node3D" parent="." unique_id=730796763]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2035193, 0)
+
+[node name="Pizza4" parent="row_col_of_pizzas3" unique_id=348980509 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas3" unique_id=1262445206 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas3" unique_id=1569022674 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas3" unique_id=641037785 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
+
+[node name="row_col_of_pizzas4" type="Node3D" parent="." unique_id=94142603]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.297305, 0)
+
+[node name="Pizza4" parent="row_col_of_pizzas4" unique_id=42417842 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas4" unique_id=1954632901 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas4" unique_id=1610369445 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas4" unique_id=2010864006 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
+
+[node name="row_col_of_pizzas5" type="Node3D" parent="." unique_id=1967093325]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.459083, 0)
+
+[node name="Pizza4" parent="row_col_of_pizzas5" unique_id=1390287230 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas5" unique_id=1274712271 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas5" unique_id=1797462251 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas5" unique_id=1797188431 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
+
+[node name="row_col_of_pizzas6" type="Node3D" parent="." unique_id=1413757650]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.68319, 0)
+
+[node name="Pizza4" parent="row_col_of_pizzas6" unique_id=754342158 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038482666, 0, 17.166077)
+
+[node name="Pizza" parent="row_col_of_pizzas6" unique_id=544189781 instance=ExtResource("1_3ehxf")]
+
+[node name="Pizza2" parent="row_col_of_pizzas6" unique_id=1605290526 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 0)
+
+[node name="Pizza3" parent="row_col_of_pizzas6" unique_id=34567991 instance=ExtResource("1_3ehxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.761627, 0, 17.166077)
