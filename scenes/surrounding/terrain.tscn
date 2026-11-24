@@ -89,6 +89,8 @@
 [ext_resource type="PackedScene" uid="uid://cic80edv0wmho" path="res://scenes/inside_store_scene/items_for_sale/stack_of_ketchup.tscn" id="87_t3fjy"]
 [ext_resource type="PackedScene" uid="uid://b4f1p83knlbf8" path="res://scenes/inside_store_scene/items_for_sale/stack_of_cookies.tscn" id="88_t3fjy"]
 [ext_resource type="PackedScene" uid="uid://bmyxe3nxc1lqg" path="res://scenes/inside_store_scene/items_for_sale/stack_of_choco_cookies.tscn" id="89_plhhj"]
+[ext_resource type="PackedScene" uid="uid://cw8v1cvo7tayr" path="res://scenes/inside_store_scene/items_for_sale/stack_of_beans.tscn" id="90_jdrrb"]
+[ext_resource type="PackedScene" uid="uid://0tcmvttwkgkk" path="res://scenes/inside_store_scene/items_for_sale/stack_of_meat_in_a_can.tscn" id="91_o1bpf"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -730,7 +732,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.853603, 0.04488259, 21.88
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.858105, 0.040999345, 3.935155)
 
 [node name="Car52" parent="." unique_id=1419355590 instance=ExtResource("47_8xxp6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.517307, 0.032267474, 15.775336)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.913036, 0.032267474, 17.60197)
 
 [node name="stack_of_pizzas" parent="." unique_id=1071688775 instance=ExtResource("48_cvjss")]
 transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 25.143206, 0.09976652, -20.40174)
@@ -1475,6 +1477,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1793747, 2.051, 51.979)
 
 [node name="stack_of_choco_cookies2" parent="." unique_id=2096359141 instance=ExtResource("89_plhhj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.941618, 2.051, 51.979)
+
+[node name="stack_of_beans" parent="." unique_id=1483829085 instance=ExtResource("90_jdrrb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.941618, 2.051, 51.979)
+
+[node name="stack_of_beans2" parent="." unique_id=492940935 instance=ExtResource("90_jdrrb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.953358, 2.051, 51.979)
+
+[node name="stack_of_meat_in_a_can" parent="." unique_id=1544951908 instance=ExtResource("91_o1bpf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.953358, 2.051, 51.979)
+
+[node name="stack_of_meat_in_a_can2" parent="." unique_id=1091240482 instance=ExtResource("91_o1bpf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.68912, 2.051, 51.979)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

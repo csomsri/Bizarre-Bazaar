@@ -1,0 +1,444 @@
+[gd_scene format=3 uid="uid://cw8v1cvo7tayr"]
+
+[ext_resource type="PackedScene" uid="uid://cvk2asihb27id" path="res://scenes/inside_store_scene/items_for_sale/beans.tscn" id="1_vlv7e"]
+
+[node name="stack_of_beans" type="Node3D" unique_id=1483829085]
+
+[node name="row_of_beans3" type="Node3D" parent="." unique_id=1042165081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0003824234, 1.3196702, 0)
+
+[node name="col_of_beans9" type="Node3D" parent="row_of_beans3" unique_id=1544984645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9233913, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans9" unique_id=1534587247 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans9" unique_id=796098785 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans9" unique_id=1603189222 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans6" type="Node3D" parent="row_of_beans3" unique_id=1074424104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6385574, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans6" unique_id=945905952 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans6" unique_id=1275920205 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans6" unique_id=1713106888 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans4" type="Node3D" parent="row_of_beans3" unique_id=1110135805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4617405, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans4" unique_id=800966643 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans4" unique_id=432663684 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans4" unique_id=1874399466 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans" type="Node3D" parent="row_of_beans3" unique_id=787864132]
+
+[node name="beans3" parent="row_of_beans3/col_of_beans" unique_id=511300510 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans" unique_id=689580860 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans" unique_id=703859670 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans2" type="Node3D" parent="row_of_beans3" unique_id=813539246]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4880314, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans2" unique_id=543070797 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans2" unique_id=1973547723 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans2" unique_id=886504389 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans3" type="Node3D" parent="row_of_beans3" unique_id=1860854313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9750099, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans3" unique_id=718853992 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans3" unique_id=1156949350 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans3" unique_id=1086097101 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans5" type="Node3D" parent="row_of_beans3" unique_id=664957378]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0454922, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans5" unique_id=1220068391 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans5" unique_id=1778741443 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans5" unique_id=202601273 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans7" type="Node3D" parent="row_of_beans3" unique_id=229444478]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1327229, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans7" unique_id=1692779895 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans7" unique_id=128168649 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans7" unique_id=694701122 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans8" type="Node3D" parent="row_of_beans3" unique_id=1563706899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5280056, 0, 0)
+
+[node name="beans3" parent="row_of_beans3/col_of_beans8" unique_id=17834868 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans3/col_of_beans8" unique_id=1938954880 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans3/col_of_beans8" unique_id=968943418 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="row_of_beans2" type="Node3D" parent="." unique_id=535219979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0003824234, 0.70599985, 0)
+
+[node name="col_of_beans9" type="Node3D" parent="row_of_beans2" unique_id=1229171729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9233913, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans9" unique_id=242437889 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans9" unique_id=816828213 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans9" unique_id=1510024855 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans6" type="Node3D" parent="row_of_beans2" unique_id=2045265973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6385574, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans6" unique_id=403719785 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans6" unique_id=315583038 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans6" unique_id=536647078 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans4" type="Node3D" parent="row_of_beans2" unique_id=230487820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4617405, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans4" unique_id=1618955588 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans4" unique_id=1684547096 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans4" unique_id=674435683 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans" type="Node3D" parent="row_of_beans2" unique_id=2005977497]
+
+[node name="beans3" parent="row_of_beans2/col_of_beans" unique_id=1557045715 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans" unique_id=977255855 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans" unique_id=1555209072 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans2" type="Node3D" parent="row_of_beans2" unique_id=799167943]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4880314, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans2" unique_id=143976867 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans2" unique_id=44619161 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans2" unique_id=86704196 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans3" type="Node3D" parent="row_of_beans2" unique_id=926573955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9750099, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans3" unique_id=40308261 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans3" unique_id=1263346806 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans3" unique_id=1656939191 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans5" type="Node3D" parent="row_of_beans2" unique_id=1342967137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0454922, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans5" unique_id=935494853 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans5" unique_id=1194604812 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans5" unique_id=158764768 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans7" type="Node3D" parent="row_of_beans2" unique_id=109349415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1327229, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans7" unique_id=1488375941 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans7" unique_id=1407008726 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans7" unique_id=631011071 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans8" type="Node3D" parent="row_of_beans2" unique_id=481889461]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5280056, 0, 0)
+
+[node name="beans3" parent="row_of_beans2/col_of_beans8" unique_id=381311012 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans2/col_of_beans8" unique_id=1860239179 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans2/col_of_beans8" unique_id=552479389 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="row_of_beans" type="Node3D" parent="." unique_id=1513652623]
+
+[node name="col_of_beans9" type="Node3D" parent="row_of_beans" unique_id=338615023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9233913, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans9" unique_id=1109160496 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans9" unique_id=964059983 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans9" unique_id=1535222735 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans6" type="Node3D" parent="row_of_beans" unique_id=38130347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6385574, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans6" unique_id=1077481716 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans6" unique_id=991072321 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans6" unique_id=903054753 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans4" type="Node3D" parent="row_of_beans" unique_id=1951276564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4617405, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans4" unique_id=253704026 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans4" unique_id=4159867 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans4" unique_id=60909449 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans" type="Node3D" parent="row_of_beans" unique_id=125784776]
+
+[node name="beans3" parent="row_of_beans/col_of_beans" unique_id=166656708 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans" unique_id=1626829398 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans" unique_id=48239243 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans2" type="Node3D" parent="row_of_beans" unique_id=234561423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4880314, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans2" unique_id=1039800650 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans2" unique_id=1284157958 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans2" unique_id=1278293930 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans3" type="Node3D" parent="row_of_beans" unique_id=1609671944]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9750099, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans3" unique_id=899696276 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans3" unique_id=1861921708 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans3" unique_id=1956425620 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans5" type="Node3D" parent="row_of_beans" unique_id=1759595224]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0454922, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans5" unique_id=818499225 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans5" unique_id=382413588 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans5" unique_id=1320422046 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans7" type="Node3D" parent="row_of_beans" unique_id=1365390742]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1327229, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans7" unique_id=1012707899 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans7" unique_id=436915857 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans7" unique_id=1409961568 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans8" type="Node3D" parent="row_of_beans" unique_id=806605364]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5280056, 0, 0)
+
+[node name="beans3" parent="row_of_beans/col_of_beans8" unique_id=524169069 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans/col_of_beans8" unique_id=140713826 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans/col_of_beans8" unique_id=864598366 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="row_of_beans4" type="Node3D" parent="." unique_id=403873627]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0003824234, 1.9369998, 0)
+
+[node name="col_of_beans9" type="Node3D" parent="row_of_beans4" unique_id=1259911275]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9233913, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans9" unique_id=217954362 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans9" unique_id=274373858 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans9" unique_id=622567680 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans6" type="Node3D" parent="row_of_beans4" unique_id=504088021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6385574, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans6" unique_id=1280959020 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans6" unique_id=1161922650 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans6" unique_id=23961700 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans4" type="Node3D" parent="row_of_beans4" unique_id=1652166719]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4617405, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans4" unique_id=874444806 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans4" unique_id=510408233 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans4" unique_id=1270872926 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans" type="Node3D" parent="row_of_beans4" unique_id=407722108]
+
+[node name="beans3" parent="row_of_beans4/col_of_beans" unique_id=263997833 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans" unique_id=1397854687 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans" unique_id=281641900 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans2" type="Node3D" parent="row_of_beans4" unique_id=1779578034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4880314, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans2" unique_id=1532256281 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans2" unique_id=1403579638 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans2" unique_id=517221966 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans3" type="Node3D" parent="row_of_beans4" unique_id=2063428666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9750099, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans3" unique_id=948179313 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans3" unique_id=1798146277 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans3" unique_id=1509261883 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans5" type="Node3D" parent="row_of_beans4" unique_id=1637697933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0454922, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans5" unique_id=133053383 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans5" unique_id=975297122 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans5" unique_id=1327129174 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans7" type="Node3D" parent="row_of_beans4" unique_id=789315314]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1327229, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans7" unique_id=1429096420 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans7" unique_id=1619191833 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans7" unique_id=18985911 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)
+
+[node name="col_of_beans8" type="Node3D" parent="row_of_beans4" unique_id=798133990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5280056, 0, 0)
+
+[node name="beans3" parent="row_of_beans4/col_of_beans8" unique_id=635701035 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.96603)
+
+[node name="beans" parent="row_of_beans4/col_of_beans8" unique_id=1700499610 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.10524)
+
+[node name="beans2" parent="row_of_beans4/col_of_beans8" unique_id=2127827040 instance=ExtResource("1_vlv7e")]
+transform = Transform3D(-0.05, 4.371139e-09, 1.9106854e-16, 0, -2.1855695e-09, 0.05, 4.371139e-09, 0.05, 2.1855695e-09, 30.505066, -1.9322674, -42.557697)

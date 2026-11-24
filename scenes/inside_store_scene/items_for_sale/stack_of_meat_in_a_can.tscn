@@ -1,0 +1,444 @@
+[gd_scene format=3 uid="uid://0tcmvttwkgkk"]
+
+[ext_resource type="PackedScene" uid="uid://6wdjsj4yct8q" path="res://scenes/inside_store_scene/items_for_sale/meat_in_a_can.tscn" id="1_utmty"]
+
+[node name="stack_of_meat_in_a_can" type="Node3D" unique_id=1544951908]
+
+[node name="row_of_meat3" type="Node3D" parent="." unique_id=2121111979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00035762787, 1.3299999, 0)
+
+[node name="col_of_meat_can9" type="Node3D" parent="row_of_meat3" unique_id=1221908310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.991005, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can9" unique_id=1365179165 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can9" unique_id=1341093745 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can9" unique_id=365569243 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can8" type="Node3D" parent="row_of_meat3" unique_id=1782033310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5023003, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can8" unique_id=93641203 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can8" unique_id=1012659951 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can8" unique_id=1847990558 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can6" type="Node3D" parent="row_of_meat3" unique_id=1204012751]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6228943, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can6" unique_id=1147081446 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can6" unique_id=740563138 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can6" unique_id=3041126 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can5" type="Node3D" parent="row_of_meat3" unique_id=1574586851]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1342354, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can5" unique_id=1354632020 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can5" unique_id=689431702 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can5" unique_id=894202751 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can4" type="Node3D" parent="row_of_meat3" unique_id=1659122840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6494312, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can4" unique_id=1848881405 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can4" unique_id=1875300989 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can4" unique_id=428177467 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can" type="Node3D" parent="row_of_meat3" unique_id=1355195444]
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can" unique_id=1403458629 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can" unique_id=1700208328 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can" unique_id=1482729864 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can2" type="Node3D" parent="row_of_meat3" unique_id=222415432]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.67906666, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can2" unique_id=204351133 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can2" unique_id=1664866462 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can2" unique_id=921072762 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can3" type="Node3D" parent="row_of_meat3" unique_id=1009906758]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1644688, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can3" unique_id=819881038 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can3" unique_id=261621536 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can3" unique_id=1832229366 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can7" type="Node3D" parent="row_of_meat3" unique_id=1755181274]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1114578, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat3/col_of_meat_can7" unique_id=197828797 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat3/col_of_meat_can7" unique_id=359404974 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat3/col_of_meat_can7" unique_id=895475050 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="row_of_meat" type="Node3D" parent="." unique_id=346943162]
+
+[node name="col_of_meat_can9" type="Node3D" parent="row_of_meat" unique_id=733184288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.991005, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can9" unique_id=305752802 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can9" unique_id=287217295 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can9" unique_id=1720155912 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can8" type="Node3D" parent="row_of_meat" unique_id=224123077]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5023003, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can8" unique_id=164299204 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can8" unique_id=313742242 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can8" unique_id=613231723 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can6" type="Node3D" parent="row_of_meat" unique_id=1688351535]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6228943, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can6" unique_id=730053404 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can6" unique_id=1289724641 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can6" unique_id=2111857417 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can5" type="Node3D" parent="row_of_meat" unique_id=369558843]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1342354, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can5" unique_id=338773118 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can5" unique_id=763737090 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can5" unique_id=826977567 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can4" type="Node3D" parent="row_of_meat" unique_id=1804940906]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6494312, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can4" unique_id=31625941 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can4" unique_id=374511173 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can4" unique_id=1412611708 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can" type="Node3D" parent="row_of_meat" unique_id=1201900372]
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can" unique_id=1179470731 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can" unique_id=2034535851 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can" unique_id=1753249812 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can2" type="Node3D" parent="row_of_meat" unique_id=205210792]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.67906666, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can2" unique_id=1158124621 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can2" unique_id=325638242 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can2" unique_id=1734186259 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can3" type="Node3D" parent="row_of_meat" unique_id=22467505]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1644688, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can3" unique_id=1198706335 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can3" unique_id=668597854 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can3" unique_id=988797564 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can7" type="Node3D" parent="row_of_meat" unique_id=978001418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1114578, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat/col_of_meat_can7" unique_id=1814878962 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat/col_of_meat_can7" unique_id=1137878607 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat/col_of_meat_can7" unique_id=1020212408 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="row_of_meat2" type="Node3D" parent="." unique_id=233120436]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00035762787, 0.69299984, 0)
+
+[node name="col_of_meat_can9" type="Node3D" parent="row_of_meat2" unique_id=1117290579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.991005, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can9" unique_id=688918723 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can9" unique_id=614717903 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can9" unique_id=146412700 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can8" type="Node3D" parent="row_of_meat2" unique_id=647429156]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5023003, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can8" unique_id=429651837 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can8" unique_id=279974376 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can8" unique_id=1285948341 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can6" type="Node3D" parent="row_of_meat2" unique_id=70262554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6228943, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can6" unique_id=1290933702 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can6" unique_id=1993931463 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can6" unique_id=1510775780 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can5" type="Node3D" parent="row_of_meat2" unique_id=1731689783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1342354, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can5" unique_id=547710820 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can5" unique_id=1756571854 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can5" unique_id=2120923252 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can4" type="Node3D" parent="row_of_meat2" unique_id=1292653114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6494312, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can4" unique_id=180238459 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can4" unique_id=1335701516 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can4" unique_id=1333102194 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can" type="Node3D" parent="row_of_meat2" unique_id=378575369]
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can" unique_id=961413996 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can" unique_id=1899423663 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can" unique_id=1431903540 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can2" type="Node3D" parent="row_of_meat2" unique_id=1581226768]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.67906666, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can2" unique_id=445375715 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can2" unique_id=954889032 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can2" unique_id=1465917129 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can3" type="Node3D" parent="row_of_meat2" unique_id=2085379606]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1644688, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can3" unique_id=480916230 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can3" unique_id=835426031 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can3" unique_id=1064672146 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can7" type="Node3D" parent="row_of_meat2" unique_id=1779131233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1114578, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat2/col_of_meat_can7" unique_id=550567894 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat2/col_of_meat_can7" unique_id=1168940013 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat2/col_of_meat_can7" unique_id=1763728714 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="row_of_meat4" type="Node3D" parent="." unique_id=37282994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00035762787, 1.9400682, 0)
+
+[node name="col_of_meat_can9" type="Node3D" parent="row_of_meat4" unique_id=469104974]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.991005, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can9" unique_id=981334337 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can9" unique_id=1487947331 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can9" unique_id=1410554463 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can8" type="Node3D" parent="row_of_meat4" unique_id=830413402]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5023003, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can8" unique_id=1281938020 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can8" unique_id=1566543131 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can8" unique_id=1083517021 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can6" type="Node3D" parent="row_of_meat4" unique_id=785715855]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6228943, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can6" unique_id=1428470397 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can6" unique_id=881904393 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can6" unique_id=1610052157 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can5" type="Node3D" parent="row_of_meat4" unique_id=423677798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1342354, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can5" unique_id=1225815700 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can5" unique_id=118307822 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can5" unique_id=1041039490 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can4" type="Node3D" parent="row_of_meat4" unique_id=467899331]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6494312, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can4" unique_id=905390606 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can4" unique_id=1180711739 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can4" unique_id=161472628 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can" type="Node3D" parent="row_of_meat4" unique_id=397412576]
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can" unique_id=344655370 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can" unique_id=265830336 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can" unique_id=119894283 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can2" type="Node3D" parent="row_of_meat4" unique_id=1502820150]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.67906666, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can2" unique_id=2072038478 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can2" unique_id=1693952935 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can2" unique_id=1884463587 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can3" type="Node3D" parent="row_of_meat4" unique_id=1933399002]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1644688, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can3" unique_id=689725170 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can3" unique_id=403732424 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can3" unique_id=948433979 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
+
+[node name="col_of_meat_can7" type="Node3D" parent="row_of_meat4" unique_id=1913853392]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1114578, 0, 0)
+
+[node name="meat_in_a_can" parent="row_of_meat4/col_of_meat_can7" unique_id=1501229696 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -41.762024)
+
+[node name="meat_in_a_can2" parent="row_of_meat4/col_of_meat_can7" unique_id=762829561 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.211994)
+
+[node name="meat_in_a_can3" parent="row_of_meat4/col_of_meat_can7" unique_id=127302921 instance=ExtResource("1_utmty")]
+transform = Transform3D(-2.1855695e-09, -0.05, -2.1855695e-09, 0, -2.1855695e-09, 0.05, -0.05, 2.1855695e-09, 9.553427e-17, 26.920784, -1.9249337, -42.650074)
