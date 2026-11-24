@@ -20,7 +20,7 @@ var current_interactable: InteractableObject = null
 @onready var gameplay_hud: CanvasLayer = $"../GameplayHUD"
 
 
-
+var health = 100.0
 var equipped_gun: RigidBody3D = null
 
 const SPEED = 50.0
@@ -127,6 +127,11 @@ func set_body_visible( can_see: bool) -> void:
 	if equipped_gun:
 		equipped_gun.visible = can_see
 	
+func take_damage(dmg: float)-> void:
+	health -= dmg
+
+
+
 
 # UI/Interaction
 # FUNC check_for_interaction: check if object is interactble when player looks at it

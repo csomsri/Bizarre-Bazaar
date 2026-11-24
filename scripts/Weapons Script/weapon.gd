@@ -5,6 +5,8 @@ extends RigidBody3D
 signal fired
 signal reload_started
 signal reload_finished
+@onready var shot_sound: AudioStreamPlayer3D = get_node_or_null("Shot_sound")
+@onready var reload_sound: AudioStreamPlayer3D = get_node_or_null("reload_sound")
 
 #use for hud changed if we dispaly ammo/mag size
 signal current_ammo(current:int, mag_size: int)
@@ -39,6 +41,9 @@ func _ready() -> void:
 	org_collision_layer = collision_layer
 	org_collision_mask = collision_mask
 	
+	fired.connect(_play_shot_sound)
+	reload_started.connect(_play_reload_sound)
+	
 #handels shooting logic by checking the gun the gets player cam info to fire a ray
 func shoot(camera: Camera3D, exclude: Array[RID] = []) -> bool:
 	if reloading:
@@ -61,7 +66,16 @@ func shoot(camera: Camera3D, exclude: Array[RID] = []) -> bool:
 	fired.emit()
 	current_ammo.emit(ammo, mag_size)
 	return true
-	
+
+func _play_shot_sound() -> void:
+	if shot_sound:
+		shot_sound.play()
+
+func _play_reload_sound()-> void:
+	if reload_sound:
+		reload_sound.play()
+
+
 #begins relaod if allowed
 func reload() -> void:
 	if reloading or ammo== mag_size:

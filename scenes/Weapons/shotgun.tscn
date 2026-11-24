@@ -2,6 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://880jxkehkti8" path="res://assets/items/LP_WeaponsPack (GODOT)/Wep_Shotgun.fbx" id="1_dvomb"]
 [ext_resource type="Script" uid="uid://cojemdu4yi8r2" path="res://scripts/Weapons Script/shotgun.gd" id="1_e5mxh"]
+[ext_resource type="AudioStream" uid="uid://d3qy4tmn6i1ya" path="res://audio/shotgun_shot.wav" id="3_g7eff"]
+[ext_resource type="AudioStream" uid="uid://bi15c1rfxgqbd" path="res://audio/shotgun_reload.wav" id="4_mxt6s"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_e5mxh"]
 size = Vector3(0.17651367, 1.0262146, 2.8636427)
@@ -24,6 +26,12 @@ shape = SubResource("BoxShape3D_e5mxh")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Pickup" unique_id=944923467]
 transform = Transform3D(4.5, 0, 0, 0, 4.5, 0, 0, 0, 4.5, 0, 0.03690759, -1.1607822)
 shape = SubResource("BoxShape3D_g7eff")
+
+[node name="Shot_sound" type="AudioStreamPlayer3D" parent="." unique_id=99353309]
+stream = ExtResource("3_g7eff")
+
+[node name="reload_sound" type="AudioStreamPlayer3D" parent="." unique_id=800607577]
+stream = ExtResource("4_mxt6s")
 
 [connection signal="body_entered" from="Pickup" to="." method="_on_pickup_body_entered"]
 [connection signal="body_exited" from="Pickup" to="." method="_on_pickup_body_exited"]
