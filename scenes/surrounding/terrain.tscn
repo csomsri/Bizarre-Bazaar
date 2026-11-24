@@ -87,6 +87,8 @@
 [ext_resource type="PackedScene" uid="uid://cl7fsbf22p8cu" path="res://scenes/inside_store_scene/items_for_sale/stack_of_noodles.tscn" id="85_6xwda"]
 [ext_resource type="PackedScene" uid="uid://bljitksr4qn8k" path="res://scenes/inside_store_scene/items_for_sale/stack_of_mustard.tscn" id="86_83ga0"]
 [ext_resource type="PackedScene" uid="uid://cic80edv0wmho" path="res://scenes/inside_store_scene/items_for_sale/stack_of_ketchup.tscn" id="87_t3fjy"]
+[ext_resource type="PackedScene" uid="uid://b4f1p83knlbf8" path="res://scenes/inside_store_scene/items_for_sale/stack_of_cookies.tscn" id="88_t3fjy"]
+[ext_resource type="PackedScene" uid="uid://bmyxe3nxc1lqg" path="res://scenes/inside_store_scene/items_for_sale/stack_of_choco_cookies.tscn" id="89_plhhj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -1461,6 +1463,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9929314, 2.051, 51.979)
 
 [node name="stack_of_ketchup2" parent="." unique_id=310695788 instance=ExtResource("87_t3fjy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7215271, 2.051, 51.979)
+
+[node name="stack_of_cookies" parent="." unique_id=2080345650 instance=ExtResource("88_t3fjy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7215271, 2.051, 51.979)
+
+[node name="stack_of_cookies2" parent="." unique_id=377231894 instance=ExtResource("88_t3fjy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1793747, 2.051, 51.979)
+
+[node name="stack_of_choco_cookies" parent="." unique_id=1356503552 instance=ExtResource("89_plhhj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1793747, 2.051, 51.979)
+
+[node name="stack_of_choco_cookies2" parent="." unique_id=2096359141 instance=ExtResource("89_plhhj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.941618, 2.051, 51.979)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

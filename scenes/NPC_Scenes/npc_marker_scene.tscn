@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dfowvxu02w5qw"]
+
+[ext_resource type="PackedScene" uid="uid://bcxtfnpjsyms6" path="res://scenes/surrounding/terrain.tscn" id="1_5277d"]
+
+[node name="NPC_Marker_Scene" type="Node3D" unique_id=1848153755]
+
+[node name="Terrain" parent="." unique_id=981345624 instance=ExtResource("1_5277d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45950067, 0, -0.772866)
