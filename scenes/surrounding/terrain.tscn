@@ -265,7 +265,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -364,7 +364,7 @@ surface_material_override/1 = SubResource("StandardMaterial3D_e80jd")
 surface_material_override/2 = SubResource("StandardMaterial3D_64y80")
 
 [node name="DoubleSlidingDoor" parent="." unique_id=1777015012 instance=ExtResource("11_2xvr7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.314393, 0.032235622, -9.701626)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.314393, 0.045807242, -9.701626)
 
 [node name="Dumpster3" parent="." unique_id=161248319 instance=ExtResource("16_h2q0o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.259, 0, -10.196)
@@ -477,7 +477,7 @@ transform = Transform3D(0.66619855, 0, -0.74577445, 0, 1, 0, 0.74577445, 0, 0.66
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 76.39138, 0.56941295, 30.693718)
 
 [node name="NewLevel" parent="." unique_id=1474601424 instance=ExtResource("23_qn42m")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.482254, -0.14040053, 22.229792)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 49.482, -0.2, 22.25)
 
 [node name="ChristmassTree" parent="." unique_id=209154362 instance=ExtResource("24_qn42m")]
 transform = Transform3D(2.8003762, 0, 0, 0, 2.8003762, 0, 0, 0, 2.8003762, 89.05541, 0.023333002, -19.408237)
