@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://b6x5hk0sns4qe"]
+
+[ext_resource type="PackedScene" uid="uid://cdw1ujjrv242q" path="res://scenes/inside_store_scene/items_for_sale/sm_wooden_chest_2.tscn" id="1_ssabg"]
+
+[node name="stack_of_chest" type="Node3D" unique_id=44710518]
+
+[node name="row_of_chest4" type="Node3D" parent="." unique_id=1064822844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00048732758, 1.9489999, 0)
+
+[node name="SM_Wooden_Chest2" parent="row_of_chest4" unique_id=1340286703 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -18.72894)
+
+[node name="SM_Wooden_Chest3" parent="row_of_chest4" unique_id=1323443123 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -20.234608)
+
+[node name="SM_Wooden_Chest4" parent="row_of_chest4" unique_id=461982706 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -21.50635)
+
+[node name="row_of_chest3" type="Node3D" parent="." unique_id=1900749401]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3215771, 0)
+
+[node name="SM_Wooden_Chest2" parent="row_of_chest3" unique_id=507802322 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -18.72894)
+
+[node name="SM_Wooden_Chest3" parent="row_of_chest3" unique_id=1378039521 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -20.234608)
+
+[node name="SM_Wooden_Chest4" parent="row_of_chest3" unique_id=1907872754 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -21.50635)
+
+[node name="row_of_chest" type="Node3D" parent="." unique_id=13545556]
+
+[node name="SM_Wooden_Chest2" parent="row_of_chest" unique_id=1672115728 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -18.72894)
+
+[node name="SM_Wooden_Chest3" parent="row_of_chest" unique_id=1419026422 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -20.234608)
+
+[node name="SM_Wooden_Chest4" parent="row_of_chest" unique_id=149346728 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -21.50635)
+
+[node name="row_of_chest2" type="Node3D" parent="." unique_id=1299310952]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7052555, 0)
+
+[node name="SM_Wooden_Chest2" parent="row_of_chest2" unique_id=122696286 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -18.72894)
+
+[node name="SM_Wooden_Chest3" parent="row_of_chest2" unique_id=509671600 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -20.234608)
+
+[node name="SM_Wooden_Chest4" parent="row_of_chest2" unique_id=118820377 instance=ExtResource("1_ssabg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -21.50635)

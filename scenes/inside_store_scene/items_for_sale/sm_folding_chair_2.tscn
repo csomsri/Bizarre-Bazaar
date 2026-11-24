@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://ckor6qs1sgyjx"]
+
+[ext_resource type="PackedScene" uid="uid://14xdt3xmwaxl" path="res://assets/inside_store/camping_supplies/GLB/SM_Folding_Chair.glb" id="1_qvono"]
+
+[node name="SM_Folding_Chair2" unique_id=1368832294 instance=ExtResource("1_qvono")]

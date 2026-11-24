@@ -1,0 +1,444 @@
+[gd_scene format=3 uid="uid://cqwyx33sy57iq"]
+
+[ext_resource type="PackedScene" uid="uid://b4e1ln8u0uiaw" path="res://scenes/inside_store_scene/items_for_sale/sardines.tscn" id="1_nj8hd"]
+
+[node name="stack_of_sardines" type="Node3D" unique_id=827376207]
+
+[node name="row_of_sardines" type="Node3D" parent="." unique_id=1723437741]
+
+[node name="col_of_sardines9" type="Node3D" parent="row_of_sardines" unique_id=649327804]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9028072, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines9" unique_id=1283731652 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines9" unique_id=1433765980 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines9" unique_id=1909687220 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines7" type="Node3D" parent="row_of_sardines" unique_id=1561314808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.904047, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines7" unique_id=1734541149 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines7" unique_id=2069346164 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines7" unique_id=510859580 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines6" type="Node3D" parent="row_of_sardines" unique_id=2091214228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4713058, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines6" unique_id=348700006 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines6" unique_id=364889964 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines6" unique_id=229678682 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines5" type="Node3D" parent="row_of_sardines" unique_id=1868914854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9530964, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines5" unique_id=453941265 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines5" unique_id=1032202204 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines5" unique_id=416558699 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines4" type="Node3D" parent="row_of_sardines" unique_id=1822758226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4049683, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines4" unique_id=2085085181 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines4" unique_id=261239328 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines4" unique_id=1547773913 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines3" type="Node3D" parent="row_of_sardines" unique_id=932571047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78954506, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines3" unique_id=6697817 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines3" unique_id=51759526 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines3" unique_id=1665671491 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines" type="Node3D" parent="row_of_sardines" unique_id=1483135362]
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines" unique_id=1683304530 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines" unique_id=938184554 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines" unique_id=899165133 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines2" type="Node3D" parent="row_of_sardines" unique_id=1339125870]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3500595, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines2" unique_id=534626365 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines2" unique_id=67877782 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines2" unique_id=1641458084 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines8" type="Node3D" parent="row_of_sardines" unique_id=565308841]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3580208, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines/col_of_sardines8" unique_id=243726971 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines/col_of_sardines8" unique_id=1274549847 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines/col_of_sardines8" unique_id=1234725690 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="row_of_sardines2" type="Node3D" parent="." unique_id=598516446]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6957464, 0)
+
+[node name="col_of_sardines9" type="Node3D" parent="row_of_sardines2" unique_id=365200134]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9028072, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines9" unique_id=627472363 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines9" unique_id=656650498 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines9" unique_id=1574166403 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines7" type="Node3D" parent="row_of_sardines2" unique_id=1412025394]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.904047, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines7" unique_id=747022701 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines7" unique_id=103808439 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines7" unique_id=1033709178 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines6" type="Node3D" parent="row_of_sardines2" unique_id=945456624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4713058, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines6" unique_id=1419496329 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines6" unique_id=495887209 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines6" unique_id=1434479030 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines5" type="Node3D" parent="row_of_sardines2" unique_id=180014549]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9530964, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines5" unique_id=850037972 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines5" unique_id=1726373435 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines5" unique_id=1236892302 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines4" type="Node3D" parent="row_of_sardines2" unique_id=1242979970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4049683, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines4" unique_id=518619033 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines4" unique_id=21625353 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines4" unique_id=1651403967 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines3" type="Node3D" parent="row_of_sardines2" unique_id=1219600073]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78954506, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines3" unique_id=1012268093 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines3" unique_id=737642893 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines3" unique_id=1076953337 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines" type="Node3D" parent="row_of_sardines2" unique_id=1612627234]
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines" unique_id=456373083 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines" unique_id=1587338596 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines" unique_id=440847269 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines2" type="Node3D" parent="row_of_sardines2" unique_id=1653072336]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3500595, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines2" unique_id=1388879060 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines2" unique_id=622198824 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines2" unique_id=1051256750 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines8" type="Node3D" parent="row_of_sardines2" unique_id=1266763238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3580208, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines2/col_of_sardines8" unique_id=1808573826 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines2/col_of_sardines8" unique_id=54262816 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines2/col_of_sardines8" unique_id=1556869198 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="row_of_sardines3" type="Node3D" parent="." unique_id=2009595747]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0002632141, 1.3429999, 0)
+
+[node name="col_of_sardines9" type="Node3D" parent="row_of_sardines3" unique_id=190248389]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9028072, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines9" unique_id=7884199 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines9" unique_id=460481798 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines9" unique_id=142655679 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines7" type="Node3D" parent="row_of_sardines3" unique_id=1816361089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.904047, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines7" unique_id=1081812621 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines7" unique_id=1675894253 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines7" unique_id=101384214 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines6" type="Node3D" parent="row_of_sardines3" unique_id=1974309144]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4713058, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines6" unique_id=228012957 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines6" unique_id=1481013514 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines6" unique_id=2127236318 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines5" type="Node3D" parent="row_of_sardines3" unique_id=1227847818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9530964, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines5" unique_id=763692884 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines5" unique_id=847442652 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines5" unique_id=383233568 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines4" type="Node3D" parent="row_of_sardines3" unique_id=2010588757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4049683, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines4" unique_id=1074269786 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines4" unique_id=1751187862 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines4" unique_id=998274710 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines3" type="Node3D" parent="row_of_sardines3" unique_id=648502514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78954506, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines3" unique_id=583302599 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines3" unique_id=213458853 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines3" unique_id=1258933963 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines" type="Node3D" parent="row_of_sardines3" unique_id=1546672493]
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines" unique_id=648564672 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines" unique_id=1379577555 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines" unique_id=1648525293 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines2" type="Node3D" parent="row_of_sardines3" unique_id=1655530647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3500595, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines2" unique_id=1647376114 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines2" unique_id=1172614405 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines2" unique_id=2061595832 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines8" type="Node3D" parent="row_of_sardines3" unique_id=486122137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3580208, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines3/col_of_sardines8" unique_id=135921209 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines3/col_of_sardines8" unique_id=1240371341 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines3/col_of_sardines8" unique_id=2011080034 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="row_of_sardines4" type="Node3D" parent="." unique_id=577553798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0002632141, 1.9509997, 0)
+
+[node name="col_of_sardines9" type="Node3D" parent="row_of_sardines4" unique_id=1397056617]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9028072, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines9" unique_id=753150575 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines9" unique_id=1315053786 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines9" unique_id=1290787 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines7" type="Node3D" parent="row_of_sardines4" unique_id=1270637373]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.904047, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines7" unique_id=220437203 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines7" unique_id=1910030532 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines7" unique_id=1879296578 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines6" type="Node3D" parent="row_of_sardines4" unique_id=1153825419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4713058, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines6" unique_id=367016719 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines6" unique_id=924616719 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines6" unique_id=1710218992 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines5" type="Node3D" parent="row_of_sardines4" unique_id=557132571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9530964, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines5" unique_id=786989874 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines5" unique_id=1698799035 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines5" unique_id=1028448673 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines4" type="Node3D" parent="row_of_sardines4" unique_id=1766230060]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4049683, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines4" unique_id=1570224483 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines4" unique_id=1925539564 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines4" unique_id=929008333 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines3" type="Node3D" parent="row_of_sardines4" unique_id=168547237]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78954506, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines3" unique_id=1306746108 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines3" unique_id=1739414725 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines3" unique_id=278020938 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines" type="Node3D" parent="row_of_sardines4" unique_id=1530910161]
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines" unique_id=1933051274 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines" unique_id=1439568760 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines" unique_id=944786061 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines2" type="Node3D" parent="row_of_sardines4" unique_id=426396087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3500595, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines2" unique_id=937197027 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines2" unique_id=156664078 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines2" unique_id=371844989 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)
+
+[node name="col_of_sardines8" type="Node3D" parent="row_of_sardines4" unique_id=975827106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3580208, 0, 0)
+
+[node name="sardines3" parent="row_of_sardines4/col_of_sardines8" unique_id=1611898874 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -39.800354)
+
+[node name="sardines2" parent="row_of_sardines4/col_of_sardines8" unique_id=917291170 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.20884)
+
+[node name="sardines" parent="row_of_sardines4/col_of_sardines8" unique_id=1844339142 instance=ExtResource("1_nj8hd")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 26.488506, -1.937321, -40.650486)

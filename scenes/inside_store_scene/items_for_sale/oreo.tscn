@@ -1,0 +1,49 @@
+[gd_scene format=4 uid="uid://biy7ggah48a3a"]
+
+[ext_resource type="Texture2D" uid="uid://c2u6yhirnyqli" path="res://assets/items/food/textures/Image_5.png" id="1_x6638"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jjnt5"]
+resource_name = "Material.006"
+cull_mode = 2
+albedo_texture = ExtResource("1_x6638")
+roughness = 0.86908346
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5ym1b"]
+_surfaces = [{
+"aabb": AABB(-27.849493, -5.135009, -0.779424, 6.86314, 4.3064137, 1.558848),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Material.006",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAD///////8AAP//AAAAAAAA//8AAP//AAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_n8kal"]
+resource_name = "food_bunch_Object_5_003"
+_surfaces = [{
+"aabb": AABB(-27.849493, -5.135009, -0.779424, 6.86314, 4.3064137, 1.558848),
+"attribute_data": PackedByteArray("aLPq4OC7pP/guz/faLP5/ey6zb/j9Lqf7Lq6n+P0zb9S/Tz+4/Q/3+P0pP9S/afg4/QA0OC7P9/j9D/f4LsA0Oy6zb/j9ADQ4/TNv+C7ANDj9KT/4Ls/3+C7pP/j9D/f"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_jjnt5"),
+"name": "Material.006",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA8D8AAP/////pPwAAAAD//8s/AAD//wAAvz8AAP//AAD/P/////////8/AAD//////z//////AAD/P/////8AAPQ///8AAP//8D/////////aP///AAAAANM///8AAAAA/z8AAAAA////P///AAD///8/AAAAAAAA/z8AAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAP////////5/AAAAAP///n8AAP/////+f///AAD///5//oh/+6B6QfXYjxL4TXea7v///3////9/////f////39BeN4Df4T/CFdy0wZkh8oOAAD/fwAA/38AAP9/AAD/f////3////9/////f////3//f////3////9/////f///")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_5ym1b")
+
+[node name="oreo" type="Node3D" unique_id=1569831387]
+transform = Transform3D(1, 0, 0, 0, 0.99999994, -2.842171e-14, 0, 2.842171e-14, 0.99999994, 0, 0, 0)
+
+[node name="Object_7_003" type="MeshInstance3D" parent="." unique_id=59081071]
+transform = Transform3D(1, 0, 0, 0, 1, 5.684342e-14, 0, -5.684342e-14, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_n8kal")

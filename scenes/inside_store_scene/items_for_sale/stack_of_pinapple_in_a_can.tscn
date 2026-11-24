@@ -1,0 +1,348 @@
+[gd_scene format=3 uid="uid://b7ra1e8qubmnr"]
+
+[ext_resource type="PackedScene" uid="uid://hahs3u024g2p" path="res://scenes/inside_store_scene/items_for_sale/pinapple_in_a_can.tscn" id="1_jlfxb"]
+
+[node name="stack_of_pinapple_in_a_can" type="Node3D" unique_id=1196411453]
+
+[node name="row_of_pinapple" type="Node3D" parent="." unique_id=2052394397]
+
+[node name="col_of_pinapple6" type="Node3D" parent="row_of_pinapple" unique_id=255156404]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1525898, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple6" unique_id=1482882959 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple6" unique_id=504401097 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple6" unique_id=746424742 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple5" type="Node3D" parent="row_of_pinapple" unique_id=937399076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3932133, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple5" unique_id=1834812445 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple5" unique_id=503318162 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple5" unique_id=2079481032 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple4" type="Node3D" parent="row_of_pinapple" unique_id=326211456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8062801, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple4" unique_id=1100683299 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple4" unique_id=1068506748 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple4" unique_id=2095607831 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple2" type="Node3D" parent="row_of_pinapple" unique_id=1579006680]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.554451, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple2" unique_id=1081084787 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple2" unique_id=1807215127 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple2" unique_id=660583010 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple" type="Node3D" parent="row_of_pinapple" unique_id=740935972]
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple" unique_id=1501721539 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple" unique_id=902894355 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple" unique_id=530655418 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple3" type="Node3D" parent="row_of_pinapple" unique_id=707485594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1755123, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple3" unique_id=1348747822 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple3" unique_id=980331756 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple3" unique_id=1118422589 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple7" type="Node3D" parent="row_of_pinapple" unique_id=753807979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.648243, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple/col_of_pinapple7" unique_id=1285919263 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple/col_of_pinapple7" unique_id=942520445 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple/col_of_pinapple7" unique_id=1911659044 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="row_of_pinapple2" type="Node3D" parent="." unique_id=1033994096]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000120162964, 0.6989999, 0)
+
+[node name="col_of_pinapple6" type="Node3D" parent="row_of_pinapple2" unique_id=1530526483]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1525898, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple6" unique_id=1895720133 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple6" unique_id=1957409129 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple6" unique_id=643572905 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple5" type="Node3D" parent="row_of_pinapple2" unique_id=1814898289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3932133, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple5" unique_id=2039511441 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple5" unique_id=90282299 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple5" unique_id=407390557 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple4" type="Node3D" parent="row_of_pinapple2" unique_id=1423337185]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8062801, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple4" unique_id=11794594 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple4" unique_id=1702332789 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple4" unique_id=2119804424 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple2" type="Node3D" parent="row_of_pinapple2" unique_id=350718423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.554451, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple2" unique_id=623838166 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple2" unique_id=1007233098 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple2" unique_id=919702702 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple" type="Node3D" parent="row_of_pinapple2" unique_id=309786420]
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple" unique_id=889120026 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple" unique_id=1166420589 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple" unique_id=1587018153 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple3" type="Node3D" parent="row_of_pinapple2" unique_id=1100071238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1755123, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple3" unique_id=1324225722 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple3" unique_id=1248611290 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple3" unique_id=147385627 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple7" type="Node3D" parent="row_of_pinapple2" unique_id=521408528]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.648243, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple2/col_of_pinapple7" unique_id=1295798382 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple2/col_of_pinapple7" unique_id=279881727 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple2/col_of_pinapple7" unique_id=1419515479 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="row_of_pinapple3" type="Node3D" parent="." unique_id=405775892]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000120162964, 1.3439999, 0)
+
+[node name="col_of_pinapple6" type="Node3D" parent="row_of_pinapple3" unique_id=202179362]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1525898, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple6" unique_id=1840324631 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple6" unique_id=639042614 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple6" unique_id=910507571 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple5" type="Node3D" parent="row_of_pinapple3" unique_id=281250557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3932133, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple5" unique_id=1205242003 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple5" unique_id=246995102 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple5" unique_id=204833194 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple4" type="Node3D" parent="row_of_pinapple3" unique_id=932234231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8062801, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple4" unique_id=1613312655 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple4" unique_id=1838681922 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple4" unique_id=2109732036 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple2" type="Node3D" parent="row_of_pinapple3" unique_id=2145941760]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.554451, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple2" unique_id=883896837 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple2" unique_id=1054607251 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple2" unique_id=1386132955 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple" type="Node3D" parent="row_of_pinapple3" unique_id=974795374]
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple" unique_id=681658543 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple" unique_id=815991692 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple" unique_id=2013375509 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple3" type="Node3D" parent="row_of_pinapple3" unique_id=1284318094]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1755123, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple3" unique_id=385232779 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple3" unique_id=1509273238 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple3" unique_id=1274200169 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple7" type="Node3D" parent="row_of_pinapple3" unique_id=1670454000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.648243, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple3/col_of_pinapple7" unique_id=1260548471 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple3/col_of_pinapple7" unique_id=1084093365 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple3/col_of_pinapple7" unique_id=1768981995 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="row_of_pinapple4" type="Node3D" parent="." unique_id=401811182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000120162964, 1.948, 0)
+
+[node name="col_of_pinapple6" type="Node3D" parent="row_of_pinapple4" unique_id=1261153052]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1525898, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple6" unique_id=903138117 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple6" unique_id=1057362243 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple6" unique_id=253118501 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple5" type="Node3D" parent="row_of_pinapple4" unique_id=848660449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3932133, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple5" unique_id=1891862720 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple5" unique_id=1892561209 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple5" unique_id=1209657339 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple4" type="Node3D" parent="row_of_pinapple4" unique_id=35516423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8062801, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple4" unique_id=1553445486 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple4" unique_id=265933897 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple4" unique_id=1394826296 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple2" type="Node3D" parent="row_of_pinapple4" unique_id=1833772752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.554451, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple2" unique_id=836326568 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple2" unique_id=1375263541 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple2" unique_id=129683347 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple" type="Node3D" parent="row_of_pinapple4" unique_id=2109035328]
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple" unique_id=109786088 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple" unique_id=938820695 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple" unique_id=1232736117 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple3" type="Node3D" parent="row_of_pinapple4" unique_id=1942790808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1755123, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple3" unique_id=490490606 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple3" unique_id=1145749303 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple3" unique_id=492776828 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)
+
+[node name="col_of_pinapple7" type="Node3D" parent="row_of_pinapple4" unique_id=1324444675]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.648243, 0, 0)
+
+[node name="pinapple_in_a_can3" parent="row_of_pinapple4/col_of_pinapple7" unique_id=701160756 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.604507)
+
+[node name="pinapple_in_a_can" parent="row_of_pinapple4/col_of_pinapple7" unique_id=937117550 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -39.39291)
+
+[node name="pinapple_in_a_can2" parent="row_of_pinapple4/col_of_pinapple7" unique_id=2055482813 instance=ExtResource("1_jlfxb")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 22.402897, -1.9347034, -38.969402)

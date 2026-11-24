@@ -91,6 +91,14 @@
 [ext_resource type="PackedScene" uid="uid://bmyxe3nxc1lqg" path="res://scenes/inside_store_scene/items_for_sale/stack_of_choco_cookies.tscn" id="89_plhhj"]
 [ext_resource type="PackedScene" uid="uid://cw8v1cvo7tayr" path="res://scenes/inside_store_scene/items_for_sale/stack_of_beans.tscn" id="90_jdrrb"]
 [ext_resource type="PackedScene" uid="uid://0tcmvttwkgkk" path="res://scenes/inside_store_scene/items_for_sale/stack_of_meat_in_a_can.tscn" id="91_o1bpf"]
+[ext_resource type="PackedScene" uid="uid://b7ra1e8qubmnr" path="res://scenes/inside_store_scene/items_for_sale/stack_of_pinapple_in_a_can.tscn" id="92_g5cwk"]
+[ext_resource type="PackedScene" uid="uid://cqwyx33sy57iq" path="res://scenes/inside_store_scene/items_for_sale/stack_of_sardines.tscn" id="93_an363"]
+[ext_resource type="PackedScene" uid="uid://c15vkikysfrw7" path="res://scenes/inside_store_scene/items_for_sale/stack_of_tuna.tscn" id="94_57ctj"]
+[ext_resource type="PackedScene" uid="uid://dxyetfxoc4qyv" path="res://scenes/inside_store_scene/items_for_sale/stack_of_oreo.tscn" id="95_4lbus"]
+[ext_resource type="PackedScene" uid="uid://bfy8blfdfft37" path="res://scenes/inside_store_scene/items_for_sale/stack_of_mint_oreo.tscn" id="96_fpnhi"]
+[ext_resource type="PackedScene" uid="uid://dhg2qdb15g66s" path="res://scenes/inside_store_scene/items_for_sale/stack_of_crackers.tscn" id="97_an363"]
+[ext_resource type="PackedScene" uid="uid://b6x5hk0sns4qe" path="res://scenes/inside_store_scene/items_for_sale/stack_of_chest.tscn" id="98_4lbus"]
+[ext_resource type="PackedScene" uid="uid://0asoecimfmy1" path="res://scenes/inside_store_scene/items_for_sale/stack_of_folding_chairs.tscn" id="99_4lbus"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -257,7 +265,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 641153944) index="0" unique_id=1622291418]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -1489,6 +1497,60 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.953358, 2.051, 51.979)
 
 [node name="stack_of_meat_in_a_can2" parent="." unique_id=1091240482 instance=ExtResource("91_o1bpf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.68912, 2.051, 51.979)
+
+[node name="stack_of_pinapple_in_a_can" parent="." unique_id=1196411453 instance=ExtResource("92_g5cwk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.68912, 2.051, 51.979)
+
+[node name="stack_of_pinapple_in_a_can2" parent="." unique_id=331228998 instance=ExtResource("92_g5cwk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.758264, 2.051, 51.979)
+
+[node name="stack_of_sardines" parent="." unique_id=827376207 instance=ExtResource("93_an363")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.758264, 2.051, 51.979)
+
+[node name="stack_of_sardines2" parent="." unique_id=756515800 instance=ExtResource("93_an363")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.166289, 2.051, 51.979)
+
+[node name="stack_of_tuna" parent="." unique_id=897944584 instance=ExtResource("94_57ctj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.166289, 2.051, 51.979)
+
+[node name="stack_of_tuna2" parent="." unique_id=1487789762 instance=ExtResource("94_57ctj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.259406, 2.051, 51.979)
+
+[node name="stack_of_oreo" parent="." unique_id=1785516153 instance=ExtResource("95_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.259406, 2.051, 51.979)
+
+[node name="stack_of_oreo2" parent="." unique_id=350117492 instance=ExtResource("95_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62408733, 2.051, 51.979)
+
+[node name="stack_of_mint_oreo" parent="." unique_id=941028617 instance=ExtResource("96_fpnhi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62408733, 2.051, 51.979)
+
+[node name="stack_of_mint_oreo2" parent="." unique_id=1025937709 instance=ExtResource("96_fpnhi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1740885, 2.051, 51.979)
+
+[node name="stack_of_crackers" parent="." unique_id=1667185085 instance=ExtResource("97_an363")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1740885, 2.051, 51.979)
+
+[node name="stack_of_crackers2" parent="." unique_id=1742162667 instance=ExtResource("97_an363")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 51.979)
+
+[node name="stack_of_chest" parent="." unique_id=44710518 instance=ExtResource("98_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 51.979)
+
+[node name="stack_of_chest2" parent="." unique_id=2114315488 instance=ExtResource("98_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 46.93773)
+
+[node name="stack_of_chest3" parent="." unique_id=1250316729 instance=ExtResource("98_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 42.200226)
+
+[node name="stack_of_folding_chairs" parent="." unique_id=564623246 instance=ExtResource("99_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 42.200226)
+
+[node name="stack_of_folding_chairs2" parent="." unique_id=557477720 instance=ExtResource("99_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 46.848404)
+
+[node name="stack_of_folding_chairs3" parent="." unique_id=249597360 instance=ExtResource("99_4lbus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 51.637787)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]
