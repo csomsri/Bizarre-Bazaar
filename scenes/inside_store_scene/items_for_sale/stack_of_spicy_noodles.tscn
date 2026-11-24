@@ -1,0 +1,300 @@
+[gd_scene format=3 uid="uid://bl4alhi4rt4pk"]
+
+[ext_resource type="PackedScene" uid="uid://cfgkry41pkmkj" path="res://scenes/inside_store_scene/items_for_sale/spicy_noodles.tscn" id="1_01x48"]
+
+[node name="stack_of_spicy_noodles" type="Node3D" unique_id=514221469]
+
+[node name="row_of_spicy_noodles2" type="Node3D" parent="." unique_id=752182155]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026893616, 0.6969998, 0)
+
+[node name="col_of_spicy_noodles5" type="Node3D" parent="row_of_spicy_noodles2" unique_id=500834010]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0906467, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles2/col_of_spicy_noodles5" unique_id=1160640492 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles2/col_of_spicy_noodles5" unique_id=952675202 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles2/col_of_spicy_noodles5" unique_id=318392452 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles" type="Node3D" parent="row_of_spicy_noodles2" unique_id=29659272]
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles2/col_of_spicy_noodles" unique_id=1041523203 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles2/col_of_spicy_noodles" unique_id=1055857682 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles2/col_of_spicy_noodles" unique_id=753560985 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles2" type="Node3D" parent="row_of_spicy_noodles2" unique_id=944795713]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8186188, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles2/col_of_spicy_noodles2" unique_id=1309127242 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles2/col_of_spicy_noodles2" unique_id=969508358 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles2/col_of_spicy_noodles2" unique_id=1756408545 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles3" type="Node3D" parent="row_of_spicy_noodles2" unique_id=1905077024]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5279121, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles2/col_of_spicy_noodles3" unique_id=906393518 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles2/col_of_spicy_noodles3" unique_id=141851102 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles2/col_of_spicy_noodles3" unique_id=1122858170 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles4" type="Node3D" parent="row_of_spicy_noodles2" unique_id=2017058557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2184048, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles2/col_of_spicy_noodles4" unique_id=889426085 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles2/col_of_spicy_noodles4" unique_id=477786963 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles2/col_of_spicy_noodles4" unique_id=808497268 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles6" type="Node3D" parent="row_of_spicy_noodles2" unique_id=812134423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5920162, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles2/col_of_spicy_noodles6" unique_id=794176527 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles2/col_of_spicy_noodles6" unique_id=1887816021 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles2/col_of_spicy_noodles6" unique_id=364134946 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="row_of_spicy_noodles" type="Node3D" parent="." unique_id=1023536938]
+
+[node name="col_of_spicy_noodles5" type="Node3D" parent="row_of_spicy_noodles" unique_id=284016558]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0906467, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles/col_of_spicy_noodles5" unique_id=687969032 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles/col_of_spicy_noodles5" unique_id=1869551265 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles/col_of_spicy_noodles5" unique_id=832943638 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles" type="Node3D" parent="row_of_spicy_noodles" unique_id=2147299692]
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles/col_of_spicy_noodles" unique_id=370995949 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles/col_of_spicy_noodles" unique_id=283196392 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles/col_of_spicy_noodles" unique_id=872942563 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles2" type="Node3D" parent="row_of_spicy_noodles" unique_id=262170901]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8186188, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles/col_of_spicy_noodles2" unique_id=599811678 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles/col_of_spicy_noodles2" unique_id=1460648079 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles/col_of_spicy_noodles2" unique_id=1083679638 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles3" type="Node3D" parent="row_of_spicy_noodles" unique_id=1548050934]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5279121, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles/col_of_spicy_noodles3" unique_id=964832439 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles/col_of_spicy_noodles3" unique_id=1679222689 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles/col_of_spicy_noodles3" unique_id=1287241585 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles4" type="Node3D" parent="row_of_spicy_noodles" unique_id=203315864]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2184048, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles/col_of_spicy_noodles4" unique_id=1003802350 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles/col_of_spicy_noodles4" unique_id=2033677614 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles/col_of_spicy_noodles4" unique_id=1818381166 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles6" type="Node3D" parent="row_of_spicy_noodles" unique_id=959165891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5920162, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles/col_of_spicy_noodles6" unique_id=392624064 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles/col_of_spicy_noodles6" unique_id=1640415606 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles/col_of_spicy_noodles6" unique_id=1265973301 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="row_of_spicy_noodles3" type="Node3D" parent="." unique_id=1143734928]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026893616, 1.339, 0)
+
+[node name="col_of_spicy_noodles5" type="Node3D" parent="row_of_spicy_noodles3" unique_id=1619762887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0906467, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles3/col_of_spicy_noodles5" unique_id=419911091 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles3/col_of_spicy_noodles5" unique_id=249099108 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles3/col_of_spicy_noodles5" unique_id=1816247518 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles" type="Node3D" parent="row_of_spicy_noodles3" unique_id=605154714]
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles3/col_of_spicy_noodles" unique_id=649773614 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles3/col_of_spicy_noodles" unique_id=1786284946 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles3/col_of_spicy_noodles" unique_id=1847424402 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles2" type="Node3D" parent="row_of_spicy_noodles3" unique_id=827290992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8186188, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles3/col_of_spicy_noodles2" unique_id=423141556 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles3/col_of_spicy_noodles2" unique_id=1443657188 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles3/col_of_spicy_noodles2" unique_id=1815890270 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles3" type="Node3D" parent="row_of_spicy_noodles3" unique_id=1798051042]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5279121, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles3/col_of_spicy_noodles3" unique_id=1248885781 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles3/col_of_spicy_noodles3" unique_id=1064238070 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles3/col_of_spicy_noodles3" unique_id=831871954 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles4" type="Node3D" parent="row_of_spicy_noodles3" unique_id=379133214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2184048, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles3/col_of_spicy_noodles4" unique_id=1076940557 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles3/col_of_spicy_noodles4" unique_id=1436913896 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles3/col_of_spicy_noodles4" unique_id=442458373 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles6" type="Node3D" parent="row_of_spicy_noodles3" unique_id=1123947464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5920162, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles3/col_of_spicy_noodles6" unique_id=1613389189 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles3/col_of_spicy_noodles6" unique_id=1801428405 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles3/col_of_spicy_noodles6" unique_id=101219221 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="row_of_spicy_noodles4" type="Node3D" parent="." unique_id=1827835443]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026893616, 1.9489999, 0)
+
+[node name="col_of_spicy_noodles5" type="Node3D" parent="row_of_spicy_noodles4" unique_id=1904341125]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0906467, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles4/col_of_spicy_noodles5" unique_id=1100806688 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles4/col_of_spicy_noodles5" unique_id=338239359 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles4/col_of_spicy_noodles5" unique_id=2098012522 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles" type="Node3D" parent="row_of_spicy_noodles4" unique_id=326477233]
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles4/col_of_spicy_noodles" unique_id=1647859056 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles4/col_of_spicy_noodles" unique_id=664417234 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles4/col_of_spicy_noodles" unique_id=48664195 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles2" type="Node3D" parent="row_of_spicy_noodles4" unique_id=980365214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8186188, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles4/col_of_spicy_noodles2" unique_id=2009994695 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles4/col_of_spicy_noodles2" unique_id=15365003 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles4/col_of_spicy_noodles2" unique_id=1290748683 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles3" type="Node3D" parent="row_of_spicy_noodles4" unique_id=1933933669]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5279121, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles4/col_of_spicy_noodles3" unique_id=26702082 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles4/col_of_spicy_noodles3" unique_id=600379601 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles4/col_of_spicy_noodles3" unique_id=1611782578 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles4" type="Node3D" parent="row_of_spicy_noodles4" unique_id=1147112698]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2184048, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles4/col_of_spicy_noodles4" unique_id=1118147965 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles4/col_of_spicy_noodles4" unique_id=1718135441 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles4/col_of_spicy_noodles4" unique_id=288137905 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)
+
+[node name="col_of_spicy_noodles6" type="Node3D" parent="row_of_spicy_noodles4" unique_id=1842311643]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5920162, 0, 0)
+
+[node name="spicy_noodles3" parent="row_of_spicy_noodles4/col_of_spicy_noodles6" unique_id=131354624 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.54212)
+
+[node name="spicy_noodles2" parent="row_of_spicy_noodles4/col_of_spicy_noodles6" unique_id=2062110305 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -50.898525)
+
+[node name="spicy_noodles" parent="row_of_spicy_noodles4/col_of_spicy_noodles6" unique_id=1019840179 instance=ExtResource("1_01x48")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, 1.7604198, -1.926353, -51.338913)

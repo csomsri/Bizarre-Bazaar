@@ -74,6 +74,19 @@
 [ext_resource type="PackedScene" uid="uid://c6lxjvaa8jqlm" path="res://scenes/inside_store_scene/items_for_sale/stack_of_scooby_cereal.tscn" id="72_nddc1"]
 [ext_resource type="PackedScene" uid="uid://dxxmd15swigm7" path="res://scenes/inside_store_scene/items_for_sale/stack_of_couches.tscn" id="73_ign2b"]
 [ext_resource type="PackedScene" uid="uid://cbpag3t3nl52w" path="res://scenes/inside_store_scene/items_for_sale/stack_of_orange_tents.tscn" id="74_ljeee"]
+[ext_resource type="PackedScene" uid="uid://cy80ixclxesfv" path="res://scenes/inside_store_scene/items_for_sale/stack_of_chairs.tscn" id="75_4qs8r"]
+[ext_resource type="PackedScene" uid="uid://dl6vxvf10cn7m" path="res://scenes/inside_store_scene/items_for_sale/stack_of_dining_tables.tscn" id="76_nuro3"]
+[ext_resource type="PackedScene" uid="uid://5i0u3mo0371r" path="res://scenes/inside_store_scene/items_for_sale/stack_of_mac_and_cheese.tscn" id="77_xu07i"]
+[ext_resource type="PackedScene" uid="uid://cw1ymspgrjorl" path="res://scenes/inside_store_scene/items_for_sale/stack_of_spaghetti.tscn" id="78_pqc8g"]
+[ext_resource type="PackedScene" uid="uid://ycly00pune68" path="res://scenes/inside_store_scene/items_for_sale/stack_of_spaghetti_in_a_can.tscn" id="79_i0hpd"]
+[ext_resource type="PackedScene" uid="uid://dsb2df531i00x" path="res://scenes/inside_store_scene/items_for_sale/stack_of_alfredo_pasta.tscn" id="80_om5ng"]
+[ext_resource type="PackedScene" uid="uid://b858lg6d3y56w" path="res://scenes/inside_store_scene/items_for_sale/stack_of_penne_pasta.tscn" id="81_nuro3"]
+[ext_resource type="PackedScene" uid="uid://c80hy3c166qoi" path="res://scenes/inside_store_scene/items_for_sale/stack_of_cup_of_noodles.tscn" id="82_xu07i"]
+[ext_resource type="PackedScene" uid="uid://bl4alhi4rt4pk" path="res://scenes/inside_store_scene/items_for_sale/stack_of_spicy_noodles.tscn" id="83_pqc8g"]
+[ext_resource type="PackedScene" uid="uid://b48rjqfxs53l3" path="res://scenes/inside_store_scene/items_for_sale/stack_of_ramen.tscn" id="84_om5ng"]
+[ext_resource type="PackedScene" uid="uid://cl7fsbf22p8cu" path="res://scenes/inside_store_scene/items_for_sale/stack_of_noodles.tscn" id="85_6xwda"]
+[ext_resource type="PackedScene" uid="uid://bljitksr4qn8k" path="res://scenes/inside_store_scene/items_for_sale/stack_of_mustard.tscn" id="86_83ga0"]
+[ext_resource type="PackedScene" uid="uid://cic80edv0wmho" path="res://scenes/inside_store_scene/items_for_sale/stack_of_ketchup.tscn" id="87_t3fjy"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -1364,6 +1377,90 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 38.2077
 
 [node name="stack_of_orange_tents3" parent="." unique_id=775977261 instance=ExtResource("74_ljeee")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 33.342773)
+
+[node name="stack_of_chairs" parent="." unique_id=251146957 instance=ExtResource("75_4qs8r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 33.342773)
+
+[node name="stack_of_chairs3" parent="." unique_id=634593528 instance=ExtResource("75_4qs8r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 38.01987)
+
+[node name="stack_of_chairs4" parent="." unique_id=1245654631 instance=ExtResource("75_4qs8r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.715897)
+
+[node name="stack_of_dining_tables" parent="." unique_id=1971391575 instance=ExtResource("76_nuro3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.715897)
+
+[node name="stack_of_dining_tables2" parent="." unique_id=226473809 instance=ExtResource("76_nuro3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 47.67118)
+
+[node name="stack_of_dining_tables3" parent="." unique_id=856374186 instance=ExtResource("76_nuro3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.19516)
+
+[node name="stack_of_mac_and_cheese" parent="." unique_id=2015257019 instance=ExtResource("77_xu07i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.19516)
+
+[node name="stack_of_mac_and_cheese2" parent="." unique_id=729107843 instance=ExtResource("77_xu07i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.159893, 2.0428164, 52.19516)
+
+[node name="stack_of_spaghetti" parent="." unique_id=1891672192 instance=ExtResource("78_pqc8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.159893, 2.0428164, 52.19516)
+
+[node name="stack_of_spaghetti2" parent="." unique_id=341296297 instance=ExtResource("78_pqc8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.339607, 2.0428164, 52.19516)
+
+[node name="stack_of_spaghetti_in_a_can" parent="." unique_id=1728041906 instance=ExtResource("79_i0hpd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.339607, 2.0428164, 52.19516)
+
+[node name="stack_of_spaghetti_in_a_can2" parent="." unique_id=764171029 instance=ExtResource("79_i0hpd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.907993, 2.0428164, 52.19516)
+
+[node name="stack_of_alfredo_pasta" parent="." unique_id=68723830 instance=ExtResource("80_om5ng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.907993, 2.0428164, 52.19516)
+
+[node name="stack_of_alfredo_pasta2" parent="." unique_id=2096057889 instance=ExtResource("80_om5ng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.283516, 2.0428164, 52.19516)
+
+[node name="stack_of_penne_pasta" parent="." unique_id=1687847434 instance=ExtResource("81_nuro3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.283516, 2.0428164, 52.19516)
+
+[node name="stack_of_penne_pasta2" parent="." unique_id=1310538920 instance=ExtResource("81_nuro3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.582943, 2.0428164, 52.19516)
+
+[node name="stack_of_cup_of_noodles" parent="." unique_id=1857384561 instance=ExtResource("82_xu07i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.615, 2.051, 51.979)
+
+[node name="stack_of_cup_of_noodles2" parent="." unique_id=1553128874 instance=ExtResource("82_xu07i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.06273, 2.051, 51.979)
+
+[node name="stack_of_spicy_noodles" parent="." unique_id=514221469 instance=ExtResource("83_pqc8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.06273, 2.051, 51.979)
+
+[node name="stack_of_spicy_noodles2" parent="." unique_id=1298870681 instance=ExtResource("83_pqc8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.362967, 2.051, 51.979)
+
+[node name="stack_of_ramen" parent="." unique_id=221200234 instance=ExtResource("84_om5ng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.362967, 2.051, 51.979)
+
+[node name="stack_of_ramen2" parent="." unique_id=739187021 instance=ExtResource("84_om5ng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.401695, 2.051, 51.979)
+
+[node name="stack_of_noodles" parent="." unique_id=246677812 instance=ExtResource("85_6xwda")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.401695, 2.051, 51.979)
+
+[node name="stack_of_noodles2" parent="." unique_id=247786334 instance=ExtResource("85_6xwda")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.609463, 2.051, 51.979)
+
+[node name="stack_of_mustard" parent="." unique_id=1141873016 instance=ExtResource("86_83ga0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.609463, 2.051, 51.979)
+
+[node name="stack_of_mustard2" parent="." unique_id=203371960 instance=ExtResource("86_83ga0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9929314, 2.051, 51.979)
+
+[node name="stack_of_ketchup" parent="." unique_id=1069061705 instance=ExtResource("87_t3fjy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9929314, 2.051, 51.979)
+
+[node name="stack_of_ketchup2" parent="." unique_id=310695788 instance=ExtResource("87_t3fjy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7215271, 2.051, 51.979)
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

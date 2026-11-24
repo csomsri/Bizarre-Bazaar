@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://d0tlclpxrtjvh"]
+
+[ext_resource type="PackedScene" uid="uid://do85ywdsgj8ek" path="res://assets/inside_store/Furniture/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/table_medium_long.gltf" id="1_huii6"]
+
+[node name="table_medium_long2" unique_id=1989349325 instance=ExtResource("1_huii6")]

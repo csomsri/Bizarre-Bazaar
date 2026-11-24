@@ -1,0 +1,432 @@
+[gd_scene format=3 uid="uid://ci52nmkfomhwy"]
+
+[ext_resource type="PackedScene" uid="uid://ch2ylt1lr1dh1" path="res://scenes/inside_store_scene/items_for_sale/ramen.tscn" id="1_oedix"]
+
+[node name="Node3D2" type="Node3D" unique_id=764514134]
+
+[node name="row_of_ramen4" type="Node3D" parent="." unique_id=558447388]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4332275e-05, 1.9590001, 0)
+
+[node name="col_of_ramen7" type="Node3D" parent="row_of_ramen4" unique_id=1459482449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5264778, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen7" unique_id=224461120 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen7" unique_id=2145933708 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen7" unique_id=427526450 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen7" unique_id=252743550 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen6" type="Node3D" parent="row_of_ramen4" unique_id=868940996]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5542107, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen6" unique_id=73498719 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen6" unique_id=970560846 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen6" unique_id=1204251139 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen6" unique_id=984798573 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen5" type="Node3D" parent="row_of_ramen4" unique_id=763705637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.531805, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen5" unique_id=1596013027 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen5" unique_id=827846407 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen5" unique_id=48709899 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen5" unique_id=1256758718 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen" type="Node3D" parent="row_of_ramen4" unique_id=223574010]
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen" unique_id=982031972 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen" unique_id=621961940 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen" unique_id=1494506755 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen" unique_id=251037391 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen2" type="Node3D" parent="row_of_ramen4" unique_id=1575850250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8138447, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen2" unique_id=1367222943 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen2" unique_id=229642538 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen2" unique_id=1094298347 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen2" unique_id=100658714 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen3" type="Node3D" parent="row_of_ramen4" unique_id=1444002189]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8857403, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen3" unique_id=1961119461 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen3" unique_id=608073898 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen3" unique_id=1085018243 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen3" unique_id=2031525691 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen4" type="Node3D" parent="row_of_ramen4" unique_id=290973487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.919756, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen4/col_of_ramen4" unique_id=1857866498 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen4/col_of_ramen4" unique_id=437966522 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen4/col_of_ramen4" unique_id=1908664358 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen4/col_of_ramen4" unique_id=909377215 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="row_of_ramen2" type="Node3D" parent="." unique_id=337776000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71224785, 0)
+
+[node name="col_of_ramen7" type="Node3D" parent="row_of_ramen2" unique_id=2050584931]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5264778, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen7" unique_id=1955655118 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen7" unique_id=1863418864 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen7" unique_id=2110542660 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen7" unique_id=1633974226 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen6" type="Node3D" parent="row_of_ramen2" unique_id=1843619656]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5542107, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen6" unique_id=1521434058 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen6" unique_id=953191919 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen6" unique_id=927756464 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen6" unique_id=882241548 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen5" type="Node3D" parent="row_of_ramen2" unique_id=1690543194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.531805, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen5" unique_id=1545291179 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen5" unique_id=1409594475 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen5" unique_id=1445450813 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen5" unique_id=259151214 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen" type="Node3D" parent="row_of_ramen2" unique_id=1011240606]
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen" unique_id=274168028 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen" unique_id=1028441435 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen" unique_id=1293702341 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen" unique_id=754000959 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen2" type="Node3D" parent="row_of_ramen2" unique_id=1785012656]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8138447, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen2" unique_id=1107485835 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen2" unique_id=1515681352 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen2" unique_id=1047050135 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen2" unique_id=1938739095 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen3" type="Node3D" parent="row_of_ramen2" unique_id=487357832]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8857403, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen3" unique_id=674557888 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen3" unique_id=1843656133 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen3" unique_id=231624582 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen3" unique_id=168373132 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen4" type="Node3D" parent="row_of_ramen2" unique_id=2125526658]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.919756, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen2/col_of_ramen4" unique_id=1869819276 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen2/col_of_ramen4" unique_id=1965473358 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen2/col_of_ramen4" unique_id=7954892 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen2/col_of_ramen4" unique_id=505189408 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="row_of_ramen" type="Node3D" parent="." unique_id=1582308406]
+
+[node name="col_of_ramen7" type="Node3D" parent="row_of_ramen" unique_id=744590624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5264778, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen7" unique_id=1840308026 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen7" unique_id=3939636 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen7" unique_id=1869612140 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen7" unique_id=932438786 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen6" type="Node3D" parent="row_of_ramen" unique_id=1469199888]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5542107, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen6" unique_id=1803783357 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen6" unique_id=172359466 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen6" unique_id=550442383 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen6" unique_id=123852886 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen5" type="Node3D" parent="row_of_ramen" unique_id=533516771]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.531805, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen5" unique_id=282875286 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen5" unique_id=688424619 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen5" unique_id=2129693865 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen5" unique_id=1158923076 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen" type="Node3D" parent="row_of_ramen" unique_id=68214310]
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen" unique_id=182812587 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen" unique_id=894528939 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen" unique_id=692626448 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen" unique_id=1933295358 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen2" type="Node3D" parent="row_of_ramen" unique_id=501684466]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8138447, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen2" unique_id=1083888550 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen2" unique_id=560107287 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen2" unique_id=1774775411 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen2" unique_id=1947183637 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen3" type="Node3D" parent="row_of_ramen" unique_id=944539548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8857403, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen3" unique_id=1669755631 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen3" unique_id=1397982647 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen3" unique_id=1296347380 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen3" unique_id=967621312 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen4" type="Node3D" parent="row_of_ramen" unique_id=2010538985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.919756, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen/col_of_ramen4" unique_id=1473254408 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen/col_of_ramen4" unique_id=1277368234 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen/col_of_ramen4" unique_id=401496389 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen/col_of_ramen4" unique_id=37452001 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="row_of_ramen3" type="Node3D" parent="." unique_id=1531178982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4332275e-05, 1.349, 0)
+
+[node name="col_of_ramen7" type="Node3D" parent="row_of_ramen3" unique_id=747485546]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5264778, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen7" unique_id=532156107 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen7" unique_id=1737988701 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen7" unique_id=1033123652 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen7" unique_id=2055587948 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen6" type="Node3D" parent="row_of_ramen3" unique_id=1400156488]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5542107, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen6" unique_id=419303835 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen6" unique_id=1404775911 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen6" unique_id=180414672 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen6" unique_id=386704578 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen5" type="Node3D" parent="row_of_ramen3" unique_id=927937580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.531805, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen5" unique_id=1981213673 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen5" unique_id=1166725032 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen5" unique_id=1016032167 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen5" unique_id=1235695162 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen" type="Node3D" parent="row_of_ramen3" unique_id=1184741186]
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen" unique_id=63341918 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen" unique_id=1999482835 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen" unique_id=1893227619 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen" unique_id=1018568921 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen2" type="Node3D" parent="row_of_ramen3" unique_id=1640013098]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8138447, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen2" unique_id=1244116394 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen2" unique_id=976645881 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen2" unique_id=618780684 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen2" unique_id=726391174 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen3" type="Node3D" parent="row_of_ramen3" unique_id=1445420184]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8857403, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen3" unique_id=386521923 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen3" unique_id=1631222651 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen3" unique_id=132448387 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen3" unique_id=3425622 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
+
+[node name="col_of_ramen4" type="Node3D" parent="row_of_ramen3" unique_id=513207101]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.919756, 0, 0)
+
+[node name="ramen3" parent="row_of_ramen3/col_of_ramen4" unique_id=907251401 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen4" parent="row_of_ramen3/col_of_ramen4" unique_id=767223781 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.284657)
+
+[node name="ramen" parent="row_of_ramen3/col_of_ramen4" unique_id=64513548 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -51.113617)
+
+[node name="ramen2" parent="row_of_ramen3/col_of_ramen4" unique_id=265558350 instance=ExtResource("1_oedix")]
+transform = Transform3D(0.05, 0, 0, 0, 5.9624405e-10, 0.05, 0, -0.05, 5.9624405e-10, -3.0859642, -1.9367929, -50.66178)
