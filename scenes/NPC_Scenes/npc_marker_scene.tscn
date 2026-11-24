@@ -2,7 +2,192 @@
 
 [ext_resource type="PackedScene" uid="uid://bcxtfnpjsyms6" path="res://scenes/surrounding/terrain.tscn" id="1_5277d"]
 
+[sub_resource type="NavigationMesh" id="NavigationMesh_kg2ys"]
+vertices = PackedVector3Array(-0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+
 [node name="NPC_Marker_Scene" type="Node3D" unique_id=1848153755]
 
 [node name="Terrain" parent="." unique_id=981345624 instance=ExtResource("1_5277d")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45950067, 0, -0.772866)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6105617, 0.519933, -0.859699)
+
+[node name="Aisle" type="Node3D" parent="." unique_id=96945283]
+
+[node name="AisleA" type="Node3D" parent="Aisle" unique_id=1567302076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.948158, 0.67331624, -4.470028)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleA" unique_id=1037029265]
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleA" unique_id=1601333651]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.82564, 0, 0)
+
+[node name="AisleB" type="Node3D" parent="Aisle" unique_id=298709696]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2397099, 0.6813154, 2.0437334)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleB" unique_id=1088589754]
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleB" unique_id=409668028]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.82564, 0, 0)
+
+[node name="AisleC" type="Node3D" parent="Aisle" unique_id=1586198764]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4641223, 0.6662722, 6.840777)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleC" unique_id=1837949081]
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleC" unique_id=1360511482]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.135382, 0, 0)
+
+[node name="AisleD" type="Node3D" parent="Aisle" unique_id=98487841]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.914658, 0.68370223, 6.840777)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleD" unique_id=360254391]
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleD" unique_id=127193344]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.135382, 0, 0)
+
+[node name="AisleE" type="Node3D" parent="Aisle" unique_id=1687331922]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.914658, 0.7308394, 13.115498)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleE" unique_id=1254027295]
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleE" unique_id=292950679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.135382, 0, 0)
+
+[node name="AisleF" type="Node3D" parent="Aisle" unique_id=150661542]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9282455, 0.6561394, 13.681554)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleF" unique_id=1367845139]
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleF" unique_id=639204600]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.135382, 0, 0)
+
+[node name="AisleG" type="Node3D" parent="Aisle" unique_id=236501620]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.8268433, 0.8353112, 19.92374)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleG" unique_id=452075656]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleG" unique_id=1741758863]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleH" type="Node3D" parent="Aisle" unique_id=1049444231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7685382, 0.67239857, 19.473547)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleH" unique_id=553661524]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleH" unique_id=2029391660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleI" type="Node3D" parent="Aisle" unique_id=1526667978]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1721749, 0.6141217, 19.919407)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleI" unique_id=1401349969]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleI" unique_id=1484639676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleJ" type="Node3D" parent="Aisle" unique_id=117593739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.577389, 0.39904618, 19.42596)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleJ" unique_id=940540782]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleJ" unique_id=1404838268]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleK" type="Node3D" parent="Aisle" unique_id=2048471114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.184933, 0.5810963, 19.619345)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleK" unique_id=1325344954]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleK" unique_id=1076313376]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AsleL" type="Node3D" parent="Aisle" unique_id=90577143]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.768429, 0.7137511, 19.841204)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AsleL" unique_id=917732712]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AsleL" unique_id=1236444677]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleM" type="Node3D" parent="Aisle" unique_id=48785419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.179474, 0.7154063, 20.110567)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleM" unique_id=1148232163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleM" unique_id=1620265970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleN" type="Node3D" parent="Aisle" unique_id=1304211987]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.240345, 0.6591461, 19.453304)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleN" unique_id=702786460]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleN" unique_id=1147163660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleO" type="Node3D" parent="Aisle" unique_id=570461597]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.13895, 0.6591461, 19.453304)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleO" unique_id=405239888]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleO" unique_id=224122451]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="AisleP" type="Node3D" parent="Aisle" unique_id=1475495708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.065456, 0.6591461, 19.453304)
+
+[node name="AisleStart" type="Marker3D" parent="Aisle/AisleP" unique_id=918214955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
+
+[node name="AisleEnd" type="Marker3D" parent="Aisle/AisleP" unique_id=1697465315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
+
+[node name="WalkPoints" type="Node3D" parent="." unique_id=1480710848]
+
+[node name="FrontOfStore" type="Marker3D" parent="." unique_id=1165928674]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.469906, 0.7481849, -10.660104)
+
+[node name="EnterStore" type="Marker3D" parent="." unique_id=1763877861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.331998, 1.4963698, -9.900414)
+
+[node name="Marker3D" type="Marker3D" parent="." unique_id=1778459782]
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=1064513846]
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 0, -99.03907, 13.666485)
+navigation_mesh = SubResource("NavigationMesh_kg2ys")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D" unique_id=562465861]
+
+[node name="Checkout" type="Marker3D" parent="." unique_id=580832080]
+
+[node name="WalkWays" type="Node3D" parent="." unique_id=1599166157]
+
+[node name="Marker3D" type="Marker3D" parent="WalkWays" unique_id=1118846181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.333975, 0.60480976, 4.0581083)
+
+[node name="Marker3D2" type="Marker3D" parent="WalkWays" unique_id=1912546452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.48636, 0.60480976, 4.0581083)
+
+[node name="Marker3D3" type="Marker3D" parent="WalkWays" unique_id=548650769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.997314, 0.60480976, 4.0581083)
+
+[node name="Marker3D4" type="Marker3D" parent="WalkWays" unique_id=107985828]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.997314, 0.60480976, -4.8824224)
+
+[node name="Marker3D5" type="Marker3D" parent="WalkWays" unique_id=52936474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.75013, 0.60480976, -4.8824224)
+
+[node name="Marker3D6" type="Marker3D" parent="WalkWays" unique_id=1342625647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.790882, 0.60480976, -11.445984)
+
+[node name="Marker3D7" type="Marker3D" parent="WalkWays" unique_id=1471651535]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.753895, 0.60480976, -10.463981)
