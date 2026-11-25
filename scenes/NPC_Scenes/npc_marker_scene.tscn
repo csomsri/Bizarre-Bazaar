@@ -1,10 +1,15 @@
 [gd_scene format=3 uid="uid://dfowvxu02w5qw"]
 
 [ext_resource type="PackedScene" uid="uid://bcxtfnpjsyms6" path="res://scenes/surrounding/terrain.tscn" id="1_5277d"]
+[ext_resource type="Script" uid="uid://36touk4wvxxm" path="res://scripts/store/Aisle.gd" id="2_7ikco"]
+[ext_resource type="PackedScene" uid="uid://sna53sh5y8ur" path="res://scenes/characters/NPCs/Customer.tscn" id="3_x61et"]
+[ext_resource type="Script" uid="uid://vm22a0qpby74" path="res://scripts/store/AisleRoute.gd" id="4_8wefl"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_kg2ys"]
 vertices = PackedVector3Array(-0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5)
 polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_kg2ys"]
 
 [node name="NPC_Marker_Scene" type="Node3D" unique_id=1848153755]
 
@@ -13,8 +18,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6105617, 0.519933, -0.8596
 
 [node name="Aisle" type="Node3D" parent="." unique_id=96945283]
 
-[node name="AisleA" type="Node3D" parent="Aisle" unique_id=1567302076]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.948158, 0.67331624, -4.470028)
+[node name="AisleA" type="Node3D" parent="Aisle" unique_id=1567302076 node_paths=PackedStringArray("start_marker", "end_marker")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.948158, 0.67331624, -4.6411686)
+script = ExtResource("2_7ikco")
+start_marker = NodePath("AisleStart")
+end_marker = NodePath("AisleEnd")
 
 [node name="AisleStart" type="Marker3D" parent="Aisle/AisleA" unique_id=1037029265]
 
@@ -151,43 +159,58 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.686182)
 [node name="AisleEnd" type="Marker3D" parent="Aisle/AisleP" unique_id=1697465315]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 12.845018)
 
+[node name="Customer" parent="." unique_id=1908997502 node_paths=PackedStringArray("route", "checkout_position", "exit_position") groups=["entity"] instance=ExtResource("3_x61et")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.559399, 1.1240454, -10.270798)
+route = NodePath("../CustomerRoute")
+checkout_position = NodePath("../Checkout")
+exit_position = NodePath("../OutsideOfStore")
+movement_speed = 20.0
+
 [node name="WalkPoints" type="Node3D" parent="." unique_id=1480710848]
 
-[node name="FrontOfStore" type="Marker3D" parent="." unique_id=1165928674]
+[node name="OutsideOfStore" type="Marker3D" parent="." unique_id=1165928674]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.469906, 0.7481849, -10.660104)
 
 [node name="EnterStore" type="Marker3D" parent="." unique_id=1763877861]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.331998, 1.4963698, -9.900414)
 
-[node name="Marker3D" type="Marker3D" parent="." unique_id=1778459782]
-
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=1064513846]
-transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 0, -99.03907, 13.666485)
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 0, -98.873985, 13.666485)
 navigation_mesh = SubResource("NavigationMesh_kg2ys")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D" unique_id=562465861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.41842574, 0)
+visible = false
+mesh = SubResource("PlaneMesh_kg2ys")
 
 [node name="Checkout" type="Marker3D" parent="." unique_id=580832080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8554919, 1.0097303, -13.251969)
 
 [node name="WalkWays" type="Node3D" parent="." unique_id=1599166157]
 
-[node name="Marker3D" type="Marker3D" parent="WalkWays" unique_id=1118846181]
+[node name="FrontOfStore" type="Marker3D" parent="WalkWays" unique_id=1118846181]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.333975, 0.60480976, 4.0581083)
 
-[node name="Marker3D2" type="Marker3D" parent="WalkWays" unique_id=1912546452]
+[node name="MiddleOfAisle" type="Marker3D" parent="WalkWays" unique_id=1912546452]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.48636, 0.60480976, 4.0581083)
 
-[node name="Marker3D3" type="Marker3D" parent="WalkWays" unique_id=548650769]
+[node name="BackOfAisle" type="Marker3D" parent="WalkWays" unique_id=548650769]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.997314, 0.60480976, 4.0581083)
 
-[node name="Marker3D4" type="Marker3D" parent="WalkWays" unique_id=107985828]
+[node name="TurnToProduce" type="Marker3D" parent="WalkWays" unique_id=107985828]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.997314, 0.60480976, -4.8824224)
 
-[node name="Marker3D5" type="Marker3D" parent="WalkWays" unique_id=52936474]
+[node name="MiddleOfProduce" type="Marker3D" parent="WalkWays" unique_id=52936474]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.75013, 0.60480976, -4.8824224)
 
-[node name="Marker3D6" type="Marker3D" parent="WalkWays" unique_id=1342625647]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.790882, 0.60480976, -11.445984)
+[node name="MiddleOfProdce2" type="Marker3D" parent="WalkWays" unique_id=1342625647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.54341, 0.60480976, -11.445984)
 
-[node name="Marker3D7" type="Marker3D" parent="WalkWays" unique_id=1471651535]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.753895, 0.60480976, -10.463981)
+[node name="BackToFront" type="Marker3D" parent="WalkWays" unique_id=1471651535]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.4430757, 0.60480976, -4.661395)
+
+[node name="CustomerRoute" type="Node3D" parent="." unique_id=927186592 node_paths=PackedStringArray("waypoints", "aisle_start", "aisle_end")]
+script = ExtResource("4_8wefl")
+waypoints = [NodePath("../OutsideOfStore"), NodePath("../EnterStore"), NodePath("../WalkWays/FrontOfStore"), NodePath("../WalkWays/MiddleOfAisle"), NodePath("../WalkWays/BackOfAisle"), NodePath("../WalkWays/TurnToProduce"), NodePath("../WalkWays/BackToFront")]
+aisle_start = NodePath("../Aisle/AisleA/AisleStart")
+aisle_end = NodePath("../Aisle/AisleA/AisleEnd")
