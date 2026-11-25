@@ -17,7 +17,10 @@ class_name GameplayHUD
 
 # FUNCTIONS: Use these in scripts to update HUD
 func _ready() -> void:
-	# Temp values (for testing)
+	# Weapons Controls Hidden
+	$HUDRoot/WeaponControls.hide()
+	
+	# Temp values on money,trust,thieves (for testing)
 	set_night(ShiftMgr.current_shift)
 	set_time(ShiftMgr.get_time_str())
 	set_money(420)
@@ -75,3 +78,10 @@ func _on_time_changed(hour: int, minute: int) -> void:
 
 func _on_shift_started(shift_no: int) -> void:
 	set_night(shift_no)
+
+# WEAPON INTERACTIONS
+func show_weapon_controls() -> void:
+	$HUDRoot/WeaponControls.show()
+
+func hide_weapon_controls() -> void:
+	$HUDRoot/WeaponControls.hide()

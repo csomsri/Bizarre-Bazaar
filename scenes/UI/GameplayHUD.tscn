@@ -189,3 +189,42 @@ theme_override_font_sizes/font_size = 20
 text = "Open Dumpster"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="WeaponControls" type="Panel" parent="HUDRoot" unique_id=774864689]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -205.0
+offset_top = -105.0
+offset_right = -8.0
+offset_bottom = -9.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUDRoot/WeaponControls" unique_id=1110217289]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = -5.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="HUDRoot/WeaponControls/VBoxContainer" unique_id=1268811983]
+layout_mode = 2
+text = "WEAPON CONTROLS"
+
+[node name="ShootLabel" type="Label" parent="HUDRoot/WeaponControls/VBoxContainer" unique_id=836953968]
+layout_mode = 2
+text = "Shoot - Left Mouse Click"
+
+[node name="ReloadLabel" type="Label" parent="HUDRoot/WeaponControls/VBoxContainer" unique_id=183828231]
+layout_mode = 2
+text = "Reload - R"

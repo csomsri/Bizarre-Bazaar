@@ -179,6 +179,8 @@ func pickup() -> void:
 	holder = nearby_player
 	holder.equipped_gun = self
 	equipped = true
+	# UI/Interaction
+	holder.gameplay_hud.show_weapon_controls()
 	
 
 func drop_gun() -> void:
@@ -192,6 +194,9 @@ func drop_gun() -> void:
 	freeze = false
 	
 	if holder:
+		# UI/Interaction
+		holder.gameplay_hud.hide_weapon_controls()
+		
 		holder.equipped_gun = null
 		holder = null
 	
