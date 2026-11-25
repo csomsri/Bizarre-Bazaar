@@ -42,7 +42,7 @@ size = Vector3(103.8132, 6.9539795, 0.02810669)
 size = Vector3(126.12973, 6.9539795, 0.123428345)
 
 [sub_resource type="BoxOccluder3D" id="BoxOccluder3D_84dtn"]
-size = Vector3(1, 19.766596, 102.29962)
+size = Vector3(1, 19.766596, 34.044426)
 
 [node name="NewLevel" unique_id=1474601424 instance=ExtResource("1_jmp1n")]
 
@@ -105,7 +105,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.488966, 2.9769897, -43.529
 shape = SubResource("BoxShape3D_dq3y1")
 
 [node name="OccluderInstance3D" type="OccluderInstance3D" parent="Cube/StaticBody3D" index="14" unique_id=448748320]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.186832, 5.064427, 1.9084988)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.64608, 5.064427, 23.112255)
+occluder = SubResource("BoxOccluder3D_84dtn")
+
+[node name="OccluderInstance3D2" type="OccluderInstance3D" parent="Cube/StaticBody3D" index="15" unique_id=1189297568]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.64608, 5.064427, -20.770296)
 occluder = SubResource("BoxOccluder3D_84dtn")
 
 [node name="Light" parent="." index="7" unique_id=1738602934]

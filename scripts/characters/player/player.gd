@@ -23,7 +23,7 @@ var current_interactable: InteractableObject = null
 var health = 100.0
 var equipped_gun: RigidBody3D = null
 
-const SPEED = 50.0
+const SPEED = 10.0
 const JUMP_VELOCITY = 4.5
 
 func _ready() -> void:

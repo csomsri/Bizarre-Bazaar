@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://u4bq7m7w230t"]
+
+[ext_resource type="PackedScene" uid="uid://dcweqhe6g0h3t" path="res://assets/inside_store/OtherDoor2.blend" id="1_6k75p"]
+
+[node name="OtherDoor2" unique_id=1917106327 instance=ExtResource("1_6k75p")]
