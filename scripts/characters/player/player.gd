@@ -137,6 +137,7 @@ func take_damage(dmg: float)-> void:
 # FUNC check_for_interaction: check if object is interactble when player looks at it
 func check_for_interactable() -> void:
 	current_interactable = null
+	gameplay_hud.hide_interaction_prompt()
 	
 	if interaction_ray.is_colliding():
 		var collider = interaction_ray.get_collider()
@@ -149,4 +150,3 @@ func check_for_interactable() -> void:
 					gameplay_hud.show_interaction_prompt(child.get_prompt_text())
 					return
 			current_node = current_node.get_parent()
-		gameplay_hud.hide_interaction_prompt()

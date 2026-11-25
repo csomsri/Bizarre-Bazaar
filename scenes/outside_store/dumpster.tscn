@@ -40,7 +40,7 @@ transform = Transform3D(1.0072813, 0, 2.842171e-14, 0, 1.1897902, 0, 0, 0, 1.007
 shape = SubResource("BoxShape3D_8kshj")
 
 [node name="InteractableObject" parent="." index="6" unique_id=1726104701 node_paths=PackedStringArray("interaction_target") instance=ExtResource("3_bhkwn")]
-prompt_text = "Open Dumpster"
+prompt_text = "Open/Close Dumpster"
 interaction_target = NodePath("../Cube_002")
 
 [connection signal="body_entered" from="Area3D" to="Cube_002" method="_on_area_3d_body_entered"]
