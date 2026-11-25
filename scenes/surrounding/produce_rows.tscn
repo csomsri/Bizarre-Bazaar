@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://bxc82ahjwau1j"]
 
-[ext_resource type="PackedScene" uid="uid://bevhbu3tte8mj" path="res://scenes/inside_store_scene/shelf_pizza.tscn" id="1_y1w61"]
-[ext_resource type="PackedScene" uid="uid://c8f2ee0tjr13o" path="res://scenes/inside_store_scene/produce_center.tscn" id="2_qh03s"]
-[ext_resource type="PackedScene" uid="uid://kbgo6x75rrf5" path="res://scenes/inside_store_scene/fridge.tscn" id="3_2j6sm"]
-[ext_resource type="PackedScene" uid="uid://dujo8h0ygcpd0" path="res://scenes/inside_store_scene/shelf_ice.tscn" id="4_n8g82"]
+[ext_resource type="PackedScene" uid="uid://bevhbu3tte8mj" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/shelf_pizza.tscn" id="1_y1w61"]
+[ext_resource type="PackedScene" uid="uid://c8f2ee0tjr13o" path="res://scenes/inside_store_scene/store_setup/produce_center.tscn" id="2_qh03s"]
+[ext_resource type="PackedScene" uid="uid://kbgo6x75rrf5" path="res://scenes/inside_store_scene/store_setup/fridge.tscn" id="3_2j6sm"]
+[ext_resource type="PackedScene" uid="uid://dujo8h0ygcpd0" path="res://scenes/inside_store_scene/store_setup/shelf_ice.tscn" id="4_n8g82"]
 [ext_resource type="PackedScene" uid="uid://jt3djjc0v0sx" path="res://assets/items/food/food_bunch.blend" id="5_qh03s"]
 
 [node name="produce_rows" type="Node3D" unique_id=1065047786]

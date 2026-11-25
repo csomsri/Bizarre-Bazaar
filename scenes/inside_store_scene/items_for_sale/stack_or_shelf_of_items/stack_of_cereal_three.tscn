@@ -1,0 +1,432 @@
+[gd_scene format=3 uid="uid://bgcen2qnlowp2"]
+
+[ext_resource type="PackedScene" uid="uid://2qpodocdayao" path="res://scenes/inside_store_scene/items_for_sale/individual items/cereal_three.tscn" id="1_t0bd8"]
+
+[node name="stack_of_cereal_three" type="Node3D" unique_id=1720452324]
+
+[node name="row_of_cereal_three" type="Node3D" parent="." unique_id=915360013]
+
+[node name="col_of_cereal_three" type="Node3D" parent="row_of_cereal_three" unique_id=1816350468]
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three" unique_id=469383861 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three" unique_id=1533871559 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three" unique_id=1938564215 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three" unique_id=1314218165 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three2" type="Node3D" parent="row_of_cereal_three" unique_id=1247069645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.616436, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three2" unique_id=1224651628 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three2" unique_id=1051434331 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three2" unique_id=1333793158 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three2" unique_id=1587014185 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three3" type="Node3D" parent="row_of_cereal_three" unique_id=926983435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.231739, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three3" unique_id=1236080279 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three3" unique_id=1275340509 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three3" unique_id=1674215248 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three3" unique_id=1364947059 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three4" type="Node3D" parent="row_of_cereal_three" unique_id=20126470]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9494667, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three4" unique_id=927419672 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three4" unique_id=893421807 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three4" unique_id=461380294 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three4" unique_id=1812998586 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three5" type="Node3D" parent="row_of_cereal_three" unique_id=1951537727]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4570236, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three5" unique_id=151003019 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three5" unique_id=1437207190 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three5" unique_id=604955768 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three5" unique_id=1934231350 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three6" type="Node3D" parent="row_of_cereal_three" unique_id=1645097668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9654198, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three6" unique_id=432745991 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three6" unique_id=315388457 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three6" unique_id=1214596058 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three6" unique_id=1236911998 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three7" type="Node3D" parent="row_of_cereal_three" unique_id=1113432335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6767082, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three/col_of_cereal_three7" unique_id=1065687286 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three/col_of_cereal_three7" unique_id=2102100323 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three/col_of_cereal_three7" unique_id=2070140614 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three/col_of_cereal_three7" unique_id=1473888584 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="row_of_cereal_three2" type="Node3D" parent="." unique_id=73679776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.1552734e-05, 0.70018363, 0.00024795532)
+
+[node name="col_of_cereal_three" type="Node3D" parent="row_of_cereal_three2" unique_id=1262838619]
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three" unique_id=414201297 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three" unique_id=1931399711 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three" unique_id=1356800616 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three" unique_id=1329564849 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three2" type="Node3D" parent="row_of_cereal_three2" unique_id=1152702643]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.616436, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three2" unique_id=1067906286 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three2" unique_id=1722086995 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three2" unique_id=255571355 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three2" unique_id=1216822415 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three3" type="Node3D" parent="row_of_cereal_three2" unique_id=2024649364]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.231739, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three3" unique_id=351901022 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three3" unique_id=1302729543 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three3" unique_id=539337204 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three3" unique_id=513474279 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three4" type="Node3D" parent="row_of_cereal_three2" unique_id=577518293]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9494667, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three4" unique_id=1075997412 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three4" unique_id=1084788999 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three4" unique_id=643796237 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three4" unique_id=1352198862 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three5" type="Node3D" parent="row_of_cereal_three2" unique_id=152236979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4570236, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three5" unique_id=610440947 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three5" unique_id=1399800868 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three5" unique_id=477645991 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three5" unique_id=1078573051 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three6" type="Node3D" parent="row_of_cereal_three2" unique_id=2030616113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9654198, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three6" unique_id=125516707 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three6" unique_id=1343710895 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three6" unique_id=477167064 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three6" unique_id=1670580446 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three7" type="Node3D" parent="row_of_cereal_three2" unique_id=1919543056]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6767082, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three2/col_of_cereal_three7" unique_id=337340478 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three2/col_of_cereal_three7" unique_id=1622314166 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three2/col_of_cereal_three7" unique_id=1689812873 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three2/col_of_cereal_three7" unique_id=793443518 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="row_of_cereal_three3" type="Node3D" parent="." unique_id=32976870]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.1552734e-05, 1.3301835, 0.00024795532)
+
+[node name="col_of_cereal_three" type="Node3D" parent="row_of_cereal_three3" unique_id=322821062]
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three" unique_id=153532858 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three" unique_id=1932425063 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three" unique_id=1241002701 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three" unique_id=2000180389 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three2" type="Node3D" parent="row_of_cereal_three3" unique_id=134994281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.616436, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three2" unique_id=2006978294 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three2" unique_id=482759168 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three2" unique_id=1928012451 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three2" unique_id=1201348831 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three3" type="Node3D" parent="row_of_cereal_three3" unique_id=1647738486]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.231739, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three3" unique_id=1483599038 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three3" unique_id=1027305324 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three3" unique_id=1743279973 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three3" unique_id=1312406191 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three4" type="Node3D" parent="row_of_cereal_three3" unique_id=1532178386]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9494667, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three4" unique_id=1488274507 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three4" unique_id=1072670448 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three4" unique_id=451940850 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three4" unique_id=1658208760 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three5" type="Node3D" parent="row_of_cereal_three3" unique_id=1287047095]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4570236, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three5" unique_id=1550468741 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three5" unique_id=1793090220 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three5" unique_id=857379389 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three5" unique_id=1424769830 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three6" type="Node3D" parent="row_of_cereal_three3" unique_id=1596260345]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9654198, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three6" unique_id=2033283326 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three6" unique_id=49062279 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three6" unique_id=1682814600 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three6" unique_id=405595299 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three7" type="Node3D" parent="row_of_cereal_three3" unique_id=274808715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6767082, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three3/col_of_cereal_three7" unique_id=1770816915 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three3/col_of_cereal_three7" unique_id=367215877 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three3/col_of_cereal_three7" unique_id=584691652 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three3/col_of_cereal_three7" unique_id=2069645296 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="row_of_cereal_three4" type="Node3D" parent="." unique_id=211779812]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.1552734e-05, 1.9058499, 0.00024795532)
+
+[node name="col_of_cereal_three" type="Node3D" parent="row_of_cereal_three4" unique_id=45591505]
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three" unique_id=441652799 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three" unique_id=73089728 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three" unique_id=1515985721 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three" unique_id=603792523 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three2" type="Node3D" parent="row_of_cereal_three4" unique_id=892002353]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.616436, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three2" unique_id=1120720624 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three2" unique_id=1369001322 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three2" unique_id=745020214 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three2" unique_id=1682775408 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three3" type="Node3D" parent="row_of_cereal_three4" unique_id=69660471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.231739, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three3" unique_id=293799417 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three3" unique_id=843889584 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three3" unique_id=1637193046 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three3" unique_id=1107590347 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three4" type="Node3D" parent="row_of_cereal_three4" unique_id=1568726882]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9494667, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three4" unique_id=1159470510 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three4" unique_id=1374789625 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three4" unique_id=220350075 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three4" unique_id=704001978 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three5" type="Node3D" parent="row_of_cereal_three4" unique_id=632573236]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4570236, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three5" unique_id=1832607566 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three5" unique_id=435832296 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three5" unique_id=1238483168 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three5" unique_id=71238180 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three6" type="Node3D" parent="row_of_cereal_three4" unique_id=997979625]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9654198, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three6" unique_id=1675736772 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three6" unique_id=1833919440 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three6" unique_id=567913591 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three6" unique_id=1473483549 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)
+
+[node name="col_of_cereal_three7" type="Node3D" parent="row_of_cereal_three4" unique_id=1112608984]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6767082, 0, 0)
+
+[node name="cereal_three" parent="row_of_cereal_three4/col_of_cereal_three7" unique_id=1472246262 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.580936)
+
+[node name="cereal_three2" parent="row_of_cereal_three4/col_of_cereal_three7" unique_id=1791814833 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -44.925755)
+
+[node name="cereal_three3" parent="row_of_cereal_three4/col_of_cereal_three7" unique_id=274297938 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.24274)
+
+[node name="cereal_three4" parent="row_of_cereal_three4/col_of_cereal_three7" unique_id=1646057045 instance=ExtResource("1_t0bd8")]
+transform = Transform3D(-0.045, 6.7948114e-09, 2.9701065e-16, 0, -1.9670126e-09, 0.045, 6.7948114e-09, 0.045, 1.9670126e-09, 20.613338, -1.9258659, -45.528286)

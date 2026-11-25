@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dsrulpyix5t75"]
+
+[ext_resource type="PackedScene" uid="uid://t18cfyk5qwd5" path="res://scenes/inside_store_scene/items_for_sale/rows_of_some_items/row_of_rope.tscn" id="1_53p0a"]
+
+[node name="stack_of_ropes" type="Node3D" unique_id=991305595]
+
+[node name="row_of_ropes_in_shelf4" type="Node3D" parent="." unique_id=265840662]
+
+[node name="row_of_rope2" parent="row_of_ropes_in_shelf4" unique_id=1537189713 instance=ExtResource("1_53p0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.09696)
+
+[node name="row_of_rope" parent="row_of_ropes_in_shelf4" unique_id=930328779 instance=ExtResource("1_53p0a")]
+
+[node name="row_of_ropes_in_shelf3" type="Node3D" parent="." unique_id=1600337045]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5899371, 0)
+
+[node name="row_of_rope2" parent="row_of_ropes_in_shelf3" unique_id=1840933416 instance=ExtResource("1_53p0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.09696)
+
+[node name="row_of_rope" parent="row_of_ropes_in_shelf3" unique_id=69959986 instance=ExtResource("1_53p0a")]
+
+[node name="row_of_ropes_in_shelf" type="Node3D" parent="." unique_id=1921178185]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.9442279, 0)
+
+[node name="row_of_rope2" parent="row_of_ropes_in_shelf" unique_id=1706960393 instance=ExtResource("1_53p0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.09696)
+
+[node name="row_of_rope" parent="row_of_ropes_in_shelf" unique_id=701585097 instance=ExtResource("1_53p0a")]
+
+[node name="row_of_ropes_in_shelf2" type="Node3D" parent="." unique_id=1991965742]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2452388, 0)
+
+[node name="row_of_rope2" parent="row_of_ropes_in_shelf2" unique_id=466377177 instance=ExtResource("1_53p0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.09696)
+
+[node name="row_of_rope" parent="row_of_ropes_in_shelf2" unique_id=168589188 instance=ExtResource("1_53p0a")]

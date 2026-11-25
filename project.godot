@@ -21,9 +21,11 @@ config/icon="res://icon.svg"
 
 GameSettings="*uid://c5tqb6opxahd"
 ShiftMgr="*uid://dn3vqtt54g7pd"
+ProductAvailability="*uid://b5llysxk3uxc3"
 
 [display]
 
+window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/vsync/vsync_mode=0

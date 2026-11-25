@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://pp5gkp1r0n6m"]
+
+[ext_resource type="PackedScene" uid="uid://b4by6eky5d8vo" path="res://scenes/inside_store_scene/items_for_sale/rows_of_some_items/row_of_stoves.tscn" id="1_u1lio"]
+
+[node name="row_cols_of_stoves" type="Node3D" unique_id=1218638452]
+
+[node name="row of stoves" parent="." unique_id=976838771 instance=ExtResource("1_u1lio")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.528595, 1.563844, 27.197512)
+
+[node name="row of stoves2" parent="." unique_id=1098819467 instance=ExtResource("1_u1lio")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.750454, 1.563844, 27.197512)
+
+[node name="row of stoves3" parent="." unique_id=8556788 instance=ExtResource("1_u1lio")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.999844, 1.563844, 27.197512)

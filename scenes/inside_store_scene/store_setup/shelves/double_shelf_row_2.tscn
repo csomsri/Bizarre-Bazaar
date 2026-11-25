@@ -1,0 +1,89 @@
+[gd_scene format=3 uid="uid://d1forduxlmm6a"]
+
+[ext_resource type="PackedScene" uid="uid://b4kkgufnwlco4" path="res://scenes/inside_store_scene/store_setup/shelf_basic.tscn" id="1_fg1lk"]
+
+[node name="DoubleShelfRow2" type="Node3D" unique_id=862730865]
+transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, 0, 0, 0)
+
+[node name="ShelfRow" type="Node3D" parent="." unique_id=1393077686]
+
+[node name="ShelfBasic2" parent="ShelfRow" unique_id=2006240251 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.5784712, -0.17435056, 0)
+
+[node name="ShelfBasic6" parent="ShelfRow" unique_id=1392806032 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 18.085613, -0.17435056, 0)
+
+[node name="ShelfBasic7" parent="ShelfRow" unique_id=630453674 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.749346, -0.17435056, 0)
+
+[node name="ShelfBasic15" parent="ShelfRow" unique_id=889183741 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 50.81328, -0.17435056, 0)
+
+[node name="ShelfBasic16" parent="ShelfRow" unique_id=25808591 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 54.391754, -0.17435056, 0)
+
+[node name="ShelfBasic19" parent="ShelfRow" unique_id=27327714 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.2422037, -0.17435056, 0)
+
+[node name="ShelfBasic20" parent="ShelfRow" unique_id=446922621 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 10.820675, -0.17435056, 0)
+
+[node name="ShelfBasic21" parent="ShelfRow" unique_id=146619067 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.507142, -0.17435056, 0)
+
+[node name="ShelfBasic31" parent="ShelfRow" unique_id=2143237491 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 50.81328, -0.17435056, 0)
+
+[node name="ShelfBasic39" parent="ShelfRow" unique_id=1639790530 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 47.20786, -0.17435056, -3.1519585e-07)
+
+[node name="ShelfBasic40" parent="ShelfRow" unique_id=252133351 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 43.648952, -0.17435056, -6.263254e-07)
+
+[node name="ShelfBasic35" parent="ShelfRow" unique_id=1299921292 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 58.18064, -0.17435056, 0)
+
+[node name="ShelfBasic36" parent="ShelfRow" unique_id=2076245952 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 61.759113, -0.17435056, 0)
+
+[node name="ShelfBasic32" parent="ShelfRow" unique_id=42119930 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 54.391754, -0.17435056, 0)
+
+[node name="ShelfRow2" type="Node3D" parent="." unique_id=257862769]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 75.944885, 0, 2.0806332)
+
+[node name="ShelfBasic5" parent="ShelfRow2" unique_id=2112552850 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.507142, -0.17435056, 0)
+
+[node name="ShelfBasic6" parent="ShelfRow2" unique_id=638174112 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 18.085613, -0.17435056, 0)
+
+[node name="ShelfBasic7" parent="ShelfRow2" unique_id=83498123 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.749346, -0.17435056, 0)
+
+[node name="ShelfBasic8" parent="ShelfRow2" unique_id=630561040 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.327818, -0.17435056, 0)
+
+[node name="ShelfBasic15" parent="ShelfRow2" unique_id=1416824858 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 54.310535, -0.17435056, 9.222705e-09)
+
+[node name="ShelfBasic16" parent="ShelfRow2" unique_id=326694339 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 57.88901, -0.17435056, 9.62897e-07)
+
+[node name="ShelfBasic25" parent="ShelfRow2" unique_id=750619807 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 28.91772, -0.17435056, 3.1383925e-07)
+
+[node name="ShelfBasic26" parent="ShelfRow2" unique_id=268501673 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 32.539173, -0.17435056, 6.304367e-07)
+
+[node name="ShelfBasic33" parent="ShelfRow2" unique_id=209984287 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 72.5213, -0.17435056, 9.222705e-09)
+
+[node name="ShelfBasic35" parent="ShelfRow2" unique_id=336966868 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 61.6779, -0.17435056, 9.222705e-09)
+
+[node name="ShelfBasic36" parent="ShelfRow2" unique_id=1563912127 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 65.25638, -0.17435056, 9.222705e-09)
+
+[node name="ShelfBasic37" parent="ShelfRow2" unique_id=350422631 instance=ExtResource("1_fg1lk")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 68.94284, -0.17435056, 9.62897e-07)

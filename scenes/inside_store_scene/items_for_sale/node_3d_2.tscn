@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ci52nmkfomhwy"]
 
-[ext_resource type="PackedScene" uid="uid://ch2ylt1lr1dh1" path="res://scenes/inside_store_scene/items_for_sale/ramen.tscn" id="1_oedix"]
+[ext_resource type="PackedScene" uid="uid://ch2ylt1lr1dh1" path="res://scenes/inside_store_scene/items_for_sale/individual items/ramen.tscn" id="1_oedix"]
 
 [node name="Node3D2" type="Node3D" unique_id=764514134]
 

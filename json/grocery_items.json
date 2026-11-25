@@ -1,6 +1,13 @@
 {
   "groceries": [
 	{
+	  "name": "Tea",
+	  "category": "Beverages",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
 	  "name": "Apples",
 	  "category": "Produce",
 	  "quantity": 12,

@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://b2w6n2hf2w51c"]
+
+[ext_resource type="PackedScene" uid="uid://q0aqanits6by" path="res://scenes/inside_store_scene/items_for_sale/col_of_some_items/col_of_lights.tscn" id="1_6etxl"]
+[ext_resource type="PackedScene" uid="uid://bulf42ba5082o" path="res://scenes/inside_store_scene/store_setup/row_lights_comb.tscn" id="2_qrsgk"]
+
+[node name="hanging_lights_combined" type="Node3D" unique_id=1471789481]
+
+[node name="col_of_lights" parent="." unique_id=1550590380 instance=ExtResource("1_6etxl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.04443)
+
+[node name="col_of_lights3" parent="." unique_id=2035538910 instance=ExtResource("1_6etxl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11.385036)
+
+[node name="col_of_lights4" parent="." unique_id=1868001056 instance=ExtResource("1_6etxl")]
+
+[node name="col_of_lights2" parent="." unique_id=121552596 instance=ExtResource("1_6etxl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -33.104156)
+
+[node name="row_lights_comb" parent="." unique_id=519509646 instance=ExtResource("2_qrsgk")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -32.969578, 0, -2.2901363)

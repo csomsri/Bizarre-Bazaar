@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://dx2wqhoyehhv2"]
+
+[ext_resource type="PackedScene" uid="uid://bdrl2as08j0nq" path="res://scenes/inside_store_scene/items_for_sale/row_cols_for_some/row_cols_of_radios.tscn" id="1_liy8a"]
+
+[node name="shelf_of_radios" type="Node3D" unique_id=237758063]
+
+[node name="row_of_radios" type="Node3D" parent="." unique_id=506673170]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.069480896, 0)
+
+[node name="row_cols_of_radios" parent="row_of_radios" unique_id=1151531702 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 33.299053)
+
+[node name="row_cols_of_radios2" parent="row_of_radios" unique_id=1619782950 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 31.256632)
+
+[node name="row_of_radios2" type="Node3D" parent="." unique_id=44111709]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7994251, 0)
+
+[node name="row_cols_of_radios" parent="row_of_radios2" unique_id=1530487376 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 33.299053)
+
+[node name="row_cols_of_radios2" parent="row_of_radios2" unique_id=1869675902 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 31.256632)
+
+[node name="row_of_radios3" type="Node3D" parent="." unique_id=92179069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4225712, 0)
+
+[node name="row_cols_of_radios" parent="row_of_radios3" unique_id=1122866037 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 33.299053)
+
+[node name="row_cols_of_radios2" parent="row_of_radios3" unique_id=1605804444 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 31.256632)
+
+[node name="row_of_radios4" type="Node3D" parent="." unique_id=1706511520]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.032339, 0)
+
+[node name="row_cols_of_radios" parent="row_of_radios4" unique_id=1985115824 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 33.299053)
+
+[node name="row_cols_of_radios2" parent="row_of_radios4" unique_id=214713213 instance=ExtResource("1_liy8a")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.746685, 0.0050001144, 31.256632)

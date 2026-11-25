@@ -1,0 +1,444 @@
+[gd_scene format=3 uid="uid://cic80edv0wmho"]
+
+[ext_resource type="PackedScene" uid="uid://6tnmfdnh2hxi" path="res://scenes/inside_store_scene/items_for_sale/individual items/ketchup.tscn" id="1_eshq3"]
+
+[node name="stack_of_ketchup" type="Node3D" unique_id=1069061705]
+
+[node name="row_of_ketchup" type="Node3D" parent="." unique_id=1433025978]
+
+[node name="col_of_ketchup9" type="Node3D" parent="row_of_ketchup" unique_id=823939836]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.807434, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup9" unique_id=1184592349 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup9" unique_id=766274552 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup9" unique_id=525037766 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup7" type="Node3D" parent="row_of_ketchup" unique_id=1683030140]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9467316, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup7" unique_id=1340654439 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup7" unique_id=350405574 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup7" unique_id=1945868839 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup6" type="Node3D" parent="row_of_ketchup" unique_id=1784866521]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5205307, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup6" unique_id=2001257218 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup6" unique_id=1186983622 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup6" unique_id=1076792325 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup4" type="Node3D" parent="row_of_ketchup" unique_id=1126547016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.438015, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup4" unique_id=1702746723 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup4" unique_id=933703213 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup4" unique_id=1963812013 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup2" type="Node3D" parent="row_of_ketchup" unique_id=225063427]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46453857, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup2" unique_id=1442518874 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup2" unique_id=1791422183 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup2" unique_id=2046216772 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup" type="Node3D" parent="row_of_ketchup" unique_id=1015213578]
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup" unique_id=209703084 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup" unique_id=1644347067 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup" unique_id=807777713 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup3" type="Node3D" parent="row_of_ketchup" unique_id=1042481292]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8814125, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup3" unique_id=688900024 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup3" unique_id=1307921474 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup3" unique_id=985528000 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup5" type="Node3D" parent="row_of_ketchup" unique_id=349271548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9540138, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup5" unique_id=1668538545 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup5" unique_id=334920504 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup5" unique_id=1331040459 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup8" type="Node3D" parent="row_of_ketchup" unique_id=1230657069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5192108, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup/col_of_ketchup8" unique_id=619737542 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup/col_of_ketchup8" unique_id=546224525 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup/col_of_ketchup8" unique_id=1227065440 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="row_of_ketchup2" type="Node3D" parent="." unique_id=1003076784]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.866455e-05, 0.69799995, 0)
+
+[node name="col_of_ketchup9" type="Node3D" parent="row_of_ketchup2" unique_id=1730696278]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.807434, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup9" unique_id=1154263866 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup9" unique_id=1763850545 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup9" unique_id=757243134 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup7" type="Node3D" parent="row_of_ketchup2" unique_id=612809781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9467316, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup7" unique_id=1135126223 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup7" unique_id=1609321203 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup7" unique_id=1963453603 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup6" type="Node3D" parent="row_of_ketchup2" unique_id=929513861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5205307, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup6" unique_id=1306306262 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup6" unique_id=572822979 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup6" unique_id=1572881843 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup4" type="Node3D" parent="row_of_ketchup2" unique_id=1463611311]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.438015, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup4" unique_id=406607814 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup4" unique_id=1273974855 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup4" unique_id=185707663 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup2" type="Node3D" parent="row_of_ketchup2" unique_id=1647456217]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46453857, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup2" unique_id=1131259812 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup2" unique_id=1777893592 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup2" unique_id=1670855475 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup" type="Node3D" parent="row_of_ketchup2" unique_id=90867200]
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup" unique_id=14849381 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup" unique_id=1234893599 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup" unique_id=306411461 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup3" type="Node3D" parent="row_of_ketchup2" unique_id=1937993204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8814125, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup3" unique_id=1948930107 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup3" unique_id=358325888 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup3" unique_id=351900390 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup5" type="Node3D" parent="row_of_ketchup2" unique_id=619998438]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9540138, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup5" unique_id=725705047 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup5" unique_id=229771535 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup5" unique_id=686418944 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup8" type="Node3D" parent="row_of_ketchup2" unique_id=585523296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5192108, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup2/col_of_ketchup8" unique_id=527501316 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup2/col_of_ketchup8" unique_id=112646079 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup2/col_of_ketchup8" unique_id=381815206 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="row_of_ketchup3" type="Node3D" parent="." unique_id=1690964083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.866455e-05, 1.3409998, 0)
+
+[node name="col_of_ketchup9" type="Node3D" parent="row_of_ketchup3" unique_id=1370501642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.807434, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup9" unique_id=1948377825 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup9" unique_id=799824471 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup9" unique_id=2077741218 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup7" type="Node3D" parent="row_of_ketchup3" unique_id=1840931182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9467316, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup7" unique_id=2085466161 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup7" unique_id=1753492908 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup7" unique_id=594591823 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup6" type="Node3D" parent="row_of_ketchup3" unique_id=1912790704]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5205307, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup6" unique_id=286457012 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup6" unique_id=1354031030 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup6" unique_id=132266122 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup4" type="Node3D" parent="row_of_ketchup3" unique_id=787848890]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.438015, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup4" unique_id=1995062605 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup4" unique_id=250917597 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup4" unique_id=175428217 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup2" type="Node3D" parent="row_of_ketchup3" unique_id=729967746]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46453857, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup2" unique_id=1042691772 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup2" unique_id=717346235 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup2" unique_id=686738297 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup" type="Node3D" parent="row_of_ketchup3" unique_id=142141006]
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup" unique_id=1249624085 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup" unique_id=537740855 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup" unique_id=1457991622 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup3" type="Node3D" parent="row_of_ketchup3" unique_id=1552610113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8814125, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup3" unique_id=628727048 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup3" unique_id=586772775 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup3" unique_id=1599118453 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup5" type="Node3D" parent="row_of_ketchup3" unique_id=967006205]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9540138, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup5" unique_id=165290513 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup5" unique_id=1832304388 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup5" unique_id=1431716153 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup8" type="Node3D" parent="row_of_ketchup3" unique_id=1733202154]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5192108, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup3/col_of_ketchup8" unique_id=989425000 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup3/col_of_ketchup8" unique_id=400332532 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup3/col_of_ketchup8" unique_id=1810925540 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="row_of_ketchup4" type="Node3D" parent="." unique_id=1573100789]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.866455e-05, 1.9439998, 0)
+
+[node name="col_of_ketchup9" type="Node3D" parent="row_of_ketchup4" unique_id=257186245]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.807434, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup9" unique_id=1416013511 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup9" unique_id=490351989 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup9" unique_id=546590635 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup7" type="Node3D" parent="row_of_ketchup4" unique_id=1958655762]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9467316, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup7" unique_id=2134559874 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup7" unique_id=1860792638 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup7" unique_id=1550948269 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup6" type="Node3D" parent="row_of_ketchup4" unique_id=575146567]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5205307, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup6" unique_id=47933053 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup6" unique_id=1807325264 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup6" unique_id=1977351728 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup4" type="Node3D" parent="row_of_ketchup4" unique_id=1988468329]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.438015, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup4" unique_id=55555651 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup4" unique_id=1924741390 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup4" unique_id=661594372 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup2" type="Node3D" parent="row_of_ketchup4" unique_id=352663103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46453857, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup2" unique_id=1270648924 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup2" unique_id=699440877 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup2" unique_id=2135478324 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup" type="Node3D" parent="row_of_ketchup4" unique_id=495892035]
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup" unique_id=244664165 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup" unique_id=1399882698 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup" unique_id=690554416 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup3" type="Node3D" parent="row_of_ketchup4" unique_id=1125462568]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8814125, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup3" unique_id=680648557 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup3" unique_id=881408506 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup3" unique_id=290555693 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup5" type="Node3D" parent="row_of_ketchup4" unique_id=1497431142]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9540138, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup5" unique_id=965464407 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup5" unique_id=227074205 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup5" unique_id=1533327 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)
+
+[node name="col_of_ketchup8" type="Node3D" parent="row_of_ketchup4" unique_id=232501515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5192108, 0, 0)
+
+[node name="ketchup" parent="row_of_ketchup4/col_of_ketchup8" unique_id=2136414324 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.4027)
+
+[node name="ketchup2" parent="row_of_ketchup4/col_of_ketchup8" unique_id=924070362 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -41.796936)
+
+[node name="ketchup3" parent="row_of_ketchup4/col_of_ketchup8" unique_id=555571469 instance=ExtResource("1_eshq3")]
+transform = Transform3D(-0.05, 4.371139e-09, -5.2125306e-17, 0, 5.9624405e-10, 0.05, 4.371139e-09, 0.05, -5.9624405e-10, 69.68741, -1.9358144, -42.25584)

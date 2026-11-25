@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://cbpag3t3nl52w"]
+
+[ext_resource type="PackedScene" uid="uid://bmjf5a6tml1kx" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_tent_orange_2.tscn" id="1_vdtlm"]
+
+[node name="stack_of_orange_tents" type="Node3D" unique_id=1758075623]
+
+[node name="row_of_tents" type="Node3D" parent="." unique_id=1168392669]
+
+[node name="SM_Tent_Orange7" parent="row_of_tents" unique_id=861517070 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.966339)
+
+[node name="SM_Tent_Orange5" parent="row_of_tents" unique_id=384726250 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -11.600086)
+
+[node name="SM_Tent_Orange2" parent="row_of_tents" unique_id=307947534 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -9.531822)
+
+[node name="SM_Tent_Orange3" parent="row_of_tents" unique_id=1491594375 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.229378)
+
+[node name="SM_Tent_Orange4" parent="row_of_tents" unique_id=1586499049 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.935688)
+
+[node name="SM_Tent_Orange6" parent="row_of_tents" unique_id=736470398 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.297424)
+
+[node name="row_of_tents2" type="Node3D" parent="." unique_id=771107567]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.71954536, 0)
+
+[node name="SM_Tent_Orange7" parent="row_of_tents2" unique_id=1407456921 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.966339)
+
+[node name="SM_Tent_Orange5" parent="row_of_tents2" unique_id=205352658 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -11.600086)
+
+[node name="SM_Tent_Orange2" parent="row_of_tents2" unique_id=979000821 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -9.531822)
+
+[node name="SM_Tent_Orange3" parent="row_of_tents2" unique_id=634282175 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.229378)
+
+[node name="SM_Tent_Orange4" parent="row_of_tents2" unique_id=1556925167 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.935688)
+
+[node name="SM_Tent_Orange6" parent="row_of_tents2" unique_id=1991283062 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.297424)
+
+[node name="row_of_tents3" type="Node3D" parent="." unique_id=333732160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3606415, 0)
+
+[node name="SM_Tent_Orange7" parent="row_of_tents3" unique_id=212590789 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.966339)
+
+[node name="SM_Tent_Orange5" parent="row_of_tents3" unique_id=835285579 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -11.600086)
+
+[node name="SM_Tent_Orange2" parent="row_of_tents3" unique_id=578310701 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -9.531822)
+
+[node name="SM_Tent_Orange3" parent="row_of_tents3" unique_id=585838820 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.229378)
+
+[node name="SM_Tent_Orange4" parent="row_of_tents3" unique_id=1735070588 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.935688)
+
+[node name="SM_Tent_Orange6" parent="row_of_tents3" unique_id=1928050012 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.297424)
+
+[node name="row_of_tents4" type="Node3D" parent="." unique_id=122190595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9584625, 0)
+
+[node name="SM_Tent_Orange7" parent="row_of_tents4" unique_id=1266738128 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.966339)
+
+[node name="SM_Tent_Orange5" parent="row_of_tents4" unique_id=330141404 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -11.600086)
+
+[node name="SM_Tent_Orange2" parent="row_of_tents4" unique_id=1003923851 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -9.531822)
+
+[node name="SM_Tent_Orange3" parent="row_of_tents4" unique_id=1784254755 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.229378)
+
+[node name="SM_Tent_Orange4" parent="row_of_tents4" unique_id=1067635295 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -10.935688)
+
+[node name="SM_Tent_Orange6" parent="row_of_tents4" unique_id=268997307 instance=ExtResource("1_vdtlm")]
+transform = Transform3D(-1.3113417e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -1.3113417e-08, -46.218697, -1.9736537, -12.297424)

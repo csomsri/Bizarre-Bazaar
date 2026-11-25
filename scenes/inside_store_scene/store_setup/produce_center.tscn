@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c8f2ee0tjr13o"]
+
+[ext_resource type="PackedScene" uid="uid://bevhbu3tte8mj" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/shelf_pizza.tscn" id="1_h3tiu"]
+
+[node name="ProduceCenter" type="Node3D" unique_id=1237992571]
+
+[node name="produceAisle2" parent="." unique_id=1751323588 instance=ExtResource("1_h3tiu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 35.126858, 0.12588239, 29.275015)
+
+[node name="produceAisle1" parent="." unique_id=1726106378 instance=ExtResource("1_h3tiu")]
+transform = Transform3D(-4.371138e-08, 0, 1, 0, 1, 0, -1, 0, -4.371138e-08, 38.640686, 0.12588263, 32.737885)
+
+[node name="produceAisle3" parent="." unique_id=651903992 instance=ExtResource("1_h3tiu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31.61816, 0.12588263, 32.737885)
+
+[node name="produceAisle4" parent="." unique_id=321538547 instance=ExtResource("1_h3tiu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.11951, 0.12029791, 36.221954)

@@ -1,0 +1,300 @@
+[gd_scene format=3 uid="uid://bfy8blfdfft37"]
+
+[ext_resource type="PackedScene" uid="uid://bjdvfft6ctbyb" path="res://scenes/inside_store_scene/items_for_sale/individual items/mint_oreo.tscn" id="1_0jwu6"]
+
+[node name="stack_of_mint_oreo" type="Node3D" unique_id=941028617]
+
+[node name="row_of_oreo4" type="Node3D" parent="." unique_id=2047239642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.7320805e-05, 1.9439998, 0)
+
+[node name="col_of_mint_oreo6" type="Node3D" parent="row_of_oreo4" unique_id=1223101723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7414932, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo4/col_of_mint_oreo6" unique_id=197462887 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo4/col_of_mint_oreo6" unique_id=901033477 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo4/col_of_mint_oreo6" unique_id=562804016 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo5" type="Node3D" parent="row_of_oreo4" unique_id=695069351]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1639977, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo4/col_of_mint_oreo5" unique_id=1207817983 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo4/col_of_mint_oreo5" unique_id=378816496 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo4/col_of_mint_oreo5" unique_id=88849465 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo4" type="Node3D" parent="row_of_oreo4" unique_id=1273142926]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.579506, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo4/col_of_mint_oreo4" unique_id=847307875 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo4/col_of_mint_oreo4" unique_id=465746330 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo4/col_of_mint_oreo4" unique_id=1231376954 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo3" type="Node3D" parent="row_of_oreo4" unique_id=1977580171]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8951454, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo4/col_of_mint_oreo3" unique_id=1269276896 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo4/col_of_mint_oreo3" unique_id=1070038238 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo4/col_of_mint_oreo3" unique_id=1955615706 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo2" type="Node3D" parent="row_of_oreo4" unique_id=147788549]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.117672, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo4/col_of_mint_oreo2" unique_id=1654934672 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo4/col_of_mint_oreo2" unique_id=1783340937 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo4/col_of_mint_oreo2" unique_id=1459094065 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo" type="Node3D" parent="row_of_oreo4" unique_id=621023564]
+
+[node name="mint_oreo2" parent="row_of_oreo4/col_of_mint_oreo" unique_id=677424469 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo4/col_of_mint_oreo" unique_id=1441882542 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo4/col_of_mint_oreo" unique_id=1759849616 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="row_of_oreo3" type="Node3D" parent="." unique_id=733974036]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.7320805e-05, 1.3379998, 0)
+
+[node name="col_of_mint_oreo6" type="Node3D" parent="row_of_oreo3" unique_id=1841150943]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7414932, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo3/col_of_mint_oreo6" unique_id=1335688864 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo3/col_of_mint_oreo6" unique_id=1043978006 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo3/col_of_mint_oreo6" unique_id=990872413 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo5" type="Node3D" parent="row_of_oreo3" unique_id=229087655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1639977, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo3/col_of_mint_oreo5" unique_id=467286084 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo3/col_of_mint_oreo5" unique_id=1416127298 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo3/col_of_mint_oreo5" unique_id=14893267 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo4" type="Node3D" parent="row_of_oreo3" unique_id=7304179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.579506, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo3/col_of_mint_oreo4" unique_id=892661814 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo3/col_of_mint_oreo4" unique_id=1115260073 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo3/col_of_mint_oreo4" unique_id=809697579 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo3" type="Node3D" parent="row_of_oreo3" unique_id=2027220218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8951454, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo3/col_of_mint_oreo3" unique_id=1987683254 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo3/col_of_mint_oreo3" unique_id=547411570 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo3/col_of_mint_oreo3" unique_id=252513177 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo2" type="Node3D" parent="row_of_oreo3" unique_id=1213538496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.117672, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo3/col_of_mint_oreo2" unique_id=1666111550 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo3/col_of_mint_oreo2" unique_id=1604324219 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo3/col_of_mint_oreo2" unique_id=1327401496 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo" type="Node3D" parent="row_of_oreo3" unique_id=448791196]
+
+[node name="mint_oreo2" parent="row_of_oreo3/col_of_mint_oreo" unique_id=1837809255 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo3/col_of_mint_oreo" unique_id=1073474845 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo3/col_of_mint_oreo" unique_id=798450677 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="row_of_oreo2" type="Node3D" parent="." unique_id=24112839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.7320805e-05, 0.69799995, 0)
+
+[node name="col_of_mint_oreo6" type="Node3D" parent="row_of_oreo2" unique_id=1810939256]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7414932, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo2/col_of_mint_oreo6" unique_id=213620967 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo2/col_of_mint_oreo6" unique_id=904363754 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo2/col_of_mint_oreo6" unique_id=2016412138 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo5" type="Node3D" parent="row_of_oreo2" unique_id=1140395581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1639977, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo2/col_of_mint_oreo5" unique_id=1504198080 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo2/col_of_mint_oreo5" unique_id=2033925278 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo2/col_of_mint_oreo5" unique_id=1922585491 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo4" type="Node3D" parent="row_of_oreo2" unique_id=1330578738]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.579506, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo2/col_of_mint_oreo4" unique_id=1581832456 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo2/col_of_mint_oreo4" unique_id=333789008 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo2/col_of_mint_oreo4" unique_id=628158503 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo3" type="Node3D" parent="row_of_oreo2" unique_id=2006510073]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8951454, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo2/col_of_mint_oreo3" unique_id=35331833 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo2/col_of_mint_oreo3" unique_id=1458578434 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo2/col_of_mint_oreo3" unique_id=1484084383 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo2" type="Node3D" parent="row_of_oreo2" unique_id=75333877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.117672, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo2/col_of_mint_oreo2" unique_id=2126956259 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo2/col_of_mint_oreo2" unique_id=1572111553 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo2/col_of_mint_oreo2" unique_id=834522547 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo" type="Node3D" parent="row_of_oreo2" unique_id=127758217]
+
+[node name="mint_oreo2" parent="row_of_oreo2/col_of_mint_oreo" unique_id=888125847 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo2/col_of_mint_oreo" unique_id=2137079987 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo2/col_of_mint_oreo" unique_id=2084514952 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="row_of_oreo" type="Node3D" parent="." unique_id=1369517536]
+
+[node name="col_of_mint_oreo6" type="Node3D" parent="row_of_oreo" unique_id=1568736374]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7414932, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo/col_of_mint_oreo6" unique_id=353236242 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo/col_of_mint_oreo6" unique_id=13854674 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo/col_of_mint_oreo6" unique_id=1158265663 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo5" type="Node3D" parent="row_of_oreo" unique_id=623229579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1639977, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo/col_of_mint_oreo5" unique_id=679954771 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo/col_of_mint_oreo5" unique_id=1717202 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo/col_of_mint_oreo5" unique_id=1882605380 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo4" type="Node3D" parent="row_of_oreo" unique_id=1986798684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.579506, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo/col_of_mint_oreo4" unique_id=1844727342 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo/col_of_mint_oreo4" unique_id=173095459 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo/col_of_mint_oreo4" unique_id=420011702 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo3" type="Node3D" parent="row_of_oreo" unique_id=1921410566]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8951454, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo/col_of_mint_oreo3" unique_id=790618300 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo/col_of_mint_oreo3" unique_id=1932871777 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo/col_of_mint_oreo3" unique_id=184317362 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo2" type="Node3D" parent="row_of_oreo" unique_id=865651899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.117672, 0, 0)
+
+[node name="mint_oreo2" parent="row_of_oreo/col_of_mint_oreo2" unique_id=933412166 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo/col_of_mint_oreo2" unique_id=1769007678 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo/col_of_mint_oreo2" unique_id=1980101033 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)
+
+[node name="col_of_mint_oreo" type="Node3D" parent="row_of_oreo" unique_id=51033735]
+
+[node name="mint_oreo2" parent="row_of_oreo/col_of_mint_oreo" unique_id=572032638 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.53595)
+
+[node name="mint_oreo" parent="row_of_oreo/col_of_mint_oreo" unique_id=653576573 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.88267)
+
+[node name="mint_oreo3" parent="row_of_oreo/col_of_mint_oreo" unique_id=1373215413 instance=ExtResource("1_0jwu6")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, -1.4210857e-15, 0, 1.4210857e-15, 0.05, 65.993126, -1.4489217, -39.121273)

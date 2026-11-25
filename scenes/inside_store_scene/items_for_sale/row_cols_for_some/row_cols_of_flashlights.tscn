@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c2j38t6ldququ"]
+
+[ext_resource type="PackedScene" uid="uid://4jq84ocnsm3k" path="res://scenes/inside_store_scene/items_for_sale/rows_of_some_items/row_of_flashlights.tscn" id="1_f5mje"]
+
+[node name="row_cols_of_flashlights" type="Node3D" unique_id=743508384]
+
+[node name="row_of_flashlights" parent="." unique_id=1036386609 instance=ExtResource("1_f5mje")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4485283, 0, 0)
+
+[node name="row_of_flashlights2" parent="." unique_id=1040819208 instance=ExtResource("1_f5mje")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21803665, 0, 0)
+
+[node name="row_of_flashlights3" parent="." unique_id=1650648501 instance=ExtResource("1_f5mje")]

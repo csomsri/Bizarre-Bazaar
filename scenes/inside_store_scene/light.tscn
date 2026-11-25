@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://cg70nmclh648b"]
-
-[ext_resource type="PackedScene" uid="uid://cdm7qefpxtgug" path="res://assets/inside_store/Lighting/light.blend" id="1_pbanf"]
-[ext_resource type="PackedScene" uid="uid://uq78ewtl58bw" path="res://scenes/inside_store_scene/glass.tscn" id="2_0n1sd"]
-
-[node name="light" unique_id=979051469 instance=ExtResource("1_pbanf")]
-
-[node name="Glass" parent="." index="3" unique_id=833736896 instance=ExtResource("2_0n1sd")]
-transform = Transform3D(-2.5789719e-08, 1.68, -1.7484555e-09, 0, -7.343513e-08, -0.04, -0.59, -7.343513e-08, 7.642742e-17, -0.033368036, 3.9696894, 0.022328168)

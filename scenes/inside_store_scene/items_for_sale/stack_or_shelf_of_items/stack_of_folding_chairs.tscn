@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://0asoecimfmy1"]
+
+[ext_resource type="PackedScene" uid="uid://ckor6qs1sgyjx" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_folding_chair_2.tscn" id="1_w1iyd"]
+
+[node name="stack_of_folding_chairs" type="Node3D" unique_id=564623246]
+
+[node name="row_of_folding_chairs4" type="Node3D" parent="." unique_id=653149672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9184093, 0)
+
+[node name="SM_Folding_Chair6" parent="row_of_folding_chairs4" unique_id=1368832294 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -18.628458)
+
+[node name="SM_Folding_Chair5" parent="row_of_folding_chairs4" unique_id=1321004681 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.30199)
+
+[node name="SM_Folding_Chair2" parent="row_of_folding_chairs4" unique_id=410459299 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -21.352623)
+
+[node name="SM_Folding_Chair3" parent="row_of_folding_chairs4" unique_id=1468083220 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -20.617367)
+
+[node name="SM_Folding_Chair4" parent="row_of_folding_chairs4" unique_id=16464402 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.93491)
+
+[node name="row_of_folding_chairs2" type="Node3D" parent="." unique_id=1564072787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.68696785, 0)
+
+[node name="SM_Folding_Chair6" parent="row_of_folding_chairs2" unique_id=2014859350 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -18.628458)
+
+[node name="SM_Folding_Chair5" parent="row_of_folding_chairs2" unique_id=851248027 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.30199)
+
+[node name="SM_Folding_Chair2" parent="row_of_folding_chairs2" unique_id=1586846282 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -21.352623)
+
+[node name="SM_Folding_Chair3" parent="row_of_folding_chairs2" unique_id=1934052343 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -20.617367)
+
+[node name="SM_Folding_Chair4" parent="row_of_folding_chairs2" unique_id=1513034509 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.93491)
+
+[node name="row_of_folding_chairs" type="Node3D" parent="." unique_id=960992698]
+
+[node name="SM_Folding_Chair6" parent="row_of_folding_chairs" unique_id=822885618 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -18.628458)
+
+[node name="SM_Folding_Chair5" parent="row_of_folding_chairs" unique_id=718662602 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.30199)
+
+[node name="SM_Folding_Chair2" parent="row_of_folding_chairs" unique_id=1152658064 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -21.352623)
+
+[node name="SM_Folding_Chair3" parent="row_of_folding_chairs" unique_id=483520003 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -20.617367)
+
+[node name="SM_Folding_Chair4" parent="row_of_folding_chairs" unique_id=943081624 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.93491)
+
+[node name="row_of_folding_chairs3" type="Node3D" parent="." unique_id=160371272]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3158178, 0)
+
+[node name="SM_Folding_Chair6" parent="row_of_folding_chairs3" unique_id=474675149 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -18.628458)
+
+[node name="SM_Folding_Chair5" parent="row_of_folding_chairs3" unique_id=1718283840 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.30199)
+
+[node name="SM_Folding_Chair2" parent="row_of_folding_chairs3" unique_id=454811092 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -21.352623)
+
+[node name="SM_Folding_Chair3" parent="row_of_folding_chairs3" unique_id=574852839 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -20.617367)
+
+[node name="SM_Folding_Chair4" parent="row_of_folding_chairs3" unique_id=2132262571 instance=ExtResource("1_w1iyd")]
+transform = Transform3D(-2.6226834e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.6226834e-08, -13.764832, -1.966795, -19.93491)
