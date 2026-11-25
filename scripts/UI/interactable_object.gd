@@ -11,7 +11,11 @@ func get_prompt_text() -> String:
 
 # FUNC can_interact: is player within range to interact with object
 func can_interact() -> bool:
-	if interaction_target == null: return false
+	if interaction_target == null:
+		return false
+	
+	if interaction_target.has_method("can_pickup"):
+		return interaction_target.can_pickup()
 	
 	if interaction_target.get("player_nearby") != null:
 		return interaction_target.player_nearby
@@ -20,8 +24,6 @@ func can_interact() -> bool:
 
 
 # FUNC interact: interact with object
-# NOTE: this might only work with dumpster right now. We have no other interactions
-# to test with right now.
 func interact() -> void:
 	if interaction_target != null and interaction_target.has_method(interaction_method):
 		interaction_target.call(interaction_method)

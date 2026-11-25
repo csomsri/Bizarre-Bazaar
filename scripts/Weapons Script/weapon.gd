@@ -137,6 +137,19 @@ func _on_hit(hit: Dictionary)-> void:
 		target.take_damage(damage)
 		
 
+# UI/Interaction
+# FUNC can_pickup: checks if player can actually pick up weapon
+func can_pickup() -> bool:
+	if equipped or nearby_player == null:
+		return false
+	if global_position.distance_to(nearby_player.global_position) > pickup_range:
+		return false
+	if nearby_player.equipped_gun != null:
+		return false
+	
+	return true
+
+
 func pickup() -> void:
 	if equipped or nearby_player == null:
 		return
@@ -185,10 +198,7 @@ func drop_gun() -> void:
 	equipped = false
 
 func _unhandled_input(event: InputEvent) -> void:
-	
-	if event.is_action_pressed("interact") && not equipped:
-		pickup()
-	elif event.is_action_pressed("drop") && equipped:
+	if event.is_action_pressed("drop") && equipped:
 		drop_gun()
 		
 	
