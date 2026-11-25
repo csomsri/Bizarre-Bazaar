@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://2fueo7bq7017"]
+
+[ext_resource type="PackedScene" uid="uid://n43wjlt3o0vv" path="res://assets/inside_store/decorations/ChristmassTree.fbx" id="1_cmxkx"]
+
+[node name="ChristmassTree" unique_id=209154362 instance=ExtResource("1_cmxkx")]
