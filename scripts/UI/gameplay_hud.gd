@@ -1,7 +1,6 @@
+# UI/Input: Adaluz Henriquez Zetino
 extends CanvasLayer
 class_name GameplayHUD
-
-# Use these functions in other scripts if you need to update the HUD
 
 # HUD Labels and Progress Bar 
 @onready var day_label: Label = $HUDRoot/MarginContainer/MainLayout/TopBar/DayPanel/DayLabel
@@ -18,18 +17,19 @@ class_name GameplayHUD
 # FUNCTIONS: Use these in scripts to update HUD
 func _ready() -> void:
 	# Temp values (for testing)
-	set_day(1)
+	set_night(ShiftMgr.current_shift)
 	set_time(ShiftMgr.get_time_str())
 	set_money(420)
 	set_boss_trust(87)
 	set_thieves_caught(0)
 	
 	ShiftMgr.time_changed.connect(_on_time_changed)
+	ShiftMgr.shift_started.connect(_on_shift_started)
 
 
 # FUNC set_day: Updates current in-game day
-func set_day(day_number: int) -> void:
-	day_label.text = "DAY %02d" % day_number
+func set_night(night_number: int) -> void:
+	day_label.text = "NIGHT %02d" % night_number
 
 # FUNC set_time: Updates in-game clock
 func set_time(time_text: String) -> void:
@@ -71,3 +71,6 @@ func _on_time_changed(hour: int, minute: int) -> void:
 	
 	var period := "AM" if hour < 12 else "PM"
 	set_time("%d:%02d %s" % [hour_12, minute, period])
+
+func _on_shift_started(shift_no: int) -> void:
+	set_night(shift_no)
