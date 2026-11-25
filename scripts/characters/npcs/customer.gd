@@ -15,10 +15,22 @@ enum State {
 @export var checkout_position: Marker3D
 @export var exit_position: Marker3D
 @export var movement_speed: float = 3.0
+@export var turn_speed: float = 10.0
+
+
+# GET RID LATER: WOBBLE FOR SWOMAN
+@export var walk_wobble_degrees: float = 5.0
+@export var walk_wobble_cycles_per_meter: float = 0.8
+
+@onready var customer_mesh: Node3D = $MeshInstance3D
+@onready var mesh_rest_roll: float = customer_mesh.rotation.z
+
+var walk_phase: float = 0.0
 
 var follow_route_command: FollowRouteCommand = FollowRouteCommand.new()
 var browse_command: BrowseCommand = BrowseCommand.new()
-var checkout_command: CheckoutCommand = CheckoutCommand.new()
+var checkout_command: CheckoutCommand 
+# END OF WOBBLE
 
 @onready var navigation: NavigationAgent3D = $NavigationAgent3D
 @onready var resources: ResourceManager = $ResourceManager
@@ -30,6 +42,9 @@ var browse_pending: bool = false
 var browse_trigger_distance: float = 0.0
 var wait_remaining: float = 0.0
 
+@export var store_manager: StoreManager
+var shopping_list := ShoppingList.new()
+
 
 func _ready() -> void:
 	if route == null or route.waypoints.is_empty():
@@ -39,10 +54,21 @@ func _ready() -> void:
 	if checkout_position == null or exit_position == null:
 		_stop_with_error("ENTER EXIT MARKERS")
 		return
+	
+	# 
+	#shopping_list.generate()
+	#print(name, " wants: ", shopping_list.get_remaining_items())
 		
 	# Give the navigation map time to sync before setting the first target.
 	await get_tree().physics_frame
 	await get_tree().physics_frame
+	
+	if is_instance_valid(store_manager):
+		shopping_list.generate(store_manager)
+		print(name, " wants: ", shopping_list.get_remaining_items())
+	else:
+		push_warning("Assign Store Manager on the customer to generate a shopping list.")
+	
 	_go_to_waypoint()
 
 
@@ -67,12 +93,15 @@ func _physics_process(delta: float) -> void:
 				go_to(exit_position.global_position, State.LEAVING)
 
 	move_and_slide()
+	_update_facing(delta)
+	_update_walk_wobble(delta)
 
 
+# Can be command?
 func _go_to_waypoint() -> void:
 	var marker := follow_route_command.get_waypoint(route, waypoint_index)
 	if marker == null:
-		_stop_with_error("Customer route is missing waypoint %d." % waypoint_index)
+		_stop_with_error("Waypoint Missing Index: %d." % waypoint_index)
 		return
 
 	browse_pending = follow_route_command.should_browse(route, waypoint_index)
@@ -110,7 +139,7 @@ func update_movement() -> void:
 			on_destination_reached()
 		else:
 			_stop_with_error(
-				"Customer could not reach %s." % navigation.target_position
+				"Could Not Reach Position %s." % navigation.target_position
 			)
 		return
 
@@ -159,3 +188,32 @@ func _stop_with_error(message: String) -> void:
 	push_warning(message)
 	velocity = Vector3.ZERO
 	state = State.WAITING
+	
+func _update_facing(delta: float) -> void:
+	var travel := get_real_velocity()
+	travel.y = 0.0
+
+	if travel.length_squared() < 0.01:
+		return
+
+	# Godot uses local -Z as forward.
+	var target_yaw := atan2(-travel.x, -travel.z)
+	var turn_weight := 1.0 - exp(-turn_speed * delta)
+	global_rotation.y = lerp_angle(global_rotation.y, target_yaw, turn_weight)
+	
+func _update_walk_wobble(delta: float) -> void:
+	var travel := get_real_velocity()
+	travel.y = 0.0
+	var speed := travel.length()
+
+	var target_roll := mesh_rest_roll
+	if speed > 0.1:
+		walk_phase += speed * delta * walk_wobble_cycles_per_meter * TAU
+		target_roll += sin(walk_phase) * deg_to_rad(walk_wobble_degrees)
+	else:
+		walk_phase = 0.0
+
+	var blend := 1.0 - exp(-12.0 * delta)
+	customer_mesh.rotation.z = lerp_angle(
+		customer_mesh.rotation.z, target_roll, blend
+	)

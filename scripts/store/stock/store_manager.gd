@@ -3,7 +3,7 @@ extends Node3D
 
 signal stock_changed(item_id: String, quantity: int)
 
-@export var stock_path: String = "res://json/grocery_item.json"
+@export var stock_path: String = "res://json/grocery_items.json"
 @export var shelves: Array[Shelf] = []
 
 var stock: Dictionary = {}
@@ -11,7 +11,7 @@ var stock: Dictionary = {}
 
 func _ready() -> void:
 	if not FileAccess.file_exists(stock_path):
-		push_error("Stock file not found: " + stock_path)
+		push_error("Stock File Not Found " + stock_path)
 		return
 
 	var parsed: Variant = JSON.parse_string(
@@ -19,13 +19,13 @@ func _ready() -> void:
 	)
 
 	if not parsed is Dictionary:
-		push_error("Stock file must contain a JSON object.")
+		push_error("Stock JSON Unable to be Parsed")
 		return
 
 	var groceries: Variant = parsed.get("groceries")
 
 	if not groceries is Array:
-		push_error("Stock file must contain a groceries array.")
+		push_error("Need Groceries Array")
 		return
 
 	for grocery in groceries:
@@ -54,7 +54,7 @@ func get_stock(item_id: String) -> int:
 	return stock.get(item_id, 0)
 
 
-# Adds items to backroom stock.
+# Backroom Stock Add via Item ID
 func add_stock(item_id: String, amount: int = 1) -> bool:
 	if item_id.is_empty() or amount <= 0:
 		return false
@@ -64,7 +64,7 @@ func add_stock(item_id: String, amount: int = 1) -> bool:
 	return true
 
 
-# Removes items from backroom stock.
+# NPC or Player Take Item (Remove from Shelf)
 func take_item(item_id: String, amount: int = 1) -> bool:
 	if amount <= 0 or get_stock(item_id) < amount:
 		return false
@@ -74,7 +74,7 @@ func take_item(item_id: String, amount: int = 1) -> bool:
 	return true
 
 
-# Transfers items from backroom stock to a shelf.
+# Player Put in Item
 func player_restock(
 	item_id: String,
 	amount: int,
