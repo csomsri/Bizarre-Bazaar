@@ -18,11 +18,13 @@ class_name GameplayHUD
 # FUNCTIONS: Use these in scripts to update HUD
 func _ready() -> void:
 	# Temp values (for testing)
-	set_day(3)
-	set_time("8:10 AM")
+	set_day(1)
+	set_time(ShiftMgr.get_time_str())
 	set_money(420)
 	set_boss_trust(87)
-	set_thieves_caught(2)
+	set_thieves_caught(0)
+	
+	ShiftMgr.time_changed.connect(_on_time_changed)
 
 
 # FUNC set_day: Updates current in-game day
@@ -59,3 +61,13 @@ func show_interaction_prompt(prompt_text: String) -> void:
 
 func hide_interaction_prompt() -> void:
 	interaction_prompt.hide()
+
+# SHIFT MANAGER UPDATES
+# FUNC _on_time_chaned: HUD updates whenever ShiftMgr emits time_changed
+func _on_time_changed(hour: int, minute: int) -> void:
+	var hour_12 := hour % 12
+	if hour_12 == 0:
+		hour_12 = 12
+	
+	var period := "AM" if hour < 12 else "PM"
+	set_time("%d:%02d %s" % [hour_12, minute, period])
