@@ -28,7 +28,12 @@ func initial_stock() -> void:
 		return
 	var quantity = store_manager.get_stock(item_id)
 	
-
+	print("Product: ", item_id)
+	print("Backroom quantity: ", quantity)
+	print("Shelf ID: ", shelf.shelf_id)
+	print("Shelf found: ", store_manager.find_shelf(shelf.shelf_id))
+	print("Shelf capacity: ", shelf.shelf_capacity)
+	print("Items on shelf: ", shelf.items_on_shelf)
 	
 	if store_manager.player_restock(item_id, quantity, shelf.shelf_id):
 		print("Initial stock: ", item_id, " = ", quantity)

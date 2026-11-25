@@ -101,6 +101,7 @@
 [ext_resource type="PackedScene" uid="uid://0asoecimfmy1" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_folding_chairs.tscn" id="99_4lbus"]
 [ext_resource type="PackedScene" uid="uid://bag5gsn2x7iid" path="res://scenes/inside_store_scene/store_setup/double_swing_door.tscn" id="101_mgfdm"]
 [ext_resource type="PackedScene" uid="uid://chbgr7rxv3euw" path="res://scenes/outside_store/street_light.tscn" id="101_riju0"]
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
 albedo_texture = ExtResource("5_qn42m")
@@ -269,7 +270,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -453,7 +454,7 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 44.8
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, -0.015595436, 0, -1.176163)
 script = ExtResource("26_fpnhi")
 stock_path = "res://json/grocery_items.json"
-shelves = [NodePath("../DoubleShelfRow3/ShelfRow/ShelfBasic"), NodePath("../DoubleShelfRow3/ShelfRow/ShelfBasic2")]
+shelves = [NodePath("../DoubleShelfRow3/ShelfRow/tea"), NodePath("../DoubleShelfRow3/ShelfRow/tea2")]
 
 [node name="DoubleShelfRow3" parent="." unique_id=1520719494 instance=ExtResource("23_n45qf")]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, -0.015595436, 0, -1.176163)
@@ -1368,13 +1369,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 42.7727
 [node name="stack_of_tea" parent="." unique_id=34983746 node_paths=PackedStringArray("shelf", "store_manager") instance=ExtResource("66_c5qb7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 42.77275)
 item_id = "tea"
-shelf = NodePath("../DoubleShelfRow3/ShelfRow/ShelfBasic2")
+shelf = NodePath("../DoubleShelfRow3/ShelfRow/tea2")
 store_manager = NodePath("../StoreManager")
 
 [node name="stack_of_tea2" parent="." unique_id=1789755967 node_paths=PackedStringArray("shelf", "store_manager") instance=ExtResource("66_c5qb7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.676926, 2.0428164, 42.77275)
 item_id = "tea"
-shelf = NodePath("../DoubleShelfRow3/ShelfRow/ShelfBasic")
+shelf = NodePath("../DoubleShelfRow3/ShelfRow/tea")
 store_manager = NodePath("../StoreManager")
 
 [node name="stack_of_cereal_1" parent="." unique_id=1891208627 instance=ExtResource("67_cme4b")]
