@@ -3,6 +3,7 @@ class_name InteractableObject
 
 @export var prompt_text: String = "Interact"
 @export var interaction_target: Node
+@export var interaction_method: String = "open_lid"
 
 # FUNC get_prompt_text: Text to display
 func get_prompt_text() -> String:
@@ -22,5 +23,5 @@ func can_interact() -> bool:
 # NOTE: this might only work with dumpster right now. We have no other interactions
 # to test with right now.
 func interact() -> void:
-	if interaction_target != null and interaction_target.has_method("open_lid"):
-		interaction_target.open_lid()
+	if interaction_target != null and interaction_target.has_method(interaction_method):
+		interaction_target.call(interaction_method)
