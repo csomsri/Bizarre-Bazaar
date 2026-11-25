@@ -101,6 +101,8 @@
 [ext_resource type="PackedScene" uid="uid://0asoecimfmy1" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_folding_chairs.tscn" id="99_4lbus"]
 [ext_resource type="PackedScene" uid="uid://bag5gsn2x7iid" path="res://scenes/inside_store_scene/store_setup/double_swing_door.tscn" id="101_mgfdm"]
 [ext_resource type="PackedScene" uid="uid://chbgr7rxv3euw" path="res://scenes/outside_store/street_light.tscn" id="101_riju0"]
+[ext_resource type="Script" uid="uid://bfgubwhwi4600" path="res://scripts/characters/inventory.gd" id="102_j8hel"]
+[ext_resource type="PackedScene" uid="uid://drpdscq57ok6a" path="res://scenes/UI/InventoryInterface.tscn" id="103_75s2x"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sknb"]
 albedo_color = Color(1, 1, 1, 0.8039216)
@@ -270,7 +272,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1046181657) index="0" unique_id=1236035886]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -1620,6 +1622,11 @@ transform = Transform3D(-7.86805e-08, 0, -1.8, 0, 1.8, 0, 1.8, 0, -7.86805e-08, 
 
 [node name="StreetLight4" parent="." unique_id=1305473972 instance=ExtResource("101_riju0")]
 transform = Transform3D(-7.86805e-08, 0, -1.8, 0, 1.8, 0, 1.8, 0, -7.86805e-08, -18.94518, -1.2593632, 32.31826)
+
+[node name="Inventory" type="Node" parent="." unique_id=1265689927]
+script = ExtResource("102_j8hel")
+
+[node name="InventoryInterface" parent="." unique_id=1954061167 instance=ExtResource("103_75s2x")]
 
 [editable path="DayNightCycleNode/SkyDayFair"]
 [editable path="Player2"]

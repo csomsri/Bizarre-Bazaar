@@ -5,23 +5,36 @@ extends Node3D
 @export var store_manager: StoreManager
 #@export var initial_items: String
 @export var collision_shape: CollisionShape3D 
+
+# UI/Interactions: products need access to inventory node
+@onready var inventory: Inventory = get_tree().current_scene.get_node("Inventory")
+
+
+
 # Called when the node enters the scene tree for the first time.
 func pickup() -> void:
 	if(shelf.take_item(item_id,1)):
+		# Adding Inventory Access
+		if inventory != null:
+			inventory.add_item(item_id, 1)
+		
 		var quantity = shelf.shelf_items.get(item_id,0)
-		print("items remaining", quantity)
+		print("Items Remaining: ", quantity)
+		
 		if(quantity <= 0):
 			hide_product()
 			
 
 func hide_product():
-	
 	hide()
 	collision_shape.set_deferred("disabled", true)
+
 func restock():
 	pass
+
 func _ready() -> void:
 	call_deferred("initial_stock")
+
 func initial_stock() -> void:
 	if store_manager == null or shelf == null:
 		print("missing",get_path())

@@ -1,4 +1,5 @@
 # UI/Input: Adaluz Henriquez Zetino
+# gameplay_hud.gd
 extends CanvasLayer
 class_name GameplayHUD
 

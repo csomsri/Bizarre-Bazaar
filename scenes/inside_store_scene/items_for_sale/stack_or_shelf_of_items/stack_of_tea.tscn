@@ -20,8 +20,9 @@ shape = SubResource("BoxShape3D_6sknb")
 
 [node name="InteractableObject" type="Node3D" parent="." unique_id=261067019 node_paths=PackedStringArray("interaction_target")]
 script = ExtResource("2_rr2pe")
-prompt_text = "Pick up Tea"
+prompt_text = "Pick Up Tea"
 interaction_target = NodePath("..")
+interaction_method = "pickup"
 metadata/_custom_type_script = "uid://cenqe01flanni"
 
 [node name="row_of_tea3" type="Node3D" parent="." unique_id=439604000]
