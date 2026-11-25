@@ -21,66 +21,82 @@ shelf_id = 2
 [node name="coffee_three" parent="ShelfRow" unique_id=1783563518 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.2422037, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 3
 
 [node name="coffee_three2" parent="ShelfRow" unique_id=386675844 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 10.820675, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 5
 
 [node name="coffee_two" parent="ShelfRow" unique_id=3656557 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.507142, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 6
 
 [node name="coffee_two2" parent="ShelfRow" unique_id=347039049 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 18.085613, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 7
 
 [node name="coffee" parent="ShelfRow" unique_id=607217867 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.749346, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 8
 
 [node name="coffee2" parent="ShelfRow" unique_id=882457142 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.327818, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 9
 
 [node name="froot_loops" parent="ShelfRow" unique_id=1352161282 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.063934, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 10
 
 [node name="froot_loops2" parent="ShelfRow" unique_id=1126956548 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 32.642406, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 11
 
 [node name="frosted_flakes" parent="ShelfRow" unique_id=1813397354 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 36.306137, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 12
 
 [node name="frosted_flakes2" parent="ShelfRow" unique_id=2041054160 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 39.88461, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 13
 
 [node name="corn_flakes" parent="ShelfRow" unique_id=1466168711 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 43.571075, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 14
 
 [node name="corn_flakes2" parent="ShelfRow" unique_id=2020816821 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 47.149548, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 15
 
 [node name="nesquik" parent="ShelfRow" unique_id=1884451478 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 50.81328, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 16
 
 [node name="nesquik2" parent="ShelfRow" unique_id=2128002848 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 54.39175, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 17
 
 [node name="scooby_food" parent="ShelfRow" unique_id=1831510149 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 58.18064, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 18
 
 [node name="scooby_food2" parent="ShelfRow" unique_id=876477015 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 61.759113, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 19
 
 [node name="ShelfRow2" type="Node3D" parent="." unique_id=1584364953]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 75.944885, 0, 2.0806332)
@@ -88,71 +104,89 @@ transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 75.9
 [node name="mac_and_cheese" parent="ShelfRow2" unique_id=1595471506 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.507142, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 20
 
 [node name="mac_and_cheese2" parent="ShelfRow2" unique_id=1451476866 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 18.085613, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 21
 
 [node name="spaghetti" parent="ShelfRow2" unique_id=971536541 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 21.749346, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 22
 
 [node name="spaghetti2" parent="ShelfRow2" unique_id=311171010 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 25.327818, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 23
 
 [node name="spaghetti_in_a_can" parent="ShelfRow2" unique_id=1013724157 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 29.063934, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 24
 
 [node name="spaghetti_in_a_can2" parent="ShelfRow2" unique_id=1322518113 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 32.642406, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 25
 
-[node name="ShelfBasic11" parent="ShelfRow2" unique_id=1643767201 instance=ExtResource("1_kpsmp")]
+[node name="alfredo_pasta" parent="ShelfRow2" unique_id=1643767201 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 36.306137, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 26
 
-[node name="ShelfBasic12" parent="ShelfRow2" unique_id=1251413469 instance=ExtResource("1_kpsmp")]
+[node name="alfredo_pasta2" parent="ShelfRow2" unique_id=1251413469 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 39.88461, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 27
 
-[node name="ShelfBasic13" parent="ShelfRow2" unique_id=1371974505 instance=ExtResource("1_kpsmp")]
+[node name="penne_pasta" parent="ShelfRow2" unique_id=1371974505 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 43.571075, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 28
 
-[node name="ShelfBasic14" parent="ShelfRow2" unique_id=630000680 instance=ExtResource("1_kpsmp")]
+[node name="penne_pasta2" parent="ShelfRow2" unique_id=630000680 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 47.149548, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 29
 
-[node name="ShelfBasic15" parent="ShelfRow2" unique_id=415898408 instance=ExtResource("1_kpsmp")]
+[node name="cup_of_noodles" parent="ShelfRow2" unique_id=415898408 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 50.81328, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 30
 
-[node name="ShelfBasic33" parent="ShelfRow2" unique_id=694008140 instance=ExtResource("1_kpsmp")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 69.02405, -0.17435056, 0)
-script = ExtResource("2_v7r2e")
-
-[node name="ShelfBasic34" parent="ShelfRow2" unique_id=1333227358 instance=ExtResource("1_kpsmp")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 76.26626, -0.17435056, 0)
-script = ExtResource("2_v7r2e")
-
-[node name="ShelfBasic35" parent="ShelfRow2" unique_id=724574861 instance=ExtResource("1_kpsmp")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 58.18064, -0.17435056, 0)
-script = ExtResource("2_v7r2e")
-
-[node name="ShelfBasic36" parent="ShelfRow2" unique_id=1112868341 instance=ExtResource("1_kpsmp")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 61.759113, -0.17435056, 0)
-script = ExtResource("2_v7r2e")
-
-[node name="ShelfBasic37" parent="ShelfRow2" unique_id=2047071831 instance=ExtResource("1_kpsmp")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 65.44558, -0.17435056, 0)
-script = ExtResource("2_v7r2e")
-
-[node name="ShelfBasic38" parent="ShelfRow2" unique_id=1400150518 instance=ExtResource("1_kpsmp")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 72.68778, -0.17435056, 0)
-script = ExtResource("2_v7r2e")
-
-[node name="ShelfBasic32" parent="ShelfRow2" unique_id=20437876 instance=ExtResource("1_kpsmp")]
+[node name="cup_of_noodles2" parent="ShelfRow2" unique_id=20437876 instance=ExtResource("1_kpsmp")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 54.391754, -0.17435056, 0)
 script = ExtResource("2_v7r2e")
+shelf_id = 31
+
+[node name="spicy_noodles" parent="ShelfRow2" unique_id=724574861 instance=ExtResource("1_kpsmp")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 58.18064, -0.17435056, 2.3841858e-07)
+script = ExtResource("2_v7r2e")
+shelf_id = 32
+
+[node name="spicy_noodles2" parent="ShelfRow2" unique_id=1112868341 instance=ExtResource("1_kpsmp")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 61.75911, -0.17435056, -2.3841858e-07)
+script = ExtResource("2_v7r2e")
+shelf_id = 33
+
+[node name="ramen" parent="ShelfRow2" unique_id=2047071831 instance=ExtResource("1_kpsmp")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 65.44558, -0.17435056, 0)
+script = ExtResource("2_v7r2e")
+shelf_id = 34
+
+[node name="ramen2" parent="ShelfRow2" unique_id=694008140 instance=ExtResource("1_kpsmp")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 69.02405, -0.17435056, 0)
+script = ExtResource("2_v7r2e")
+shelf_id = 35
+
+[node name="noodles" parent="ShelfRow2" unique_id=1400150518 instance=ExtResource("1_kpsmp")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 72.68778, -0.17435056, 0)
+script = ExtResource("2_v7r2e")
+shelf_id = 36
+
+[node name="noodles2" parent="ShelfRow2" unique_id=1333227358 instance=ExtResource("1_kpsmp")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 76.26626, -0.17435056, 0)
+script = ExtResource("2_v7r2e")
+shelf_id = 37
