@@ -9,6 +9,188 @@
 	  "price_per_unit": 4.99
 	},
 	{
+	  "name": "light_roast_coffee",
+	  "category": "Beverages",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "medium_roast_coffee",
+	  "category": "Beverages",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "dark_roast_coffee",
+	  "category": "Beverages",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "froot_loops",
+	  "category": "Cereal",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "frosted_flakes",
+	  "category": "Cereal",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "corn_flakes",
+	  "category": "Cereal",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "nesquik",
+	  "category": "Cereal",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "scooby_doo",
+	  "category": "Cereal",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "mac_and_cheese",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "spaghetti",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "spaghetti_in_a_can",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "can",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "alfredo_pasta",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "penne_pasta",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "cup_of_noodles",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "spicy_noodles",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "ramen",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "noodles",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "meat_in_a_can",
+	  "category": "pasta",
+	  "quantity": 20,
+	  "unit": "can",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "beans",
+	  "category": "Grains",
+	  "quantity": 20,
+	  "unit": "can",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "choco_pie",
+	  "category": "candy",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "cookies",
+	  "category": "candy",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "ketchup",
+	  "category": "condiments",
+	  "quantity": 20,
+	  "unit": "each",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "mustard",
+	  "category": "condiments",
+	  "quantity": 20,
+	  "unit": "each",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "crackers",
+	  "category": "candy",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "mint_oreo",
+	  "category": "candy",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
+	  "name": "mint_oreo",
+	  "category": "candy",
+	  "quantity": 20,
+	  "unit": "box",
+	  "price_per_unit": 4.99
+	},
+	{
 	  "name": "Apples",
 	  "category": "Produce",
 	  "quantity": 12,

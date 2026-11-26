@@ -52,10 +52,11 @@
 [ext_resource type="PackedScene" uid="uid://bhvp2y8nbjb2x" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_other_pizzas.tscn" id="50_xu8c3"]
 [ext_resource type="PackedScene" uid="uid://dx08aydasygse" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_coffees.tscn" id="52_h42ym"]
 [ext_resource type="PackedScene" uid="uid://dx2wqhoyehhv2" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/shelf_of_radios.tscn" id="53_i0xrs"]
+[ext_resource type="Script" uid="uid://csbqsuhko6b8p" path="res://scripts/item_pickup/product.gd" id="53_w7xp0"]
 [ext_resource type="PackedScene" uid="uid://ciwv6aroyg62v" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_jerry_cans.tscn" id="54_xhgqh"]
 [ext_resource type="PackedScene" uid="uid://dsrulpyix5t75" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_ropes.tscn" id="55_gy65h"]
-[ext_resource type="PackedScene" uid="uid://c2j38t6ldququ" path="res://scenes/inside_store_scene/items_for_sale/row_cols_for_some/row_cols_of_flashlights.tscn" id="56_cxnat"]
 [ext_resource type="PackedScene" uid="uid://dl17lpyybtkoj" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_sleeping_bags.tscn" id="57_xhgqh"]
+[ext_resource type="PackedScene" uid="uid://ckyc5t8kmlhbp" path="res://scenes/inside_store_scene/items_for_sale/stack_of_flash_lights.tscn" id="58_giu2w"]
 [ext_resource type="PackedScene" uid="uid://d0q60isasqu8q" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_buckets.tscn" id="58_h42ym"]
 [ext_resource type="PackedScene" uid="uid://byaie43m36l0c" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_stoves.tscn" id="59_vf7b1"]
 [ext_resource type="PackedScene" uid="uid://v54toob7jd6q" path="res://scenes/inside_store_scene/items_for_sale/stack_or_shelf_of_items/stack_of_first_aid_kits.tscn" id="60_do4qx"]
@@ -293,7 +294,7 @@ mesh = SubResource("PlaneMesh_6sknb")
 [node name="Player2" parent="." unique_id=802949538 groups=["entity", "player"] instance=ExtResource("1_rbuof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48266, 0.38915682, -16.943491)
 
-[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 1783603034) index="0" unique_id=1419184622]
+[node name="Skeleton3D" parent="Player2/Casual_2/CharacterArmature" parent_id_path=PackedInt32Array(802949538, 588809117, 406184878) index="0" unique_id=1278738672]
 bones/1/rotation = Quaternion(0, 0.23553045, 0, 0.97186697)
 bones/3/rotation = Quaternion(0.047781557, 4.300663e-07, 2.8134373e-08, 0.9988578)
 bones/4/rotation = Quaternion(0.085464716, -0.23748349, 0.0115781715, 0.96755534)
@@ -544,7 +545,6 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 44.8
 [node name="StoreManager" type="Node3D" parent="." unique_id=1100996459 node_paths=PackedStringArray("shelves")]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, -0.015595436, 0, -1.176163)
 script = ExtResource("26_fpnhi")
-stock_path = "res://json/grocery_items.json"
 shelves = [NodePath("../DoubleShelfRow3/ShelfRow/tea"), NodePath("../DoubleShelfRow3/ShelfRow/tea2")]
 
 [node name="DoubleShelfRow3" parent="." unique_id=1520719494 instance=ExtResource("23_n45qf")]
@@ -1321,153 +1321,119 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.61499, 0, 0)
 [node name="Burger2" parent="stack_of_burgers2/row_cols_of_burgers3/row_of_burgers3" unique_id=579514264 instance=ExtResource("49_dy2nq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.716309, 0, -0.001159668)
 
-[node name="stack_of_other_pizzas" parent="." unique_id=514099890 instance=ExtResource("50_xu8c3")]
+[node name="stack_of_other_pizzas" parent="." unique_id=514099890 node_paths=PackedStringArray("store_manager") instance=ExtResource("50_xu8c3")]
 transform = Transform3D(0.05, 0, 0, 0, -2.1855695e-09, 0.05, 0, -0.05, -2.1855695e-09, 29.036606, 0.55931294, -19.439346)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_other_pizzas2" parent="." unique_id=1466812753 instance=ExtResource("50_xu8c3")]
+[node name="stack_of_other_pizzas2" parent="." unique_id=1466812753 node_paths=PackedStringArray("store_manager") instance=ExtResource("50_xu8c3")]
 transform = Transform3D(0.05, 0, 0, 0, -2.1855695e-09, 0.05, 0, -0.05, -2.1855695e-09, 31.043087, 0.55931294, -19.439346)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coffees" parent="." unique_id=1495088004 instance=ExtResource("52_h42ym")]
+[node name="stack_of_coffees" parent="." unique_id=1495088004 node_paths=PackedStringArray("store_manager") instance=ExtResource("52_h42ym")]
 transform = Transform3D(-0.05, 7.54979e-09, 3.3001182e-16, 0, -2.1855695e-09, 0.05, 7.54979e-09, 0.05, 2.1855695e-09, 32.97883, 1.4507077, -1.2079597)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coffees2" parent="." unique_id=1711819380 instance=ExtResource("52_h42ym")]
+[node name="stack_of_coffees2" parent="." unique_id=1711819380 node_paths=PackedStringArray("store_manager") instance=ExtResource("52_h42ym")]
 transform = Transform3D(-0.05, 7.54979e-09, 3.3001182e-16, 0, -2.1855695e-09, 0.05, 7.54979e-09, 0.05, 2.1855695e-09, 28.255825, 1.4507077, -1.2079597)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="shelf_of_radios" parent="." unique_id=237758063 instance=ExtResource("53_i0xrs")]
+[node name="shelf_of_radios" parent="." unique_id=237758063 node_paths=PackedStringArray("store_manager") instance=ExtResource("53_i0xrs")]
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_jerry_cans" parent="." unique_id=1692845415 instance=ExtResource("54_xhgqh")]
+[node name="stack_of_jerry_cans" parent="." unique_id=1692845415 node_paths=PackedStringArray("store_manager") instance=ExtResource("54_xhgqh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.584667, 0.08323121, 28.703136)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_ropes" parent="." unique_id=991305595 instance=ExtResource("55_gy65h")]
+[node name="stack_of_ropes" parent="." unique_id=991305595 node_paths=PackedStringArray("store_manager") instance=ExtResource("55_gy65h")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.576305, 2.0274591, 22.762682)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_flash_lights" type="Node3D" parent="." unique_id=1276786801]
+[node name="stack_of_flash_lights" parent="." unique_id=951441941 node_paths=PackedStringArray("store_manager") instance=ExtResource("58_giu2w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.34022, 2.0297062, 20.277327)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights" unique_id=743508384 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.947827, 2.099844)
-
-[node name="row_of_flash_lights" type="Node3D" parent="stack_of_flash_lights" unique_id=1587058869]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.947827, 0)
-
-[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=1370882303 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
-
-[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=891673537 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
-
-[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=1165074515 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
-
-[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=2045517271 instance=ExtResource("56_cxnat")]
-
-[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=171495986 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
-
-[node name="row_of_flash_lights4" type="Node3D" parent="stack_of_flash_lights/row_of_flash_lights" unique_id=1651088448]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.947827, 0)
-
-[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=554174713 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
-
-[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=1697472507 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
-
-[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=706749575 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
-
-[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=769599212 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
-
-[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=343125227 instance=ExtResource("56_cxnat")]
-
-[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights/row_of_flash_lights4" unique_id=615993120 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
-
-[node name="row_of_flash_lights2" type="Node3D" parent="stack_of_flash_lights" unique_id=171942150]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2324525, 0)
-
-[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=1732033223 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
-
-[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=1179494622 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
-
-[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=580418014 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
-
-[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=2055495096 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
-
-[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=1418338984 instance=ExtResource("56_cxnat")]
-
-[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights2" unique_id=51886860 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
-
-[node name="row_of_flash_lights3" type="Node3D" parent="stack_of_flash_lights" unique_id=1751859360]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.6064681, 0)
-
-[node name="row_cols_of_flashlights6" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=1313161883 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.4617634)
-
-[node name="row_cols_of_flashlights5" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=1569342547 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.7680035)
-
-[node name="row_cols_of_flashlights4" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=1208733074 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.099844)
-
-[node name="row_cols_of_flashlights3" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=421111841 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4160957)
-
-[node name="row_cols_of_flashlights" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=687337528 instance=ExtResource("56_cxnat")]
-
-[node name="row_cols_of_flashlights2" parent="stack_of_flash_lights/row_of_flash_lights3" unique_id=985483668 instance=ExtResource("56_cxnat")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7272873)
-
-[node name="stack_of_sleeping_bags" parent="." unique_id=1357589628 instance=ExtResource("57_xhgqh")]
+[node name="stack_of_sleeping_bags" parent="." unique_id=1357589628 node_paths=PackedStringArray("store_manager") instance=ExtResource("57_xhgqh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12299538, 1.9547706, 4.7218094)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_buckets" parent="." unique_id=2061482921 instance=ExtResource("58_h42ym")]
+[node name="stack_of_buckets" parent="." unique_id=2061482921 node_paths=PackedStringArray("store_manager") instance=ExtResource("58_h42ym")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.928898, 2.0166748, 27.103582)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_stoves" parent="." unique_id=1130113064 instance=ExtResource("59_vf7b1")]
+[node name="stack_of_stoves" parent="." unique_id=1130113064 node_paths=PackedStringArray("store_manager") instance=ExtResource("59_vf7b1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.451, -1.4547516, 6.349)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_first_aid_kits" parent="." unique_id=1216562330 instance=ExtResource("60_do4qx")]
+[node name="stack_of_first_aid_kits" parent="." unique_id=1216562330 node_paths=PackedStringArray("store_manager") instance=ExtResource("60_do4qx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9543116, 0)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_kettles" parent="." unique_id=651159176 instance=ExtResource("61_leog0")]
+[node name="stack_of_kettles" parent="." unique_id=651159176 node_paths=PackedStringArray("store_manager") instance=ExtResource("61_leog0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.202263, 2.028635, 22.617056)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coffee_two" parent="." unique_id=1087978178 instance=ExtResource("62_4krxi")]
+[node name="stack_of_coffee_two" parent="." unique_id=1087978178 node_paths=PackedStringArray("store_manager") instance=ExtResource("62_4krxi")]
 transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 49.593903, -0.17730202, 22.133875)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coffee_two2" parent="." unique_id=1497076091 instance=ExtResource("62_4krxi")]
+[node name="stack_of_coffee_two2" parent="." unique_id=1497076091 node_paths=PackedStringArray("store_manager") instance=ExtResource("62_4krxi")]
 transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 44.82551, -0.17730202, 22.133875)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coffee_three" parent="." unique_id=1094499142 instance=ExtResource("63_4krxi")]
+[node name="stack_of_coffee_three" parent="." unique_id=1094499142 node_paths=PackedStringArray("store_manager") instance=ExtResource("63_4krxi")]
 transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 44.82551, -0.17730202, 22.133875)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coffee_three2" parent="." unique_id=2051122545 instance=ExtResource("63_4krxi")]
+[node name="stack_of_coffee_three2" parent="." unique_id=2051122545 node_paths=PackedStringArray("store_manager") instance=ExtResource("63_4krxi")]
 transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 40.341167, -0.17730202, 22.133875)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_stools" parent="." unique_id=56206520 instance=ExtResource("64_5wby1")]
+[node name="stack_of_stools" parent="." unique_id=56206520 node_paths=PackedStringArray("store_manager") instance=ExtResource("64_5wby1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 24.058935)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_stools2" parent="." unique_id=611998681 instance=ExtResource("64_5wby1")]
+[node name="stack_of_stools2" parent="." unique_id=611998681 node_paths=PackedStringArray("store_manager") instance=ExtResource("64_5wby1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 28.606955)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_stools3" parent="." unique_id=1301347865 instance=ExtResource("64_5wby1")]
+[node name="stack_of_stools3" parent="." unique_id=1301347865 node_paths=PackedStringArray("store_manager") instance=ExtResource("64_5wby1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 33.38871)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coolers" parent="." unique_id=1545487489 instance=ExtResource("65_cme4b")]
+[node name="stack_of_coolers" parent="." unique_id=1545487489 node_paths=PackedStringArray("store_manager") instance=ExtResource("65_cme4b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 33.38871)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coolers2" parent="." unique_id=1275280227 instance=ExtResource("65_cme4b")]
+[node name="stack_of_coolers2" parent="." unique_id=1275280227 node_paths=PackedStringArray("store_manager") instance=ExtResource("65_cme4b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 38.170135)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_coolers3" parent="." unique_id=803489975 instance=ExtResource("65_cme4b")]
+[node name="stack_of_coolers3" parent="." unique_id=803489975 node_paths=PackedStringArray("store_manager") instance=ExtResource("65_cme4b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
 [node name="stack_of_tea" parent="." unique_id=34983746 node_paths=PackedStringArray("shelf", "store_manager") instance=ExtResource("66_c5qb7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.508247, 2.0428164, 42.77275)
@@ -1481,224 +1447,370 @@ item_id = "tea"
 shelf = NodePath("../DoubleShelfRow3/ShelfRow/tea")
 store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cereal_1" parent="." unique_id=1891208627 instance=ExtResource("67_cme4b")]
+[node name="stack_of_cereal_1" parent="." unique_id=1891208627 node_paths=PackedStringArray("store_manager") instance=ExtResource("67_cme4b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.676926, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cereal_2" parent="." unique_id=850155955 instance=ExtResource("67_cme4b")]
+[node name="stack_of_cereal_2" parent="." unique_id=850155955 node_paths=PackedStringArray("store_manager") instance=ExtResource("67_cme4b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.23739, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cereal_two" parent="." unique_id=341257734 instance=ExtResource("68_2cunl")]
+[node name="stack_of_cereal_two" parent="." unique_id=341257734 node_paths=PackedStringArray("store_manager") instance=ExtResource("68_2cunl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.23739, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cereal_two2" parent="." unique_id=1129331982 instance=ExtResource("68_2cunl")]
+[node name="stack_of_cereal_two2" parent="." unique_id=1129331982 node_paths=PackedStringArray("store_manager") instance=ExtResource("68_2cunl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.84391, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cereal_three" parent="." unique_id=1720452324 instance=ExtResource("69_w58wy")]
+[node name="stack_of_cereal_three" parent="." unique_id=1720452324 node_paths=PackedStringArray("store_manager") instance=ExtResource("69_w58wy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.84391, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cereal_three2" parent="." unique_id=655586050 instance=ExtResource("69_w58wy")]
+[node name="stack_of_cereal_three2" parent="." unique_id=655586050 node_paths=PackedStringArray("store_manager") instance=ExtResource("69_w58wy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.365124, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_nesquik" parent="." unique_id=1986750440 instance=ExtResource("70_yuu6i")]
+[node name="stack_of_nesquik" parent="." unique_id=1986750440 node_paths=PackedStringArray("store_manager") instance=ExtResource("70_yuu6i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.365124, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_nesquik2" parent="." unique_id=763325082 instance=ExtResource("70_yuu6i")]
+[node name="stack_of_nesquik2" parent="." unique_id=763325082 node_paths=PackedStringArray("store_manager") instance=ExtResource("70_yuu6i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_log_benches" parent="." unique_id=316891469 instance=ExtResource("71_nddc1")]
+[node name="stack_of_log_benches" parent="." unique_id=316891469 node_paths=PackedStringArray("store_manager") instance=ExtResource("71_nddc1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 42.77275)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_log_benches2" parent="." unique_id=1496612574 instance=ExtResource("71_nddc1")]
+[node name="stack_of_log_benches2" parent="." unique_id=1496612574 node_paths=PackedStringArray("store_manager") instance=ExtResource("71_nddc1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 47.384636)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_log_benches3" parent="." unique_id=1014475466 instance=ExtResource("71_nddc1")]
+[node name="stack_of_log_benches3" parent="." unique_id=1014475466 node_paths=PackedStringArray("store_manager") instance=ExtResource("71_nddc1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 52.380867)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_scooby_cereal" parent="." unique_id=1699306684 instance=ExtResource("72_nddc1")]
+[node name="stack_of_scooby_cereal" parent="." unique_id=1699306684 node_paths=PackedStringArray("store_manager") instance=ExtResource("72_nddc1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.194016, 2.0428164, 52.380867)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_scooby_cereal2" parent="." unique_id=1404665423 instance=ExtResource("72_nddc1")]
+[node name="stack_of_scooby_cereal2" parent="." unique_id=1404665423 node_paths=PackedStringArray("store_manager") instance=ExtResource("72_nddc1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.380867)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_couches" parent="." unique_id=118074904 instance=ExtResource("73_ign2b")]
+[node name="stack_of_couches" parent="." unique_id=118074904 node_paths=PackedStringArray("store_manager") instance=ExtResource("73_ign2b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.380867)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_couches2" parent="." unique_id=1972950418 instance=ExtResource("73_ign2b")]
+[node name="stack_of_couches2" parent="." unique_id=1972950418 node_paths=PackedStringArray("store_manager") instance=ExtResource("73_ign2b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 47.705795)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_couches3" parent="." unique_id=1262671273 instance=ExtResource("73_ign2b")]
+[node name="stack_of_couches3" parent="." unique_id=1262671273 node_paths=PackedStringArray("store_manager") instance=ExtResource("73_ign2b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.772984)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_orange_tents" parent="." unique_id=1758075623 instance=ExtResource("74_ljeee")]
+[node name="stack_of_orange_tents" parent="." unique_id=1758075623 node_paths=PackedStringArray("store_manager") instance=ExtResource("74_ljeee")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.772984)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_orange_tents2" parent="." unique_id=21557856 instance=ExtResource("74_ljeee")]
+[node name="stack_of_orange_tents2" parent="." unique_id=21557856 node_paths=PackedStringArray("store_manager") instance=ExtResource("74_ljeee")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 38.207752)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_orange_tents3" parent="." unique_id=775977261 instance=ExtResource("74_ljeee")]
+[node name="stack_of_orange_tents3" parent="." unique_id=775977261 node_paths=PackedStringArray("store_manager") instance=ExtResource("74_ljeee")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 33.342773)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_chairs" parent="." unique_id=251146957 instance=ExtResource("75_4qs8r")]
+[node name="stack_of_chairs" parent="." unique_id=251146957 node_paths=PackedStringArray("store_manager") instance=ExtResource("75_4qs8r")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 33.342773)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_chairs3" parent="." unique_id=634593528 instance=ExtResource("75_4qs8r")]
+[node name="stack_of_chairs3" parent="." unique_id=634593528 node_paths=PackedStringArray("store_manager") instance=ExtResource("75_4qs8r")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 38.01987)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_chairs4" parent="." unique_id=1245654631 instance=ExtResource("75_4qs8r")]
+[node name="stack_of_chairs4" parent="." unique_id=1245654631 node_paths=PackedStringArray("store_manager") instance=ExtResource("75_4qs8r")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.715897)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_dining_tables" parent="." unique_id=1971391575 instance=ExtResource("76_nuro3")]
+[node name="stack_of_dining_tables" parent="." unique_id=1971391575 node_paths=PackedStringArray("store_manager") instance=ExtResource("76_nuro3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 42.715897)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_dining_tables2" parent="." unique_id=226473809 instance=ExtResource("76_nuro3")]
+[node name="stack_of_dining_tables2" parent="." unique_id=226473809 node_paths=PackedStringArray("store_manager") instance=ExtResource("76_nuro3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 47.67118)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_dining_tables3" parent="." unique_id=856374186 instance=ExtResource("76_nuro3")]
+[node name="stack_of_dining_tables3" parent="." unique_id=856374186 node_paths=PackedStringArray("store_manager") instance=ExtResource("76_nuro3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_mac_and_cheese" parent="." unique_id=2015257019 instance=ExtResource("77_xu07i")]
+[node name="stack_of_mac_and_cheese" parent="." unique_id=2015257019 node_paths=PackedStringArray("store_manager") instance=ExtResource("77_xu07i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.927845, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_mac_and_cheese2" parent="." unique_id=729107843 instance=ExtResource("77_xu07i")]
+[node name="stack_of_mac_and_cheese2" parent="." unique_id=729107843 node_paths=PackedStringArray("store_manager") instance=ExtResource("77_xu07i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.159893, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_spaghetti" parent="." unique_id=1891672192 instance=ExtResource("78_pqc8g")]
+[node name="stack_of_spaghetti" parent="." unique_id=1891672192 node_paths=PackedStringArray("store_manager") instance=ExtResource("78_pqc8g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.159893, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_spaghetti2" parent="." unique_id=341296297 instance=ExtResource("78_pqc8g")]
+[node name="stack_of_spaghetti2" parent="." unique_id=341296297 node_paths=PackedStringArray("store_manager") instance=ExtResource("78_pqc8g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.339607, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_spaghetti_in_a_can" parent="." unique_id=1728041906 instance=ExtResource("79_i0hpd")]
+[node name="stack_of_spaghetti_in_a_can" parent="." unique_id=1728041906 node_paths=PackedStringArray("store_manager") instance=ExtResource("79_i0hpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.339607, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_spaghetti_in_a_can2" parent="." unique_id=764171029 instance=ExtResource("79_i0hpd")]
+[node name="stack_of_spaghetti_in_a_can2" parent="." unique_id=764171029 node_paths=PackedStringArray("store_manager") instance=ExtResource("79_i0hpd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.907993, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_alfredo_pasta" parent="." unique_id=68723830 instance=ExtResource("80_om5ng")]
+[node name="stack_of_alfredo_pasta" parent="." unique_id=68723830 node_paths=PackedStringArray("store_manager") instance=ExtResource("80_om5ng")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.907993, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_alfredo_pasta2" parent="." unique_id=2096057889 instance=ExtResource("80_om5ng")]
+[node name="stack_of_alfredo_pasta2" parent="." unique_id=2096057889 node_paths=PackedStringArray("store_manager") instance=ExtResource("80_om5ng")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.283516, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_penne_pasta" parent="." unique_id=1687847434 instance=ExtResource("81_nuro3")]
+[node name="stack_of_penne_pasta" parent="." unique_id=1687847434 node_paths=PackedStringArray("store_manager") instance=ExtResource("81_nuro3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.283516, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_penne_pasta2" parent="." unique_id=1310538920 instance=ExtResource("81_nuro3")]
+[node name="stack_of_penne_pasta2" parent="." unique_id=1310538920 node_paths=PackedStringArray("store_manager") instance=ExtResource("81_nuro3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.582943, 2.0428164, 52.19516)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cup_of_noodles" parent="." unique_id=1857384561 instance=ExtResource("82_xu07i")]
+[node name="stack_of_cup_of_noodles" parent="." unique_id=1857384561 node_paths=PackedStringArray("store_manager") instance=ExtResource("82_xu07i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.615, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cup_of_noodles2" parent="." unique_id=1553128874 instance=ExtResource("82_xu07i")]
+[node name="stack_of_cup_of_noodles2" parent="." unique_id=1553128874 node_paths=PackedStringArray("store_manager") instance=ExtResource("82_xu07i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.06273, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_spicy_noodles" parent="." unique_id=514221469 instance=ExtResource("83_pqc8g")]
+[node name="stack_of_spicy_noodles" parent="." unique_id=514221469 node_paths=PackedStringArray("store_manager") instance=ExtResource("83_pqc8g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.06273, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_spicy_noodles2" parent="." unique_id=1298870681 instance=ExtResource("83_pqc8g")]
+[node name="stack_of_spicy_noodles2" parent="." unique_id=1298870681 node_paths=PackedStringArray("store_manager") instance=ExtResource("83_pqc8g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.362967, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_ramen" parent="." unique_id=221200234 instance=ExtResource("84_om5ng")]
+[node name="stack_of_ramen" parent="." unique_id=221200234 node_paths=PackedStringArray("store_manager") instance=ExtResource("84_om5ng")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.362967, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_ramen2" parent="." unique_id=739187021 instance=ExtResource("84_om5ng")]
+[node name="stack_of_ramen2" parent="." unique_id=739187021 node_paths=PackedStringArray("store_manager") instance=ExtResource("84_om5ng")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.401695, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_noodles" parent="." unique_id=246677812 instance=ExtResource("85_6xwda")]
+[node name="stack_of_noodles" parent="." unique_id=246677812 node_paths=PackedStringArray("store_manager") instance=ExtResource("85_6xwda")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.401695, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_noodles2" parent="." unique_id=247786334 instance=ExtResource("85_6xwda")]
+[node name="stack_of_noodles2" parent="." unique_id=247786334 node_paths=PackedStringArray("store_manager") instance=ExtResource("85_6xwda")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.609463, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_mustard" parent="." unique_id=1141873016 instance=ExtResource("86_83ga0")]
+[node name="stack_of_mustard" parent="." unique_id=1141873016 node_paths=PackedStringArray("store_manager") instance=ExtResource("86_83ga0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.609463, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_mustard2" parent="." unique_id=203371960 instance=ExtResource("86_83ga0")]
+[node name="stack_of_mustard2" parent="." unique_id=203371960 node_paths=PackedStringArray("store_manager") instance=ExtResource("86_83ga0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9929314, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_ketchup" parent="." unique_id=1069061705 instance=ExtResource("87_t3fjy")]
+[node name="stack_of_ketchup" parent="." unique_id=1069061705 node_paths=PackedStringArray("store_manager") instance=ExtResource("87_t3fjy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9929314, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_ketchup2" parent="." unique_id=310695788 instance=ExtResource("87_t3fjy")]
+[node name="stack_of_ketchup2" parent="." unique_id=310695788 node_paths=PackedStringArray("store_manager") instance=ExtResource("87_t3fjy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7215271, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cookies" parent="." unique_id=2080345650 instance=ExtResource("88_t3fjy")]
+[node name="stack_of_cookies" parent="." unique_id=2080345650 node_paths=PackedStringArray("store_manager") instance=ExtResource("88_t3fjy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7215271, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_cookies2" parent="." unique_id=377231894 instance=ExtResource("88_t3fjy")]
+[node name="stack_of_cookies2" parent="." unique_id=377231894 node_paths=PackedStringArray("store_manager") instance=ExtResource("88_t3fjy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1793747, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_choco_cookies" parent="." unique_id=1356503552 instance=ExtResource("89_plhhj")]
+[node name="stack_of_choco_cookies" parent="." unique_id=1356503552 node_paths=PackedStringArray("store_manager") instance=ExtResource("89_plhhj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1793747, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_choco_cookies2" parent="." unique_id=2096359141 instance=ExtResource("89_plhhj")]
+[node name="stack_of_choco_cookies2" parent="." unique_id=2096359141 node_paths=PackedStringArray("store_manager") instance=ExtResource("89_plhhj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.941618, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_beans" parent="." unique_id=1483829085 instance=ExtResource("90_jdrrb")]
+[node name="stack_of_beans" parent="." unique_id=1483829085 node_paths=PackedStringArray("store_manager") instance=ExtResource("90_jdrrb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.941618, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_beans2" parent="." unique_id=492940935 instance=ExtResource("90_jdrrb")]
+[node name="stack_of_beans2" parent="." unique_id=492940935 node_paths=PackedStringArray("store_manager") instance=ExtResource("90_jdrrb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.953358, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_meat_in_a_can" parent="." unique_id=1544951908 instance=ExtResource("91_o1bpf")]
+[node name="stack_of_meat_in_a_can" parent="." unique_id=1544951908 node_paths=PackedStringArray("store_manager") instance=ExtResource("91_o1bpf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.953358, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_meat_in_a_can2" parent="." unique_id=1091240482 instance=ExtResource("91_o1bpf")]
+[node name="stack_of_meat_in_a_can2" parent="." unique_id=1091240482 node_paths=PackedStringArray("store_manager") instance=ExtResource("91_o1bpf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.68912, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_pinapple_in_a_can" parent="." unique_id=1196411453 instance=ExtResource("92_g5cwk")]
+[node name="stack_of_pinapple_in_a_can" parent="." unique_id=1196411453 node_paths=PackedStringArray("store_manager") instance=ExtResource("92_g5cwk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.68912, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_pinapple_in_a_can2" parent="." unique_id=331228998 instance=ExtResource("92_g5cwk")]
+[node name="stack_of_pinapple_in_a_can2" parent="." unique_id=331228998 node_paths=PackedStringArray("store_manager") instance=ExtResource("92_g5cwk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.758264, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_sardines" parent="." unique_id=827376207 instance=ExtResource("93_an363")]
+[node name="stack_of_sardines" parent="." unique_id=827376207 node_paths=PackedStringArray("store_manager") instance=ExtResource("93_an363")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.758264, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_sardines2" parent="." unique_id=756515800 instance=ExtResource("93_an363")]
+[node name="stack_of_sardines2" parent="." unique_id=756515800 node_paths=PackedStringArray("store_manager") instance=ExtResource("93_an363")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.166289, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_tuna" parent="." unique_id=897944584 instance=ExtResource("94_57ctj")]
+[node name="stack_of_tuna" parent="." unique_id=897944584 node_paths=PackedStringArray("store_manager") instance=ExtResource("94_57ctj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.166289, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_tuna2" parent="." unique_id=1487789762 instance=ExtResource("94_57ctj")]
+[node name="stack_of_tuna2" parent="." unique_id=1487789762 node_paths=PackedStringArray("store_manager") instance=ExtResource("94_57ctj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.259406, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_oreo" parent="." unique_id=1785516153 instance=ExtResource("95_4lbus")]
+[node name="stack_of_oreo" parent="." unique_id=1785516153 node_paths=PackedStringArray("store_manager") instance=ExtResource("95_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.259406, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_oreo2" parent="." unique_id=350117492 instance=ExtResource("95_4lbus")]
+[node name="stack_of_oreo2" parent="." unique_id=350117492 node_paths=PackedStringArray("store_manager") instance=ExtResource("95_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62408733, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_mint_oreo" parent="." unique_id=941028617 instance=ExtResource("96_fpnhi")]
+[node name="stack_of_mint_oreo" parent="." unique_id=941028617 node_paths=PackedStringArray("store_manager") instance=ExtResource("96_fpnhi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.62408733, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_mint_oreo2" parent="." unique_id=1025937709 instance=ExtResource("96_fpnhi")]
+[node name="stack_of_mint_oreo2" parent="." unique_id=1025937709 node_paths=PackedStringArray("store_manager") instance=ExtResource("96_fpnhi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1740885, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_crackers" parent="." unique_id=1667185085 instance=ExtResource("97_an363")]
+[node name="stack_of_crackers" parent="." unique_id=1667185085 node_paths=PackedStringArray("store_manager") instance=ExtResource("97_an363")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1740885, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_crackers2" parent="." unique_id=1742162667 instance=ExtResource("97_an363")]
+[node name="stack_of_crackers2" parent="." unique_id=1742162667 node_paths=PackedStringArray("store_manager") instance=ExtResource("97_an363")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_chest" parent="." unique_id=44710518 instance=ExtResource("98_4lbus")]
+[node name="stack_of_chest" parent="." unique_id=44710518 node_paths=PackedStringArray("store_manager") instance=ExtResource("98_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 51.979)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_chest2" parent="." unique_id=2114315488 instance=ExtResource("98_4lbus")]
+[node name="stack_of_chest2" parent="." unique_id=2114315488 node_paths=PackedStringArray("store_manager") instance=ExtResource("98_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 46.93773)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_chest3" parent="." unique_id=1250316729 instance=ExtResource("98_4lbus")]
+[node name="stack_of_chest3" parent="." unique_id=1250316729 node_paths=PackedStringArray("store_manager") instance=ExtResource("98_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 42.200226)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_folding_chairs" parent="." unique_id=564623246 instance=ExtResource("99_4lbus")]
+[node name="stack_of_folding_chairs" parent="." unique_id=564623246 node_paths=PackedStringArray("store_manager") instance=ExtResource("99_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 42.200226)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_folding_chairs2" parent="." unique_id=557477720 instance=ExtResource("99_4lbus")]
+[node name="stack_of_folding_chairs2" parent="." unique_id=557477720 node_paths=PackedStringArray("store_manager") instance=ExtResource("99_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 46.848404)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
-[node name="stack_of_folding_chairs3" parent="." unique_id=249597360 instance=ExtResource("99_4lbus")]
+[node name="stack_of_folding_chairs3" parent="." unique_id=249597360 node_paths=PackedStringArray("store_manager") instance=ExtResource("99_4lbus")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.968488, 2.051, 51.637787)
+script = ExtResource("53_w7xp0")
+store_manager = NodePath("../StoreManager")
 
 [node name="Node3D2" parent="." unique_id=45045043 instance=ExtResource("101_mgfdm")]
 transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, 102.53872, -0.26070094, 34.6368)
