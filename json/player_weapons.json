@@ -15,8 +15,18 @@
 	  "category": "Gun",
 	  "quantity": 5,
 	  "price": 1200,
-	  "damage": 60,
-	  "magazine_size": 20
+	  "damage": 23,
+	  "magazine_size": 31
+	},
+	{
+	  "id": "shotgun",
+	  "name": "Shotgun",
+	  "category": "Gun",
+	  "quantity": 7,
+	  "price": 700,
+	  "damage": 120,
+	  "magazine_size": 8
+	
 	},
 	{
 	  "id": "knife",

@@ -4,7 +4,7 @@
 	  "id": "security_camera",
 	  "name": "Security Camera",
 	  "category": "Surveillance",
-	  "quantity": 5,
+	  "quantity": 3,
 	  "price": 250,
 	  "description": "Allows the player to monitor an area of the store."
 	},

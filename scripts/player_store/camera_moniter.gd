@@ -40,7 +40,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		if _active:
 			_exit_moniter()
 			get_viewport().set_input_as_handled()
-		elif _player !=null:
+		elif _player !=null and not cameras.is_empty():
 			_enter_moniter()
 			get_viewport().set_input_as_handled()
 	
@@ -110,7 +110,10 @@ func _swap_cam(i: int) -> void:
 	cameras[_index].make_current()
 
 	
-	
+func add_camera(cam: Camera3D) -> void:
+	cameras.append(cam)
+	_base_y.append(cam.rotation.y)
+	_pan_offset.append(0.0)
 		
 		
 	

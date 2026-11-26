@@ -12,7 +12,7 @@ extends CharacterBody3D
 @onready var body_mesh: Node3D = $Casual_2
 @onready var view_camera: Camera3D = $Camera3D
 var controls_enabled := true
-
+var money := 9999
 # UI/Interaction: Interaction Ray + HUD
 @onready var interaction_ray: RayCast3D = $Camera3D/InteractionRay
 var current_interactable: InteractableObject = null
@@ -138,7 +138,8 @@ func take_damage(dmg: float)-> void:
 	health = max(health, 0.0)
 	health_changed.emit(health)
 
-
+func spend_money(amount: int)-> void:
+	money -= amount
 
 
 # UI/Interaction
