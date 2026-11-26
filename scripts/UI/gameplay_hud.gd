@@ -3,7 +3,7 @@
 extends CanvasLayer
 class_name GameplayHUD
 
-# HUD Labels and Progress Bar 
+# HUD Labels and Progress Bars
 @onready var day_label: Label = $HUDRoot/MarginContainer/MainLayout/TopBar/DayPanel/DayLabel
 @onready var time_label: Label = $HUDRoot/MarginContainer/MainLayout/TopBar/TimePanel/TimeLabel
 @onready var money_label: Label = $HUDRoot/MarginContainer/MainLayout/TopBar/MoneyPanel/MoneyLabel
@@ -13,6 +13,12 @@ class_name GameplayHUD
 
 @onready var thieves_caught_label: Label = $HUDRoot/MarginContainer/MainLayout/BottomBar/StatsPanel/StatsLayout/ThievesCaughtLabel
 
+# Health Bar
+@onready var health_value: Label = $HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel/HealthLayout/HealthHeader/HealthValue 
+@onready var health_bar: ProgressBar = $HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel/HealthLayout/HealthProgressBar
+@onready var player = get_parent().get_node("Player2")
+
+# Interaction Prompt
 @onready var interaction_prompt: Label = $HUDRoot/InteractionPrompt
 
 # FUNCTIONS: Use these in scripts to update HUD
@@ -27,8 +33,19 @@ func _ready() -> void:
 	set_boss_trust(87)
 	set_thieves_caught(0)
 	
+	# Player Health
+	health_bar.value = player.health
+	health_value.text = "%d / 100" % int(player.health)
+	player.health_changed.connect(_on_player_health_changed)
+	
+	# Shift and Time
 	ShiftMgr.time_changed.connect(_on_time_changed)
 	ShiftMgr.shift_started.connect(_on_shift_started)
+
+# FUNC _on_player_health_changed: for updating health bar
+func _on_player_health_changed(current_health: float) -> void:
+	health_bar.value = current_health
+	health_value.text = "%d / 100" % int(current_health)
 
 
 # FUNC set_day: Updates current in-game day

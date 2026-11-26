@@ -21,6 +21,8 @@ var current_interactable: InteractableObject = null
 
 
 var health = 100.0
+signal health_changed(current_health: float)
+
 var equipped_gun: RigidBody3D = null
 
 const SPEED = 10.0
@@ -56,6 +58,10 @@ func _physics_process(delta: float) -> void:
 	check_for_interactable()
 	if Input.is_action_just_pressed("interact") and current_interactable != null:
 		current_interactable.interact()
+	
+	# UI/Interaction: TEMP: Testing if player health bar works
+	if Input.is_action_just_pressed("test_damage"):
+		take_damage(10)
 	
 	if not controls_enabled:
 		return
@@ -129,6 +135,8 @@ func set_body_visible( can_see: bool) -> void:
 	
 func take_damage(dmg: float)-> void:
 	health -= dmg
+	health = max(health, 0.0)
+	health_changed.emit(health)
 
 
 

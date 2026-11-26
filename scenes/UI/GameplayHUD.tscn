@@ -53,6 +53,21 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rhy7b"]
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.14509805, 0.16862746, 0.19607843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.23921569, 0.2784314, 0.30980393, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_21mc2"]
+bg_color = Color(0.44705883, 0.8392157, 0.6039216, 1)
+
 [node name="GameplayHUD" type="CanvasLayer" unique_id=1954678161]
 follow_viewport_enabled = true
 script = ExtResource("1_30e7d")
@@ -150,11 +165,13 @@ theme_override_font_sizes/font_size = 16
 text = "70/100"
 
 [node name="TrustProgressBar" type="ProgressBar" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/TrustPanel/TrustLayout" unique_id=1388494799]
+custom_minimum_size = Vector2(15, 15)
 layout_mode = 2
 mouse_filter = 2
 theme_override_colors/font_color = Color(0.14278495, 0.33661562, 0.2238529, 1)
 theme_override_styles/fill = SubResource("StyleBoxFlat_jrgql")
 value = 70.0
+show_percentage = false
 
 [node name="StatsPanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar" unique_id=2048115128]
 layout_mode = 2
@@ -170,6 +187,35 @@ alignment = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 16
 text = "THIEVES CAUGHT: 0"
+
+[node name="HealthPanel" type="PanelContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar" unique_id=1500406523]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_rhy7b")
+
+[node name="HealthLayout" type="VBoxContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel" unique_id=1693784796]
+layout_mode = 2
+
+[node name="HealthHeader" type="HBoxContainer" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel/HealthLayout" unique_id=1593745283]
+layout_mode = 2
+
+[node name="HealthLabel" type="Label" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel/HealthLayout/HealthHeader" unique_id=1990722826]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6768507, 0.72618836, 0.76610327, 1)
+text = "HEALTH"
+
+[node name="HealthValue" type="Label" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel/HealthLayout/HealthHeader" unique_id=41466714]
+layout_mode = 2
+text = "100/100"
+
+[node name="HealthProgressBar" type="ProgressBar" parent="HUDRoot/MarginContainer/MainLayout/BottomBar/HealthPanel/HealthLayout" unique_id=1168133155]
+custom_minimum_size = Vector2(15, 15)
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.14278495, 0.33661562, 0.2238529, 1)
+theme_override_styles/fill = SubResource("StyleBoxFlat_21mc2")
+value = 100.0
+show_percentage = false
 
 [node name="InteractionPrompt" type="Label" parent="HUDRoot" unique_id=692327874]
 visible = false
