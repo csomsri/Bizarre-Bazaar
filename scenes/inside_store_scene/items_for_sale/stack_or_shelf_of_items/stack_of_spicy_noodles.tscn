@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://cfgkry41pkmkj" path="res://scenes/inside_store_scene/items_for_sale/individual items/spicy_noodles.tscn" id="1_01x48"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_uuxyn"]
+size = Vector3(3.8293152, 2.2207642, 1.1499023)
+
 [node name="stack_of_spicy_noodles" type="Node3D" unique_id=514221469]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=2057897754]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=2143603218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33656585, -0.87423706, -50.63495)
+shape = SubResource("BoxShape3D_uuxyn")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1905398671]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33656585, -0.87423706, -50.63495)
 
 [node name="row_of_spicy_noodles2" type="Node3D" parent="." unique_id=752182155]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00026893616, 0.6969998, 0)

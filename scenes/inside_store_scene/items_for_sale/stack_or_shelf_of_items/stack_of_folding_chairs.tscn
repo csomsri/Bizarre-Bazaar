@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://ckor6qs1sgyjx" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_folding_chair_2.tscn" id="1_w1iyd"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_bxjts"]
+size = Vector3(3.0539246, 2.4991455, 0.37963867)
+
 [node name="stack_of_folding_chairs" type="Node3D" unique_id=564623246]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=237930800]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=759995]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -13.744151, -0.7350464, -19.98828)
+shape = SubResource("BoxShape3D_bxjts")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=195740830]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -13.744151, -0.7350464, -19.98828)
 
 [node name="row_of_folding_chairs4" type="Node3D" parent="." unique_id=653149672]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9184093, 0)

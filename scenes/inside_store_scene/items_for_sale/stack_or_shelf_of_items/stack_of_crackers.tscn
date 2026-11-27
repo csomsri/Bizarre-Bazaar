@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://c2r65hawofltj" path="res://scenes/inside_store_scene/items_for_sale/individual items/cracker.tscn" id="1_mgn77"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_1xa3s"]
+size = Vector3(3.9471436, 2.3099976, 0.9448242)
+
 [node name="stack_of_crackers" type="Node3D" unique_id=1667185085]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1283082976]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1574778888]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.220314, -0.82962036, -39.506187)
+shape = SubResource("BoxShape3D_1xa3s")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=345931642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.220314, -0.82962036, -39.506187)
 
 [node name="row_of_crackers4" type="Node3D" parent="." unique_id=930329113]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.869171e-05, 1.9389999, 0)

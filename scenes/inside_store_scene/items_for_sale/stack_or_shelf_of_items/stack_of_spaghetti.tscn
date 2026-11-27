@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://b2fk1f70dvubv" path="res://scenes/inside_store_scene/items_for_sale/individual items/spaghetti.tscn" id="1_pkhpe"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_owqor"]
+size = Vector3(3.834198, 2.4991455, 0.8519287)
+
 [node name="stack_of_spaghetti" type="Node3D" unique_id=1891672192]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1669977501]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=502210985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.430525, -0.7350464, -50.783936)
+shape = SubResource("BoxShape3D_owqor")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=357481037]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.430525, -0.7350464, -50.783936)
 
 [node name="row_of_spaghetti4" type="Node3D" parent="." unique_id=550406170]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00010681152, 1.9368834, -0.00016021729)

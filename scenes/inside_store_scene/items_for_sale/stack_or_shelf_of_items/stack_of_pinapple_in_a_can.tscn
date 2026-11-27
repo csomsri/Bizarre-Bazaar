@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://hahs3u024g2p" path="res://scenes/inside_store_scene/items_for_sale/individual items/pinapple_in_a_can.tscn" id="1_jlfxb"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_qoacw"]
+size = Vector3(3.8163452, 2.1732788, 1.0947266)
+
 [node name="stack_of_pinapple_in_a_can" type="Node3D" unique_id=1196411453]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=294309322]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=485500101]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.187773, -0.89797974, -39.28887)
+shape = SubResource("BoxShape3D_qoacw")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1502542619]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.187773, -0.89797974, -39.28887)
 
 [node name="row_of_pinapple" type="Node3D" parent="." unique_id=2052394397]
 

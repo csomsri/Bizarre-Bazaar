@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://c7hkp8nrtx3c4" path="res://scenes/inside_store_scene/items_for_sale/individual items/chair_stool_2.tscn" id="1_37am7"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_aekdx"]
+size = Vector3(4.2746277, 2.4991455, 0.760376)
+
 [node name="stack_of_stools" type="Node3D" unique_id=56206520]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1647063406]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1848023945]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.0026922226, -0.7350464, -1.758668)
+shape = SubResource("BoxShape3D_aekdx")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=459213013]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.0026922226, -0.7350464, -1.758668)
 
 [node name="row_of_stools2" type="Node3D" parent="." unique_id=169803195]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2820839, 0)

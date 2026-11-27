@@ -2,8 +2,21 @@
 
 [ext_resource type="PackedScene" uid="uid://2mnyycrqqdn1" path="res://assets/items/food/Pizza.blend" id="1_3ehxf"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_0nus5"]
+size = Vector3(37.077316, 33.70023, 8.274658)
+
 [node name="stack_of_pizzas" type="Node3D" unique_id=1071688775]
 transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0, 0, 0)
+
+[node name="Area3D" type="Area3D" parent="." unique_id=610680030]
+transform = Transform3D(1, 0, 0, 0, 1, 8.881784e-16, 0, -8.881784e-16, 1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=2095695154]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 10.203198, 4.77089, 8.10038)
+shape = SubResource("BoxShape3D_0nus5")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=946058233]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 10.203198, 4.77089, 8.10038)
 
 [node name="row_col_of_pizzas7" type="Node3D" parent="." unique_id=1010040471]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.8329988, 0)

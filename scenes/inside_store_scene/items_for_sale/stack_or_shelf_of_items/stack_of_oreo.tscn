@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://biy7ggah48a3a" path="res://scenes/inside_store_scene/items_for_sale/individual items/oreo.tscn" id="1_iv65p"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_wmlji"]
+size = Vector3(4.3949585, 2.2085571, 0.84716797)
+
 [node name="stack_of_oreo" type="Node3D" unique_id=1785516153]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1824597523]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1255082693]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.942886, -0.88034064, -39.568832)
+shape = SubResource("BoxShape3D_wmlji")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1817429850]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.00294, -0.8803406, -39.572395)
 
 [node name="row_of_oreo4" type="Node3D" parent="." unique_id=1232852207]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00040626526, 1.9266205, 0)

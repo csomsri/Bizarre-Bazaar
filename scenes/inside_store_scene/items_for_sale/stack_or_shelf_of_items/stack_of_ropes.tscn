@@ -2,7 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://t18cfyk5qwd5" path="res://scenes/inside_store_scene/items_for_sale/rows_of_some_items/row_of_rope.tscn" id="1_53p0a"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_tyqw6"]
+size = Vector3(3.7356873, 2.1672668, 0.6824341)
+
 [node name="stack_of_ropes" type="Node3D" unique_id=991305595]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1416020639]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=65861256]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4211284, -0.8860626, -0.0031251574)
+shape = SubResource("BoxShape3D_tyqw6")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=508467226]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.0031251758, -0.8860626, -0.4211284)
 
 [node name="row_of_ropes_in_shelf4" type="Node3D" parent="." unique_id=265840662]
 

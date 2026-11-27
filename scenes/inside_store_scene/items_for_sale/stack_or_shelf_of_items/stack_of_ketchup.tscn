@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://6tnmfdnh2hxi" path="res://scenes/inside_store_scene/items_for_sale/individual items/ketchup.tscn" id="1_eshq3"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_jqjcx"]
+size = Vector3(4.060974, 2.350647, 1.0947266)
+
 [node name="stack_of_ketchup" type="Node3D" unique_id=1069061705]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=883005085]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1723326165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.59266, -0.80929565, -42.02811)
+shape = SubResource("BoxShape3D_jqjcx")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=85651439]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.59266, -0.80929565, -42.02811)
 
 [node name="row_of_ketchup" type="Node3D" parent="." unique_id=1433025978]
 

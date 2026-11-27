@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://ci7yd7e5ruavl" path="res://scenes/inside_store_scene/items_for_sale/individual items/couch_2.tscn" id="1_ii6q2"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_0touu"]
+size = Vector3(4.0762024, 2.3256226, 0.586792)
+
 [node name="stack_of_couches" type="Node3D" unique_id=118074904]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=777866587]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=109167805]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -37.04608, -0.82180786, -20.729198)
+shape = SubResource("BoxShape3D_0touu")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1469021860]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -37.04608, -0.82180786, -20.729198)
 
 [node name="row_of_couches4" type="Node3D" parent="." unique_id=522237148]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0204742, 0)

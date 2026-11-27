@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://dujaqsxeuvmjo" path="res://scenes/inside_store_scene/items_for_sale/individual items/mac_and_cheese.tscn" id="1_bbxsy"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_shlpr"]
+size = Vector3(3.9471436, 2.5307007, 0.9147339)
+
 [node name="stack_of_mac_and_cheese" type="Node3D" unique_id=2015257019]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=2141734151]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=724477093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.330738, -0.7192688, -50.7294)
+shape = SubResource("BoxShape3D_shlpr")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1463324151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.330738, -0.7192688, -50.7294)
 
 [node name="row_of_mac_and_cheese4" type="Node3D" parent="." unique_id=388780570]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00015640259, 1.9536779, -0.00016021729)

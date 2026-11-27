@@ -2,7 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://8l3ywdqy3xti" path="res://scenes/inside_store_scene/items_for_sale/rows_of_some_items/row_of_buckets.tscn" id="1_m3mdc"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_sfdtm"]
+size = Vector3(4.2450867, 2.39505, 0.3232422)
+
 [node name="stack_of_buckets" type="Node3D" unique_id=2061482921]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1140978328]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1330684049]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.006633997, -0.746994, -0.25017455)
+shape = SubResource("BoxShape3D_sfdtm")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=593602392]
 
 [node name="rows_buckets" type="Node3D" parent="." unique_id=1658231870]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.9334433, 0)

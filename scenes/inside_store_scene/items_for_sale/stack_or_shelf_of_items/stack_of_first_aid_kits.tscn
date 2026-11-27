@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://c5r73rntm0ipr" path="res://scenes/inside_store_scene/items_for_sale/row_cols_for_some/row_cols_of_first_aid.tscn" id="1_t3lxd"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_tbqv7"]
+size = Vector3(3.9471436, 2.217987, 0.4968872)
+
 [node name="stack_of_first_aid_kits" type="Node3D" unique_id=1216562330]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=793526562]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=359390761]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 34.25951, -0.7730446, 27.033445)
+shape = SubResource("BoxShape3D_tbqv7")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1870293398]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 34.25951, -0.7730446, 27.033445)
 
 [node name="row_of_first_aid_kits3" type="Node3D" parent="." unique_id=1376786325]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.6290226, 0)

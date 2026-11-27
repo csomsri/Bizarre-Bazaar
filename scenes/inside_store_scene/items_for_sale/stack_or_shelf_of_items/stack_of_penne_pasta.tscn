@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://d1iakxabefhk6" path="res://scenes/inside_store_scene/items_for_sale/individual items/penne_pasta.tscn" id="1_n5lmq"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_1872x"]
+size = Vector3(4.1957397, 2.4991455, 1.0947266)
+
 [node name="stack_of_penne_pasta" type="Node3D" unique_id=1687847434]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=839778798]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=553287576]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.003063, -0.7350464, -50.662537)
+shape = SubResource("BoxShape3D_1872x")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1983008998]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.003063, -0.7350464, -50.662537)
 
 [node name="row_of_penne4" type="Node3D" parent="." unique_id=559781705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00048446655, 1.9371836, -0.00016021729)

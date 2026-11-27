@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://bxuwudqjgoxpb" path="res://scenes/inside_store_scene/items_for_sale/individual items/cookies.tscn" id="1_jv44k"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_f1ivk"]
+size = Vector3(4.151581, 2.3121643, 0.82580566)
+
 [node name="stack_of_cookies" type="Node3D" unique_id=2080345650]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=501422552]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=397156199]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.835854, -0.82066345, -42.020473)
+shape = SubResource("BoxShape3D_f1ivk")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1240056347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.835854, -0.82066345, -42.020473)
 
 [node name="row_of_cookies4" type="Node3D" parent="." unique_id=860019052]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00047290325, 1.9456923, 0)

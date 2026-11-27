@@ -2,7 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://bmjf5a6tml1kx" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_tent_orange_2.tscn" id="1_vdtlm"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_176uo"]
+size = Vector3(7.3778687, 2.4991455, 0.91052246)
+
 [node name="stack_of_orange_tents" type="Node3D" unique_id=1758075623]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1522524408]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1270328271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.93247, -0.7350464, -46.238087)
+shape = SubResource("BoxShape3D_176uo")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=692152385]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -46.238087, -0.7350464, -12.932468)
 
 [node name="row_of_tents" type="Node3D" parent="." unique_id=1168392669]
 

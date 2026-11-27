@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://bpw655sgjsy1a" path="res://scenes/inside_store_scene/items_for_sale/individual items/nesquick.tscn" id="1_ip01e"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_v3rse"]
+size = Vector3(3.7929077, 2.5188293, 0.703125)
+
 [node name="stack_of_nesquik" type="Node3D" unique_id=1986750440]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1669903472]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=55447545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.235826, -0.66633606, -44.04745)
+shape = SubResource("BoxShape3D_v3rse")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=536744462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.235826, -0.66633606, -44.04745)
 
 [node name="row_of_nesquik" type="Node3D" parent="." unique_id=1979871924]
 

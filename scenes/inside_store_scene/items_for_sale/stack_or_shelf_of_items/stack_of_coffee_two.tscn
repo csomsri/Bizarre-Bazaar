@@ -2,8 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://l8vkngdjw5fr" path="res://scenes/inside_store_scene/items_for_sale/individual items/coffee_two.tscn" id="1_bhtny"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_rsguf"]
+size = Vector3(3.7662048, 2.4991455, 1.144104)
+
 [node name="stack_of_coffee_two" type="Node3D" unique_id=1087978178]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Area3D" type="Area3D" parent="." unique_id=326734432]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=2098112926]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.1521, 1.4601078, 23.20818)
+shape = SubResource("BoxShape3D_rsguf")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1458887517]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.1521, 1.4601078, 23.134567)
 
 [node name="row_of_coffee_two" type="Node3D" parent="." unique_id=417747237]
 transform = Transform3D(-0.09, -7.86805e-09, 3.4392336e-16, 0, -3.9340247e-09, -0.09, 7.86805e-09, -0.09, 3.9340247e-09, 26.605783, 2.6163113, 22.03532)

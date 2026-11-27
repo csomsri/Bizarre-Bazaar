@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://b08j87bgotrp" path="res://scenes/inside_store_scene/items_for_sale/individual items/tuna.tscn" id="1_0nefi"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_gkgta"]
+size = Vector3(3.846405, 2.070984, 0.9749756)
+
 [node name="stack_of_tuna" type="Node3D" unique_id=897944584]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=670516352]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1911820737]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.7193, -0.9491272, -39.526745)
+shape = SubResource("BoxShape3D_gkgta")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1629020713]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.7193, -0.9491272, -39.526745)
 
 [node name="row_of_tuna2" type="Node3D" parent="." unique_id=1793594055]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6812153, 0)

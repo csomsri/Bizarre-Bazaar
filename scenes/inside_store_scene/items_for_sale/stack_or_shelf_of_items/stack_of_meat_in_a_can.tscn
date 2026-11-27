@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://6wdjsj4yct8q" path="res://scenes/inside_store_scene/items_for_sale/individual items/meat_in_a_can.tscn" id="1_utmty"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_31bqn"]
+size = Vector3(4.254822, 2.175476, 1.0947266)
+
 [node name="stack_of_meat_in_a_can" type="Node3D" unique_id=1544951908]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1926013366]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1247288161]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.19607, -0.8968811, -41.938198)
+shape = SubResource("BoxShape3D_31bqn")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=432478045]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.19607, -0.8968811, -41.938198)
 
 [node name="row_of_meat3" type="Node3D" parent="." unique_id=2121111979]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00035762787, 1.3299999, 0)

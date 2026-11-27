@@ -2,7 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://cvk2asihb27id" path="res://scenes/inside_store_scene/items_for_sale/individual items/beans.tscn" id="1_vlv7e"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_i6nh1"]
+size = Vector3(4.108658, 2.1919556, 1.0523682)
+
 [node name="stack_of_beans" type="Node3D" unique_id=1483829085]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1294132349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.132568, 0, 6.6844177)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=785506430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.654259, -0.88864136, -48.706524)
+shape = SubResource("BoxShape3D_i6nh1")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1467137167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.786827, -0.88864136, -42.022106)
 
 [node name="row_of_beans3" type="Node3D" parent="." unique_id=1042165081]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0003824234, 1.3196702, 0)

@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://btetp3w4rpy4t" path="res://scenes/inside_store_scene/items_for_sale/individual items/choco_cookies.tscn" id="1_674jw"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_sljq4"]
+size = Vector3(4.020447, 2.5168762, 1.0947266)
+
 [node name="stack_of_choco_cookies" type="Node3D" unique_id=1356503552]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1618226917]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1978899415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.311615, -0.75102234, -41.970085)
+shape = SubResource("BoxShape3D_sljq4")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1161744798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.311615, -0.75102234, -41.970085)
 
 [node name="row_of_choco_cookies" type="Node3D" parent="." unique_id=1066150338]
 

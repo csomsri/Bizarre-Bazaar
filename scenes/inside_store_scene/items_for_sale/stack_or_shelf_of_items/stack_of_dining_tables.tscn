@@ -2,7 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://d0tlclpxrtjvh" path="res://scenes/inside_store_scene/items_for_sale/individual items/table_medium_long_2.tscn" id="1_6rq1a"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_1p68u"]
+size = Vector3(3.495636, 2.5542603, 1.0615234)
+
 [node name="stack_of_dining_tables" type="Node3D" unique_id=1971391575]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1482356063]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=633274447]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -47.50011, -0.76260376, -20.63056)
+shape = SubResource("BoxShape3D_1p68u")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=269585907]
 
 [node name="row_of_tables" type="Node3D" parent="." unique_id=1783416089]
 transform = Transform3D(-2.1855694e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.1855694e-08, -47.50115, -2.0378163, -21.626331)

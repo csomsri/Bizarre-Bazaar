@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://drgumf8f0hhds" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_cooler_box_2.tscn" id="1_gjbcm"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_c3nlh"]
+size = Vector3(4.3264008, 2.3345032, 0.8284912)
+
 [node name="stack_of_coolers" type="Node3D" unique_id=1545487489]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1598377350]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=411083953]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -9.157846, -0.78364563, -11.154548)
+shape = SubResource("BoxShape3D_c3nlh")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=984162281]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -9.157846, -0.78364563, -11.154548)
 
 [node name="row_of_coolers3" type="Node3D" parent="." unique_id=1870314435]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.094566, -0.62231576, -13.103224)

@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://bdrl2as08j0nq" path="res://scenes/inside_store_scene/items_for_sale/row_cols_for_some/row_cols_of_radios.tscn" id="1_liy8a"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_6sknb"]
+size = Vector3(0.4663391, 2.301056, 4.029297)
+
 [node name="shelf_of_radios" type="Node3D" unique_id=237758063]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1569772687]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1832783059]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.56692, 1.186813, 31.75638)
+shape = SubResource("BoxShape3D_6sknb")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=699816489]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.56692, 1.186813, 31.75638)
 
 [node name="row_of_radios" type="Node3D" parent="." unique_id=506673170]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.069480896, 0)

@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://b5r8bw5mp1580" path="res://scenes/inside_store_scene/items_for_sale/individual items/scooby_food.tscn" id="1_hwpg7"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_uksk2"]
+size = Vector3(3.9875183, 2.4991455, 0.8450928)
+
 [node name="stack_of_scooby_cereal" type="Node3D" unique_id=1699306684]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1080514678]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=548619566]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.052532, -0.7079551, -53.563667)
+shape = SubResource("BoxShape3D_uksk2")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1699834519]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.052532, -0.7079551, -53.563667)
 
 [node name="row_of_scooby3" type="Node3D" parent="." unique_id=185766597]
 transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 2.6829834, 1.162617, -5.4773026)

@@ -2,7 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://dmydvjjig8r5o" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_log_bench_2.tscn" id="1_ocils"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ndggk"]
+size = Vector3(3.5942078, 2.4259949, 1.0947266)
+
 [node name="stack_of_log_benches" type="Node3D" unique_id=316891469]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=865928067]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=671704545]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -24.659124, -0.825119, -20.60479)
+shape = SubResource("BoxShape3D_ndggk")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1810278351]
 
 [node name="row_of_logs4" type="Node3D" parent="." unique_id=380030316]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -24.455347, -0.01175952, -21.654694)

@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://pjexid0p3a4s" path="res://scenes/inside_store_scene/items_for_sale/individual items/cereal_two.tscn" id="1_xcudi"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_jjdyc"]
+size = Vector3(4.107849, 2.4991455, 1.0947266)
+
 [node name="stack_of_cereal_two" type="Node3D" unique_id=341257734]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=773222789]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=21816649]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.728186, -0.7350464, -43.793663)
+shape = SubResource("BoxShape3D_jjdyc")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1809229876]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.728186, -0.7350464, -43.793663)
 
 [node name="row_of_cereal_two" type="Node3D" parent="." unique_id=453969480]
 

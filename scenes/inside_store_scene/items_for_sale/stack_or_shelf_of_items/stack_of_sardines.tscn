@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://b4e1ln8u0uiaw" path="res://scenes/inside_store_scene/items_for_sale/individual items/sardines.tscn" id="1_nj8hd"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_l4ljh"]
+size = Vector3(4.1957397, 2.187561, 1.0947266)
+
 [node name="stack_of_sardines" type="Node3D" unique_id=827376207]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=931857982]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=1299781689]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.862207, -0.8908386, -39.56496)
+shape = SubResource("BoxShape3D_l4ljh")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=965475687]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.862207, -0.8908386, -39.56496)
 
 [node name="row_of_sardines" type="Node3D" parent="." unique_id=1723437741]
 

@@ -2,7 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://cdw1ujjrv242q" path="res://scenes/inside_store_scene/items_for_sale/individual items/sm_wooden_chest_2.tscn" id="1_ssabg"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_mfvv8"]
+size = Vector3(3.7479858, 2.4991455, 0.56359863)
+
 [node name="stack_of_chest" type="Node3D" unique_id=44710518]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=735337677]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=2090375042]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.350711, -0.7350464, -20.172634)
+shape = SubResource("BoxShape3D_mfvv8")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1280272700]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.350711, -0.7350464, -20.172634)
 
 [node name="row_of_chest4" type="Node3D" parent="." unique_id=1064822844]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00048732758, 1.9489999, 0)
@@ -15,6 +27,9 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.
 
 [node name="SM_Wooden_Chest4" parent="row_of_chest4" unique_id=461982706 instance=ExtResource("1_ssabg")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.361872, -1.9620299, -21.50635)
+
+[node name="Node3D" type="Node3D" parent="row_of_chest4" unique_id=1623075087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00048732758, -1.9489999, 0)
 
 [node name="row_of_chest3" type="Node3D" parent="." unique_id=1900749401]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3215771, 0)

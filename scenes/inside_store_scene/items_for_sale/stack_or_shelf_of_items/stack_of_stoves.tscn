@@ -2,7 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://pp5gkp1r0n6m" path="res://scenes/inside_store_scene/items_for_sale/row_cols_for_some/row_cols_of_stoves.tscn" id="1_bvi85"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_8ubxp"]
+size = Vector3(4.1957397, 2.1724243, 0.6308594)
+
 [node name="stack_of_stoves" type="Node3D" unique_id=1130113064]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=201138730]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=354298934]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.189299, 2.6110287, -57.747814)
+shape = SubResource("BoxShape3D_8ubxp")
+
+[node name="interactable_object" type="Node3D" parent="." unique_id=1359137422]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 57.747814, 2.6110287, 25.1893)
 
 [node name="rows_of_stoves4" type="Node3D" parent="." unique_id=1944377062]
 
